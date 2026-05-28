@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 159566.SZ
 name: 储能电池ETF
 sector: 新能源电池
@@ -73,6 +74,36 @@ claims:
     path: research/储能电池ETF/
     lines: current_view
     weight: 0.8
+- id: claim.159566_SZ.bull-case
+  text: 跟踪中证新能源电池指数，MACD柱状图衰减超90%、RSI顶背离显示短期动量枯竭，在阻力位2.40元附近徘徊。风险回报比不利：上行空间仅2.6%，下行风险3.7%。建议减持40-50%。
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: current_view
+    weight: 0.9
+- id: claim.159566_SZ.bear-case
+  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+  status: supported
+  confidence: 0.8
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: conclusion/tracking
+    weight: 0.8
+- id: claim.159566_SZ.key-metric
+  text: 关键监控指标详见tracking字段，定期跟踪验证
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: tracking indicators
+    weight: 0.85
 relationships:
 - targetId: 兆易创新
   targetTitle: 兆易创新

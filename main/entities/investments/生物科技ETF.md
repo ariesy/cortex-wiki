@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 516500.SS
 name: 生物科技ETF
 sector: 生物科技
@@ -73,6 +74,36 @@ claims:
     path: research/生物科技ETF/
     lines: current_view
     weight: 0.7
+- id: claim.516500_SS.bull-case
+  text: 跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现。但MACD柱状图转负、价格受压中轨下方，短期技术面空方占优。美国生物安全法案是悬而未决的灰犀牛。
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: current_view
+    weight: 0.9
+- id: claim.516500_SS.bear-case
+  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+  status: supported
+  confidence: 0.8
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: conclusion/tracking
+    weight: 0.8
+- id: claim.516500_SS.key-metric
+  text: 关键监控指标详见tracking字段，定期跟踪验证
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: tracking indicators
+    weight: 0.85
 relationships:
 - targetId: 医疗ETF
   targetTitle: 医疗ETF

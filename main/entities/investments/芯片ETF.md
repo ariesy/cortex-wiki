@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 159995.SZ
 name: 芯片ETF
 sector: 半导体/芯片
@@ -48,6 +49,38 @@ tracking:
 conclusion: '芯片ETF短期技术面风险高：RSI超买+量价背离+逼近强阻力位2.12元。建议立即减持60%仓位锁定利润，止损设于1.98元。若周线收盘站稳2.12元且放量可买回至满仓；主要买入目标在1.82元（50日均线），止损200日均线1.69元。
 
   '
+claims:
+  - id: claim.159995.SZ.bull-case
+    text: "国产替代逻辑强劲，受益于政策支持半导体自主可控，AI算力需求持续爆发"
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: current_view
+        weight: 0.9
+  - id: claim.159995.SZ.bear-case
+    text: "RSI 71.88接近超买，量价背离（上涨缩量）显示短期回调风险高，逼近2.12元强阻力位"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: conclusion/tracking
+        weight: 0.8
+  - id: claim.159995.SZ.key-metric
+    text: "RSI 71.88接近超买，50日均线1.82元是回撤买入目标位"
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: tracking indicators
+        weight: 0.85
+
 reports:
 - path: research/华夏芯片ETF_159995.SZ/2026-05-06_summary.md
   date: '2026-05-06'
@@ -94,6 +127,15 @@ relationships:
   kind: etf-component
   weight: 0.7
   note: 光模块与芯片产业链高度相关
+  - targetId: 中际旭创
+    targetTitle: 中际旭创
+    kind: etf-holds-components
+    confidence: 0.85
+    evidence:
+      - kind: sector-analysis
+        sourceId: source.entities.investments
+        note: "芯片ETF持有中际旭创等光模块/算力芯片标的"
+
 ---
 # 芯片ETF (159995.SZ)
 

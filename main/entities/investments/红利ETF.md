@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 515080.SS
 name: 红利ETF
 sector: 高股息/红利策略
@@ -73,6 +74,36 @@ claims:
     path: research/红利ETF/
     lines: current_view
     weight: 0.7
+- id: claim.515080_SS.bull-case
+  text: 跟踪中证红利指数，股息率约4.9%，PE 8.85倍处于3年历史高位。MACD顶背离风险（+0.008远低于前高+0.0207），1.68元阻力位压制。资金持续流入（近20日净流入11.55亿），攻防兼备属性凸显。
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: current_view
+    weight: 0.9
+- id: claim.515080_SS.bear-case
+  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+  status: supported
+  confidence: 0.8
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: conclusion/tracking
+    weight: 0.8
+- id: claim.515080_SS.key-metric
+  text: 关键监控指标详见tracking字段，定期跟踪验证
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: tracking indicators
+    weight: 0.85
 relationships:
 - targetId: 招商银行
   targetTitle: 招商银行

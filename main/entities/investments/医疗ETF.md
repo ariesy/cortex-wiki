@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 512170.SS
 name: 医疗ETF
 sector: 医疗健康
@@ -73,6 +74,36 @@ claims:
     path: research/医疗ETF/
     lines: current_view
     weight: 0.7
+- id: claim.512170_SS.bull-case
+  text: 跟踪中证医疗指数，经历恐慌崩跌后处于修复期，MACD即将翻正、RSI中性偏多，但200日均线压制明显，长期空头格局未改。估值处于历史低位，中长期配置价值显现。
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: current_view
+    weight: 0.9
+- id: claim.512170_SS.bear-case
+  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+  status: supported
+  confidence: 0.8
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: conclusion/tracking
+    weight: 0.8
+- id: claim.512170_SS.key-metric
+  text: 关键监控指标详见tracking字段，定期跟踪验证
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: tracking indicators
+    weight: 0.85
 relationships:
 - targetId: 生物科技ETF
   targetTitle: 生物科技ETF

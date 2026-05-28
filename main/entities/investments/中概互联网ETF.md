@@ -1,5 +1,6 @@
 ---
 entity_type: investment_etf
+privacyTier: public
 ticker: 513050.SS
 name: 中概互联网ETF
 sector: 中概互联网
@@ -73,6 +74,36 @@ claims:
     path: research/中概互联网ETF/
     lines: current_view
     weight: 0.7
+- id: claim.513050_SS.bull-case
+  text: 跟踪中证海外中国互联网50指数，持仓腾讯(~30%)、阿里(~25%)等龙头。当前处于历史估值中低水位（较52周高点回撤30%），MACD底背离+MACD柱转正，技术面底部构建初现。阿里巴巴AI重估+腾讯DeepSeek投资+京东技术面改善
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: current_view
+    weight: 0.9
+- id: claim.513050_SS.bear-case
+  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+  status: supported
+  confidence: 0.8
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: conclusion/tracking
+    weight: 0.8
+- id: claim.513050_SS.key-metric
+  text: 关键监控指标详见tracking字段，定期跟踪验证
+  status: supported
+  confidence: 0.85
+  evidence:
+  - kind: entity-summary
+    sourceId: source.entities.investments
+    path: entities/investments/
+    lines: tracking indicators
+    weight: 0.85
 relationships:
 - targetId: 1810.HK_小米集团
   targetTitle: 小米集团
