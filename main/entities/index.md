@@ -32,3 +32,8 @@
 - [芯片ETF](entities/investments/芯片ETF.md)
 - [阳煤化工](entities/investments/阳煤化工.md)
 <!-- openclaw:wiki:entities:index:end -->
+
+## Generated
+<!-- openclaw:wiki:entities:index:start -->
+- No entities yet.
+<!-- openclaw:wiki:entities:index:end -->

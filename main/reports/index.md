@@ -4,6 +4,7 @@
 <!-- openclaw:wiki:reports:index:start -->
 - [Claim Health](reports/claim-health.md)
 - [Contradictions](reports/contradictions.md)
+- [Lint Report](reports/lint.md)
 - [Low Confidence](reports/low-confidence.md)
 - [Open Questions](reports/open-questions.md)
 - [Person Agent Directory](reports/person-agent-directory.md)

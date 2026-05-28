@@ -1,0 +1,212 @@
+---
+pageType: report
+id: report.lint
+title: Lint Report
+status: active
+---
+
+# Lint Report
+
+## Generated
+<!-- openclaw:wiki:lint:start -->
+- Errors: 0
+- Warnings: 142
+
+### Warnings
+- `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-02-23-8d59990d.md`: Page freshness needs review (last touched 2026-02-23T23:25:11.683Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Broken wikilink target `~/.nvm/versions/node/v24.13.1/lib/node_modules/openclaw/docs/tools/subagents.md`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-openclaw-token-usage-tools-06065c5a.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-06-network-traffic-debug-b6c6b602.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-context-size-analysis-15107cef.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-context-size-analysis-15107cef.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-feishu-bundle-check-04250497.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-local-web-search-move-f3cfbaf3.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-reasoning-toggle-92ed7008.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-reasoning-toggle-92ed7008.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-07-xiaomi-fast-charge-a7c02916.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-cloudflare-pages-js-553caf0e.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `./other-page.md`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `./other-page/`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `./subfolder/page.md`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `../page.md`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `./images/xxx.png`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-mkdocs-relative-links-64799558.md`: Broken wikilink target `./page.md`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-session-reset-investigation-30027aa8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-session-reset-investigation-30027aa8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-session-reset-investigation-30027aa8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-session-reset-investigation-30027aa8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-09-session-reset-investigation-30027aa8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-16-kronos-script-denial-192514f6.md`: Broken wikilink target `$# -gt 0`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-17-kronos-finetune-601088-7087c483.md`: Broken wikilink target `'open','high','low','close','volume','amount'`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Broken wikilink target `'date','close','rsi','ma5','ma20','macd'`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Broken wikilink target `'code','name','hold_vol','pct_float'`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-unauthorized-skill-install-a734247b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-20-tech-safety-redundancy-25ff3259.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-23-daily-memory-83a98d65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-23-daily-memory-83a98d65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-23-daily-memory-83a98d65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-30-0818-6abc7286.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-30-shaoyang-weather-clothing-anal-d29e1f65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-30-shaoyang-weather-clothing-anal-d29e1f65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-30-shaoyang-weather-clothing-anal-d29e1f65.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-30-stock-position-sizing-95928899.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-ffmpeg-tts-config-38961c8a.md`: Broken wikilink target `audio_as_voice`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-05-golden-pheasant-ffb83352.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-05-golden-pheasant-ffb83352.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-05-searxng-google-ead00353.md`: Broken wikilink target `tts:...`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-05-searxng-google-ead00353.md`: Broken wikilink target `tts:...`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-05-trading-agents-framework-69da0319.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-06-deepseek-tui-research-2b6758be.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-08-deepseek-tui-skills-6969db36.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-synology-vpn-c224afae.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-tts-ffmpeg-fix-a2f816df.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-tts-ffmpeg-fix-a2f816df.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-tts-ffmpeg-fix-a2f816df.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-tts-ffmpeg-fix-a2f816df.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-10-tts-ffmpeg-fix-a2f816df.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-11-audio-merge-5724331b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-11-audio-merge-5724331b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-11-audio-merge-5724331b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-11-audio-merge-5724331b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-12-cmb-hk-research-6df366ce.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-12-cmb-hk-research-6df366ce.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-12-cmb-hk-research-6df366ce.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-12-cmb-hk-research-6df366ce.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-12-cmb-hk-research-6df366ce.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-16-minimax-tts-video-models-3898e85f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-16-minimax-tts-video-models-3898e85f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-16-minimax-tts-video-models-3898e85f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-21-1312-630d0b3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-22-1033-495c7977.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-25-0752-b19d8833.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-25-0752-b19d8833.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-20-7f77be3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-20-7f77be3f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-21-fe628a29.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-21-fe628a29.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-25-21b0901f.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-02-580ecc6d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-02-580ecc6d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-02-580ecc6d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-05-0ed223c2.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-06-a372bc05.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-09-33e65264.md`: Broken wikilink target `cos_url`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-09-33e65264.md`: Broken wikilink target `cos_url`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-10-0af5f541.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_fallback`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_fallback`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_fallback`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-12-0f7c332b.md`: Broken wikilink target `h
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:303-303
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: IPO——**2026 年正成为中国 AI 大模型的「资本大年」与「上市元年」**。 - **要点一**：国家大基金若参与具有标志性意义——这代表中国 AI 产业正式进入国家资本背书阶段，与纯市场资本结合，助力技术立身的 AI 企业实现规模化扩张。 - **要点二**：DeepSeek 的高估值背后是稀缺性——去年 2 月市场曾传阿里百亿入股计划被官方否认，说明优质标的极度稀缺，一级市场存在明显的价格发现障碍。 - **要点三**：值得关注的隐患——去年下半年至今，DeepSeek 至少已有 5 名核心研发成员离职，包括 V3 核心
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:304-304
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: 三部法律从不同角度切入，指向同一个结论：一个在公共空间持续感知环境的设备，在现行法律下几乎无法完美合规。特别是 2025 年 12 月欧盟法院的判决——通过可穿戴摄像头收集的数据，即使是路人的数据，也视为「直接从数据主体收集」，必须适用即时告知义务。这意味着佩戴 AirPods Ultra 进入餐厅，必须告知在场所有人将被感知——法律层面的「天方夜谭」正在成为现实。 - **要点一**：苹果的困境本质上是整个 AI 穿戴行业的困境——AirPods Ultra 只是一个排头兵，苹果的 AI 眼镜、AI 吊坠等产品都将面临同样的阻力。
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:305-305
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: SOP，生成包含产品特写、制作过程、氛围感的完整视频。做一个比亚迪和特斯拉的竞品分析报告，同样是一句话，系统自动抓取公开销量数据、生成对比图表、提炼用户评价、组装成 15 页 PDF。 胖鹅 AI 的思路本质上是在「培训一个 AI」——把高频的、可标准化的任务提前封装成预训练流程，对比通用 Agent「用通用方式做非常具体的事情」，胖鹅 AI 更像一个「配好的外包团队」，用户只需要说做什么，有时候甚至不用说，系统直接弹出结构化界面。与之呼应的是阿里巴巴通义实验室发布的 **MAI-UI**——一个旨在重塑人机交互方式的「基础 GUI
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:306-306
+  - recalls: 0
+  - status: staged
+- Candidate: User: [message_id: om_x100b50dc3219a4b8c3fd2d26a10a81f] ou_f0efc23b7edcc5bb2dd36ca73cd65c24: 更新ToDo中医疗诊断技能安装任务的状态，接下来需要配置ncbi apikey
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:307-307
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: 已更新 ✅ | 任务 | 状态 | 说明 | |------|------|------| | `TSK-A555` | ✅ done | 4个技能已安装，Email已配置 | | `TSK-8FF7` | ⏳ todo | 配置 NCBI API Key（可选） | **TSK-8FF7 详情：** - 申请地址：https://www.ncbi.nlm.nih.gov/account/ - 好处：将限速从 3次/秒 提升到 10次/秒 - 当前够用，不紧急 等你拿到 Key 告诉我，随时更新 🩺
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:308-308
+  - recalls: 0
+  - status: staged
+- Candidate: User: [message_id: om_x100b50dcca39c0a8c311ab6719bfc95] ou_f0efc23b7edcc5bb2dd36ca73cd65c24: 再增加一个新的ToDo任务，研究此项目https://github.com/anthropics/financial-services
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:309-309
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: 已添加 ✅ ``` TSK-50F4: 研究 Anthropics Financial Services 项目 [todo] ``` **研究要点：** - 项目定位与功能 - 技术架构与实现方式 - 与现有 InvestSignal/TradingAgents 的对比 - 是否可集成到当前投资分析体系 需要我现在就开始研究这个项目，还是等你后续指示？
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:310-310
+  - recalls: 0
+  - status: staged
+- Candidate: User: [message_id: om_x100b50ded877f8acc22f59070ee335d] ou_f0efc23b7edcc5bb2dd36ca73cd65c24: 继续ToDo任务配置ncbi api key 669cb91b7514c8403ced489b04e81533a808
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-09.txt:311-311
+  - recalls: 0
+  - status: staged
+- Candidate: Assistant: 配置完成 ✅ 测试通过 ``` ✅ Entrez with API key works! Found 1,464,233 results Rate limit now: 10 req/sec (提升 3.3倍`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-13-90ba810a.md`: Broken wikilink target `reply_to_fa
+  - confidence: 0.58
+  - evidence: memory/.dreams/session-corpus/2026-05-12.txt:41-41
+  - recalls: 0
+  - status: staged
+- Candidate: User: **🔍 Phase 1 + 2 调试完成 — 根因确认** **问题描述：** 模型回复后跟了一段超长乱码：`[[reply_to_fallback`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-13-90ba810a.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-14-4168b1de.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-14-4168b1de.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-14-4168b1de.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-17-4f2fe13c.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-20-e01f009e.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-21-544753c7.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-22-2e4746cc.md`: Broken wikilink target `tts:text`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-05-28-cfe7492c.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-19-29145f94.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-05-28-46e87614.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-17-4f2fe13c.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-17-4c983c0b.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-18-0a030fb8.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-19-c9e99dda.md`: Broken wikilink target `reply_to_current`.
+
+### Quality Follow-Up
+- `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-02-23-8d59990d.md`: Page freshness needs review (last touched 2026-02-23T23:25:11.683Z).
+<!-- openclaw:wiki:lint:end -->

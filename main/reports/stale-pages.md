@@ -3,14 +3,14 @@ pageType: report
 id: report.stale-pages
 title: Stale Pages
 status: active
-updatedAt: 2026-05-27T14:27:27.802Z
+updatedAt: 2026-05-28T12:13:43.760Z
 ---
 
 # Stale Pages
 
 ## Generated
 <!-- openclaw:wiki:stale-pages:start -->
-- Stale pages: 295
+- Stale pages: 302
 
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-18](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-18-445b54bd.md): aging (2026-04-18T12:05:56.355Z)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-19-0b7c6c2d.md): aging (2026-04-18T19:01:43.234Z)
@@ -22,6 +22,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-25](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-25-fb13f38f.md): aging (2026-04-24T19:00:46.372Z)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-26](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-26-c63e8316.md): aging (2026-04-25T19:00:36.973Z)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-27](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-27-3384a1ea.md): aging (2026-04-26T19:00:27.372Z)
+- [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-28](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-28-143002d0.md): aging (2026-04-27T19:00:18.745Z)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-18](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md): aging (2026-04-18T12:04:59.180Z)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md): aging (2026-04-18T19:00:53.043Z)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-20](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md): aging (2026-04-19T19:00:51.265Z)
@@ -32,6 +33,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-25](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-25-21b0901f.md): aging (2026-04-24T19:00:39.783Z)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-26](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-26-38f69b41.md): aging (2026-04-25T19:00:27.701Z)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-27](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-27-9df28826.md): aging (2026-04-26T19:00:27.274Z)
+- [Memory Bridge (inbox-zero): dreaming / light / 2026-04-28](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-28-bda03891.md): aging (2026-04-27T19:00:18.512Z)
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-18](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md): aging (2026-04-18T12:05:25.060Z)
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-19-29145f94.md): aging (2026-04-18T19:01:15.280Z)
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-20](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-20-df970816.md): aging (2026-04-19T19:01:16.863Z)
@@ -42,16 +44,17 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-25](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-25-57f5af25.md): aging (2026-04-24T19:00:39.802Z)
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-26](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-26-a85bfb50.md): aging (2026-04-25T19:00:27.705Z)
 - [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-27](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-27-bd1a337e.md): aging (2026-04-26T19:00:27.278Z)
+- [Memory Bridge (inbox-zero): dreaming / rem / 2026-04-28](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-28-1798494f.md): aging (2026-04-27T19:00:18.728Z)
 - [Memory Bridge (main): 2026-02-22](sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md): stale (2026-02-23T00:17:06.687Z)
 - [Memory Bridge (main): 2026-02-23](sources/bridge-workspace-142ea9a2-memory-2026-02-23-8d59990d.md): stale (2026-02-23T23:25:11.683Z)
-- [Memory Bridge (main): 2026-02-27-1131](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1131-bdb2d6db.md): aging (2026-02-27T11:31:55.957Z)
-- [Memory Bridge (main): 2026-02-27-1138](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1138-b2b78f26.md): aging (2026-02-27T11:38:47.790Z)
-- [Memory Bridge (main): 2026-02-27-1140](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1140-fe0836c1.md): aging (2026-02-27T11:40:49.445Z)
-- [Memory Bridge (main): 2026-02-27-1141](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1141-3d3e7399.md): aging (2026-02-27T11:41:15.372Z)
-- [Memory Bridge (main): 2026-02-27-1144](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1144-6a2738e5.md): aging (2026-02-27T11:44:18.263Z)
-- [Memory Bridge (main): 2026-02-27-1148](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1148-8bd10952.md): aging (2026-02-27T11:48:33.401Z)
-- [Memory Bridge (main): 2026-02-27-1159](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1159-70997049.md): aging (2026-02-27T11:59:39.763Z)
-- [Memory Bridge (main): 2026-02-27-1202](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1202-3f245c19.md): aging (2026-02-27T12:02:47.162Z)
+- [Memory Bridge (main): 2026-02-27-1131](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1131-bdb2d6db.md): stale (2026-02-27T11:31:55.957Z)
+- [Memory Bridge (main): 2026-02-27-1138](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1138-b2b78f26.md): stale (2026-02-27T11:38:47.790Z)
+- [Memory Bridge (main): 2026-02-27-1140](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1140-fe0836c1.md): stale (2026-02-27T11:40:49.445Z)
+- [Memory Bridge (main): 2026-02-27-1141](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1141-3d3e7399.md): stale (2026-02-27T11:41:15.372Z)
+- [Memory Bridge (main): 2026-02-27-1144](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1144-6a2738e5.md): stale (2026-02-27T11:44:18.263Z)
+- [Memory Bridge (main): 2026-02-27-1148](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1148-8bd10952.md): stale (2026-02-27T11:48:33.401Z)
+- [Memory Bridge (main): 2026-02-27-1159](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1159-70997049.md): stale (2026-02-27T11:59:39.763Z)
+- [Memory Bridge (main): 2026-02-27-1202](sources/bridge-workspace-142ea9a2-memory-2026-02-27-1202-3f245c19.md): stale (2026-02-27T12:02:47.162Z)
 - [Memory Bridge (main): 2026-03-01](sources/bridge-workspace-142ea9a2-memory-2026-03-01-998d43a4.md): aging (2026-03-02T00:11:48.074Z)
 - [Memory Bridge (main): 2026-03-03-1321](sources/bridge-workspace-142ea9a2-memory-2026-03-03-1321-0c4afc9e.md): aging (2026-03-03T13:21:11.656Z)
 - [Memory Bridge (main): 2026-03-05-1201](sources/bridge-workspace-142ea9a2-memory-2026-03-05-1201-847bf61f.md): aging (2026-03-05T12:01:44.838Z)
@@ -268,6 +271,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (main): 2026-04-23-session-startup](sources/bridge-workspace-142ea9a2-memory-2026-04-23-session-startup-bbaef7f1.md): aging (2026-04-23T16:42:08.642Z)
 - [Memory Bridge (main): 2026-04-24-session-init](sources/bridge-workspace-142ea9a2-memory-2026-04-24-session-init-792390bd.md): aging (2026-04-24T04:25:26.200Z)
 - [Memory Bridge (main): 2026-04-26-iodine-solution](sources/bridge-workspace-142ea9a2-memory-2026-04-26-iodine-solution-535ea421.md): aging (2026-04-26T10:01:12.944Z)
+- [Memory Bridge (main): 2026-04-27-2326](sources/bridge-workspace-142ea9a2-memory-2026-04-27-2326-8277b54a.md): aging (2026-04-27T23:26:53.588Z)
 - [Memory Bridge (main): 2026-04-27-evening-greeting](sources/bridge-workspace-142ea9a2-memory-2026-04-27-evening-greeting-fd5aade9.md): aging (2026-04-27T14:24:20.989Z)
 - [Memory Bridge (main): 2026-04-27-karpathy-daily-brief](sources/bridge-workspace-142ea9a2-memory-2026-04-27-karpathy-daily-brief-b8a34046.md): aging (2026-04-27T14:22:42.960Z)
 - [Memory Bridge (main): 2026-04-27-local-web-search](sources/bridge-workspace-142ea9a2-memory-2026-04-27-local-web-search-0711439b.md): aging (2026-04-27T13:50:16.022Z)
@@ -285,6 +289,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (main): dreaming / deep / 2026-04-25](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-25-fb13f38f.md): aging (2026-04-24T19:00:32.526Z)
 - [Memory Bridge (main): dreaming / deep / 2026-04-26](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-26-c63e8316.md): aging (2026-04-25T19:00:21.378Z)
 - [Memory Bridge (main): dreaming / deep / 2026-04-27](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-27-3384a1ea.md): aging (2026-04-26T19:00:21.379Z)
+- [Memory Bridge (main): dreaming / deep / 2026-04-28](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-28-143002d0.md): aging (2026-04-27T19:00:18.094Z)
 - [Memory Bridge (main): dreaming / light / 2026-04-18](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-18-9cc4db22.md): aging (2026-04-18T12:04:07.817Z)
 - [Memory Bridge (main): dreaming / light / 2026-04-19](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md): aging (2026-04-18T19:00:00.844Z)
 - [Memory Bridge (main): dreaming / light / 2026-04-20](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-20-7f77be3f.md): aging (2026-04-19T19:00:01.043Z)
@@ -295,6 +300,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (main): dreaming / light / 2026-04-25](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-25-21b0901f.md): aging (2026-04-24T19:00:01.185Z)
 - [Memory Bridge (main): dreaming / light / 2026-04-26](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-26-38f69b41.md): aging (2026-04-25T19:00:01.654Z)
 - [Memory Bridge (main): dreaming / light / 2026-04-27](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-27-9df28826.md): aging (2026-04-26T19:00:00.800Z)
+- [Memory Bridge (main): dreaming / light / 2026-04-28](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-28-bda03891.md): aging (2026-04-27T19:00:01.376Z)
 - [Memory Bridge (main): dreaming / rem / 2026-04-18](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-18-22d21950.md): aging (2026-04-18T12:04:36.712Z)
 - [Memory Bridge (main): dreaming / rem / 2026-04-19](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-19-29145f94.md): aging (2026-04-18T19:00:28.415Z)
 - [Memory Bridge (main): dreaming / rem / 2026-04-20](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-20-df970816.md): aging (2026-04-19T19:00:27.276Z)
@@ -305,6 +311,7 @@ updatedAt: 2026-05-27T14:27:27.802Z
 - [Memory Bridge (main): dreaming / rem / 2026-04-25](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-25-57f5af25.md): aging (2026-04-24T19:00:19.179Z)
 - [Memory Bridge (main): dreaming / rem / 2026-04-26](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-26-a85bfb50.md): aging (2026-04-25T19:00:13.956Z)
 - [Memory Bridge (main): dreaming / rem / 2026-04-27](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-27-bd1a337e.md): aging (2026-04-26T19:00:13.262Z)
+- [Memory Bridge (main): dreaming / rem / 2026-04-28](sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-28-1798494f.md): aging (2026-04-27T19:00:16.500Z)
 - [Memory Bridge (main): hot / HOT_MEMORY](sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md): aging (2026-04-07T02:58:01.997Z)
 - [Memory Bridge (main): warm / WARM_MEMORY](sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md): aging (2026-04-07T02:58:01.997Z)
 <!-- openclaw:wiki:stale-pages:end -->
