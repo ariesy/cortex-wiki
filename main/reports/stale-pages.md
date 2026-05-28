@@ -3,14 +3,14 @@ pageType: report
 id: report.stale-pages
 title: Stale Pages
 status: active
-updatedAt: 2026-05-28T12:13:43.760Z
+updatedAt: 2026-05-28T14:52:24.273Z
 ---
 
 # Stale Pages
 
 ## Generated
 <!-- openclaw:wiki:stale-pages:start -->
-- Stale pages: 302
+- Stale pages: 304
 
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-18](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-18-445b54bd.md): aging (2026-04-18T12:05:56.355Z)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-04-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-19-0b7c6c2d.md): aging (2026-04-18T19:01:43.234Z)
@@ -278,6 +278,8 @@ updatedAt: 2026-05-28T12:13:43.760Z
 - [Memory Bridge (main): 2026-04-27-memory-plugin-debug](sources/bridge-workspace-142ea9a2-memory-2026-04-27-memory-plugin-debug-c65b9de6.md): aging (2026-04-27T12:53:48.780Z)
 - [Memory Bridge (main): 2026-04-27-release-notes-summary](sources/bridge-workspace-142ea9a2-memory-2026-04-27-release-notes-summary-d485e86a.md): aging (2026-04-27T14:20:03.535Z)
 - [Memory Bridge (main): 2026-04-27-sell-signal-analysis](sources/bridge-workspace-142ea9a2-memory-2026-04-27-sell-signal-analysis-d61636b6.md): aging (2026-04-27T00:57:06.908Z)
+- [Memory Bridge (main): 2026-04-28-1318](sources/bridge-workspace-142ea9a2-memory-2026-04-28-1318-fe4bfd50.md): aging (2026-04-28T13:19:14.097Z)
+- [Memory Bridge (main): 2026-04-28-1346](sources/bridge-workspace-142ea9a2-memory-2026-04-28-1346-cc6a81ff.md): aging (2026-04-28T13:47:00.674Z)
 - [Memory Bridge (main): diary / 2026-03-17](sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md): aging (2026-03-17T07:30:46.724Z)
 - [Memory Bridge (main): dreaming / deep / 2026-04-18](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-18-445b54bd.md): aging (2026-04-18T12:04:59.167Z)
 - [Memory Bridge (main): dreaming / deep / 2026-04-19](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-19-0b7c6c2d.md): aging (2026-04-18T19:00:53.038Z)
