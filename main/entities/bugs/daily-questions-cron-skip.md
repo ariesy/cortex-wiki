@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.daily-questions-cron-skip
     targetTitle: "daily-questions-cron-skip"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # daily-questions定时任务跳过Bug
@@ -22,6 +23,7 @@ relationships:
 **来源:** MEMORY.md
 
 ---
+
 
 ## 症状
 

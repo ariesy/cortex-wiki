@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.person.zhu-kun
     targetTitle: "朱琨"
     kind: user-account-of
-    weight: 1.0---
+    weight: 1.0
+---
 
 
 # 陆天一笑（canaaan）
@@ -21,6 +22,7 @@ relationships:
 **来源:** USER.md
 
 ---
+
 
 ## 关系
 

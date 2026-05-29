@@ -33,8 +33,16 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.tradingagents",
+          "targetTitle": "tradingagents",
+          "kind": "describes-system",
+          "weight": 0.9,
+          "note": "14种Agent风格的详细方案"
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -54,8 +62,15 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.ai-news-phase2",
+          "targetTitle": "AI News Phase 2",
+          "kind": "affects-project",
+          "weight": 0.9
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -75,8 +90,15 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.person.sam-altman",
+          "targetTitle": "Sam Altman",
+          "kind": "view-held-by",
+          "weight": 0.9
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -96,8 +118,21 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.guardians-eye",
+          "targetTitle": "守护眼公众号",
+          "kind": "addressed-by",
+          "weight": 0.9
+        },
+        {
+          "targetId": "concept.warm-aging",
+          "targetTitle": "养老防骗意识",
+          "kind": "related-to",
+          "weight": 0.8
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -117,8 +152,16 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.concept.minimax-quota-window",
+          "targetTitle": "MiniMaxQuota窗口时间不一致",
+          "kind": "related-to",
+          "weight": 0.5,
+          "note": "同为硬件资源问题"
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -138,8 +181,15 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.mmx-cli",
+          "targetTitle": "mmx-cli",
+          "kind": "documented-by",
+          "weight": 0.8
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -159,8 +209,21 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.guardians-eye",
+          "targetTitle": "守护眼公众号",
+          "kind": "addressed-by",
+          "weight": 0.9
+        },
+        {
+          "targetId": "concept.elderly-fraud-patterns",
+          "targetTitle": "老人诈骗模式分类",
+          "kind": "related-to",
+          "weight": 0.9
+        }
+      ],
       "pageType": "concept",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29",
@@ -333,7 +396,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-27T14:27:27.802Z",
+      "lastTouchedAt": "2026-05-29T15:53:15.477Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -352,7 +415,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T15:44:17.762Z",
+      "lastTouchedAt": "2026-05-29T15:53:15.477Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -4987,7 +5050,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-04-29T15:51:09.660Z",
       "claimCount": 0,
       "topClaims": []
@@ -17954,7 +18017,10 @@
       "kind": "synthesis",
       "path": "syntheses/entities-from-memory.md",
       "aliases": [],
-      "sourceIds": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-04-19-investment-research-resources",
+        "source.bridge.workspace-142ea9a2.memory-2026-05-17-mmx-quota-query"
+      ],
       "questions": [],
       "contradictions": [],
       "bestUsedFor": [],

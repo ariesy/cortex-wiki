@@ -23,7 +23,8 @@ relationships:
   - targetId: entity.project.investsignal
     targetTitle: "InvestSignal"
     kind: uses
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # 朱琨
@@ -35,6 +36,7 @@ relationships:
 **来源:** USER.md
 
 ---
+
 
 ## 基本信息
 

@@ -13,7 +13,8 @@ relationships:
   - targetId: concept.elderly-fraud-patterns
     targetTitle: "老人诈骗模式分类"
     kind: related-to
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # 养老防骗意识
@@ -25,6 +26,7 @@ relationships:
 **来源:** guardians-eye项目
 
 ---
+
 
 ## 核心洞察
 

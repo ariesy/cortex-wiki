@@ -13,7 +13,8 @@ relationships:
     targetTitle: "姚文海"
     kind: parent
     weight: 1.0
-    note: "母亲"---
+    note: "母亲"
+---
 
 
 # 朱凌霄
@@ -26,6 +27,7 @@ relationships:
 **来源:** USER.md
 
 ---
+
 
 ## 基本信息
 

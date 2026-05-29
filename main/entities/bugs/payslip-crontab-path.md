@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.payslip-crontab-path
     targetTitle: "payslip-crontab-path"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # payslip任务crontab路径错误
@@ -21,6 +22,7 @@ relationships:
 **来源:** MEMORY.md
 
 ---
+
 
 ## 症状
 

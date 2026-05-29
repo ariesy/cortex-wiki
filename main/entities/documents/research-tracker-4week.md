@@ -20,7 +20,8 @@ relationships:
   - targetId: entity.investment.泡泡玛特
     targetTitle: "泡泡玛特 09992.HK"
     kind: analyzes
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # 4周研究跟踪汇总
@@ -33,6 +34,7 @@ relationships:
 **来源:** research-tracker
 
 ---
+
 
 ## 追踪标的
 

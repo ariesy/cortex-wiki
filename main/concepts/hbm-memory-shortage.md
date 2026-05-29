@@ -10,7 +10,8 @@ relationships:
     targetTitle: "MiniMaxQuota窗口时间不一致"
     kind: related-to
     weight: 0.5
-    note: "同为硬件资源问题"---
+    note: "同为硬件资源问题"
+---
 
 
 # AI内存短缺危机
@@ -22,6 +23,7 @@ relationships:
 **来源:** Karpathy RSS 2026-05-23
 
 ---
+
 
 ## 核心问题
 

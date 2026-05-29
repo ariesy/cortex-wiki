@@ -11,7 +11,8 @@ claims:
     evidence:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
-        weight: 0.9---
+        weight: 0.9
+---
 
 
 # The Five Dysfunctions of a Team
@@ -24,6 +25,7 @@ claims:
 **来源:** ontology graph.jsonl
 
 ---
+
 
 ## 五大 dysfunction 模型（金字塔，从底到顶）
 

@@ -16,7 +16,8 @@ relationships:
   - targetId: concept.ai-news-critical-bugs
     targetTitle: "AI News Phase 2 Critical Bugs Pattern"
     kind: has-bugs
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # AI News Phase 2
@@ -30,6 +31,7 @@ relationships:
 **来源:** superpowers code review
 
 ---
+
 
 ## 基本信息
 

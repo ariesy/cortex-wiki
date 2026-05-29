@@ -11,7 +11,8 @@ relationships:
     targetTitle: "tradingagents"
     kind: describes-system
     weight: 0.9
-    note: "14种Agent风格的详细方案"---
+    note: "14种Agent风格的详细方案"
+---
 
 # AI对冲基金多Agent风格分类
 

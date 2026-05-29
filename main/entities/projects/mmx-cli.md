@@ -16,7 +16,8 @@ relationships:
   - targetId: concept.minimax-quota-window
     targetTitle: "MiniMaxQuota窗口时间不一致"
     kind: documents
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # mmx-cli
@@ -29,6 +30,7 @@ relationships:
 **来源:** mmx quota bug修复
 
 ---
+
 
 ## 基本信息
 

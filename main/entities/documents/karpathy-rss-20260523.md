@@ -20,7 +20,8 @@ relationships:
   - targetId: entity.bug.stubzero-google-cloud
     targetTitle: "StubZero Google Cloud RCE漏洞"
     kind: discusses
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # Karpathy RSS 日报 2026-05-23
@@ -32,6 +33,7 @@ relationships:
 **来源:** 每日RSS
 
 ---
+
 
 ## 主题
 

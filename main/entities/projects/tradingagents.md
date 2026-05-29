@@ -21,7 +21,8 @@ relationships:
   - targetId: entity.document.autonomous-research-agents-survey-2026
     targetTitle: "From Copilots to Colleagues"
     kind: related-research
-    weight: 0.6---
+    weight: 0.6
+---
 
 
 # tradingagents
@@ -34,6 +35,7 @@ relationships:
 **来源:** 2026-05-13深度研究
 
 ---
+
 
 ## 基本信息
 

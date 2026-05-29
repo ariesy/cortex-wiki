@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.daily-questions-deliver-mode
     targetTitle: "daily-questions-deliver-mode"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # daily-questions多轮对话失效Bug
@@ -22,6 +23,7 @@ relationships:
 **来源:** MEMORY.md
 
 ---
+
 
 ## 症状
 

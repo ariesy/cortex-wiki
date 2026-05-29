@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.bilibili-audio-uploader
     targetTitle: "bilibili-audio-uploader"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # bilibili-api-python AudioUploader bug
@@ -20,6 +21,7 @@ relationships:
 **来源:** bilibili上传调研
 
 ---
+
 
 ## 问题描述
 

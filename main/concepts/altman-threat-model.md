@@ -9,7 +9,8 @@ relationships:
   - targetId: entity.person.sam-altman
     targetTitle: "Sam Altman"
     kind: view-held-by
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # Altman威胁模型论
@@ -21,6 +22,7 @@ relationships:
 **来源:** 2026-04-11讨论
 
 ---
+
 
 ## 核心观点
 

@@ -16,7 +16,8 @@ relationships:
   - targetId: entity.project.stock-research-engine
     targetTitle: "stock-research-engine"
     kind: produced-by
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # stock-research-engine分析报告
@@ -26,6 +27,7 @@ relationships:
 **目录:** [返回投资列表](../)
 
 ---
+
 
 ## 分析标的
 

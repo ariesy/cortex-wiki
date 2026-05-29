@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.investsignal
     targetTitle: "InvestSignal"
     kind: belongs-to
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # InvestSignal目标价预警优化
@@ -22,6 +23,7 @@ relationships:
 **来源:** ToDo创建
 
 ---
+
 
 ## 任务描述
 

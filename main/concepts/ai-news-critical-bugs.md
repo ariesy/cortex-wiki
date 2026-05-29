@@ -9,7 +9,8 @@ relationships:
   - targetId: entity.project.ai-news-phase2
     targetTitle: "AI News Phase 2"
     kind: affects-project
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # AI News Phase 2 Critical Bugs Pattern
@@ -21,6 +22,7 @@ relationships:
 **来源:** AI News Phase 2 code review
 
 ---
+
 
 ## Bug清单
 

@@ -17,7 +17,8 @@ relationships:
     targetTitle: "bilibili-api-python AudioUploader bug"
     kind: has-bug
     weight: 0.9
-    note: "音频上传库bug"---
+    note: "音频上传库bug"
+---
 
 
 # bilibili-all-in-one
@@ -30,6 +31,7 @@ relationships:
 **来源:** 2026-04-18配置使用
 
 ---
+
 
 ## 基本信息
 

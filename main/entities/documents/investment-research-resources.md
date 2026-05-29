@@ -11,7 +11,8 @@ claims:
     evidence:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
-        weight: 0.9---
+        weight: 0.9
+---
 
 
 # 投资研究资源完整版
@@ -23,6 +24,7 @@ claims:
 **来源:** 2026-04-19投资研究资源搜索
 
 ---
+
 
 ## 内容概览
 

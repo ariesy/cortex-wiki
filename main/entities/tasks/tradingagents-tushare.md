@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.tradingagents
     targetTitle: "tradingagents"
     kind: belongs-to
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # TradingAgents tushare数据支持
@@ -21,6 +22,7 @@ relationships:
 **来源:** ToDo创建
 
 ---
+
 
 ## 任务描述
 

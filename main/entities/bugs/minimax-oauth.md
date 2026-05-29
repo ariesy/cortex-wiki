@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.minimax-oauth
     targetTitle: "minimax-oauth"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # MiniMax国内OAuth配置问题
@@ -20,6 +21,7 @@ relationships:
 **来源:** MEMORY.md
 
 ---
+
 
 ## 问题描述
 

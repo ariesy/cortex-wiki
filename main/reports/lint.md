@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 169
+- Warnings: 168
 
 ### Warnings
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
@@ -213,7 +213,6 @@ status: active
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-17-4c983c0b.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-18-0a030fb8.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-19-c9e99dda.md`: Broken wikilink target `reply_to_current`.
-- `syntheses/entities-from-memory.md`: Non-source page is missing `sourceIds` provenance.
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/investments/`.
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/projects/`.
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/tasks/`.
@@ -234,7 +233,6 @@ status: active
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/people-fiction/`.
 
 ### Quality Follow-Up
-- `syntheses/entities-from-memory.md`: Non-source page is missing `sourceIds` provenance.
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-23-8d59990d.md`: Page freshness needs review (last touched 2026-02-23T23:25:11.683Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-27-1131-bdb2d6db.md`: Page freshness needs review (last touched 2026-02-27T11:31:55.957Z).

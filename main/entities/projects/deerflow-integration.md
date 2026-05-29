@@ -11,7 +11,8 @@ claims:
     evidence:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
-        weight: 0.9---
+        weight: 0.9
+---
 
 
 # DeerFlow与OpenClaw集成分析
@@ -24,6 +25,7 @@ claims:
 **来源:** superresearch延伸分析
 
 ---
+
 
 ## 分析结论
 

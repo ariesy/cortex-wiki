@@ -22,7 +22,8 @@ relationships:
     targetTitle: "InvestSignal"
     kind: related-system
     weight: 0.7
-    note: "InvestSignal关注信号，此框架关注分析"---
+    note: "InvestSignal关注信号，此框架关注分析"
+---
 
 
 # stock-research-engine
@@ -35,6 +36,7 @@ relationships:
 **来源:** 多次实际使用
 
 ---
+
 
 ## 基本信息
 

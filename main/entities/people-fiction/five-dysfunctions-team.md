@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.book.five-dysfunctions-of-a-team
     targetTitle: "The Five Dysfunctions of a Team"
     kind: from-book
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # 人物关系图
@@ -16,6 +17,7 @@ relationships:
 > 来源: The Five Dysfunctions of a Team (Patrick Lencioni)
 
 ---
+
 
 ## 核心团队成员
 

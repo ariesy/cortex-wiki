@@ -11,7 +11,8 @@ relationships:
   - targetId: entity.person.zhu-lingxiao
     targetTitle: "朱凌霄"
     kind: child
-    weight: 1.0---
+    weight: 1.0
+---
 
 
 # 姚文海
@@ -24,6 +25,7 @@ relationships:
 **来源:** USER.md
 
 ---
+
 
 ## 家庭关系
 

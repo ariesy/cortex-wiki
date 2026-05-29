@@ -20,7 +20,8 @@ relationships:
   - targetId: concept.warm-aging
     targetTitle: "养老防骗意识"
     kind: addresses
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # 守护眼公众号
@@ -33,6 +34,7 @@ relationships:
 **来源:** guardians-eye调研
 
 ---
+
 
 ## 基本信息
 

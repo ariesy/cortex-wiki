@@ -13,7 +13,8 @@ relationships:
   - targetId: concept.warm-aging
     targetTitle: "养老防骗意识"
     kind: related-to
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # 老人诈骗模式分类
@@ -25,6 +26,7 @@ relationships:
 **来源:** guardians-eye公众号选题
 
 ---
+
 
 ## 典型诈骗模式
 

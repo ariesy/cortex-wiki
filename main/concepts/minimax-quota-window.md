@@ -9,7 +9,8 @@ relationships:
   - targetId: entity.project.mmx-cli
     targetTitle: "mmx-cli"
     kind: documented-by
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # MiniMaxQuota窗口时间不一致
@@ -21,6 +22,7 @@ relationships:
 **来源:** mmx quota调查
 
 ---
+
 
 ## 问题描述
 

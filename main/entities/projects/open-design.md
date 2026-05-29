@@ -11,7 +11,8 @@ claims:
     evidence:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
-        weight: 0.9---
+        weight: 0.9
+---
 
 
 # open-design
@@ -25,6 +26,7 @@ claims:
 **来源:** 2026-05-22分析
 
 ---
+
 
 ## 基本信息
 

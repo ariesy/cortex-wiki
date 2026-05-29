@@ -7,7 +7,8 @@ relationships:
   - targetId: entity.project.stubzero-google-cloud
     targetTitle: "stubzero-google-cloud"
     kind: affects
-    weight: 0.8---
+    weight: 0.8
+---
 
 
 # StubZero Google Cloud RCE漏洞
@@ -22,6 +23,7 @@ relationships:
 **来源:** Karpathy RSS 2026-05-23
 
 ---
+
 
 ## 漏洞概述
 

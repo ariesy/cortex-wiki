@@ -7,7 +7,8 @@ relationships:
   - targetId: concept.altman-threat-model
     targetTitle: "Altman威胁模型论"
     kind: holds-view
-    weight: 0.9---
+    weight: 0.9
+---
 
 
 # Sam Altman
@@ -20,6 +21,7 @@ relationships:
 **来源:** 威胁模型讨论
 
 ---
+
 
 ## 关键观点
 
