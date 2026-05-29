@@ -3,7 +3,12 @@ pageType: entity
 entityType: task
 id: entity.task.tradingagents-tushare
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.tradingagents
+    targetTitle: "tradingagents"
+    kind: belongs-to
+    weight: 0.9---
+
 
 # TradingAgents tushare数据支持
 

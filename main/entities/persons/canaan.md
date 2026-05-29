@@ -3,7 +3,12 @@ pageType: entity
 entityType: person
 id: entity.person.canaan
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.person.zhu-kun
+    targetTitle: "朱琨"
+    kind: user-account-of
+    weight: 1.0---
+
 
 # 陆天一笑（canaaan）
 

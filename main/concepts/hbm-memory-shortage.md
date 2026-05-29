@@ -5,7 +5,13 @@ title: "AI内存短缺危机"
 updatedAt: "2026-05-29"
 sourceIds:
   - source.bridge.workspace-142ea9a2.memory-2026-05-23-1101
----
+relationships:
+  - targetId: entity.concept.minimax-quota-window
+    targetTitle: "MiniMaxQuota窗口时间不一致"
+    kind: related-to
+    weight: 0.5
+    note: "同为硬件资源问题"---
+
 
 # AI内存短缺危机
 

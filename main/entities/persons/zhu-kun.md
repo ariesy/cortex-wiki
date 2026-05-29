@@ -3,7 +3,28 @@ pageType: entity
 entityType: person
 id: entity.person.zhu-kun
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.person.yao-wenhai
+    targetTitle: "姚文海"
+    kind: spouse
+    weight: 1.0
+  - targetId: entity.person.zhu-lingxiao
+    targetTitle: "朱凌霄"
+    kind: child
+    weight: 1.0
+  - targetId: entity.project.stock-research-engine
+    targetTitle: "stock-research-engine"
+    kind: uses
+    weight: 0.9
+  - targetId: entity.project.tradingagents
+    targetTitle: "tradingagents"
+    kind: uses
+    weight: 0.8
+  - targetId: entity.project.investsignal
+    targetTitle: "InvestSignal"
+    kind: uses
+    weight: 0.9---
+
 
 # 朱琨
 

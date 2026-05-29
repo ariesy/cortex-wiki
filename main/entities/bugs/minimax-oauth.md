@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.minimax-oauth
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.minimax-oauth
+    targetTitle: "minimax-oauth"
+    kind: affects
+    weight: 0.8---
+
 
 # MiniMax国内OAuth配置问题
 

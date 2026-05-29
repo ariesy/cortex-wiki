@@ -3,7 +3,12 @@ pageType: entity
 entityType: person
 id: entity.person.sam-altman
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: concept.altman-threat-model
+    targetTitle: "Altman威胁模型论"
+    kind: holds-view
+    weight: 0.9---
+
 
 # Sam Altman
 

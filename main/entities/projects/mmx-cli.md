@@ -3,7 +3,21 @@ pageType: entity
 entityType: project
 id: entity.project.mmx-cli
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.mmx-cli.tool
+    text: "MiniMax Token Plan额度查询命令行工具，5h/24h窗口差异"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: concept.minimax-quota-window
+    targetTitle: "MiniMaxQuota窗口时间不一致"
+    kind: documents
+    weight: 0.8---
+
 
 # mmx-cli
 

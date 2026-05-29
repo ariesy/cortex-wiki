@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.stubzero-google-cloud
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.stubzero-google-cloud
+    targetTitle: "stubzero-google-cloud"
+    kind: affects
+    weight: 0.8---
+
 
 # StubZero Google Cloud RCE漏洞
 

@@ -3,7 +3,21 @@ pageType: entity
 entityType: document
 id: entity.document.stock-research-engine-analysis
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.stock-research-engine-analysis
+    text: "stock-research-engine分析记录：京东/神华/澜起/芯片ETF/恒生科技"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: entity.project.stock-research-engine
+    targetTitle: "stock-research-engine"
+    kind: produced-by
+    weight: 0.9---
+
 
 # stock-research-engine分析报告
 

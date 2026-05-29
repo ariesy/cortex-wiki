@@ -3,7 +3,27 @@ pageType: entity
 entityType: project
 id: entity.project.stock-research-engine
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.stock-research-engine.core
+    text: "多Agent辩论系统，通过多维度分析生成投资决策"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: entity.project.tradingagents
+    targetTitle: "tradingagents"
+    kind: similar-approach
+    weight: 0.8
+    note: "同为AI Agent投资分析系统"
+  - targetId: entity.project.investsignal
+    targetTitle: "InvestSignal"
+    kind: related-system
+    weight: 0.7
+    note: "InvestSignal关注信号，此框架关注分析"---
+
 
 # stock-research-engine
 

@@ -3,7 +3,16 @@ pageType: entity
 entityType: document
 id: entity.document.autonomous-research-agents-survey-2026
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.autonomous-research-survey
+    text: "L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # From Copilots to Colleagues
 

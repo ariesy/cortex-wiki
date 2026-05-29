@@ -5,7 +5,12 @@ title: "MiniMaxQuota窗口时间不一致"
 updatedAt: "2026-05-29"
 sourceIds:
   - source.bridge.workspace-142ea9a2.memory-2026-04-29-mmx-quota-windows
----
+relationships:
+  - targetId: entity.project.mmx-cli
+    targetTitle: "mmx-cli"
+    kind: documented-by
+    weight: 0.8---
+
 
 # MiniMaxQuota窗口时间不一致
 

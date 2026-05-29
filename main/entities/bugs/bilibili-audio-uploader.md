@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.bilibili-audio-uploader
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.bilibili-audio-uploader
+    targetTitle: "bilibili-audio-uploader"
+    kind: affects
+    weight: 0.8---
+
 
 # bilibili-api-python AudioUploader bug
 

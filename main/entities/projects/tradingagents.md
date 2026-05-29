@@ -3,7 +3,26 @@ pageType: entity
 entityType: project
 id: entity.project.tradingagents
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.tradingagents.models
+    text: "14种投资大师Agent风格，每个Agent独立决策后辩论"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: concept.ai-hedge-fund-agent-styles
+    targetTitle: "AI对冲基金多Agent风格分类"
+    kind: describes
+    weight: 0.9
+    note: "14种Agent风格的详细说明"
+  - targetId: entity.document.autonomous-research-agents-survey-2026
+    targetTitle: "From Copilots to Colleagues"
+    kind: related-research
+    weight: 0.6---
+
 
 # tradingagents
 

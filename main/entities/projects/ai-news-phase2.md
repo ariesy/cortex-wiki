@@ -3,7 +3,21 @@ pageType: entity
 entityType: project
 id: entity.project.ai-news-phase2
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.ai-news-p2.blocked
+    text: "Code Review评分6.5/10，4个CRITICAL/HIGH问题待修复"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: concept.ai-news-critical-bugs
+    targetTitle: "AI News Phase 2 Critical Bugs Pattern"
+    kind: has-bugs
+    weight: 0.9---
+
 
 # AI News Phase 2
 

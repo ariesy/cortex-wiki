@@ -3,7 +3,16 @@ pageType: entity
 entityType: book
 id: entity.book.five-dysfunctions-of-a-team
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.five-dysfunctions.framework
+    text: "五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # The Five Dysfunctions of a Team
 

@@ -3,7 +3,25 @@ pageType: entity
 entityType: document
 id: entity.document.karpathy-rss-20260523
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.karpathy-20260523.hbm
+    text: "HBM短缺导致廉价设备消亡，Google Cloud RCE漏洞"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: concept.hbm-memory-shortage
+    targetTitle: "AI内存短缺危机"
+    kind: discusses
+    weight: 0.9
+  - targetId: entity.bug.stubzero-google-cloud
+    targetTitle: "StubZero Google Cloud RCE漏洞"
+    kind: discusses
+    weight: 0.9---
+
 
 # Karpathy RSS 日报 2026-05-23
 

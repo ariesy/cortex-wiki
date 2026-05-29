@@ -3,7 +3,16 @@ pageType: entity
 entityType: project
 id: entity.project.superresearch
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.superresearch.process
+    text: "强制5阶段Phase流程，HARD GATE确保设计先行"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # superresearch
 

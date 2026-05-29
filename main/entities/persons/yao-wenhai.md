@@ -3,7 +3,16 @@ pageType: entity
 entityType: person
 id: entity.person.yao-wenhai
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.person.zhu-kun
+    targetTitle: "朱琨"
+    kind: spouse
+    weight: 1.0
+  - targetId: entity.person.zhu-lingxiao
+    targetTitle: "朱凌霄"
+    kind: child
+    weight: 1.0---
+
 
 # 姚文海
 

@@ -3,7 +3,16 @@ pageType: entity
 entityType: document
 id: entity.document.investment-research-resources
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.invest-resources.comprehensive
+    text: "12本书+4博客+5数据源的完整投资研究清单"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # 投资研究资源完整版
 

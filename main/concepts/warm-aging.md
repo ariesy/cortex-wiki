@@ -5,7 +5,16 @@ title: "养老防骗意识"
 updatedAt: "2026-05-29"
 sourceIds:
   - source.bridge.workspace-guardians-eye-61cfe7ad.memory-2026-05-15-elderly-fraud
----
+relationships:
+  - targetId: entity.project.guardians-eye
+    targetTitle: "守护眼公众号"
+    kind: addressed-by
+    weight: 0.9
+  - targetId: concept.elderly-fraud-patterns
+    targetTitle: "老人诈骗模式分类"
+    kind: related-to
+    weight: 0.9---
+
 
 # 养老防骗意识
 

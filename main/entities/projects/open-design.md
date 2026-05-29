@@ -3,7 +3,16 @@ pageType: entity
 entityType: project
 id: entity.project.open-design
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.open-design.capable
+    text: "31个Skills + 72个品牌设计系统 + 16种AI CLI集成"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # open-design
 

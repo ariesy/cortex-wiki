@@ -3,7 +3,25 @@ pageType: entity
 entityType: document
 id: entity.document.research-tracker-4week
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.research-tracker.price-targets
+    text: "中概互联网ETF和泡泡玛特的4周目标价研究汇总"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: entity.investment.中概互联网ETF-513050
+    targetTitle: "中概互联网ETF 513050.SS"
+    kind: analyzes
+    weight: 0.9
+  - targetId: entity.investment.泡泡玛特
+    targetTitle: "泡泡玛特 09992.HK"
+    kind: analyzes
+    weight: 0.9---
+
 
 # 4周研究跟踪汇总
 

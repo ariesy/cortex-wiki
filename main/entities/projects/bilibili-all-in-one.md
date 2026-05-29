@@ -3,7 +3,22 @@ pageType: entity
 entityType: project
 id: entity.project.bilibili-all-in-one
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.bilibili.uploaded
+    text: "已配置siruisprime账号，成功上传2个视频"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: entity.bug.bilibili-audio-uploader
+    targetTitle: "bilibili-api-python AudioUploader bug"
+    kind: has-bug
+    weight: 0.9
+    note: "音频上传库bug"---
+
 
 # bilibili-all-in-one
 

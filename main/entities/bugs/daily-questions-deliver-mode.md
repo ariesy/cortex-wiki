@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.daily-questions-deliver-mode
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.daily-questions-deliver-mode
+    targetTitle: "daily-questions-deliver-mode"
+    kind: affects
+    weight: 0.8---
+
 
 # daily-questions多轮对话失效Bug
 

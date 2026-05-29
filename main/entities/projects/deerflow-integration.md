@@ -3,7 +3,16 @@ pageType: entity
 entityType: project
 id: entity.project.deerflow-integration
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.deerflow.completed
+    text: "集成方案已完成：DeerFlow搜索模块作为OpenClaw工具调用"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9---
+
 
 # DeerFlow与OpenClaw集成分析
 

@@ -3,7 +3,12 @@ pageType: entity
 entityType: people
 id: entity.people.five-dysfunctions-team
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.book.five-dysfunctions-of-a-team
+    targetTitle: "The Five Dysfunctions of a Team"
+    kind: from-book
+    weight: 0.9---
+
 
 # 人物关系图
 

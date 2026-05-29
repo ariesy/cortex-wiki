@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.payslip-crontab-path
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.payslip-crontab-path
+    targetTitle: "payslip-crontab-path"
+    kind: affects
+    weight: 0.8---
+
 
 # payslip任务crontab路径错误
 

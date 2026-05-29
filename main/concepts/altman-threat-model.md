@@ -5,7 +5,12 @@ title: "Altman威胁模型论"
 updatedAt: "2026-05-29"
 sourceIds:
   - source.bridge.workspace-142ea9a2.memory-2026-04-11-altman-threat
----
+relationships:
+  - targetId: entity.person.sam-altman
+    targetTitle: "Sam Altman"
+    kind: view-held-by
+    weight: 0.9---
+
 
 # Altman威胁模型论
 

@@ -3,7 +3,12 @@ pageType: entity
 entityType: bug
 id: entity.bug.ebook-mobi-font-limit
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.ebook-mobi-font-limit
+    targetTitle: "ebook-mobi-font-limit"
+    kind: affects
+    weight: 0.8---
+
 
 # MOBI格式字体大小48px硬限制
 

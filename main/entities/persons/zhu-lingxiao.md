@@ -3,7 +3,18 @@ pageType: entity
 entityType: person
 id: entity.person.zhu-lingxiao
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.person.zhu-kun
+    targetTitle: "朱琨"
+    kind: parent
+    weight: 1.0
+    note: "父亲"
+  - targetId: entity.person.yao-wenhai
+    targetTitle: "姚文海"
+    kind: parent
+    weight: 1.0
+    note: "母亲"---
+
 
 # 朱凌霄
 

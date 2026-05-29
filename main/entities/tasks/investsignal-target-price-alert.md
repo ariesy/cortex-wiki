@@ -3,7 +3,12 @@ pageType: entity
 entityType: task
 id: entity.task.investsignal-target-price-alert
 updatedAt: "2026-05-29"
----
+relationships:
+  - targetId: entity.project.investsignal
+    targetTitle: "InvestSignal"
+    kind: belongs-to
+    weight: 0.9---
+
 
 # InvestSignal目标价预警优化
 

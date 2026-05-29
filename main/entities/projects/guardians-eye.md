@@ -3,7 +3,25 @@ pageType: entity
 entityType: project
 id: entity.project.guardians-eye
 updatedAt: "2026-05-29"
----
+claims:
+  - id: claim.guardians.wechat
+    text: "已配置微信公众号草稿箱功能，内容方向为老人防骗"
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+        weight: 0.9
+relationships:
+  - targetId: concept.elderly-fraud-patterns
+    targetTitle: "老人诈骗模式分类"
+    kind: addresses
+    weight: 0.9
+  - targetId: concept.warm-aging
+    targetTitle: "养老防骗意识"
+    kind: addresses
+    weight: 0.8---
+
 
 # 守护眼公众号
 
