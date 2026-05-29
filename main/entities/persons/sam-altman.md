@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.sam-altman
+updatedAt: "2026-05-29"
+---
+
 # Sam Altman
 
 > entity_type: person

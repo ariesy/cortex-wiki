@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.open-design
+updatedAt: "2026-05-29"
+---
+
 # open-design
 
 > entity_type: project

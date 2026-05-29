@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: task
+id: entity.task.investsignal-target-price-alert
+updatedAt: "2026-05-29"
+---
+
 # InvestSignal目标价预警优化
 
 > entity_type: task

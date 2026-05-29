@@ -1,3 +1,12 @@
+---
+pageType: concept
+id: concept.altman-threat-model
+title: "Altman威胁模型论"
+updatedAt: "2026-05-29"
+sourceIds:
+  - source.bridge.workspace-142ea9a2.memory-2026-04-11-altman-threat
+---
+
 # Altman威胁模型论
 
 > entity_type: concept
@@ -37,3 +46,8 @@ Sam Altman的AI威胁论：
 ---
 
 *来源: memory/2026-04-11-altman-threat.md*
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

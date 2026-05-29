@@ -1,4 +1,6 @@
 ---
+pageType: entity
+entityType: investment_stock
 entity_type: investment_etf
 privacyTier: public
 ticker: 159995.SZ
@@ -135,7 +137,7 @@ relationships:
       - kind: sector-analysis
         sourceId: source.entities.investments
         note: "芯片ETF持有中际旭创等光模块/算力芯片标的"
-
+updatedAt: "2026-05-29"
 ---
 # 芯片ETF (159995.SZ)
 

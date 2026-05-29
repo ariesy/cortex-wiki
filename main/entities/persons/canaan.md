@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.canaan
+updatedAt: "2026-05-29"
+---
+
 # 陆天一笑（canaaan）
 
 > entity_type: person

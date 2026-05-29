@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.zhu-kun
+updatedAt: "2026-05-29"
+---
+
 # 朱琨
 
 > 主人，个人投资者

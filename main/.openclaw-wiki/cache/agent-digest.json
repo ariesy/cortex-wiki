@@ -1,9 +1,9 @@
 {
   "pageCounts": {
     "entity": 0,
-    "concept": 0,
+    "concept": 7,
     "source": 920,
-    "synthesis": 1,
+    "synthesis": 2,
     "report": 10
   },
   "claimCount": 5,
@@ -20,6 +20,153 @@
   },
   "contradictionClusters": [],
   "pages": [
+    {
+      "id": "concept.ai-hedge-fund-agent-styles",
+      "title": "AI对冲基金多Agent风格分类",
+      "kind": "concept",
+      "path": "concepts/ai-hedge-fund-agent-styles.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-05-13-ai-hedge-fund-research"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.ai-news-critical-bugs",
+      "title": "AI News Phase 2 Critical Bugs Pattern",
+      "kind": "concept",
+      "path": "concepts/ai-news-critical-bugs.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-03-21-ai-news-phase2-code-review"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.altman-threat-model",
+      "title": "Altman威胁模型论",
+      "kind": "concept",
+      "path": "concepts/altman-threat-model.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-04-11-altman-threat"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.elderly-fraud-patterns",
+      "title": "老人诈骗模式分类",
+      "kind": "concept",
+      "path": "concepts/elderly-fraud-patterns.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-guardians-eye-61cfe7ad.memory-2026-05-15-elderly-fraud"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.hbm-memory-shortage",
+      "title": "AI内存短缺危机",
+      "kind": "concept",
+      "path": "concepts/hbm-memory-shortage.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-05-23-1101"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.minimax-quota-window",
+      "title": "MiniMaxQuota窗口时间不一致",
+      "kind": "concept",
+      "path": "concepts/minimax-quota-window.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-142ea9a2.memory-2026-04-29-mmx-quota-windows"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "concept.warm-aging",
+      "title": "养老防骗意识",
+      "kind": "concept",
+      "path": "concepts/warm-aging.md",
+      "aliases": [],
+      "sourceIds": [
+        "source.bridge.workspace-guardians-eye-61cfe7ad.memory-2026-05-15-elderly-fraud"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "concept",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
     {
       "id": "report.claim-health",
       "title": "Claim Health",
@@ -205,7 +352,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T14:15:37.812Z",
+      "lastTouchedAt": "2026-05-29T15:44:17.762Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -4821,7 +4968,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-04-29T14:44:41.054Z",
       "claimCount": 0,
       "topClaims": []
@@ -17800,6 +17947,25 @@
           "lastTouchedAt": "2026-05-28T08:54:39.937Z"
         }
       ]
+    },
+    {
+      "id": "synthesis.entities-from-memory",
+      "title": "Entities Wiki - 实体汇总",
+      "kind": "synthesis",
+      "path": "syntheses/entities-from-memory.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "synthesis",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
     }
   ]
 }

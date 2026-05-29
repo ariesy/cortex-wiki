@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.deerflow-integration
+updatedAt: "2026-05-29"
+---
+
 # DeerFlow与OpenClaw集成分析
 
 > entity_type: project

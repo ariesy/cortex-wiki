@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.stock-research-engine
+updatedAt: "2026-05-29"
+---
+
 # stock-research-engine
 
 > 多维度股票分析框架，通过多Agent辩论生成投资决策

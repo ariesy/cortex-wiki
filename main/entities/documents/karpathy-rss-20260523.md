@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: document
+id: entity.document.karpathy-rss-20260523
+updatedAt: "2026-05-29"
+---
+
 # Karpathy RSS 日报 2026-05-23
 
 > entity_type: document

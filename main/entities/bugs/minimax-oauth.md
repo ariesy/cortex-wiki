@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.minimax-oauth
+updatedAt: "2026-05-29"
+---
+
 # MiniMax国内OAuth配置问题
 
 > entity_type: bug

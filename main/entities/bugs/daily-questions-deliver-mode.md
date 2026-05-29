@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.daily-questions-deliver-mode
+updatedAt: "2026-05-29"
+---
+
 # daily-questions多轮对话失效Bug
 
 > --deliver模式是单次会话，不支持多轮对话，已修复

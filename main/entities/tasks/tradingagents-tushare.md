@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: task
+id: entity.task.tradingagents-tushare
+updatedAt: "2026-05-29"
+---
+
 # TradingAgents tushare数据支持
 
 > entity_type: task

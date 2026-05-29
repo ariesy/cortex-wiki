@@ -1,3 +1,12 @@
+---
+pageType: concept
+id: concept.ai-news-critical-bugs
+title: "AI News Phase 2 Critical Bugs Pattern"
+updatedAt: "2026-05-29"
+sourceIds:
+  - source.bridge.workspace-142ea9a2.memory-2026-03-21-ai-news-phase2-code-review
+---
+
 # AI News Phase 2 Critical Bugs Pattern
 
 > entity_type: pattern
@@ -36,3 +45,8 @@
 ---
 
 *来源: memory/2026-03-21-ai-news-phase2-code-review.md*
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

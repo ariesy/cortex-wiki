@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: document
+id: entity.document.investment-research-resources
+updatedAt: "2026-05-29"
+---
+
 # 投资研究资源完整版
 
 > entity_type: document

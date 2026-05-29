@@ -3,12 +3,12 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 931
+- Total pages: 939
 - Claims: 5
 - Sources: 920
 - Entities: 0
-- Concepts: 0
-- Syntheses: 1
+- Concepts: 7
+- Syntheses: 2
 - Reports: 10
 
 ### Sources
@@ -937,10 +937,17 @@
 - No entities yet.
 
 ### Concepts
-- No concepts yet.
+- [AI News Phase 2 Critical Bugs Pattern](concepts/ai-news-critical-bugs.md)
+- [AI内存短缺危机](concepts/hbm-memory-shortage.md)
+- [AI对冲基金多Agent风格分类](concepts/ai-hedge-fund-agent-styles.md)
+- [Altman威胁模型论](concepts/altman-threat-model.md)
+- [MiniMaxQuota窗口时间不一致](concepts/minimax-quota-window.md)
+- [养老防骗意识](concepts/warm-aging.md)
+- [老人诈骗模式分类](concepts/elderly-fraud-patterns.md)
 
 ### Syntheses
 - [A股/港股投资标的变化无常跟踪总览 2026-05-28](syntheses/a股-港股投资标的变化无常跟踪总览-2026-05-28.md)
+- [Entities Wiki - 实体汇总](syntheses/entities-from-memory.md)
 
 ### Reports
 - [Claim Health](reports/claim-health.md)

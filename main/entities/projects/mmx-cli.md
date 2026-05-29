@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.mmx-cli
+updatedAt: "2026-05-29"
+---
+
 # mmx-cli
 
 > entity_type: skill

@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.guardians-eye
+updatedAt: "2026-05-29"
+---
+
 # 守护眼公众号
 
 > entity_type: project

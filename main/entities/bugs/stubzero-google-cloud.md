@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.stubzero-google-cloud
+updatedAt: "2026-05-29"
+---
+
 # StubZero Google Cloud RCE漏洞
 
 > CVE-2026-2031，Google Cloud protobuf调试端点泄漏内部monorepo，漏洞赏金$148,337

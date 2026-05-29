@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: book
+id: entity.book.five-dysfunctions-of-a-team
+updatedAt: "2026-05-29"
+---
+
 # The Five Dysfunctions of a Team
 
 > entity_type: book

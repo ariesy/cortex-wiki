@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.bilibili-audio-uploader
+updatedAt: "2026-05-29"
+---
+
 # bilibili-api-python AudioUploader bug
 
 > AudioUploader库存在AttributeError，需使用publisher替代

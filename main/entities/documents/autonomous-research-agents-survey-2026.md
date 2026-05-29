@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: document
+id: entity.document.autonomous-research-agents-survey-2026
+updatedAt: "2026-05-29"
+---
+
 # From Copilots to Colleagues
 
 > entity_type: document

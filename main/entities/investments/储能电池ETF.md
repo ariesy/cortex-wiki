@@ -1,4 +1,6 @@
 ---
+pageType: entity
+entityType: investment_stock
 entity_type: investment_etf
 privacyTier: public
 ticker: 159566.SZ
@@ -114,7 +116,7 @@ relationships:
   targetTitle: 生物科技ETF
   kind: competitor
   weight: 0.4
-  note: 同为新能源/生物科技主题ETF
+  note: 同为新能源/生物科技主题ETFupdatedAt: "2026-05-29"
 ---
 # 储能电池ETF (159566.SZ)
 

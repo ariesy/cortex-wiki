@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.daily-questions-cron-skip
+updatedAt: "2026-05-29"
+---
+
 # daily-questions定时任务跳过Bug
 
 > entity_type: bug

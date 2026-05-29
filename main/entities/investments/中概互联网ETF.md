@@ -1,4 +1,6 @@
 ---
+pageType: entity
+entityType: investment_stock
 entity_type: investment_etf
 privacyTier: public
 ticker: 513050.SS
@@ -114,7 +116,7 @@ relationships:
   targetTitle: 京东集团
   kind: etf-component
   weight: 0.9
-  note: 京东是港股中概互联网ETF核心成分股
+  note: 京东是港股中概互联网ETF核心成分股updatedAt: "2026-05-29"
 ---
 # 中概互联网ETF (513050.SS)
 

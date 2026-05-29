@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.payslip-crontab-path
+updatedAt: "2026-05-29"
+---
+
 # payslip任务crontab路径错误
 
 > entity_type: bug

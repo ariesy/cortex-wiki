@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.superresearch
+updatedAt: "2026-05-29"
+---
+
 # superresearch
 
 > 强制Phase流程的深度研究框架，适用于投资研究、深度调研

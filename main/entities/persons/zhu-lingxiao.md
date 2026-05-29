@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.zhu-lingxiao
+updatedAt: "2026-05-29"
+---
+
 # 朱凌霄
 
 > entity_type: person

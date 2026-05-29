@@ -1,4 +1,6 @@
 ---
+pageType: entity
+entityType: investment_stock
 entity_type: investment_etf
 privacyTier: public
 ticker: 516500.SS
@@ -109,7 +111,7 @@ relationships:
   targetTitle: 医疗ETF
   kind: same-sector
   weight: 0.7
-  note: 生物科技与医疗健康主题高度重叠
+  note: 生物科技与医疗健康主题高度重叠updatedAt: "2026-05-29"
 ---
 # 生物科技ETF (516500.SS)
 

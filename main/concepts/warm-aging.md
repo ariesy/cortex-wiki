@@ -1,3 +1,12 @@
+---
+pageType: concept
+id: concept.warm-aging
+title: "养老防骗意识"
+updatedAt: "2026-05-29"
+sourceIds:
+  - source.bridge.workspace-guardians-eye-61cfe7ad.memory-2026-05-15-elderly-fraud
+---
+
 # 养老防骗意识
 
 > entity_type: concept
@@ -29,3 +38,10 @@
 ---
 
 *来源: guardians-eye公众号调研*
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Related Pages
+
+- [老人诈骗模式分类](concepts/elderly-fraud-patterns.md)
+<!-- openclaw:wiki:related:end -->

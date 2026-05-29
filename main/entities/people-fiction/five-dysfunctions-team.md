@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: people
+id: entity.people.five-dysfunctions-team
+updatedAt: "2026-05-29"
+---
+
 # 人物关系图
 
 > entity_type: person_group

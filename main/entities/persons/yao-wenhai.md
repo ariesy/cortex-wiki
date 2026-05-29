@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.yao-wenhai
+updatedAt: "2026-05-29"
+---
+
 # 姚文海
 
 > entity_type: person

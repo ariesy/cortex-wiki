@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: document
+id: entity.document.research-tracker-4week
+updatedAt: "2026-05-29"
+---
+
 # 4周研究跟踪汇总
 
 > entity_type: document

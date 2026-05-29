@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: bug
+id: entity.bug.ebook-mobi-font-limit
+updatedAt: "2026-05-29"
+---
+
 # MOBI格式字体大小48px硬限制
 
 > entity_type: bug

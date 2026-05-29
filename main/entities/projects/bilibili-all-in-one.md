@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.bilibili-all-in-one
+updatedAt: "2026-05-29"
+---
+
 # bilibili-all-in-one
 
 > B站内容创作自动化技能，支持视频下载/字幕/上传发布

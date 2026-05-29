@@ -1,4 +1,6 @@
 ---
+pageType: entity
+entityType: investment_stock
 entity_type: investment_etf
 privacyTier: public
 ticker: 515080.SS
@@ -124,7 +126,7 @@ relationships:
   targetTitle: 民生银行
   kind: etf-component
   weight: 0.7
-  note: 民生银行是高股息港股代表
+  note: 民生银行是高股息港股代表updatedAt: "2026-05-29"
 ---
 # 红利ETF (515080.SS)
 

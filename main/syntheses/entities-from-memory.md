@@ -1,3 +1,13 @@
+---
+pageType: synthesis
+id: synthesis.entities-from-memory
+title: "Entities Wiki - 实体汇总"
+updatedAt: "2026-05-29"
+sourceIds:
+  - source.bridge.workspace-142ea9a2.memory-2026-04-19-investment-research-resources
+  - source.bridge.workspace-142ea9a2.memory-2026-05-17-mmx-quota-query
+---
+
 # Entities Wiki - Memory Source Consolidation
 
 > 从 memory/*.md 和 ontology graph.jsonl 中提取的关键实体汇总，便于快速查询和关联检索。
@@ -160,3 +170,8 @@ concept_openai_threat_model → held_by → person_sam_altman
 *最后更新：2026-05-29*
 *来源：memory/*.md + ontology graph.jsonl*
 *整理方式：遍历ontology实体，批量创建对应的wiki entity pages*
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

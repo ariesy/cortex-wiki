@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.tradingagents
+updatedAt: "2026-05-29"
+---
+
 # tradingagents
 
 > AI对冲基金模拟系统，通过14种投资大师Agent协作进行股票分析决策

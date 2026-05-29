@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: document
+id: entity.document.stock-research-engine-analysis
+updatedAt: "2026-05-29"
+---
+
 # stock-research-engine分析报告
 
 > entity_type: investment_stock

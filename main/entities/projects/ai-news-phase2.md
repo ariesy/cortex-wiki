@@ -1,3 +1,10 @@
+---
+pageType: entity
+entityType: project
+id: entity.project.ai-news-phase2
+updatedAt: "2026-05-29"
+---
+
 # AI News Phase 2
 
 > entity_type: project

@@ -39,48 +39,5 @@
 
 ## Generated
 <!-- openclaw:wiki:entities:index:start -->
-
-### Projects
-- [stock-research-engine](projects/stock-research-engine.md)
-- [tradingagents](projects/tradingagents.md)
-- [superresearch](projects/superresearch.md)
-- [bilibili-all-in-one](projects/bilibili-all-in-one.md)
-- [guardians-eye](projects/guardians-eye.md)
-- [open-design](projects/open-design.md)
-- [mmx-cli](projects/mmx-cli.md)
-- [ai-news-phase2](projects/ai-news-phase2.md)
-- [deerflow-integration](projects/deerflow-integration.md)
-
-### Bugs
-- [bilibili-audio-uploader](bugs/bilibili-audio-uploader.md)
-- [daily-questions-cron-skip](bugs/daily-questions-cron-skip.md)
-- [daily-questions-deliver-mode](bugs/daily-questions-deliver-mode.md)
-- [ebook-mobi-font-limit](bugs/ebook-mobi-font-limit.md)
-- [minimax-oauth](bugs/minimax-oauth.md)
-- [payslip-crontab-path](bugs/payslip-crontab-path.md)
-- [stubzero-google-cloud](bugs/stubzero-google-cloud.md)
-
-### Persons
-- [canaan (主人飞书账号)](persons/canaan.md)
-- [sam-altman](persons/sam-altman.md)
-- [yao-wenhai](persons/yao-wenhai.md)
-- [zhu-kun](persons/zhu-kun.md)
-- [zhu-lingxiao](persons/zhu-lingxiao.md)
-
-### Documents
-- [autonomous-research-agents-survey-2026](documents/autonomous-research-agents-survey-2026.md)
-- [investment-research-resources](documents/investment-research-resources.md)
-- [karpathy-rss-20260523](documents/karpathy-rss-20260523.md)
-- [research-tracker-4week](documents/research-tracker-4week.md)
-- [stock-research-engine-analysis](documents/stock-research-engine-analysis.md)
-
-### Tasks
-- [investsignal-target-price-alert](tasks/investsignal-target-price-alert.md)
-- [tradingagents-tushare](tasks/tradingagents-tushare.md)
-
-### Books
-- [five-dysfunctions-of-a-team](books/five-dysfunctions-of-a-team.md)
-
-### Fiction
-- [five-dysfunctions-team (人物关系)](people-fiction/five-dysfunctions-team.md)
+- No entities yet.
 <!-- openclaw:wiki:entities:index:end -->
