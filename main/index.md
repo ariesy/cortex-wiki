@@ -3,10 +3,10 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 940
-- Claims: 10
-- Sources: 920
-- Entities: 0
+- Total pages: 1005
+- Claims: 165
+- Sources: 921
+- Entities: 64
 - Concepts: 7
 - Syntheses: 3
 - Reports: 10
@@ -621,6 +621,7 @@
 - [Memory Bridge (main): 2026-05-29-1030](sources/bridge-workspace-142ea9a2-memory-2026-05-29-1030-afa662bf.md)
 - [Memory Bridge (main): 2026-05-29-1247](sources/bridge-workspace-142ea9a2-memory-2026-05-29-1247-72519746.md)
 - [Memory Bridge (main): 2026-05-29-1421](sources/bridge-workspace-142ea9a2-memory-2026-05-29-1421-eeaa04b9.md)
+- [Memory Bridge (main): 2026-05-29-1629](sources/bridge-workspace-142ea9a2-memory-2026-05-29-1629-34b41d7b.md)
 - [Memory Bridge (main): diary / 2026-03-17](sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md)
 - [Memory Bridge (main): dreaming / deep / 2026-04-18](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-18-445b54bd.md)
 - [Memory Bridge (main): dreaming / deep / 2026-04-19](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-19-0b7c6c2d.md)
@@ -934,7 +935,70 @@
 - [贵州茅台 + 中证消费ETF 投资观点整合 2026-05-28](sources/贵州茅台-中证消费etf-投资观点整合-2026-05-28.md)
 
 ### Entities
-- No entities yet.
+- [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md)
+- [1810.HK_小米集团](entities/1810.HK_小米集团.md)
+- [300144.SZ_宋城演艺](entities/300144.SZ_宋城演艺.md)
+- [4周研究跟踪汇总](entities/research-tracker-4week.md)
+- [600030.SS_中信证券](entities/600030.SS_中信证券.md)
+- [914.HK_海螺水泥](entities/914.HK_海螺水泥.md)
+- [AI News Phase 2](entities/ai-news-phase2.md)
+- [bilibili-all-in-one](entities/bilibili-all-in-one.md)
+- [bilibili-api-python AudioUploader bug](entities/bilibili-audio-uploader.md)
+- [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md)
+- [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md)
+- [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
+- [From Copilots to Colleagues](entities/autonomous-research-agents-survey-2026.md)
+- [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md)
+- [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md)
+- [MiniMax国内OAuth配置问题](entities/minimax-oauth.md)
+- [mmx-cli](entities/mmx-cli.md)
+- [MOBI格式字体大小48px硬限制](entities/ebook-mobi-font-limit.md)
+- [open-design](entities/open-design.md)
+- [payslip任务crontab路径错误](entities/payslip-crontab-path.md)
+- [Sam Altman](entities/sam-altman.md)
+- [stock-research-engine](entities/stock-research-engine.md)
+- [stock-research-engine分析报告](entities/stock-research-engine-analysis.md)
+- [StubZero Google Cloud RCE漏洞](entities/stubzero-google-cloud.md)
+- [superresearch](entities/superresearch.md)
+- [The Five Dysfunctions of a Team](entities/five-dysfunctions-of-a-team.md)
+- [tradingagents](entities/tradingagents.md)
+- [TradingAgents tushare数据支持](entities/tradingagents-tushare.md)
+- [中国神华 (601088.SS)](entities/中国神华.md)
+- [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md)
+- [中航沈飞 (600760.SS)](entities/中航沈飞.md)
+- [中航沈飞（600760.SS）投资跟踪](entities/中航沈飞_600760.md)
+- [中证消费ETF（512600）投资跟踪](entities/中证消费ETF_512600.md)
+- [中际旭创 (300308.SZ)](entities/中际旭创.md)
+- [五粮液（000858.SZ）投资跟踪](entities/五粮液_000858.md)
+- [京东集团 (9618.HK)](entities/京东集团.md)
+- [人物关系图](entities/five-dysfunctions-team.md)
+- [储能电池ETF (159566.SZ)](entities/储能电池ETF.md)
+- [兆易创新 (603986.SH)](entities/兆易创新.md)
+- [兴森科技 (002436.SZ)](entities/兴森科技.md)
+- [医疗ETF (512170.SS)](entities/医疗ETF.md)
+- [天孚通信 (300394.SZ)](entities/天孚通信.md)
+- [姚文海](entities/yao-wenhai.md)
+- [守护眼公众号](entities/guardians-eye.md)
+- [恒生科技ETF (513180)](entities/恒生科技ETF-513180.md)
+- [投资研究资源完整版](entities/investment-research-resources.md)
+- [招商银行 (3968.HK)](entities/招商银行.md)
+- [朱凌霄](entities/zhu-lingxiao.md)
+- [朱琨](entities/zhu-kun.md)
+- [民生银行（600016 / 01988.HK）投资跟踪](entities/民生银行_600016.md)
+- [泡泡玛特 (9992.HK)](entities/泡泡玛特.md)
+- [深南电路 (002916.SZ)](entities/深南电路.md)
+- [湖北宜化 (000422.SZ)](entities/湖北宜化.md)
+- [澜起科技假研报识别模式](entities/澜起科技-688008.md)
+- [生物科技ETF (516500.SS)](entities/生物科技ETF.md)
+- [生益科技 (600183.SS)](entities/生益科技.md)
+- [生益科技（600183.SS）投资跟踪](entities/生益科技_600183.md)
+- [红利ETF (515080.SS)](entities/红利ETF.md)
+- [紫金矿业 (02899.HK / 601899.SS)](entities/紫金矿业.md)
+- [胜宏科技 (300476.SZ)](entities/胜宏科技.md)
+- [芯片ETF (159995.SZ)](entities/芯片ETF.md)
+- [贵州茅台（600519）投资跟踪](entities/贵州茅台_600519.md)
+- [阳煤化工 (600691.SS)](entities/阳煤化工.md)
+- [陆天一笑（canaaan）](entities/canaan.md)
 
 ### Concepts
 - [AI News Phase 2 Critical Bugs Pattern](concepts/ai-news-critical-bugs.md)

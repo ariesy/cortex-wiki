@@ -1,15 +1,15 @@
 {
   "pageCounts": {
-    "entity": 0,
+    "entity": 64,
     "concept": 7,
-    "source": 920,
+    "source": 921,
     "synthesis": 3,
     "report": 10
   },
-  "claimCount": 10,
+  "claimCount": 165,
   "claimHealth": {
     "freshness": {
-      "fresh": 10,
+      "fresh": 165,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -18,7 +18,68 @@
     "lowConfidence": 0,
     "missingEvidence": 0
   },
-  "contradictionClusters": [],
+  "contradictionClusters": [
+    {
+      "key": "claim.600183_SS.bear-case",
+      "label": "claim.600183_SS.bear-case",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/生益科技.md",
+        "entities/生益科技_600183.md"
+      ]
+    },
+    {
+      "key": "claim.600183_SS.bull-case",
+      "label": "claim.600183_SS.bull-case",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/生益科技.md",
+        "entities/生益科技_600183.md"
+      ]
+    },
+    {
+      "key": "claim.600183_SS.key-metric",
+      "label": "claim.600183_SS.key-metric",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/生益科技.md",
+        "entities/生益科技_600183.md"
+      ]
+    },
+    {
+      "key": "claim.600760_SS.bear-case",
+      "label": "claim.600760_SS.bear-case",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/中航沈飞.md",
+        "entities/中航沈飞_600760.md"
+      ]
+    },
+    {
+      "key": "claim.600760_SS.bull-case",
+      "label": "claim.600760_SS.bull-case",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/中航沈飞.md",
+        "entities/中航沈飞_600760.md"
+      ]
+    },
+    {
+      "key": "claim.600760_SS.key-metric",
+      "label": "claim.600760_SS.key-metric",
+      "kind": "claim-id",
+      "entryCount": 2,
+      "paths": [
+        "entities/中航沈飞.md",
+        "entities/中航沈飞_600760.md"
+      ]
+    }
+  ],
   "pages": [
     {
       "id": "concept.ai-hedge-fund-agent-styles",
@@ -231,6 +292,4954 @@
       "topClaims": []
     },
     {
+      "title": "161017.SZ_富国中证500增强",
+      "kind": "entity",
+      "path": "entities/161017.SZ_富国中证500增强.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 4,
+      "topRelationships": [
+        {
+          "targetId": "中概互联网ETF",
+          "targetTitle": "中概互联网ETF",
+          "kind": "etf-component",
+          "weight": 0.7,
+          "note": "中证500与中概互联网指数成分有交叉，AI主题外溢"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.6,
+          "note": "中小盘科技风格重叠"
+        },
+        {
+          "targetId": "医疗ETF",
+          "targetTitle": "医疗ETF",
+          "kind": "etf-component",
+          "weight": 0.5,
+          "note": "中证500含医疗成分股"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "etf-component",
+          "weight": 0.5,
+          "note": "高股息策略交叉覆盖"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.161017_SZ.key-metric",
+          "text": "中证500指数PE历史分位是核心监控指标，LOF场内折溢价率需每周跟踪",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.161017_SZ.bull-case",
+          "text": "中证500指数估值合理，全球AI热潮外溢利好中盘科技股，量化增强策略历史年化超额收益3%-8%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.161017_SZ.bear-case",
+          "text": "中小盘波动率偏高，市场风格切换风险，指数增强策略失效风险",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.161017.SZ.mid-cap-tech",
+          "text": "中证500指数增强策略，长期超额收益稳定，指数估值合理，适合定投或分批配置",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.161017",
+              "path": "research/ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.161017.SZ.ai-spillover",
+          "text": "全球AI热潮外溢利好中盘科技股，指数增强策略历史年化超额收益3%-8%",
+          "status": "supported",
+          "confidence": 0.75,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.161017",
+              "path": "research/ETF/",
+              "lines": "current_view",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "1810.HK_小米集团",
+      "kind": "entity",
+      "path": "entities/1810.HK_小米集团.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "中概互联网ETF",
+          "targetTitle": "中概互联网ETF",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "小米是港股中概互联网重要成分股"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.1810_HK.key-metric",
+          "text": "2025年净利润416亿元（同比+76%），净现金658亿元，PE仅17倍",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.1810_HK.bull-case",
+          "text": "2025年净利润暴增76%至416亿，净现金658亿，PE仅17倍，汽车SU7订单7万辆为核心催化剂",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.1810.HK.su7-scaling",
+          "text": "SU7订单突破7万辆，4月交付量环比增长，汽车业务规模化交付数据验证中",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.小米",
+              "path": "research/小米/",
+              "lines": "catalysts",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.1810.HK.oversold",
+          "text": "从高点腰斩至30港元，技术面超卖但趋势极弱，等待右侧信号确认后再入场",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.小米",
+              "path": "research/小米/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.1810_HK.bear-case",
+          "text": "价格从高点腰斩至30港元，所有均线空头排列，汽车规模化交付和盈利拐点仍待验证",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "300144.SZ_宋城演艺",
+      "kind": "entity",
+      "path": "entities/300144.SZ_宋城演艺.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "五粮液_000858",
+          "targetTitle": "五粮液",
+          "kind": "same-sector",
+          "weight": 0.6,
+          "note": "同为消费类，均受消费环境驱动"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.300144_SZ.bull-case",
+          "text": "Q1净利润率39.6%行业顶尖，账上现金39亿，负债率仅12.8%，现金牛属性明显",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300144_SZ.key-metric",
+          "text": "RSI 21.7深度超卖但无底背离，布林下轨6.715为最后防线，暑期旅游预订数据是关键",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300144.SZ.trend-bearish",
+          "text": "持续阶梯下跌，RSI深度超卖21.7但无底背离，下降通道清晰，趋势空头",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.宋城演艺",
+              "path": "research/宋城演艺/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300144_SZ.bear-case",
+          "text": "持续阶梯下跌，RSI深度超卖21.7但无底背离，下降通道清晰，趋势空头不宜盲目抄底",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300144.SZ.summer-tourism",
+          "text": "暑期旅游旺季预热，关注预订数据是核心催化剂",
+          "status": "supported",
+          "confidence": 0.7,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.宋城演艺",
+              "path": "research/宋城演艺/",
+              "lines": "catalysts",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "600030.SS_中信证券",
+      "kind": "entity",
+      "path": "entities/600030.SS_中信证券.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "招商银行",
+          "targetTitle": "招商银行",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "同为金融板块大型蓝筹"
+        },
+        {
+          "targetId": "民生银行_600016",
+          "targetTitle": "民生银行",
+          "kind": "same-sector",
+          "weight": 0.6,
+          "note": "同为金融板块券商与银行"
+        },
+        {
+          "targetId": "中概互联网ETF",
+          "targetTitle": "中概互联网ETF",
+          "kind": "ipo-catalyst-relationship",
+          "confidence": 0.75
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.600030.SS.key-metric",
+          "text": "Q1净利润102亿元（同比+55%），单季自由现金流749亿，净利率40.81%行业顶尖",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600030.SS.bull-case",
+          "text": "长江存储IPO辅导+Q1净利润暴增55%，PEG仅0.17极度低估，估值修复逻辑清晰",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600030.SS.bear-case",
+          "text": "技术面50 SMA（25.84元）岌岌可危，MACD死叉确认，RSI 42.22偏空，短期趋势未反转",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "914.HK_海螺水泥",
+      "kind": "entity",
+      "path": "entities/914.HK_海螺水泥.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "中国神华",
+          "targetTitle": "中国神华",
+          "kind": "same-sector",
+          "weight": 0.5,
+          "note": "建材与能源矿产同受宏观周期影响"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.914_HK.key-metric",
+          "text": "P/B约0.7-0.9倍历史低位，净现金600亿+，水泥现货价格走势是核心跟踪指标",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.914_HK.bull-case",
+          "text": "P/B约0.7-0.9倍历史低位，净现金600亿+，骨料业务（毛利率50-60%）高速增长",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.914_HK.bear-case",
+          "text": "50 SMA下穿200 SMA形成死亡交叉，MACD持续深陷负值，趋势未出现止跌信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.914.HK.net-cash",
+          "text": "净现金600亿+，基本面优异但趋势未止跌，耐心等待技术面信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.海螺水泥",
+              "path": "research/海螺水泥/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.914.HK.real-estate-demand",
+          "text": "水泥需求受房地产政策放松力度影响，是先行指标",
+          "status": "supported",
+          "confidence": 0.75,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.海螺水泥",
+              "path": "research/海螺水泥/",
+              "lines": "catalysts",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.project.ai-news-phase2",
+      "title": "AI News Phase 2",
+      "kind": "entity",
+      "path": "entities/ai-news-phase2.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "concept.ai-news-critical-bugs",
+          "targetTitle": "AI News Phase 2 Critical Bugs Pattern",
+          "kind": "has-bugs",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.ai-news-p2.blocked",
+          "text": "Code Review评分6.5/10，4个CRITICAL/HIGH问题待修复",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.document.autonomous-research-agents-survey-2026",
+      "title": "From Copilots to Colleagues",
+      "kind": "entity",
+      "path": "entities/autonomous-research-agents-survey-2026.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "document",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.autonomous-research-survey",
+          "text": "L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.project.bilibili-all-in-one",
+      "title": "bilibili-all-in-one",
+      "kind": "entity",
+      "path": "entities/bilibili-all-in-one.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.bug.bilibili-audio-uploader",
+          "targetTitle": "bilibili-api-python AudioUploader bug",
+          "kind": "has-bug",
+          "weight": 0.9,
+          "note": "音频上传库bug"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.bilibili.uploaded",
+          "text": "已配置siruisprime账号，成功上传2个视频",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.bug.bilibili-audio-uploader",
+      "title": "bilibili-api-python AudioUploader bug",
+      "kind": "entity",
+      "path": "entities/bilibili-audio-uploader.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.bilibili-audio-uploader",
+          "targetTitle": "bilibili-audio-uploader",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.person.canaan",
+      "title": "陆天一笑（canaaan）",
+      "kind": "entity",
+      "path": "entities/canaan.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.person.zhu-kun",
+          "targetTitle": "朱琨",
+          "kind": "user-account-of",
+          "weight": 1
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.bug.daily-questions-cron-skip",
+      "title": "daily-questions定时任务跳过Bug",
+      "kind": "entity",
+      "path": "entities/daily-questions-cron-skip.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.daily-questions-cron-skip",
+          "targetTitle": "daily-questions-cron-skip",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.bug.daily-questions-deliver-mode",
+      "title": "daily-questions多轮对话失效Bug",
+      "kind": "entity",
+      "path": "entities/daily-questions-deliver-mode.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.daily-questions-deliver-mode",
+          "targetTitle": "daily-questions-deliver-mode",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.project.deerflow-integration",
+      "title": "DeerFlow与OpenClaw集成分析",
+      "kind": "entity",
+      "path": "entities/deerflow-integration.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.deerflow.completed",
+          "text": "集成方案已完成：DeerFlow搜索模块作为OpenClaw工具调用",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.bug.ebook-mobi-font-limit",
+      "title": "MOBI格式字体大小48px硬限制",
+      "kind": "entity",
+      "path": "entities/ebook-mobi-font-limit.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.ebook-mobi-font-limit",
+          "targetTitle": "ebook-mobi-font-limit",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.book.five-dysfunctions-of-a-team",
+      "title": "The Five Dysfunctions of a Team",
+      "kind": "entity",
+      "path": "entities/five-dysfunctions-of-a-team.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "book",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.five-dysfunctions.framework",
+          "text": "五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.people.five-dysfunctions-team",
+      "title": "人物关系图",
+      "kind": "entity",
+      "path": "entities/five-dysfunctions-team.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.book.five-dysfunctions-of-a-team",
+          "targetTitle": "The Five Dysfunctions of a Team",
+          "kind": "from-book",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "people",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.project.guardians-eye",
+      "title": "守护眼公众号",
+      "kind": "entity",
+      "path": "entities/guardians-eye.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "concept.elderly-fraud-patterns",
+          "targetTitle": "老人诈骗模式分类",
+          "kind": "addresses",
+          "weight": 0.9
+        },
+        {
+          "targetId": "concept.warm-aging",
+          "targetTitle": "养老防骗意识",
+          "kind": "addresses",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.guardians.wechat",
+          "text": "已配置微信公众号草稿箱功能，内容方向为老人防骗",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.document.investment-research-resources",
+      "title": "投资研究资源完整版",
+      "kind": "entity",
+      "path": "entities/investment-research-resources.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "document",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.invest-resources.comprehensive",
+          "text": "12本书+4博客+5数据源的完整投资研究清单",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.task.investsignal-target-price-alert",
+      "title": "InvestSignal目标价预警优化",
+      "kind": "entity",
+      "path": "entities/investsignal-target-price-alert.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.investsignal",
+          "targetTitle": "InvestSignal",
+          "kind": "belongs-to",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "task",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.document.karpathy-rss-20260523",
+      "title": "Karpathy RSS 日报 2026-05-23",
+      "kind": "entity",
+      "path": "entities/karpathy-rss-20260523.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "concept.hbm-memory-shortage",
+          "targetTitle": "AI内存短缺危机",
+          "kind": "discusses",
+          "weight": 0.9
+        },
+        {
+          "targetId": "entity.bug.stubzero-google-cloud",
+          "targetTitle": "StubZero Google Cloud RCE漏洞",
+          "kind": "discusses",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "document",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.karpathy-20260523.hbm",
+          "text": "HBM短缺导致廉价设备消亡，Google Cloud RCE漏洞",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.bug.minimax-oauth",
+      "title": "MiniMax国内OAuth配置问题",
+      "kind": "entity",
+      "path": "entities/minimax-oauth.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.minimax-oauth",
+          "targetTitle": "minimax-oauth",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.project.mmx-cli",
+      "title": "mmx-cli",
+      "kind": "entity",
+      "path": "entities/mmx-cli.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "concept.minimax-quota-window",
+          "targetTitle": "MiniMaxQuota窗口时间不一致",
+          "kind": "documents",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.mmx-cli.tool",
+          "text": "MiniMax Token Plan额度查询命令行工具，5h/24h窗口差异",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.project.open-design",
+      "title": "open-design",
+      "kind": "entity",
+      "path": "entities/open-design.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.open-design.capable",
+          "text": "31个Skills + 72个品牌设计系统 + 16种AI CLI集成",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.bug.payslip-crontab-path",
+      "title": "payslip任务crontab路径错误",
+      "kind": "entity",
+      "path": "entities/payslip-crontab-path.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.payslip-crontab-path",
+          "targetTitle": "payslip-crontab-path",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.document.research-tracker-4week",
+      "title": "4周研究跟踪汇总",
+      "kind": "entity",
+      "path": "entities/research-tracker-4week.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.investment.中概互联网ETF-513050",
+          "targetTitle": "中概互联网ETF 513050.SS",
+          "kind": "analyzes",
+          "weight": 0.9
+        },
+        {
+          "targetId": "entity.investment.泡泡玛特",
+          "targetTitle": "泡泡玛特 09992.HK",
+          "kind": "analyzes",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "document",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.research-tracker.price-targets",
+          "text": "中概互联网ETF和泡泡玛特的4周目标价研究汇总",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.person.sam-altman",
+      "title": "Sam Altman",
+      "kind": "entity",
+      "path": "entities/sam-altman.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "concept.altman-threat-model",
+          "targetTitle": "Altman威胁模型论",
+          "kind": "holds-view",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.document.stock-research-engine-analysis",
+      "title": "stock-research-engine分析报告",
+      "kind": "entity",
+      "path": "entities/stock-research-engine-analysis.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.stock-research-engine",
+          "targetTitle": "stock-research-engine",
+          "kind": "produced-by",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "document",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.stock-research-engine-analysis",
+          "text": "stock-research-engine分析记录：京东/神华/澜起/芯片ETF/恒生科技",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.project.stock-research-engine",
+      "title": "stock-research-engine",
+      "kind": "entity",
+      "path": "entities/stock-research-engine.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.tradingagents",
+          "targetTitle": "tradingagents",
+          "kind": "similar-approach",
+          "weight": 0.8,
+          "note": "同为AI Agent投资分析系统"
+        },
+        {
+          "targetId": "entity.project.investsignal",
+          "targetTitle": "InvestSignal",
+          "kind": "related-system",
+          "weight": 0.7,
+          "note": "InvestSignal关注信号，此框架关注分析"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.stock-research-engine.core",
+          "text": "多Agent辩论系统，通过多维度分析生成投资决策",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.bug.stubzero-google-cloud",
+      "title": "StubZero Google Cloud RCE漏洞",
+      "kind": "entity",
+      "path": "entities/stubzero-google-cloud.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.stubzero-google-cloud",
+          "targetTitle": "stubzero-google-cloud",
+          "kind": "affects",
+          "weight": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "bug",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.project.superresearch",
+      "title": "superresearch",
+      "kind": "entity",
+      "path": "entities/superresearch.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.superresearch.process",
+          "text": "强制5阶段Phase流程，HARD GATE确保设计先行",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.task.tradingagents-tushare",
+      "title": "TradingAgents tushare数据支持",
+      "kind": "entity",
+      "path": "entities/tradingagents-tushare.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "entity.project.tradingagents",
+          "targetTitle": "tradingagents",
+          "kind": "belongs-to",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "task",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.project.tradingagents",
+      "title": "tradingagents",
+      "kind": "entity",
+      "path": "entities/tradingagents.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "concept.ai-hedge-fund-agent-styles",
+          "targetTitle": "AI对冲基金多Agent风格分类",
+          "kind": "describes",
+          "weight": 0.9,
+          "note": "14种Agent风格的详细说明"
+        },
+        {
+          "targetId": "entity.document.autonomous-research-agents-survey-2026",
+          "targetTitle": "From Copilots to Colleagues",
+          "kind": "related-research",
+          "weight": 0.6
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "project",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 1,
+      "topClaims": [
+        {
+          "id": "claim.tradingagents.models",
+          "text": "14种投资大师Agent风格，每个Agent独立决策后辩论",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.person.yao-wenhai",
+      "title": "姚文海",
+      "kind": "entity",
+      "path": "entities/yao-wenhai.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.person.zhu-kun",
+          "targetTitle": "朱琨",
+          "kind": "spouse",
+          "weight": 1
+        },
+        {
+          "targetId": "entity.person.zhu-lingxiao",
+          "targetTitle": "朱凌霄",
+          "kind": "child",
+          "weight": 1
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.person.zhu-kun",
+      "title": "朱琨",
+      "kind": "entity",
+      "path": "entities/zhu-kun.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 5,
+      "topRelationships": [
+        {
+          "targetId": "entity.person.yao-wenhai",
+          "targetTitle": "姚文海",
+          "kind": "spouse",
+          "weight": 1
+        },
+        {
+          "targetId": "entity.person.zhu-lingxiao",
+          "targetTitle": "朱凌霄",
+          "kind": "child",
+          "weight": 1
+        },
+        {
+          "targetId": "entity.project.stock-research-engine",
+          "targetTitle": "stock-research-engine",
+          "kind": "uses",
+          "weight": 0.9
+        },
+        {
+          "targetId": "entity.project.tradingagents",
+          "targetTitle": "tradingagents",
+          "kind": "uses",
+          "weight": 0.8
+        },
+        {
+          "targetId": "entity.project.investsignal",
+          "targetTitle": "InvestSignal",
+          "kind": "uses",
+          "weight": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.person.zhu-lingxiao",
+      "title": "朱凌霄",
+      "kind": "entity",
+      "path": "entities/zhu-lingxiao.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.person.zhu-kun",
+          "targetTitle": "朱琨",
+          "kind": "parent",
+          "weight": 1,
+          "note": "父亲"
+        },
+        {
+          "targetId": "entity.person.yao-wenhai",
+          "targetTitle": "姚文海",
+          "kind": "parent",
+          "weight": 1,
+          "note": "母亲"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "person",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "title": "中国神华 (601088.SS)",
+      "kind": "entity",
+      "path": "entities/中国神华.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "紫金矿业",
+          "targetTitle": "紫金矿业",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "能源矿业板块，高股息同类"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "中国神华是红利ETF核心成分股"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.601088.SS.global-top-coal",
+          "text": "全球最大煤炭生产商，产量3.06亿吨，煤电路港航化一体化龙头，盈利稳定性强",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.中国神华",
+              "path": "research/中国神华/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.601088.SS.high-dividend",
+          "text": "高股息（~4.9%）显著优于无风险利率，防御属性突出，ROE约15%，PE约19倍",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.中国神华",
+              "path": "research/中国神华/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.601088_SS.bull-case",
+          "text": "全球最大煤炭生产商（产量3.06亿吨），煤电路港航化一体化龙头，盈利稳定性强。高股息（~4.9%）显著优于无风险利率，防御属性突出。ROE约15%，PE约19倍，合理偏低。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.601088_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.601088_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "中概互联网ETF (513050.SS)",
+      "kind": "entity",
+      "path": "entities/中概互联网ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "1810.HK_小米集团",
+          "targetTitle": "小米集团",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "小米是港股中概互联网ETF成分股"
+        },
+        {
+          "targetId": "京东集团",
+          "targetTitle": "京东集团",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "京东是港股中概互联网ETF核心成分股"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.513050.SS.ai-infrastructure",
+          "text": "中概互联网ETF持仓腾讯阿里等AI基础设施龙头，受益于中国AI重估",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "research-report",
+              "sourceId": "source.research.中概互联网ETF",
+              "path": "research/中概互联网ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.513050_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.513050_SS.bull-case",
+          "text": "跟踪中证海外中国互联网50指数，持仓腾讯(~30%)、阿里(~25%)等龙头。当前处于历史估值中低水位（较52周高点回撤30%），MACD底背离+MACD柱转正，技术面底部构建初现。阿里巴巴AI重估+腾讯DeepSeek投资+京东技术面改善",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.513050.SS.valuation-low",
+          "text": "当前较52周高点回撤30%，估值处于历史中低水位",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.中概互联网ETF",
+              "path": "research/中概互联网ETF/",
+              "lines": "current_view",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.513050_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "中航沈飞（600760.SS）投资跟踪",
+      "kind": "entity",
+      "path": "entities/中航沈飞_600760.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.600760_SS.bull-case",
+          "text": "军工核心资产，J-35等型号预期提供长期增长逻辑，966亿现金储备提供安全边际",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760_SS.key-metric",
+          "text": "营收增速3.7%（从12.9%断崖），PE 42倍无法支撑，季度经营现金流是核心拐点",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760_SS.bear-case",
+          "text": "PE高达42倍但营收增速从12.9%断崖至3.7%，现金流靠供应商融资掩盖（应付账款暴增45亿美元）",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "中航沈飞 (600760.SS)",
+      "kind": "entity",
+      "path": "entities/中航沈飞.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "中际旭创",
+          "targetTitle": "中际旭创",
+          "kind": "same-sector",
+          "weight": 0.4,
+          "note": "同为A股军工/科技交叉概念"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.600760_SS.bull-case",
+          "text": "TradingAgents多智能体框架综合判决：空头逻辑在可验证性上更胜一筹。营收增速从12.9%断崖至3.7%，42倍PE无法支撑如此低的增速。现金流\"改善\"实为供应商融资（应付账款暴增45亿美元），是危险信号。技术面三重看跌确认，建议减",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760.SS.pe-overvalued",
+          "text": "营收增速3.7%无法支撑42倍PE，当前存在杀估值陷阱",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.中航沈飞",
+              "path": "research/中航沈飞/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760.SS.military-core",
+          "text": "军工核心资产，J-35等型号预期提供长期增长逻辑，营收规模稳健",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "research-report",
+              "sourceId": "source.research.中航沈飞",
+              "path": "research/中航沈飞/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600760_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "中证消费ETF（512600）投资跟踪",
+      "kind": "entity",
+      "path": "entities/中证消费ETF_512600.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "贵州茅台_600519",
+          "targetTitle": "贵州茅台（600519）",
+          "kind": "holding",
+          "weight": 0.9,
+          "note": "ETF第一大持仓（10.86%），白酒权重合计31.54%"
+        },
+        {
+          "targetId": "五粮液_000858",
+          "targetTitle": "五粮液（000858.SZ）",
+          "kind": "holding",
+          "weight": 0.9,
+          "note": "ETF第二大持仓（9.81%）"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 7,
+      "topClaims": [
+        {
+          "id": "claim.512600.SS.underperform-significant",
+          "text": "近1年收益-15.94%，大幅跑输同类平均（+38.52%）",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "performance-data",
+              "sourceId": "source.中证消费etf-512600-投资分析简报-2026-05-28",
+              "path": "research/consumer-etf-512600/report.md",
+              "lines": "历史收益表现",
+              "weight": 0.95
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512600.SS.moutai-weighted",
+          "text": "前十大持仓白酒占比31.54%，单一行业集中度高",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "fund-holding",
+              "sourceId": "source.中证消费etf-512600-投资分析简报-2026-05-28",
+              "path": "research/consumer-etf-512600/report.md",
+              "lines": "前十大重仓股",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512600_SS.bull-case",
+          "text": "消费板块被动指数，白酒+猪周期困境品种，长期定投逻辑成立，估值合理",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512600.SS.pig-cycle-bottom",
+          "text": "生猪养殖（牧原+温氏合计14.96%）仍在周期底部，持续拖累",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "fund-holding",
+              "sourceId": "source.中证消费etf-512600-投资分析简报-2026-05-28",
+              "path": "research/consumer-etf-512600/report.md",
+              "lines": "行业分布特征",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512600_SS.key-metric",
+          "text": "白酒占比31.54%，生猪养殖14.96%，端午小旺季消费数据是关键验证节点",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "中际旭创 (300308.SZ)",
+      "kind": "entity",
+      "path": "entities/中际旭创.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 5,
+      "topRelationships": [
+        {
+          "targetId": "天孚通信",
+          "targetTitle": "天孚通信",
+          "kind": "supply-chain-upstream",
+          "weight": 0.85,
+          "note": "天孚是旭创的光器件上游供应商"
+        },
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "supply-chain-downstream",
+          "weight": 0.6,
+          "note": "深南PCB用于光模块配套"
+        },
+        {
+          "targetId": "兴森科技",
+          "targetTitle": "兴森科技",
+          "kind": "supply-chain-downstream",
+          "weight": 0.6,
+          "note": "兴森封装基板用于光模块芯片封装"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.7,
+          "note": "光模块与芯片产业链高度相关"
+        },
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "same-sector-peer",
+          "confidence": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.300308.SZ.key-metric",
+          "text": "2026Q1净利润57.35亿（同比+262%），单季超2024年全年，毛利率42.61%（同比+7.96pp）",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300308.SZ.bull-case",
+          "text": "全球光模块绝对龙头，1.6T市占率50%-70%绝对垄断，2026年净利润预测292亿，A股最纯正AI算力基础设施",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300308.SZ.bear-case",
+          "text": "公募持仓32%创三年新高，全市场最拥挤交易，一旦负面信号触发踩踏杀伤力极大",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "五粮液（000858.SZ）投资跟踪",
+      "kind": "entity",
+      "path": "entities/五粮液_000858.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "招商银行",
+          "targetTitle": "招商银行",
+          "kind": "same-sector",
+          "weight": 0.5,
+          "note": "消费金融龙头，均有高股息属性"
+        },
+        {
+          "targetId": "贵州茅台_600519",
+          "targetTitle": "贵州茅台",
+          "kind": "competitor-in-same-sector",
+          "confidence": 0.9
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.000858.SZ.bull-case",
+          "text": "千亿现金+年度分红200亿+80-100亿回购托底，股息率5%+，超跌反弹+高股息价值",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000858.SZ.key-metric",
+          "text": "普五批价830-850元（倒挂出厂价1019元），合同负债变化是核心跟踪指标",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000858.SZ.bear-case",
+          "text": "曾从钦被留置董事长空缺，普五批价倒挂出厂价约170元，渠道信心未恢复",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "京东集团 (9618.HK)",
+      "kind": "entity",
+      "path": "entities/京东集团.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "中概互联网ETF",
+          "targetTitle": "中概互联网ETF",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "京东是港股中概互联网ETF核心成分"
+        },
+        {
+          "targetId": "1810.HK_小米集团",
+          "targetTitle": "小米集团",
+          "kind": "competitor",
+          "weight": 0.6,
+          "note": "京东vs小米：电商与消费电子赛道重叠"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.9618.HK.q4-loss",
+          "text": "Q4从盈利转为营业亏损45.46亿港元，FCF仅24.84亿港元，基本面恶化",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.京东",
+              "path": "research/京东/",
+              "lines": "tracking",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9618_HK.bull-case",
+          "text": "TradingAgents多智能体框架综合判决：空头在估值、现金流、护城河、技术面、市场情绪五个维度全面胜出。Q4从盈利转为亏损（营业亏损45.46亿港元 vs 2024年Q4净利润98.54亿），FCF仅24.84亿港元，核心3C市场份额",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9618_HK.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9618.HK.3c-market-loss",
+          "text": "核心3C市场份额从60%降至不到50%，竞争优势面临侵蚀",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.京东",
+              "path": "research/京东/",
+              "lines": "current_view",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9618_HK.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "储能电池ETF (159566.SZ)",
+      "kind": "entity",
+      "path": "entities/储能电池ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "兆易创新",
+          "targetTitle": "兆易创新",
+          "kind": "etf-component",
+          "weight": 0.5,
+          "note": "储能BMS芯片相关"
+        },
+        {
+          "targetId": "生物科技ETF",
+          "targetTitle": "生物科技ETF",
+          "kind": "competitor",
+          "weight": 0.4,
+          "note": "同为新能源/生物科技主题ETF"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.159566.SZ.risk-reward",
+          "text": "MACD柱状图衰减超90%，RSI顶背离，上行空间仅2.6%但下行风险3.7%，风险回报比不利",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.储能电池ETF",
+              "path": "research/储能电池ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159566_SZ.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159566_SZ.bull-case",
+          "text": "跟踪中证新能源电池指数，MACD柱状图衰减超90%、RSI顶背离显示短期动量枯竭，在阻力位2.40元附近徘徊。风险回报比不利：上行空间仅2.6%，下行风险3.7%。建议减持40-50%。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159566_SZ.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159566.SZ.battery-demand",
+          "text": "新能源电池产业链长期受益于储能需求爆发，赛道长期向好",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.储能电池ETF",
+              "path": "research/储能电池ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "兆易创新 (603986.SH)",
+      "kind": "entity",
+      "path": "entities/兆易创新.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "兆易是芯片ETF核心成分股之一"
+        },
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "supply-chain-downstream",
+          "weight": 0.5,
+          "note": "存储芯片封装基板配套"
+        },
+        {
+          "targetId": "兴森科技",
+          "targetTitle": "兴森科技",
+          "kind": "supply-chain-downstream",
+          "weight": 0.5,
+          "note": "封装基板用于存储芯片封装"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.603986.SH.nor-flash-2nd",
+          "text": "NOR Flash全球第二（18.5%），中国Fabless存储芯片龙头",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.兆易创新",
+              "path": "research/兆易创新/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.603986.SH.q1-profit-523pct",
+          "text": "2026Q1净利润暴增523%，受益于海外大厂退出利基市场",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.兆易创新",
+              "path": "research/兆易创新/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.603986_SH.bull-case",
+          "text": "中国Fabless存储芯片龙头，NOR Flash全球第二（18.5%），2026Q1净利润暴增523%受益于海外大厂退出利基市场，但PE(TTM) 100x极度膨胀，Q2-Q4环比变化是核心验证。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.603986_SH.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.603986_SH.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "兴森科技 (002436.SZ)",
+      "kind": "entity",
+      "path": "entities/兴森科技.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "same-sector",
+          "weight": 0.85,
+          "note": "同为A股PCB/封装基板龙头，AI算力PCB链"
+        },
+        {
+          "targetId": "生益科技",
+          "targetTitle": "生益科技",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "PCB/覆铜板产业链"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "兴森是芯片ETF成分股"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.002436.SZ.fcbga-only",
+          "text": "A股唯一具备FCBGA/ABF封装基板量产能力的厂商",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "research-report",
+              "sourceId": "source.research.兴森科技",
+              "path": "research/兴森科技/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002436_SZ.bull-case",
+          "text": "A股唯一具备FCBGA/ABF封装基板量产能力的厂商，ABF载板故事讲了三年，2026年开始进入真正考验量产能力的节点，PE 440x已严重透支2027-2028年乐观预期。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002436.SZ.pe-extreme",
+          "text": "PE 440x已严重透支2027-2028年乐观预期，估值泡沫明显",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.兴森科技",
+              "path": "research/兴森科技/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002436_SZ.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002436_SZ.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "医疗ETF (512170.SS)",
+      "kind": "entity",
+      "path": "entities/医疗ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "生物科技ETF",
+          "targetTitle": "生物科技ETF",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "医疗与生物科技主题高度重叠"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.512170_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512170.SS.valuation-low",
+          "text": "跟踪中证医疗指数，估值处于历史低位，中长期配置价值显现",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.医疗ETF",
+              "path": "research/医疗ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512170_SS.bull-case",
+          "text": "跟踪中证医疗指数，经历恐慌崩跌后处于修复期，MACD即将翻正、RSI中性偏多，但200日均线压制明显，长期空头格局未改。估值处于历史低位，中长期配置价值显现。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512170_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.512170.SS.bear-market",
+          "text": "200日均线压制明显，长期空头格局未改，短期技术面空方占优",
+          "status": "supported",
+          "confidence": 0.75,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.医疗ETF",
+              "path": "research/医疗ETF/",
+              "lines": "current_view",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "天孚通信 (300394.SZ)",
+      "kind": "entity",
+      "path": "entities/天孚通信.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "中际旭创",
+          "targetTitle": "中际旭创",
+          "kind": "supply-chain-downstream",
+          "weight": 0.85,
+          "note": "天孚是旭创的光器件上游供应商"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.6,
+          "note": "光器件与芯片产业链相关"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.300394.SZ.optical-device-1st",
+          "text": "全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.天孚通信",
+              "path": "research/天孚通信/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300394.SZ.pe-extreme",
+          "text": "PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.天孚通信",
+              "path": "research/天孚通信/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300394_SZ.bull-case",
+          "text": "全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先，但PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300394_SZ.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300394_SZ.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.investment.恒生科技etf-513180",
+      "title": "恒生科技ETF (513180)",
+      "kind": "entity",
+      "path": "entities/恒生科技ETF-513180.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "title": "招商银行 (3968.HK)",
+      "kind": "entity",
+      "path": "entities/招商银行.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "民生银行_600016",
+          "targetTitle": "民生银行",
+          "kind": "same-sector",
+          "weight": 0.8,
+          "note": "同为港股银行，资产质量对比"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "招行是红利ETF高股息成分股"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "constituent-of",
+          "confidence": 0.85
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.3968.HK.key-metric",
+          "text": "ROE 14.6%持续下滑至11.92%，PB 0.92x，股息率6.92%，关注净息差环比企稳",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.3968.HK.bull-case",
+          "text": "股息率4.6%提供底部支撑，零售财富管理Q1同比+25%，PB 0.85x历史底部",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.3968.HK.bear-case",
+          "text": "技术面死亡交叉确立，ROE从14.6%持续下滑至11.92%，6.92%股息率是收益率陷阱",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "民生银行（600016 / 01988.HK）投资跟踪",
+      "kind": "entity",
+      "path": "entities/民生银行_600016.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "招商银行",
+          "targetTitle": "招商银行",
+          "kind": "same-sector",
+          "weight": 0.8,
+          "note": "同为港股银行，资产质量对比"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "etf-component",
+          "weight": 0.7,
+          "note": "民生银行是高股息港股代表"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "constituent-of",
+          "confidence": 0.85
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.600016___01988_HK.key-metric",
+          "text": "PB 0.28，拨备覆盖率142%（距130%红线不足12pp），信用卡不良率3.87%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600016___01988_HK.bull-case",
+          "text": "PB 0.28极度低估值，股息率5%+，净息差逆势企稳，非息收入高增+13.67%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600016___01988_HK.bear-case",
+          "text": "拨备覆盖率仅142%距130%红线不足12pp，信用卡不良率3.87%持续上行，价值陷阱风险",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "泡泡玛特 (9992.HK)",
+      "kind": "entity",
+      "path": "entities/泡泡玛特.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "五粮液_000858",
+          "targetTitle": "五粮液",
+          "kind": "same-sector",
+          "weight": 0.5,
+          "note": "同为消费类，高端化逻辑对比"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.9992.HK.net-cash-strong",
+          "text": "净现金110亿+港元，年现金流91亿，远期PE仅10倍，基本面顶级",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.泡泡玛特",
+              "path": "research/泡泡玛特/",
+              "lines": "tracking",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9992.HK.technical-bearish",
+          "text": "200日均线226港元压制，技术面极端弱势，与基本面形成背离，非对称机会",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.泡泡玛特",
+              "path": "research/泡泡玛特/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9992_HK.bull-case",
+          "text": "TradingAgents多智能体框架综合判决：基本面顶级（净现金110亿+港元、年现金流91亿、远期PE仅10倍）与技术面极端弱势（200日均线226港元压制）形成背离。市场极度悲观定价，非对称机会。三步式左侧建仓法，目标仓位9%。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9992_HK.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.9992_HK.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "深南电路 (002916.SZ)",
+      "kind": "entity",
+      "path": "entities/深南电路.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 5,
+      "topRelationships": [
+        {
+          "targetId": "兴森科技",
+          "targetTitle": "兴森科技",
+          "kind": "same-sector",
+          "weight": 0.85,
+          "note": "AI算力PCB链核心成员，同为PCB/封装基板龙头"
+        },
+        {
+          "targetId": "生益科技",
+          "targetTitle": "生益科技",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "PCB产业链上下游"
+        },
+        {
+          "targetId": "中际旭创",
+          "targetTitle": "中际旭创",
+          "kind": "supply-chain-downstream",
+          "weight": 0.6,
+          "note": "深南PCB用于光模块配套"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "深南是芯片ETF成分股"
+        },
+        {
+          "targetId": "胜宏科技",
+          "targetTitle": "胜宏科技",
+          "kind": "same-sector-peer",
+          "confidence": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.002916.SZ.key-metric",
+          "text": "PCB毛利率35.53%，封装基板毛利率22.58%（已跨过盈亏平衡点），目标突破25%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002916.SZ.bull-case",
+          "text": "中航工业旗下PCB+封装基板全栈能力，AI PCB量价齐升+FC-BGA国产替代，净利润+74%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.002916.SZ.bear-case",
+          "text": "61x PE已定价较多乐观预期，广州封装基地产能爬坡节奏不及预期则估值承压",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "湖北宜化 (000422.SZ)",
+      "kind": "entity",
+      "path": "entities/湖北宜化.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "阳煤化工",
+          "targetTitle": "阳煤化工",
+          "kind": "same-sector",
+          "weight": 0.8,
+          "note": "同为煤化工/磷化工，周期联动强"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.000422.SZ.oversold",
+          "text": "RSI 19.75严重超卖、KDJ J值-17.99，技术面反弹概率高",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.湖北宜化",
+              "path": "research/湖北宜化/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000422_SZ.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000422_SZ.bull-case",
+          "text": "宜昌国资委控股，2025年净利润8.89亿元（同比-16.74%）但保持盈利。RSI 19.75严重超卖、KDJ J值-17.99，技术面反弹概率高。磷酸二铵产能126万吨全国第四，春耕旺季提供支撑。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000422.SZ.phosphate-top4",
+          "text": "磷酸二铵产能126万吨全国第四，春耕旺季提供支撑",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.湖北宜化",
+              "path": "research/湖北宜化/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.000422_SZ.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "entity.investment.澜起科技-688008",
+      "title": "澜起科技假研报识别模式",
+      "kind": "entity",
+      "path": "entities/澜起科技-688008.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "title": "生物科技ETF (516500.SS)",
+      "kind": "entity",
+      "path": "entities/生物科技ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "医疗ETF",
+          "targetTitle": "医疗ETF",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "生物科技与医疗健康主题高度重叠"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.516500_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.516500_SS.bull-case",
+          "text": "跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现。但MACD柱状图转负、价格受压中轨下方，短期技术面空方占优。美国生物安全法案是悬而未决的灰犀牛。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.516500_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.516500.SS.valuation-low",
+          "text": "跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.生物科技ETF",
+              "path": "research/生物科技ETF/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.516500.SS.us-biotech-risk",
+          "text": "美国生物安全法案是悬而未决的灰犀牛，对CXO/生物科技出口有潜在冲击",
+          "status": "supported",
+          "confidence": 0.7,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.生物科技ETF",
+              "path": "research/生物科技ETF/",
+              "lines": "current_view",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "生益科技（600183.SS）投资跟踪",
+      "kind": "entity",
+      "path": "entities/生益科技_600183.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.600183_SS.key-metric",
+          "text": "Q1净利润11.58亿元（同比+105%），毛利率28.1%（从22.1%持续提升），ROE 24.44%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183_SS.bull-case",
+          "text": "全球第二中国第一覆铜板龙头，AI服务器驱动高频高速CCL需求爆发，Q1净利润+105%",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183_SS.bear-case",
+          "text": "RSI持续80+超买1个月，MACD轻微顶背离，7周暴涨109%后短期回调风险极高",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "生益科技 (600183.SS)",
+      "kind": "entity",
+      "path": "entities/生益科技.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 3,
+      "topRelationships": [
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "同为PCB/覆铜板产业链"
+        },
+        {
+          "targetId": "兴森科技",
+          "targetTitle": "兴森科技",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "PCB/覆铜板产业链"
+        },
+        {
+          "targetId": "芯片ETF",
+          "targetTitle": "芯片ETF",
+          "kind": "etf-component",
+          "weight": 0.6,
+          "note": "高频高速CCL用于芯片产业链"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.600183.SS.rsi-overbought",
+          "text": "RSI持续80+，价格突破布林上轨，极度超买，短期回调风险高",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.生益科技",
+              "path": "research/生益科技/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183_SS.bull-case",
+          "text": "全球第二、中国第一覆铜板龙头，AI服务器+800G交换机驱动高速覆铜板需求爆发。2026Q1净利润同比+105%超预期，毛利率从22%升至28.1%。但PE 71.7x极度偏高，RSI 80.25持续超买1个月，7周暴涨109%后短期回调风",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183.SS.ccl-high-frequency",
+          "text": "高频高速CCL（M6/M7/M8）产能释放是核心成长逻辑，AI驱动需求",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "research-report",
+              "sourceId": "source.research.生益科技",
+              "path": "research/生益科技/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600183_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "红利ETF (515080.SS)",
+      "kind": "entity",
+      "path": "entities/红利ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 4,
+      "topRelationships": [
+        {
+          "targetId": "招商银行",
+          "targetTitle": "招商银行",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "招行是红利ETF核心成分股"
+        },
+        {
+          "targetId": "中国神华",
+          "targetTitle": "中国神华",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "中国神华是红利ETF核心成分股"
+        },
+        {
+          "targetId": "紫金矿业",
+          "targetTitle": "紫金矿业",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "紫金矿业是红利ETF成分股"
+        },
+        {
+          "targetId": "民生银行_600016",
+          "targetTitle": "民生银行",
+          "kind": "etf-component",
+          "weight": 0.7,
+          "note": "民生银行是高股息港股代表"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.515080.SS.dividend-yield",
+          "text": "跟踪中证红利指数，股息率约4.9%，显著优于无风险利率",
+          "status": "supported",
+          "confidence": 0.9,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.红利ETF",
+              "path": "research/红利ETF/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.515080_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.515080_SS.bull-case",
+          "text": "跟踪中证红利指数，股息率约4.9%，PE 8.85倍处于3年历史高位。MACD顶背离风险（+0.008远低于前高+0.0207），1.68元阻力位压制。资金持续流入（近20日净流入11.55亿），攻防兼备属性凸显。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.515080_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.515080.SS.macd-divergence",
+          "text": "PE 8.85倍处于3年历史高位，MACD顶背离风险，上行空间受限",
+          "status": "supported",
+          "confidence": 0.75,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "technical-analysis",
+              "sourceId": "source.research.红利ETF",
+              "path": "research/红利ETF/",
+              "lines": "current_view",
+              "weight": 0.7
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "紫金矿业 (02899.HK / 601899.SS)",
+      "kind": "entity",
+      "path": "entities/紫金矿业.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "中国神华",
+          "targetTitle": "中国神华",
+          "kind": "same-sector",
+          "weight": 0.7,
+          "note": "能源矿业板块，高股息同类"
+        },
+        {
+          "targetId": "红利ETF",
+          "targetTitle": "红利ETF",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "紫金是红利ETF成分股（黄金铜业高股息）"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.02899.HK / 601899.SS.top3-copper-gold",
+          "text": "全球前三大铜企+最大黄金上市矿企，金铜价格高位震荡",
+          "status": "supported",
+          "confidence": 0.95,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.紫金矿业",
+              "path": "research/紫金矿业/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.02899.HK / 601899.SS.production-accel",
+          "text": "2026-2028年铜+30%、金+50%产量加速释放周期",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "industry-data",
+              "sourceId": "source.research.紫金矿业",
+              "path": "research/紫金矿业/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.02899_HK___601899_SS.bull-case",
+          "text": "全球前三大铜企+最大黄金上市矿企，金铜价格高位震荡+产量加速释放周期（2026-2028年铜+30%、金+50%），但卡莫阿矿震复产节奏和金价回调幅度是当前最大边际变量。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.02899_HK___601899_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.02899_HK___601899_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "胜宏科技 (300476.SZ)",
+      "kind": "entity",
+      "path": "entities/胜宏科技.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "same-sector-peer",
+          "confidence": 0.8
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.300476_SZ.bull-case",
+          "text": "全球AI算力PCB龙头，深度绑定英伟达，业绩戴维斯双击已兑现，但PE 70-85倍高度定价AI渗透率乐观预期，2026年中报是下一个验证节点。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300476_SZ.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.300476_SZ.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "芯片ETF (159995.SZ)",
+      "kind": "entity",
+      "path": "entities/芯片ETF.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 5,
+      "topRelationships": [
+        {
+          "targetId": "兆易创新",
+          "targetTitle": "兆易创新",
+          "kind": "etf-component",
+          "weight": 0.9,
+          "note": "兆易是芯片ETF核心成分股"
+        },
+        {
+          "targetId": "深南电路",
+          "targetTitle": "深南电路",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "深南是芯片ETF成分股"
+        },
+        {
+          "targetId": "兴森科技",
+          "targetTitle": "兴森科技",
+          "kind": "etf-component",
+          "weight": 0.8,
+          "note": "兴森是芯片ETF成分股"
+        },
+        {
+          "targetId": "中际旭创",
+          "targetTitle": "中际旭创",
+          "kind": "etf-component",
+          "weight": 0.7,
+          "note": "光模块与芯片产业链高度相关"
+        },
+        {
+          "targetId": "中际旭创",
+          "targetTitle": "中际旭创",
+          "kind": "etf-holds-components",
+          "confidence": 0.85
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.159995.SZ.key-metric",
+          "text": "RSI 71.88接近超买，50日均线1.82元是回撤买入目标位",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159995.SZ.bull-case",
+          "text": "国产替代逻辑强劲，受益于政策支持半导体自主可控，AI算力需求持续爆发",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.159995.SZ.bear-case",
+          "text": "RSI 71.88接近超买，量价背离（上涨缩量）显示短期回调风险高，逼近2.12元强阻力位",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "贵州茅台（600519）投资跟踪",
+      "kind": "entity",
+      "path": "entities/贵州茅台_600519.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "五粮液_000858",
+          "targetTitle": "五粮液（000858.SZ）",
+          "kind": "same-sector",
+          "weight": 0.8,
+          "note": "白酒行业两大龙头，贵州茅台定价权更强、估值溢价更高，五粮液股息率更高但管理层存在不确定性"
+        },
+        {
+          "targetId": "中证消费ETF_512600",
+          "targetTitle": "中证消费ETF",
+          "kind": "constituent-of",
+          "confidence": 0.85
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 3,
+      "topClaims": [
+        {
+          "id": "claim.600519.SS.key-metric",
+          "text": "飞天茅台一批价>950元为良性，<900元为风险信号；合同负债环比回升为积极信号",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600519.SS.bull-case",
+          "text": "高端白酒绝对龙头，品牌定价权+地理禀赋无可复制，2026年飞天提价+直销放量驱动复苏",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600519.SS.bear-case",
+          "text": "存货增速(+58%)远超营收增速(+35%)，供需失衡预警，盈利下滑苗头已现",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "title": "阳煤化工 (600691.SS)",
+      "kind": "entity",
+      "path": "entities/阳煤化工.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 1,
+      "topRelationships": [
+        {
+          "targetId": "湖北宜化",
+          "targetTitle": "湖北宜化",
+          "kind": "same-sector",
+          "weight": 0.8,
+          "note": "同为煤化工，周期联动强"
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "investment_stock",
+      "privacyTier": "public",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29",
+      "claimCount": 5,
+      "topClaims": [
+        {
+          "id": "claim.600691_SS.key-metric",
+          "text": "关键监控指标详见tracking字段，定期跟踪验证",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "tracking indicators",
+              "weight": 0.85
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600691_SS.bull-case",
+          "text": "山西省国资委控股煤化工企业，持续亏损但2024年大幅减亏60-86亿出现积极信号。破净严重（PB<1），战略转型进行中（氢能+绿色甲醇）。周期底部复苏初期，不宜重仓。",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "current_view",
+              "weight": 0.9
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600691.SS.loss-reduction",
+          "text": "2024年大幅减亏60-86亿，周期底部复苏初期积极信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.阳煤化工",
+              "path": "research/阳煤化工/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600691_SS.bear-case",
+          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "entity-summary",
+              "sourceId": "source.entities.investments",
+              "path": "entities/investments/",
+              "lines": "conclusion/tracking",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        },
+        {
+          "id": "claim.600691.SS.pb-below1",
+          "text": "破净严重（PB<1），战略转型进行中（氢能+绿色甲醇）",
+          "status": "supported",
+          "confidence": 0.8,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "financial-data",
+              "sourceId": "source.research.阳煤化工",
+              "path": "research/阳煤化工/",
+              "lines": "current_view",
+              "weight": 0.8
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-05-29"
+        }
+      ]
+    },
+    {
       "id": "report.claim-health",
       "title": "Claim Health",
       "kind": "report",
@@ -264,7 +5273,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-27T14:27:27.802Z",
+      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -339,7 +5348,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-27T14:27:27.802Z",
+      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -377,7 +5386,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T16:09:25.598Z",
+      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -396,7 +5405,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T16:09:25.598Z",
+      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -8415,6 +13424,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-05-29T14:21:03.964Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-05-29-1629-34b41d7b",
+      "title": "Memory Bridge (main): 2026-05-29-1629",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-05-29-1629-34b41d7b.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-05-29T16:29:15.871Z",
       "claimCount": 0,
       "topClaims": []
     },

@@ -7336,6 +7336,14 @@
       "sourceUpdatedAtMs": 1780064463964.5137,
       "sourceSize": 17012,
       "renderFingerprint": "4563857c9bc5278bdc4a72e85178e3571b8dc2f5"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/2026-05-29-1629.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-2026-05-29-1629-34b41d7b.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/2026-05-29-1629.md",
+      "sourceUpdatedAtMs": 1780072155871.2207,
+      "sourceSize": 6692,
+      "renderFingerprint": "5ebe5e5410b25a5049a0bb975aa49ee956f09c91"
     }
   }
 }

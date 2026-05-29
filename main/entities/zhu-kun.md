@@ -1,0 +1,83 @@
+---
+pageType: entity
+entityType: person
+id: entity.person.zhu-kun
+updatedAt: "2026-05-29"
+relationships:
+  - targetId: entity.person.yao-wenhai
+    targetTitle: "姚文海"
+    kind: spouse
+    weight: 1.0
+  - targetId: entity.person.zhu-lingxiao
+    targetTitle: "朱凌霄"
+    kind: child
+    weight: 1.0
+  - targetId: entity.project.stock-research-engine
+    targetTitle: "stock-research-engine"
+    kind: uses
+    weight: 0.9
+  - targetId: entity.project.tradingagents
+    targetTitle: "tradingagents"
+    kind: uses
+    weight: 0.8
+  - targetId: entity.project.investsignal
+    targetTitle: "InvestSignal"
+    kind: uses
+    weight: 0.9
+---
+
+
+# 朱琨
+
+> 主人，个人投资者
+
+**类型:** Person  
+**ID:** `person_zhu_kun`  
+**来源:** USER.md
+
+---
+
+
+## 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| **角色** | 个人投资者 |
+| **位置** | 深圳 |
+| **投资风格** | 价值投资，长期持有优质资产 |
+| **投资市场** | A股+港股+美股 |
+| **关注领域** | 科技/AI/半导体 |
+
+---
+
+## 投资偏好
+
+- **今年加仓优先**：港股（科技估值洼地，弹性大）
+- **仓位管理**：通过仓位配比控制
+- **恐慌市策略**：观望等待，确认底部信号后再入场（顺势确认，非左侧抄底）
+
+---
+
+## 家庭
+
+| 关系 | 姓名 |
+|------|------|
+| 配偶 | 姚文海 |
+| 儿子 | 朱凌霄（幼儿园） |
+
+---
+
+## 学习与休闲
+
+- **教育期望**（子女）：社交能力与情商（未来5-10年最希望培养的核心品质）
+- **周末安排**：周边短途自驾，带孩子去自然/主题乐园
+- **闲暇爱好**：看技术文档/论文（终身学习型）
+
+---
+
+*来源: USER.md*
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->
