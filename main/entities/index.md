@@ -33,6 +33,8 @@
 - [芯片ETF](investments/芯片ETF.md)
 - [贵州茅台 600519](investments/贵州茅台_600519.md)
 - [阳煤化工](investments/阳煤化工.md)
+- [恒生科技ETF 513180](investments/恒生科技ETF-513180.md)
+- [澜起科技 688008](investments/澜起科技-688008.md)
 <!-- openclaw:wiki:entities:index:end -->
 
 ## Generated
@@ -70,6 +72,7 @@
 - [investment-research-resources](documents/investment-research-resources.md)
 - [karpathy-rss-20260523](documents/karpathy-rss-20260523.md)
 - [research-tracker-4week](documents/research-tracker-4week.md)
+- [stock-research-engine-analysis](documents/stock-research-engine-analysis.md)
 
 ### Tasks
 - [investsignal-target-price-alert](tasks/investsignal-target-price-alert.md)
