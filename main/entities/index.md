@@ -1,7 +1,8 @@
 # Entities
 
 <!-- openclaw:wiki:entities:index:start -->
-- Placeholder
+- [Claude Code](claude-code.md)
+- [Hermes Agent](hermes-agent.md)
 <!-- openclaw:wiki:entities:index:end -->
 
 ## Generated
@@ -15,10 +16,12 @@
 - [AI News Phase 2](entities/ai-news-phase2.md)
 - [bilibili-all-in-one](entities/bilibili-all-in-one.md)
 - [bilibili-api-python AudioUploader bug](entities/bilibili-audio-uploader.md)
+- [Claude Code](entities/claude-code.md)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md)
 - [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
 - [From Copilots to Colleagues](entities/autonomous-research-agents-survey-2026.md)
+- [Hermes Agent](entities/hermes-agent.md)
 - [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md)
 - [MiniMax国内OAuth配置问题](entities/minimax-oauth.md)

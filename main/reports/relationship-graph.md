@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-05-29T16:44:50.033Z
+updatedAt: 2026-06-02T00:35:57.540Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 117
+- Structured relationships: 127
 
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 中概互联网ETF (etf-component, weight 0.70, 中证500与中概互联网指数成分有交叉，AI主题外溢)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
@@ -24,6 +24,9 @@ updatedAt: 2026-05-29T16:44:50.033Z
 - [600030.SS_中信证券](entities/600030.SS_中信证券.md) -> 招商银行 (same-sector, weight 0.70, 同为金融板块大型蓝筹)
 - [600030.SS_中信证券](entities/600030.SS_中信证券.md) -> 民生银行 (same-sector, weight 0.60, 同为金融板块券商与银行)
 - [914.HK_海螺水泥](entities/914.HK_海螺水泥.md) -> 中国神华 (same-sector, weight 0.50, 建材与能源矿产同受宏观周期影响)
+- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md) -> 企业Agent五堵墙 (problem-diagnosis, weight 1.00)
+- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md) -> 企业Agent五层解法 (solution-to, weight 1.00)
+- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md) -> 相对改进评估 (related-to, weight 0.70)
 - [AI News Phase 2](entities/ai-news-phase2.md) -> AI News Phase 2 Critical Bugs Pattern (has-bugs, weight 0.90)
 - [AI News Phase 2 Critical Bugs Pattern](concepts/ai-news-critical-bugs.md) -> AI News Phase 2 (affects-project, weight 0.90)
 - [AI内存短缺危机](concepts/hbm-memory-shortage.md) -> MiniMaxQuota窗口时间不一致 (related-to, weight 0.50, 同为硬件资源问题)
@@ -31,8 +34,10 @@ updatedAt: 2026-05-29T16:44:50.033Z
 - [Altman威胁模型论](concepts/altman-threat-model.md) -> Sam Altman (view-held-by, weight 0.90)
 - [bilibili-all-in-one](entities/bilibili-all-in-one.md) -> bilibili-api-python AudioUploader bug (has-bug, weight 0.90, 音频上传库bug)
 - [bilibili-api-python AudioUploader bug](entities/bilibili-audio-uploader.md) -> bilibili-audio-uploader (affects, weight 0.80)
+- [Claude Code](entities/claude-code.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 1.00)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md) -> daily-questions-deliver-mode (affects, weight 0.80)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md) -> daily-questions-cron-skip (affects, weight 0.80)
+- [Hermes Agent](entities/hermes-agent.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 0.90)
 - [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md) -> InvestSignal (belongs-to, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md) -> AI内存短缺危机 (discusses, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md) -> StubZero Google Cloud RCE漏洞 (discusses, weight 0.90)
@@ -66,6 +71,10 @@ updatedAt: 2026-05-29T16:44:50.033Z
 - [京东集团 (9618.HK)](entities/京东集团.md) -> 中概互联网ETF (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分)
 - [京东集团 (9618.HK)](entities/京东集团.md) -> 小米集团 (competitor, weight 0.60, 京东vs小米：电商与消费电子赛道重叠)
 - [人物关系图](entities/five-dysfunctions-team.md) -> The Five Dysfunctions of a Team (from-book, weight 0.90)
+- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md) -> Agent 干净世界 vs 脏世界 (detailed-diagnosis, weight 1.00)
+- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md) -> 企业Agent五层解法 (problem-solution, weight 1.00)
+- [企业Agent五层解法](concepts/five-layer-solution.md) -> Agent 干净世界 vs 脏世界 (solution-framework, weight 1.00)
+- [企业Agent五层解法](concepts/five-layer-solution.md) -> 企业Agent五堵墙 (solution-to, weight 1.00)
 - [储能电池ETF (159566.SZ)](entities/储能电池ETF.md) -> 兆易创新 (etf-component, weight 0.50, 储能BMS芯片相关)
 - [储能电池ETF (159566.SZ)](entities/储能电池ETF.md) -> 生物科技ETF (competitor, weight 0.40, 同为新能源/生物科技主题ETF)
 - [兆易创新 (603986.SH)](entities/兆易创新.md) -> 兴森科技 (supply-chain-downstream, weight 0.50, 封装基板用于存储芯片封装)
@@ -111,6 +120,7 @@ updatedAt: 2026-05-29T16:44:50.033Z
 - [生益科技 (600183.SS)](entities/生益科技.md) -> 兴森科技 (same-sector, weight 0.70, PCB/覆铜板产业链)
 - [生益科技 (600183.SS)](entities/生益科技.md) -> 深南电路 (same-sector, weight 0.70, 同为PCB/覆铜板产业链)
 - [生益科技 (600183.SS)](entities/生益科技.md) -> 芯片ETF (etf-component, weight 0.60, 高频高速CCL用于芯片产业链)
+- [相对改进评估](concepts/relative-improvement-evaluation.md) -> 企业Agent五层解法 (evaluation-framework, weight 0.80)
 - [红利ETF (515080.SS)](entities/红利ETF.md) -> 中国神华 (etf-component, weight 0.90, 中国神华是红利ETF核心成分股)
 - [红利ETF (515080.SS)](entities/红利ETF.md) -> 招商银行 (etf-component, weight 0.90, 招行是红利ETF核心成分股)
 - [红利ETF (515080.SS)](entities/红利ETF.md) -> 民生银行 (etf-component, weight 0.70, 民生银行是高股息港股代表)
