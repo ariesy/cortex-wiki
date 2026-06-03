@@ -1,2 +1,2 @@
-# Wiki sources - bridge artifacts from workspace memory
-sources/
+# Ignore bridge-generated workspace artifacts (auto-synced from memory, re-generable)
+sources/bridge-workspace-*
