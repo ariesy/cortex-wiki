@@ -9,8 +9,8 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 34
-- Warnings: 252
+- Errors: 35
+- Warnings: 244
 
 ### Errors
 - `entities/161017.SZ_富国中证500增强.md`: Missing `id` frontmatter.
@@ -20,10 +20,11 @@ status: active
 - `entities/914.HK_海螺水泥.md`: Missing `id` frontmatter.
 - `entities/中国神华.md`: Missing `id` frontmatter.
 - `entities/中概互联网ETF.md`: Missing `id` frontmatter.
-- `entities/中航沈飞_600760.md`: Missing `id` frontmatter.
 - `entities/中航沈飞.md`: Missing `id` frontmatter.
+- `entities/中航沈飞.md`: Missing `pageType` frontmatter.
 - `entities/中证消费ETF_512600.md`: Missing `id` frontmatter.
 - `entities/中际旭创.md`: Missing `id` frontmatter.
+- `entities/中际旭创.md`: Missing `pageType` frontmatter.
 - `entities/五粮液_000858.md`: Missing `id` frontmatter.
 - `entities/京东集团.md`: Missing `id` frontmatter.
 - `entities/储能电池ETF.md`: Missing `id` frontmatter.
@@ -37,8 +38,8 @@ status: active
 - `entities/深南电路.md`: Missing `id` frontmatter.
 - `entities/湖北宜化.md`: Missing `id` frontmatter.
 - `entities/生物科技ETF.md`: Missing `id` frontmatter.
-- `entities/生益科技_600183.md`: Missing `id` frontmatter.
 - `entities/生益科技.md`: Missing `id` frontmatter.
+- `entities/生益科技.md`: Missing `pageType` frontmatter.
 - `entities/红利ETF.md`: Missing `id` frontmatter.
 - `entities/紫金矿业.md`: Missing `id` frontmatter.
 - `entities/胜宏科技.md`: Missing `id` frontmatter.
@@ -89,16 +90,11 @@ status: active
 - `entities/zhu-lingxiao.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中国神华.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中概互联网ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中航沈飞_600760.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.bear-case` has competing variants across 2 pages.
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.bull-case` has competing variants across 2 pages.
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.key-metric` has competing variants across 2 pages.
 - `entities/中航沈飞.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.bear-case` has competing variants across 2 pages.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.bull-case` has competing variants across 2 pages.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.key-metric` has competing variants across 2 pages.
+- `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
 - `entities/中证消费ETF_512600.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/中际旭创.md`: Page freshness needs review (missing updatedAt).
 - `entities/五粮液_000858.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
@@ -114,14 +110,8 @@ status: active
 - `entities/湖北宜化.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/澜起科技-688008.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生物科技ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/生益科技_600183.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.bear-case` has competing variants across 2 pages.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.bull-case` has competing variants across 2 pages.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.key-metric` has competing variants across 2 pages.
 - `entities/生益科技.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.bear-case` has competing variants across 2 pages.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.bull-case` has competing variants across 2 pages.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.key-metric` has competing variants across 2 pages.
+- `entities/生益科技.md`: Page freshness needs review (missing updatedAt).
 - `entities/红利ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/紫金矿业.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/胜宏科技.md`: Non-source page is missing `sourceIds` provenance.
@@ -141,6 +131,9 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-27-1202-3f245c19.md`: Page freshness needs review (last touched 2026-02-27T12:02:47.162Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-01-998d43a4.md`: Page freshness needs review (last touched 2026-03-02T00:11:48.074Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-03-1321-0c4afc9e.md`: Page freshness needs review (last touched 2026-03-03T13:21:11.656Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1201-847bf61f.md`: Page freshness needs review (last touched 2026-03-05T12:01:44.838Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1218-35b6bac2.md`: Page freshness needs review (last touched 2026-03-05T12:18:50.461Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1405-ef66fbcc.md`: Page freshness needs review (last touched 2026-03-05T14:05:57.620Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Broken wikilink target `~/.nvm/versions/node/v24.13.1/lib/node_modules/openclaw/docs/tools/subagents.md`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
@@ -352,20 +345,6 @@ status: active
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/books/`.
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/people-fiction/`.
 
-### Contradictions
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.bear-case` has competing variants across 2 pages.
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.bull-case` has competing variants across 2 pages.
-- `entities/中航沈飞_600760.md`: Claim cluster `claim.600760_SS.key-metric` has competing variants across 2 pages.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.bear-case` has competing variants across 2 pages.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.bull-case` has competing variants across 2 pages.
-- `entities/中航沈飞.md`: Claim cluster `claim.600760_SS.key-metric` has competing variants across 2 pages.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.bear-case` has competing variants across 2 pages.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.bull-case` has competing variants across 2 pages.
-- `entities/生益科技_600183.md`: Claim cluster `claim.600183_SS.key-metric` has competing variants across 2 pages.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.bear-case` has competing variants across 2 pages.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.bull-case` has competing variants across 2 pages.
-- `entities/生益科技.md`: Claim cluster `claim.600183_SS.key-metric` has competing variants across 2 pages.
-
 ### Quality Follow-Up
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
@@ -404,7 +383,6 @@ status: active
 - `entities/zhu-lingxiao.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中国神华.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中概互联网ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中航沈飞_600760.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中航沈飞.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中证消费ETF_512600.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
@@ -423,7 +401,6 @@ status: active
 - `entities/湖北宜化.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/澜起科技-688008.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生物科技ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/生益科技_600183.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生益科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/红利ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/紫金矿业.md`: Non-source page is missing `sourceIds` provenance.
@@ -433,6 +410,9 @@ status: active
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/claude-code.md`: Page freshness needs review (missing updatedAt).
 - `entities/hermes-agent.md`: Page freshness needs review (missing updatedAt).
+- `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
+- `entities/中际旭创.md`: Page freshness needs review (missing updatedAt).
+- `entities/生益科技.md`: Page freshness needs review (missing updatedAt).
 - `sources/agent-bottleneck-zhihu.md`: Page freshness needs review (missing updatedAt).
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-23-8d59990d.md`: Page freshness needs review (last touched 2026-02-23T23:25:11.683Z).
@@ -446,4 +426,7 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-27-1202-3f245c19.md`: Page freshness needs review (last touched 2026-02-27T12:02:47.162Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-01-998d43a4.md`: Page freshness needs review (last touched 2026-03-02T00:11:48.074Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-03-1321-0c4afc9e.md`: Page freshness needs review (last touched 2026-03-03T13:21:11.656Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1201-847bf61f.md`: Page freshness needs review (last touched 2026-03-05T12:01:44.838Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1218-35b6bac2.md`: Page freshness needs review (last touched 2026-03-05T12:18:50.461Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1405-ef66fbcc.md`: Page freshness needs review (last touched 2026-03-05T14:05:57.620Z).
 <!-- openclaw:wiki:lint:end -->

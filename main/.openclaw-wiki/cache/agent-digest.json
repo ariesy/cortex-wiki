@@ -1,15 +1,15 @@
 {
   "pageCounts": {
-    "entity": 66,
+    "entity": 64,
     "concept": 11,
-    "source": 1021,
+    "source": 1042,
     "synthesis": 4,
     "report": 10
   },
-  "claimCount": 165,
+  "claimCount": 146,
   "claimHealth": {
     "freshness": {
-      "fresh": 165,
+      "fresh": 146,
       "aging": 0,
       "stale": 0,
       "unknown": 0
@@ -18,68 +18,7 @@
     "lowConfidence": 0,
     "missingEvidence": 0
   },
-  "contradictionClusters": [
-    {
-      "key": "claim.600183_SS.bear-case",
-      "label": "claim.600183_SS.bear-case",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/生益科技.md",
-        "entities/生益科技_600183.md"
-      ]
-    },
-    {
-      "key": "claim.600183_SS.bull-case",
-      "label": "claim.600183_SS.bull-case",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/生益科技.md",
-        "entities/生益科技_600183.md"
-      ]
-    },
-    {
-      "key": "claim.600183_SS.key-metric",
-      "label": "claim.600183_SS.key-metric",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/生益科技.md",
-        "entities/生益科技_600183.md"
-      ]
-    },
-    {
-      "key": "claim.600760_SS.bear-case",
-      "label": "claim.600760_SS.bear-case",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/中航沈飞.md",
-        "entities/中航沈飞_600760.md"
-      ]
-    },
-    {
-      "key": "claim.600760_SS.bull-case",
-      "label": "claim.600760_SS.bull-case",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/中航沈飞.md",
-        "entities/中航沈飞_600760.md"
-      ]
-    },
-    {
-      "key": "claim.600760_SS.key-metric",
-      "label": "claim.600760_SS.key-metric",
-      "kind": "claim-id",
-      "entryCount": 2,
-      "paths": [
-        "entities/中航沈飞.md",
-        "entities/中航沈飞_600760.md"
-      ]
-    }
-  ],
+  "contradictionClusters": [],
   "pages": [
     {
       "id": "concept.ai-hedge-fund-agent-styles",
@@ -2472,84 +2411,6 @@
       ]
     },
     {
-      "title": "中航沈飞（600760.SS）投资跟踪",
-      "kind": "entity",
-      "path": "entities/中航沈飞_600760.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "entity",
-      "entityType": "investment_stock",
-      "privacyTier": "public",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29",
-      "claimCount": 3,
-      "topClaims": [
-        {
-          "id": "claim.600760_SS.bull-case",
-          "text": "军工核心资产，J-35等型号预期提供长期增长逻辑，966亿现金储备提供安全边际",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "current_view",
-              "weight": 0.9
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760_SS.key-metric",
-          "text": "营收增速3.7%（从12.9%断崖），PE 42倍无法支撑，季度经营现金流是核心拐点",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "tracking indicators",
-              "weight": 0.85
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760_SS.bear-case",
-          "text": "PE高达42倍但营收增速从12.9%断崖至3.7%，现金流靠供应商融资掩盖（应付账款暴增45亿美元）",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "conclusion/tracking",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        }
-      ]
-    },
-    {
       "title": "中航沈飞 (600760.SS)",
       "kind": "entity",
       "path": "entities/中航沈飞.md",
@@ -2559,119 +2420,11 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 1,
-      "topRelationships": [
-        {
-          "targetId": "中际旭创",
-          "targetTitle": "中际旭创",
-          "kind": "same-sector",
-          "weight": 0.4,
-          "note": "同为A股军工/科技交叉概念"
-        }
-      ],
-      "pageType": "entity",
-      "entityType": "investment_stock",
-      "privacyTier": "public",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29",
-      "claimCount": 5,
-      "topClaims": [
-        {
-          "id": "claim.600760_SS.bull-case",
-          "text": "TradingAgents多智能体框架综合判决：空头逻辑在可验证性上更胜一筹。营收增速从12.9%断崖至3.7%，42倍PE无法支撑如此低的增速。现金流\"改善\"实为供应商融资（应付账款暴增45亿美元），是危险信号。技术面三重看跌确认，建议减",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "current_view",
-              "weight": 0.9
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760_SS.key-metric",
-          "text": "关键监控指标详见tracking字段，定期跟踪验证",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "tracking indicators",
-              "weight": 0.85
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760.SS.pe-overvalued",
-          "text": "营收增速3.7%无法支撑42倍PE，当前存在杀估值陷阱",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "financial-data",
-              "sourceId": "source.research.中航沈飞",
-              "path": "research/中航沈飞/",
-              "lines": "current_view",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760.SS.military-core",
-          "text": "军工核心资产，J-35等型号预期提供长期增长逻辑，营收规模稳健",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "research-report",
-              "sourceId": "source.research.中航沈飞",
-              "path": "research/中航沈飞/",
-              "lines": "current_view",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600760_SS.bear-case",
-          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "conclusion/tracking",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        }
-      ]
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "title": "中证消费ETF（512600）投资跟踪",
@@ -2814,108 +2567,11 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 5,
-      "topRelationships": [
-        {
-          "targetId": "天孚通信",
-          "targetTitle": "天孚通信",
-          "kind": "supply-chain-upstream",
-          "weight": 0.85,
-          "note": "天孚是旭创的光器件上游供应商"
-        },
-        {
-          "targetId": "深南电路",
-          "targetTitle": "深南电路",
-          "kind": "supply-chain-downstream",
-          "weight": 0.6,
-          "note": "深南PCB用于光模块配套"
-        },
-        {
-          "targetId": "兴森科技",
-          "targetTitle": "兴森科技",
-          "kind": "supply-chain-downstream",
-          "weight": 0.6,
-          "note": "兴森封装基板用于光模块芯片封装"
-        },
-        {
-          "targetId": "芯片ETF",
-          "targetTitle": "芯片ETF",
-          "kind": "etf-component",
-          "weight": 0.7,
-          "note": "光模块与芯片产业链高度相关"
-        },
-        {
-          "targetId": "深南电路",
-          "targetTitle": "深南电路",
-          "kind": "same-sector-peer",
-          "confidence": 0.8
-        }
-      ],
-      "pageType": "entity",
-      "entityType": "investment_stock",
-      "privacyTier": "public",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29",
-      "claimCount": 3,
-      "topClaims": [
-        {
-          "id": "claim.300308.SZ.key-metric",
-          "text": "2026Q1净利润57.35亿（同比+262%），单季超2024年全年，毛利率42.61%（同比+7.96pp）",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "tracking indicators",
-              "weight": 0.85
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.300308.SZ.bull-case",
-          "text": "全球光模块绝对龙头，1.6T市占率50%-70%绝对垄断，2026年净利润预测292亿，A股最纯正AI算力基础设施",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "current_view",
-              "weight": 0.9
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.300308.SZ.bear-case",
-          "text": "公募持仓32%创三年新高，全市场最拥挤交易，一旦负面信号触发踩踏杀伤力极大",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "conclusion/tracking",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        }
-      ]
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "title": "五粮液（000858.SZ）投资跟踪",
@@ -4526,84 +4182,6 @@
       ]
     },
     {
-      "title": "生益科技（600183.SS）投资跟踪",
-      "kind": "entity",
-      "path": "entities/生益科技_600183.md",
-      "aliases": [],
-      "sourceIds": [],
-      "questions": [],
-      "contradictions": [],
-      "bestUsedFor": [],
-      "notEnoughFor": [],
-      "relationshipCount": 0,
-      "topRelationships": [],
-      "pageType": "entity",
-      "entityType": "investment_stock",
-      "privacyTier": "public",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29",
-      "claimCount": 3,
-      "topClaims": [
-        {
-          "id": "claim.600183_SS.key-metric",
-          "text": "Q1净利润11.58亿元（同比+105%），毛利率28.1%（从22.1%持续提升），ROE 24.44%",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "tracking indicators",
-              "weight": 0.85
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183_SS.bull-case",
-          "text": "全球第二中国第一覆铜板龙头，AI服务器驱动高频高速CCL需求爆发，Q1净利润+105%",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "current_view",
-              "weight": 0.9
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183_SS.bear-case",
-          "text": "RSI持续80+超买1个月，MACD轻微顶背离，7周暴涨109%后短期回调风险极高",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "conclusion/tracking",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        }
-      ]
-    },
-    {
       "title": "生益科技 (600183.SS)",
       "kind": "entity",
       "path": "entities/生益科技.md",
@@ -4613,133 +4191,11 @@
       "contradictions": [],
       "bestUsedFor": [],
       "notEnoughFor": [],
-      "relationshipCount": 3,
-      "topRelationships": [
-        {
-          "targetId": "深南电路",
-          "targetTitle": "深南电路",
-          "kind": "same-sector",
-          "weight": 0.7,
-          "note": "同为PCB/覆铜板产业链"
-        },
-        {
-          "targetId": "兴森科技",
-          "targetTitle": "兴森科技",
-          "kind": "same-sector",
-          "weight": 0.7,
-          "note": "PCB/覆铜板产业链"
-        },
-        {
-          "targetId": "芯片ETF",
-          "targetTitle": "芯片ETF",
-          "kind": "etf-component",
-          "weight": 0.6,
-          "note": "高频高速CCL用于芯片产业链"
-        }
-      ],
-      "pageType": "entity",
-      "entityType": "investment_stock",
-      "privacyTier": "public",
-      "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29",
-      "claimCount": 5,
-      "topClaims": [
-        {
-          "id": "claim.600183.SS.rsi-overbought",
-          "text": "RSI持续80+，价格突破布林上轨，极度超买，短期回调风险高",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "technical-analysis",
-              "sourceId": "source.research.生益科技",
-              "path": "research/生益科技/",
-              "lines": "current_view",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183_SS.bull-case",
-          "text": "全球第二、中国第一覆铜板龙头，AI服务器+800G交换机驱动高速覆铜板需求爆发。2026Q1净利润同比+105%超预期，毛利率从22%升至28.1%。但PE 71.7x极度偏高，RSI 80.25持续超买1个月，7周暴涨109%后短期回调风",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "current_view",
-              "weight": 0.9
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183_SS.key-metric",
-          "text": "关键监控指标详见tracking字段，定期跟踪验证",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "tracking indicators",
-              "weight": 0.85
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183.SS.ccl-high-frequency",
-          "text": "高频高速CCL（M6/M7/M8）产能释放是核心成长逻辑，AI驱动需求",
-          "status": "supported",
-          "confidence": 0.85,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "research-report",
-              "sourceId": "source.research.生益科技",
-              "path": "research/生益科技/",
-              "lines": "current_view",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        },
-        {
-          "id": "claim.600183_SS.bear-case",
-          "text": "技术面偏弱，基本面存在不确定性，需等待验证信号",
-          "status": "supported",
-          "confidence": 0.8,
-          "evidenceCount": 1,
-          "missingEvidence": false,
-          "evidence": [
-            {
-              "kind": "entity-summary",
-              "sourceId": "source.entities.investments",
-              "path": "entities/investments/",
-              "lines": "conclusion/tracking",
-              "weight": 0.8
-            }
-          ],
-          "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-05-29"
-        }
-      ]
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "freshnessLevel": "unknown",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "title": "红利ETF (515080.SS)",
@@ -5446,7 +4902,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-27T14:27:27.802Z",
+      "lastTouchedAt": "2026-06-04T09:30:34.082Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5465,7 +4921,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
+      "lastTouchedAt": "2026-06-04T09:48:45.749Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5578,7 +5034,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-05-29T16:44:50.033Z",
+      "lastTouchedAt": "2026-06-04T09:48:45.749Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5597,7 +5053,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T00:35:57.540Z",
+      "lastTouchedAt": "2026-06-04T09:48:45.749Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5616,7 +5072,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-03T00:03:40.336Z",
+      "lastTouchedAt": "2026-06-04T09:48:45.749Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5878,7 +5334,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-03-05T12:01:44.838Z",
       "claimCount": 0,
       "topClaims": []
@@ -5897,7 +5353,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-03-05T12:18:50.461Z",
       "claimCount": 0,
       "topClaims": []
@@ -5916,7 +5372,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-03-05T14:05:57.620Z",
       "claimCount": 0,
       "topClaims": []
@@ -10799,7 +10255,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-05T07:41:31.779Z",
       "claimCount": 0,
       "topClaims": []
@@ -10818,7 +10274,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-05T08:24:23.737Z",
       "claimCount": 0,
       "topClaims": []
@@ -10856,7 +10312,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-05T08:22:46.352Z",
       "claimCount": 0,
       "topClaims": []
@@ -10913,7 +10369,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-05T08:26:41.907Z",
       "claimCount": 0,
       "topClaims": []
@@ -10951,7 +10407,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-05T08:07:07.460Z",
       "claimCount": 0,
       "topClaims": []
@@ -13826,6 +13282,63 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-06-03-1115-b54afc42",
+      "title": "Memory Bridge (main): 2026-06-03-1115",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-06-03-1115-b54afc42.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T11:15:39.667Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-06-03-1445-4aa02e54",
+      "title": "Memory Bridge (main): 2026-06-03-1445",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-06-03-1445-4aa02e54.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T14:45:51.100Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-06-04-0003-d31805f4",
+      "title": "Memory Bridge (main): 2026-06-04-0003",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-06-04-0003-d31805f4.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-04T00:03:22.281Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-2d62c497",
       "title": "Memory Bridge (main): MEMORY",
       "kind": "source",
@@ -13840,7 +13353,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:13.317Z",
+      "lastTouchedAt": "2026-06-03T19:00:13.921Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -14200,7 +13713,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:10.281Z",
       "claimCount": 0,
       "topClaims": []
@@ -14757,6 +14270,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (main): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:14.288Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-dreaming-light-2026-04-18-9cc4db22",
       "title": "Memory Bridge (main): dreaming / light / 2026-04-18",
       "kind": "source",
@@ -15093,7 +14625,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:01.549Z",
       "claimCount": 0,
       "topClaims": []
@@ -15650,6 +15182,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (main): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:05.450Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-dreaming-rem-2026-04-18-22d21950",
       "title": "Memory Bridge (main): dreaming / rem / 2026-04-18",
       "kind": "source",
@@ -15986,7 +15537,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:02.927Z",
       "claimCount": 0,
       "topClaims": []
@@ -16543,6 +16094,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (main): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:10.609Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (main): event journal",
       "kind": "source",
@@ -16557,7 +16127,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:34.010Z",
+      "lastTouchedAt": "2026-06-03T19:00:14.290Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -17113,6 +16683,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (guardians-eye): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.347Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-light-2026-05-13-90ba810a",
       "title": "Memory Bridge (guardians-eye): dreaming / light / 2026-05-13",
       "kind": "source",
@@ -17527,6 +17116,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-06-02T19:00:15.373Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (guardians-eye): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.249Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -17949,6 +17557,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (guardians-eye): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.273Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (guardians-eye): event journal",
       "kind": "source",
@@ -17963,7 +17590,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:15.490Z",
+      "lastTouchedAt": "2026-06-03T19:00:16.348Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -18361,7 +17988,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:10.424Z",
       "claimCount": 0,
       "topClaims": []
@@ -18918,6 +18545,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (inbox-zero): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.654Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-light-2026-04-18-9cc4db22",
       "title": "Memory Bridge (inbox-zero): dreaming / light / 2026-04-18",
       "kind": "source",
@@ -19254,7 +18900,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:10.351Z",
       "claimCount": 0,
       "topClaims": []
@@ -19811,6 +19457,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (inbox-zero): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:14.494Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-rem-2026-04-18-22d21950",
       "title": "Memory Bridge (inbox-zero): dreaming / rem / 2026-04-18",
       "kind": "source",
@@ -20147,7 +19812,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-04T19:00:10.403Z",
       "claimCount": 0,
       "topClaims": []
@@ -20704,6 +20369,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (inbox-zero): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.398Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (inbox-zero): event journal",
       "kind": "source",
@@ -20718,7 +20402,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:14.976Z",
+      "lastTouchedAt": "2026-06-03T19:00:15.656Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -21103,6 +20787,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (sillytavern): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.392Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-light-2026-05-17-4f2fe13c",
       "title": "Memory Bridge (sillytavern): dreaming / light / 2026-05-17",
       "kind": "source",
@@ -21441,6 +21144,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-06-02T19:00:15.499Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (sillytavern): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.364Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -21787,6 +21509,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (sillytavern): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.374Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (sillytavern): event journal",
       "kind": "source",
@@ -21801,7 +21542,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:15.528Z",
+      "lastTouchedAt": "2026-06-03T19:00:16.393Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -21953,7 +21694,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:15.339Z",
+      "lastTouchedAt": "2026-06-03T19:00:16.216Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -22433,6 +22174,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (symptom-triage): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:16.227Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-light-2026-05-10-0af5f541",
       "title": "Memory Bridge (symptom-triage): dreaming / light / 2026-05-10",
       "kind": "source",
@@ -22904,6 +22664,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-06-02T19:00:15.164Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (symptom-triage): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.877Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -23383,6 +23162,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (symptom-triage): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.962Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (symptom-triage): event journal",
       "kind": "source",
@@ -23397,7 +23195,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:15.350Z",
+      "lastTouchedAt": "2026-06-03T19:00:16.228Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -23915,6 +23713,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-deep-2026-06-04-cf5e5336",
+      "title": "Memory Bridge (workflows): dreaming / deep / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.759Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-light-2026-05-08-7c110ab8",
       "title": "Memory Bridge (workflows): dreaming / light / 2026-05-08",
       "kind": "source",
@@ -24424,6 +24241,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-06-02T19:00:14.988Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-light-2026-06-04-865adf69",
+      "title": "Memory Bridge (workflows): dreaming / light / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-light-2026-06-04-865adf69.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.688Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -24941,6 +24777,25 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-rem-2026-06-04-dedb2a56",
+      "title": "Memory Bridge (workflows): dreaming / rem / 2026-06-04",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-03T19:00:15.721Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-worflows-c740ec03.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (workflows): event journal",
       "kind": "source",
@@ -24955,7 +24810,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-02T19:00:15.067Z",
+      "lastTouchedAt": "2026-06-03T19:00:15.762Z",
       "claimCount": 0,
       "topClaims": []
     },

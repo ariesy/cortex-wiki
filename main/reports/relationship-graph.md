@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-02T00:35:57.540Z
+updatedAt: 2026-06-04T09:48:45.749Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 127
+- Structured relationships: 118
 
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 中概互联网ETF (etf-component, weight 0.70, 中证500与中概互联网指数成分有交叉，AI主题外溢)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
@@ -58,14 +58,8 @@ updatedAt: 2026-06-02T00:35:57.540Z
 - [中国神华 (601088.SS)](entities/中国神华.md) -> 紫金矿业 (same-sector, weight 0.70, 能源矿业板块，高股息同类)
 - [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md) -> 京东集团 (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分股)
 - [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md) -> 小米集团 (etf-component, weight 0.90, 小米是港股中概互联网ETF成分股)
-- [中航沈飞 (600760.SS)](entities/中航沈飞.md) -> 中际旭创 (same-sector, weight 0.40, 同为A股军工/科技交叉概念)
 - [中证消费ETF（512600）投资跟踪](entities/中证消费ETF_512600.md) -> 五粮液（000858.SZ） (holding, weight 0.90, ETF第二大持仓（9.81%）)
 - [中证消费ETF（512600）投资跟踪](entities/中证消费ETF_512600.md) -> 贵州茅台（600519） (holding, weight 0.90, ETF第一大持仓（10.86%），白酒权重合计31.54%)
-- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> 兴森科技 (supply-chain-downstream, weight 0.60, 兴森封装基板用于光模块芯片封装)
-- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> 天孚通信 (supply-chain-upstream, weight 0.85, 天孚是旭创的光器件上游供应商)
-- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> 深南电路 (supply-chain-downstream, weight 0.60, 深南PCB用于光模块配套)
-- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> 深南电路 (same-sector-peer, confidence 0.80)
-- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> 芯片ETF (etf-component, weight 0.70, 光模块与芯片产业链高度相关)
 - [五粮液（000858.SZ）投资跟踪](entities/五粮液_000858.md) -> 招商银行 (same-sector, weight 0.50, 消费金融龙头，均有高股息属性)
 - [五粮液（000858.SZ）投资跟踪](entities/五粮液_000858.md) -> 贵州茅台 (competitor-in-same-sector, confidence 0.90)
 - [京东集团 (9618.HK)](entities/京东集团.md) -> 中概互联网ETF (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分)
@@ -117,9 +111,6 @@ updatedAt: 2026-06-02T00:35:57.540Z
 - [深南电路 (002916.SZ)](entities/深南电路.md) -> 芯片ETF (etf-component, weight 0.80, 深南是芯片ETF成分股)
 - [湖北宜化 (000422.SZ)](entities/湖北宜化.md) -> 阳煤化工 (same-sector, weight 0.80, 同为煤化工/磷化工，周期联动强)
 - [生物科技ETF (516500.SS)](entities/生物科技ETF.md) -> 医疗ETF (same-sector, weight 0.70, 生物科技与医疗健康主题高度重叠)
-- [生益科技 (600183.SS)](entities/生益科技.md) -> 兴森科技 (same-sector, weight 0.70, PCB/覆铜板产业链)
-- [生益科技 (600183.SS)](entities/生益科技.md) -> 深南电路 (same-sector, weight 0.70, 同为PCB/覆铜板产业链)
-- [生益科技 (600183.SS)](entities/生益科技.md) -> 芯片ETF (etf-component, weight 0.60, 高频高速CCL用于芯片产业链)
 - [相对改进评估](concepts/relative-improvement-evaluation.md) -> 企业Agent五层解法 (evaluation-framework, weight 0.80)
 - [红利ETF (515080.SS)](entities/红利ETF.md) -> 中国神华 (etf-component, weight 0.90, 中国神华是红利ETF核心成分股)
 - [红利ETF (515080.SS)](entities/红利ETF.md) -> 招商银行 (etf-component, weight 0.90, 招行是红利ETF核心成分股)

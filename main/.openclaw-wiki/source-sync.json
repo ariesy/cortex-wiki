@@ -5,16 +5,16 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-142ea9a2-memory-2d62c497.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace/MEMORY.md",
-      "sourceUpdatedAtMs": 1780426813317.8994,
-      "sourceSize": 11722,
+      "sourceUpdatedAtMs": 1780513213921.9634,
+      "sourceSize": 11898,
       "renderFingerprint": "53375d99e51fb7ce20f4b664ac051beb5288d463"
     },
     "/home/ariesy/.openclaw/workspace/memory/.dreams/events.jsonl": {
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-142ea9a2-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426834010.1628,
-      "sourceSize": 1578309,
+      "sourceUpdatedAtMs": 1780513214290.9858,
+      "sourceSize": 1620934,
       "renderFingerprint": "613fe3e19edeab157e55bbdd0b6e370ff0bbad62"
     },
     "/home/ariesy/.openclaw/workspace/memory/2026-02-22.md": {
@@ -4317,8 +4317,8 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-guardians-eye/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426815490.032,
-      "sourceSize": 92464,
+      "sourceUpdatedAtMs": 1780513216348.1113,
+      "sourceSize": 93137,
       "renderFingerprint": "7eeff17eca79f34370ca191e159221790126b5ff"
     },
     "/home/ariesy/.openclaw/workspace-guardians-eye/memory/2026-05-12-1218.md": {
@@ -4725,8 +4725,8 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-inbox-zero/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426814976.0005,
-      "sourceSize": 105369,
+      "sourceUpdatedAtMs": 1780513215656.069,
+      "sourceSize": 109317,
       "renderFingerprint": "27a7768cded861601e7a020f0bb84de47bf79f0a"
     },
     "/home/ariesy/.openclaw/workspace-inbox-zero/memory/2026-05-19-2339.md": {
@@ -5709,8 +5709,8 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-sillytavern/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426815528.0342,
-      "sourceSize": 24364,
+      "sourceUpdatedAtMs": 1780513216393.1143,
+      "sourceSize": 25030,
       "renderFingerprint": "6b0c493632b4726aa2611bd730a798735eae51a8"
     },
     "/home/ariesy/.openclaw/workspace-sillytavern/memory/2026-05-16-1102.md": {
@@ -5997,16 +5997,16 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-2d62c497.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-symptom-triage/MEMORY.md",
-      "sourceUpdatedAtMs": 1780426815339.0227,
-      "sourceSize": 3927,
+      "sourceUpdatedAtMs": 1780513216216.1033,
+      "sourceSize": 4190,
       "renderFingerprint": "1fcc134584ecc45c5eaab3622d2e814d991c49fe"
     },
     "/home/ariesy/.openclaw/workspace-symptom-triage/memory/.dreams/events.jsonl": {
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-symptom-triage/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426815350.0234,
-      "sourceSize": 68578,
+      "sourceUpdatedAtMs": 1780513216228.104,
+      "sourceSize": 75602,
       "renderFingerprint": "c1afb07bd05ae4a74e860bb9aebd335cc1d2d9b8"
     },
     "/home/ariesy/.openclaw/workspace-symptom-triage/memory/2026-05-09.md": {
@@ -6493,8 +6493,8 @@
       "group": "bridge",
       "pagePath": "sources/bridge-workspace-worflows-c740ec03-memory-dreams-events-jsonl-38a7dd37.md",
       "sourcePath": "/home/ariesy/.openclaw/workspace-worflows/memory/.dreams/events.jsonl",
-      "sourceUpdatedAtMs": 1780426815067.006,
-      "sourceSize": 24466,
+      "sourceUpdatedAtMs": 1780513215762.0757,
+      "sourceSize": 25123,
       "renderFingerprint": "922fe6b139fdfcd84fbafb7d98afb6c743feb47f"
     },
     "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/deep/2026-05-08.md": {
@@ -8136,6 +8136,174 @@
       "sourceUpdatedAtMs": 1780426815035.0042,
       "sourceSize": 128,
       "renderFingerprint": "80ab7ffb7f1254928260a807aea02ce3de74be43"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/2026-06-03-1115.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-2026-06-03-1115-b54afc42.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/2026-06-03-1115.md",
+      "sourceUpdatedAtMs": 1780485339667.8188,
+      "sourceSize": 5997,
+      "renderFingerprint": "dd0eb366184e572fb8b0ea026ff9dbc84bad2a0c"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/2026-06-03-1445.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-2026-06-03-1445-4aa02e54.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/2026-06-03-1445.md",
+      "sourceUpdatedAtMs": 1780497951100.9377,
+      "sourceSize": 147,
+      "renderFingerprint": "2b64c1f8985cf2fd0b37c79daa5322e0743dff7d"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/2026-06-04-0003.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-2026-06-04-0003-d31805f4.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/2026-06-04-0003.md",
+      "sourceUpdatedAtMs": 1780531402281.6375,
+      "sourceSize": 13961,
+      "renderFingerprint": "d20c803cbff997fa3cb009ec2fde4a541282ff7b"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513214288.9856,
+      "sourceSize": 155,
+      "renderFingerprint": "eca984796205051384f9633c8d127f720f2fcc90"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513205450.446,
+      "sourceSize": 31455,
+      "renderFingerprint": "123d77e528c87a5b162bf5bf889f2ec1ba845586"
+    },
+    "/home/ariesy/.openclaw/workspace/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513210609.761,
+      "sourceSize": 1270,
+      "renderFingerprint": "70ce7616e78f3bc3b6ba133fdf006aec3abecf69"
+    },
+    "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216347.1113,
+      "sourceSize": 104,
+      "renderFingerprint": "df4e0f8aa0ec68e137d84668db6374232bef8e3d"
+    },
+    "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216249.1055,
+      "sourceSize": 37,
+      "renderFingerprint": "d4fb4b656becd49b08104bcca5feaa40b9ad717c"
+    },
+    "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-guardians-eye/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216273.107,
+      "sourceSize": 1602,
+      "renderFingerprint": "7ae5c7bdb9e14ee9a1b5f8b52b867af0f49237a2"
+    },
+    "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215654.069,
+      "sourceSize": 104,
+      "renderFingerprint": "ed6de3c37dd3472af6c10a9803b28e5ff546bcca"
+    },
+    "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513214494.9983,
+      "sourceSize": 9320,
+      "renderFingerprint": "c52fe55c06bcdca43dc48916c180516b26a1f4cc"
+    },
+    "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-inbox-zero/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215398.0535,
+      "sourceSize": 1529,
+      "renderFingerprint": "76c82f33f46b8e27da93210900830a6d50511396"
+    },
+    "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216392.114,
+      "sourceSize": 103,
+      "renderFingerprint": "4551cc791d8dd958b1427c6843d31f4fa1f0fe56"
+    },
+    "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216364.1123,
+      "sourceSize": 37,
+      "renderFingerprint": "b18b0cc3dd45caf30cd561f8630a12cba145eef7"
+    },
+    "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-sillytavern/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216374.113,
+      "sourceSize": 128,
+      "renderFingerprint": "afe3adf7f51e7155f347f23074e24a5112e2e41f"
+    },
+    "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513216227.104,
+      "sourceSize": 155,
+      "renderFingerprint": "b8bdea07d38f4329f5447f3c95aa2363fce18894"
+    },
+    "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215877.0828,
+      "sourceSize": 31407,
+      "renderFingerprint": "4cc260378ffbb0501740b66e948628285b3766c8"
+    },
+    "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-symptom-triage/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215962.088,
+      "sourceSize": 1136,
+      "renderFingerprint": "242d00e67232f979dd30ad8dab54def9386a2ca8"
+    },
+    "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/deep/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-deep-2026-06-04-cf5e5336.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/deep/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215759.0754,
+      "sourceSize": 103,
+      "renderFingerprint": "0351af51033b4e2707a93f4b1bbfe393f80a2f5e"
+    },
+    "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/light/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-light-2026-06-04-865adf69.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/light/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215688.071,
+      "sourceSize": 37,
+      "renderFingerprint": "e6880e2ef8d35869c448656d519e07eb7dd671c5"
+    },
+    "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/rem/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-06-04-dedb2a56.md",
+      "sourcePath": "/home/ariesy/.openclaw/workspace-worflows/memory/dreaming/rem/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780513215721.0732,
+      "sourceSize": 128,
+      "renderFingerprint": "2cb99ea9d15779d651e4366162a30875f2c0c256"
     }
   }
 }

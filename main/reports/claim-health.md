@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-05-27T14:27:27.802Z
+updatedAt: 2026-06-04T09:30:34.082Z
 ---
 
 # Claim Health
