@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 289
+- Warnings: 270
 
 ### Warnings
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -61,7 +61,6 @@ status: active
 - `entities/sam-altman.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/SpaceX.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/stock-research-engine-analysis.md`: Broken wikilink target `../`.
 - `entities/stock-research-engine.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stubzero-google-cloud.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/superresearch.md`: Non-source page is missing `sourceIds` provenance.
@@ -334,24 +333,6 @@ status: active
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-17-4c983c0b.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-18-0a030fb8.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-19-c9e99dda.md`: Broken wikilink target `reply_to_current`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/investments/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/projects/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/tasks/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/concepts/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/bugs/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/persons/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/documents/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/people-fiction/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/books/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/investments/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/projects/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/tasks/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/concepts/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/bugs/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/persons/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/documents/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/books/`.
-- `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/people-fiction/`.
 
 ### Quality Follow-Up
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.

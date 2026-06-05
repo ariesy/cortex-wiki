@@ -99,3 +99,4 @@
 {"type":"compile","timestamp":"2026-06-05T16:35:24.732Z","details":{"pageCounts":{"entity":92,"concept":11,"source":1063,"synthesis":5,"report":10},"updatedFiles":[".openclaw-wiki/cache/agent-digest.json"]}}
 {"type":"lint","timestamp":"2026-06-05T16:35:38.491Z","details":{"issueCount":291,"reportPath":"reports/lint.md"}}
 {"type":"lint","timestamp":"2026-06-05T16:36:26.441Z","details":{"issueCount":289,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-06-05T16:50:16.536Z","details":{"issueCount":270,"reportPath":"reports/lint.md"}}

@@ -24,7 +24,7 @@ relationships:
 
 > entity_type: investment_stock
 
-**目录:** [返回投资列表](../)
+**目录:** 返回投资列表
 
 ---
 

@@ -12,13 +12,13 @@ sourceIds:
 
 > 从 memory/*.md 和 ontology graph.jsonl 中提取的关键实体汇总，便于快速查询和关联检索。
 
-**实体目录：** [投资](../entities/investments/) · [项目](../entities/projects/) · [任务](../entities/tasks/) · [概念](../entities/concepts/) · [Bug记录](../entities/bugs/) · [人物](../entities/persons/) · [文档](../entities/documents/) · [小说人物](../entities/people-fiction/) · [书籍](../entities/books/)
+**实体目录：** 投资 · 项目 · 任务 · 概念 · Bug记录 · 人物 · 文档 · 小说人物 · 书籍
 
 ---
 
 ## 📈 投资实体 (Investments)
 
-> [返回投资列表](../entities/investments/)
+> 返回投资列表
 
 | ID | 名称 | 代码 | 市场 | 评级/结论 | 来源 |
 |----|------|------|------|-----------|------|
@@ -34,7 +34,7 @@ sourceIds:
 
 ## 🔧 项目/技能 (Projects & Skills)
 
-> [返回项目列表](../entities/projects/)
+> 返回项目列表
 
 | ID | 名称 | 类型 | 状态 | 说明 |
 |----|------|------|------|------|
@@ -55,7 +55,7 @@ sourceIds:
 
 ## 📋 任务 (Tasks)
 
-> [返回任务列表](../entities/tasks/)
+> 返回任务列表
 
 | ID | 名称 | 状态 | 优先级 | 说明 |
 |----|------|------|--------|------|
@@ -66,7 +66,7 @@ sourceIds:
 
 ## 🧠 概念/模式 (Concepts & Patterns)
 
-> [返回概念列表](../entities/concepts/)
+> 返回概念列表
 
 | ID | 名称 | 说明 |
 |----|------|------|
@@ -83,7 +83,7 @@ sourceIds:
 
 ## 🐛 Bug记录 (Bugs)
 
-> [返回Bug列表](../entities/bugs/)
+> 返回Bug列表
 
 | ID | 名称 | 状态 | 说明 |
 |----|------|------|------|
@@ -99,7 +99,7 @@ sourceIds:
 
 ## 👤 人物 (Persons)
 
-> [返回人物列表](../entities/persons/)
+> 返回人物列表
 
 | ID | 名称 | 说明 |
 |----|------|------|
@@ -113,7 +113,7 @@ sourceIds:
 
 ## 📚 文档/笔记 (Documents)
 
-> [返回文档列表](../entities/documents/)
+> 返回文档列表
 
 | ID | 标题 | 类型 | 说明 |
 |----|------|------|------|
@@ -126,7 +126,7 @@ sourceIds:
 
 ## 📖 书籍/小说人物 (Books & Fiction)
 
-> [返回书籍列表](../entities/books/) · [返回小说人物](../entities/people-fiction/)
+> 返回书籍列表 · 返回小说人物
 
 | ID | 名称 | 类型 | 说明 |
 |----|------|------|------|
