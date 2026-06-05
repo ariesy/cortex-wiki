@@ -1,5 +1,6 @@
 ---
 pageType: entity
+id: entity:储能电池ETF
 
 entityType: investment_stock
 entity_type: investment_etf

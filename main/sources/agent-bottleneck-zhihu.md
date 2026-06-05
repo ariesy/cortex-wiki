@@ -1,4 +1,6 @@
 ---
+id: source:agent-bottleneck-zhihu
+pageType: source
 title: Agent目前最大的瓶颈是什么？ - 知乎回答
 author: 知乎用户（卡迪夫大学 高级计算机科学硕士）
 source: https://www.zhihu.com/question/1986872411988173762/answer/2044805817673709299

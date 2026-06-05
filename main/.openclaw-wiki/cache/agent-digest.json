@@ -367,6 +367,7 @@
       "topClaims": []
     },
     {
+      "id": "entity:002149.SZ_西部材料",
       "title": "西部材料 002149",
       "kind": "entity",
       "path": "entities/002149.SZ_西部材料.md",
@@ -378,11 +379,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:002735.SZ_王子新材",
       "title": "王子新材 002735",
       "kind": "entity",
       "path": "entities/002735.SZ_王子新材.md",
@@ -394,11 +397,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:002896.SZ_中大力德",
       "title": "中大力德 002896",
       "kind": "entity",
       "path": "entities/002896.SZ_中大力德.md",
@@ -410,11 +415,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:161017.SZ_富国中证500增强",
       "title": "161017.SZ_富国中证500增强",
       "kind": "entity",
       "path": "entities/161017.SZ_富国中证500增强.md",
@@ -560,6 +567,7 @@
       ]
     },
     {
+      "id": "entity:1810.HK_小米集团",
       "title": "1810.HK_小米集团",
       "kind": "entity",
       "path": "entities/1810.HK_小米集团.md",
@@ -684,6 +692,7 @@
       ]
     },
     {
+      "id": "entity:300144.SZ_宋城演艺",
       "title": "300144.SZ_宋城演艺",
       "kind": "entity",
       "path": "entities/300144.SZ_宋城演艺.md",
@@ -808,6 +817,7 @@
       ]
     },
     {
+      "id": "entity:300319.SZ_麦捷科技",
       "title": "麦捷科技 300319",
       "kind": "entity",
       "path": "entities/300319.SZ_麦捷科技.md",
@@ -819,11 +829,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:300353.SZ_东土科技",
       "title": "东土科技 300353",
       "kind": "entity",
       "path": "entities/300353.SZ_东土科技.md",
@@ -835,11 +847,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:600030.SS_中信证券",
       "title": "600030.SS_中信证券",
       "kind": "entity",
       "path": "entities/600030.SS_中信证券.md",
@@ -939,6 +953,7 @@
       ]
     },
     {
+      "id": "entity:600255.SH_鑫科材料",
       "title": "鑫科材料 600255",
       "kind": "entity",
       "path": "entities/600255.SH_鑫科材料.md",
@@ -950,11 +965,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:688017.SH_绿的谐波",
       "title": "绿的谐波 688017",
       "kind": "entity",
       "path": "entities/688017.SH_绿的谐波.md",
@@ -966,11 +983,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:688795.SH_摩尔线程",
       "title": "摩尔线程 688795",
       "kind": "entity",
       "path": "entities/688795.SH_摩尔线程.md",
@@ -982,11 +1001,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:914.HK_海螺水泥",
       "title": "914.HK_海螺水泥",
       "kind": "entity",
       "path": "entities/914.HK_海螺水泥.md",
@@ -2454,6 +2475,7 @@
       "topClaims": []
     },
     {
+      "id": "entity:中国神华",
       "title": "中国神华 (601088.SS)",
       "kind": "entity",
       "path": "entities/中国神华.md",
@@ -2585,6 +2607,7 @@
       ]
     },
     {
+      "id": "entity:中概互联网ETF",
       "title": "中概互联网ETF (513050.SS)",
       "kind": "entity",
       "path": "entities/中概互联网ETF.md",
@@ -2716,6 +2739,7 @@
       ]
     },
     {
+      "id": "entity:中航沈飞",
       "title": "中航沈飞 (600760.SS)",
       "kind": "entity",
       "path": "entities/中航沈飞.md",
@@ -2727,11 +2751,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:中证消费ETF_512600",
       "title": "中证消费ETF（512600）投资跟踪",
       "kind": "entity",
       "path": "entities/中证消费ETF_512600.md",
@@ -2960,6 +2986,7 @@
       ]
     },
     {
+      "id": "entity:五粮液_000858",
       "title": "五粮液（000858.SZ）投资跟踪",
       "kind": "entity",
       "path": "entities/五粮液_000858.md",
@@ -3052,6 +3079,7 @@
       ]
     },
     {
+      "id": "entity:京东集团",
       "title": "京东集团 (9618.HK)",
       "kind": "entity",
       "path": "entities/京东集团.md",
@@ -3183,6 +3211,7 @@
       ]
     },
     {
+      "id": "entity:储能电池ETF",
       "title": "储能电池ETF (159566.SZ)",
       "kind": "entity",
       "path": "entities/储能电池ETF.md",
@@ -3314,6 +3343,7 @@
       ]
     },
     {
+      "id": "entity:兆易创新",
       "title": "兆易创新 (603986.SH)",
       "kind": "entity",
       "path": "entities/兆易创新.md",
@@ -3452,6 +3482,7 @@
       ]
     },
     {
+      "id": "entity:兴森科技",
       "title": "兴森科技 (002436.SZ)",
       "kind": "entity",
       "path": "entities/兴森科技.md",
@@ -3590,6 +3621,7 @@
       ]
     },
     {
+      "id": "entity:医疗ETF",
       "title": "医疗ETF (512170.SS)",
       "kind": "entity",
       "path": "entities/医疗ETF.md",
@@ -3714,6 +3746,7 @@
       ]
     },
     {
+      "id": "entity:天孚通信",
       "title": "天孚通信 (300394.SZ)",
       "kind": "entity",
       "path": "entities/天孚通信.md",
@@ -3865,6 +3898,7 @@
       "topClaims": []
     },
     {
+      "id": "entity:招商银行",
       "title": "招商银行 (3968.HK)",
       "kind": "entity",
       "path": "entities/招商银行.md",
@@ -3964,6 +3998,7 @@
       ]
     },
     {
+      "id": "entity:民生银行_600016",
       "title": "民生银行（600016 / 01988.HK）投资跟踪",
       "kind": "entity",
       "path": "entities/民生银行_600016.md",
@@ -4063,6 +4098,7 @@
       ]
     },
     {
+      "id": "entity:泡泡玛特",
       "title": "泡泡玛特 (9992.HK)",
       "kind": "entity",
       "path": "entities/泡泡玛特.md",
@@ -4187,6 +4223,7 @@
       ]
     },
     {
+      "id": "entity:深南电路",
       "title": "深南电路 (002916.SZ)",
       "kind": "entity",
       "path": "entities/深南电路.md",
@@ -4300,6 +4337,7 @@
       ]
     },
     {
+      "id": "entity:湖北宜化",
       "title": "湖北宜化 (000422.SZ)",
       "kind": "entity",
       "path": "entities/湖北宜化.md",
@@ -4444,6 +4482,7 @@
       "topClaims": []
     },
     {
+      "id": "entity:生物科技ETF",
       "title": "生物科技ETF (516500.SS)",
       "kind": "entity",
       "path": "entities/生物科技ETF.md",
@@ -4568,6 +4607,7 @@
       ]
     },
     {
+      "id": "entity:生益科技",
       "title": "生益科技 (600183.SS)",
       "kind": "entity",
       "path": "entities/生益科技.md",
@@ -4579,11 +4619,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entity:红利ETF",
       "title": "红利ETF (515080.SS)",
       "kind": "entity",
       "path": "entities/红利ETF.md",
@@ -4729,6 +4771,7 @@
       ]
     },
     {
+      "id": "entity:紫金矿业",
       "title": "紫金矿业 (02899.HK / 601899.SS)",
       "kind": "entity",
       "path": "entities/紫金矿业.md",
@@ -4860,6 +4903,7 @@
       ]
     },
     {
+      "id": "entity:胜宏科技",
       "title": "胜宏科技 (300476.SZ)",
       "kind": "entity",
       "path": "entities/胜宏科技.md",
@@ -4945,6 +4989,7 @@
       ]
     },
     {
+      "id": "entity:芯片ETF",
       "title": "芯片ETF (159995.SZ)",
       "kind": "entity",
       "path": "entities/芯片ETF.md",
@@ -5058,6 +5103,7 @@
       ]
     },
     {
+      "id": "entity:贵州茅台_600519",
       "title": "贵州茅台（600519）投资跟踪",
       "kind": "entity",
       "path": "entities/贵州茅台_600519.md",
@@ -5150,6 +5196,7 @@
       ]
     },
     {
+      "id": "entity:阳煤化工",
       "title": "阳煤化工 (600691.SS)",
       "kind": "entity",
       "path": "entities/阳煤化工.md",
@@ -5463,6 +5510,7 @@
       "topClaims": []
     },
     {
+      "id": "source:agent-bottleneck-zhihu",
       "title": "Agent目前最大的瓶颈是什么？ - 知乎回答",
       "kind": "source",
       "path": "sources/agent-bottleneck-zhihu.md",
@@ -5474,6 +5522,7 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "source",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []

@@ -1,5 +1,6 @@
 ---
 pageType: entity
+id: entity:医疗ETF
 
 entityType: investment_stock
 entity_type: investment_etf

@@ -1,7 +1,6 @@
 ---
-
-
 pageType: entity
+id: entity:芯片ETF
 
 entityType: investment_stock
 entity_type: investment_etf
@@ -192,8 +191,6 @@ relationships:
       note: "芯片ETF持有中际旭创等光模块/算力芯片标的"
 
 updatedAt: "2026-05-29"
-
-
 ---
 
 

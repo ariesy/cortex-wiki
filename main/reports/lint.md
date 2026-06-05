@@ -9,51 +9,8 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 41
-- Warnings: 275
-
-### Errors
-- `entities/002149.SZ_西部材料.md`: Missing `id` frontmatter.
-- `entities/002149.SZ_西部材料.md`: Missing `pageType` frontmatter.
-- `entities/002896.SZ_中大力德.md`: Missing `id` frontmatter.
-- `entities/002896.SZ_中大力德.md`: Missing `pageType` frontmatter.
-- `entities/161017.SZ_富国中证500增强.md`: Missing `id` frontmatter.
-- `entities/1810.HK_小米集团.md`: Missing `id` frontmatter.
-- `entities/300144.SZ_宋城演艺.md`: Missing `id` frontmatter.
-- `entities/600030.SS_中信证券.md`: Missing `id` frontmatter.
-- `entities/688795.SH_摩尔线程.md`: Missing `id` frontmatter.
-- `entities/688795.SH_摩尔线程.md`: Missing `pageType` frontmatter.
-- `entities/914.HK_海螺水泥.md`: Missing `id` frontmatter.
-- `entities/中国神华.md`: Missing `id` frontmatter.
-- `entities/中概互联网ETF.md`: Missing `id` frontmatter.
-- `entities/中航沈飞.md`: Missing `id` frontmatter.
-- `entities/中航沈飞.md`: Missing `pageType` frontmatter.
-- `entities/中证消费ETF_512600.md`: Missing `id` frontmatter.
-- `entities/中际旭创.md`: Missing `id` frontmatter.
-- `entities/中际旭创.md`: Missing `pageType` frontmatter.
-- `entities/五粮液_000858.md`: Missing `id` frontmatter.
-- `entities/京东集团.md`: Missing `id` frontmatter.
-- `entities/储能电池ETF.md`: Missing `id` frontmatter.
-- `entities/兆易创新.md`: Missing `id` frontmatter.
-- `entities/兴森科技.md`: Missing `id` frontmatter.
-- `entities/医疗ETF.md`: Missing `id` frontmatter.
-- `entities/天孚通信.md`: Missing `id` frontmatter.
-- `entities/招商银行.md`: Missing `id` frontmatter.
-- `entities/民生银行_600016.md`: Missing `id` frontmatter.
-- `entities/泡泡玛特.md`: Missing `id` frontmatter.
-- `entities/深南电路.md`: Missing `id` frontmatter.
-- `entities/湖北宜化.md`: Missing `id` frontmatter.
-- `entities/生物科技ETF.md`: Missing `id` frontmatter.
-- `entities/生益科技.md`: Missing `id` frontmatter.
-- `entities/生益科技.md`: Missing `pageType` frontmatter.
-- `entities/红利ETF.md`: Missing `id` frontmatter.
-- `entities/紫金矿业.md`: Missing `id` frontmatter.
-- `entities/胜宏科技.md`: Missing `id` frontmatter.
-- `entities/芯片ETF.md`: Missing `id` frontmatter.
-- `entities/贵州茅台_600519.md`: Missing `id` frontmatter.
-- `entities/阳煤化工.md`: Missing `id` frontmatter.
-- `sources/agent-bottleneck-zhihu.md`: Missing `id` frontmatter.
-- `sources/agent-bottleneck-zhihu.md`: Missing `pageType` frontmatter.
+- Errors: 0
+- Warnings: 295
 
 ### Warnings
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -63,6 +20,8 @@ status: active
 - `entities/002149.SZ_西部材料.md`: Broken wikilink target `宝钛股份`.
 - `entities/002149.SZ_西部材料.md`: Broken wikilink target `西部超导`.
 - `entities/002149.SZ_西部材料.md`: Broken wikilink target `商业航天供应链`.
+- `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Broken wikilink target `宇树科技`.
@@ -74,7 +33,22 @@ status: active
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/300319.SZ_麦捷科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/300319.SZ_麦捷科技.md`: Page freshness needs review (missing updatedAt).
+- `entities/300353.SZ_东土科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/300353.SZ_东土科技.md`: Page freshness needs review (missing updatedAt).
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/600255.SH_鑫科材料.md`: Page freshness needs review (missing updatedAt).
+- `entities/688017.SH_绿的谐波.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/688017.SH_绿的谐波.md`: Page freshness needs review (missing updatedAt).
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `哈默纳科`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `中大力德`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `双环传动`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `宇树科技`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `智元机器人`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `特斯拉`.
+- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `人形机器人产业链`.
 - `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
 - `entities/688795.SH_摩尔线程.md`: Broken wikilink target `英伟达`.
@@ -101,8 +75,10 @@ status: active
 - `entities/investment-research-resources.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/investsignal-target-price-alert.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/karpathy-rss-20260523.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/mimo-v2.5.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/minimax-oauth.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/mmx-cli.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/moneyprinter-turbo.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/open-design.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
@@ -123,7 +99,6 @@ status: active
 - `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
 - `entities/中证消费ETF_512600.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中际旭创.md`: Page freshness needs review (missing updatedAt).
 - `entities/五粮液_000858.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
@@ -171,6 +146,7 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1234-eef5d964.md`: Page freshness needs review (last touched 2026-03-06T12:34:55.732Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1245-a6019761.md`: Page freshness needs review (last touched 2026-03-06T12:45:06.285Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1317-9794d8c9.md`: Page freshness needs review (last touched 2026-03-06T13:45:43.562Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-07-1450-f1db5967.md`: Page freshness needs review (last touched 2026-03-07T14:50:45.733Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Broken wikilink target `~/.nvm/versions/node/v24.13.1/lib/node_modules/openclaw/docs/tools/subagents.md`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
@@ -259,6 +235,7 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-25-0752-b19d8833.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-06-05-1354-0213dbcb.md`: Broken wikilink target `wikilinks`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
@@ -384,11 +361,16 @@ status: active
 
 ### Quality Follow-Up
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/300319.SZ_麦捷科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/300353.SZ_东土科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/688017.SH_绿的谐波.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/914.HK_海螺水泥.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/ai-news-phase2.md`: Non-source page is missing `sourceIds` provenance.
@@ -406,8 +388,10 @@ status: active
 - `entities/investment-research-resources.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/investsignal-target-price-alert.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/karpathy-rss-20260523.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/mimo-v2.5.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/minimax-oauth.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/mmx-cli.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/moneyprinter-turbo.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/open-design.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
@@ -449,12 +433,16 @@ status: active
 - `entities/贵州茅台_600519.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
+- `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
+- `entities/300319.SZ_麦捷科技.md`: Page freshness needs review (missing updatedAt).
+- `entities/300353.SZ_东土科技.md`: Page freshness needs review (missing updatedAt).
+- `entities/600255.SH_鑫科材料.md`: Page freshness needs review (missing updatedAt).
+- `entities/688017.SH_绿的谐波.md`: Page freshness needs review (missing updatedAt).
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
 - `entities/claude-code.md`: Page freshness needs review (missing updatedAt).
 - `entities/hermes-agent.md`: Page freshness needs review (missing updatedAt).
 - `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
-- `entities/中际旭创.md`: Page freshness needs review (missing updatedAt).
 - `entities/生益科技.md`: Page freshness needs review (missing updatedAt).
 - `sources/agent-bottleneck-zhihu.md`: Page freshness needs review (missing updatedAt).
 - `sources/bridge-workspace-142ea9a2-memory-2026-02-22-ade39143.md`: Page freshness needs review (last touched 2026-02-23T00:17:06.687Z).
@@ -480,4 +468,5 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1234-eef5d964.md`: Page freshness needs review (last touched 2026-03-06T12:34:55.732Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1245-a6019761.md`: Page freshness needs review (last touched 2026-03-06T12:45:06.285Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1317-9794d8c9.md`: Page freshness needs review (last touched 2026-03-06T13:45:43.562Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-07-1450-f1db5967.md`: Page freshness needs review (last touched 2026-03-07T14:50:45.733Z).
 <!-- openclaw:wiki:lint:end -->

@@ -1,5 +1,6 @@
 ---
 pageType: entity
+id: entity:生物科技ETF
 
 entityType: investment_stock
 entity_type: investment_etf
