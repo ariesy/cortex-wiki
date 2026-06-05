@@ -10,26 +10,15 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 295
+- Warnings: 289
 
 ### Warnings
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
-- `entities/002149.SZ_西部材料.md`: Broken wikilink target `SpaceX`.
-- `entities/002149.SZ_西部材料.md`: Broken wikilink target `蓝箭航天`.
-- `entities/002149.SZ_西部材料.md`: Broken wikilink target `宝钛股份`.
-- `entities/002149.SZ_西部材料.md`: Broken wikilink target `西部超导`.
-- `entities/002149.SZ_西部材料.md`: Broken wikilink target `商业航天供应链`.
 - `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `宇树科技`.
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `智元机器人`.
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `绿的谐波`.
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `双环传动`.
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `国茂股份`.
-- `entities/002896.SZ_中大力德.md`: Broken wikilink target `人形机器人产业链`.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
@@ -42,21 +31,8 @@ status: active
 - `entities/600255.SH_鑫科材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/688017.SH_绿的谐波.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/688017.SH_绿的谐波.md`: Page freshness needs review (missing updatedAt).
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `哈默纳科`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `中大力德`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `双环传动`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `宇树科技`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `智元机器人`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `特斯拉`.
-- `entities/688017.SH_绿的谐波.md`: Broken wikilink target `人形机器人产业链`.
 - `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `英伟达`.
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `寒武纪`.
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `海光信息`.
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `沐曦股份`.
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `壁仞科技`.
-- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `燧原科技`.
 - `entities/914.HK_海螺水泥.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/ai-news-phase2.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/autonomous-research-agents-survey-2026.md`: Non-source page is missing `sourceIds` provenance.
@@ -83,6 +59,7 @@ status: active
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/sam-altman.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/SpaceX.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Broken wikilink target `../`.
 - `entities/stock-research-engine.md`: Non-source page is missing `sourceIds` provenance.
@@ -101,18 +78,32 @@ status: active
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/五粮液_000858.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/人形机器人产业链.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兆易创新.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兴森科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/医疗ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/双环传动.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/哈默纳科.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/商业航天供应链.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/国茂股份.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/壁仞科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/天孚通信.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/宇树科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/宝钛股份.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/寒武纪.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/恒生科技ETF-513180.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/招商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/智元机器人.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/民生银行_600016.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/沐曦股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/泡泡玛特.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/海光信息.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/深南电路.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/湖北宜化.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/澜起科技-688008.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/燧原科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/特斯拉.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生物科技ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生益科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生益科技.md`: Page freshness needs review (missing updatedAt).
@@ -120,6 +111,9 @@ status: active
 - `entities/紫金矿业.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/胜宏科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/英伟达.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/蓝箭航天.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/西部超导.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/贵州茅台_600519.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
 - `sources/agent-bottleneck-zhihu.md`: Page freshness needs review (missing updatedAt).
@@ -396,6 +390,7 @@ status: active
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/sam-altman.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/SpaceX.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stubzero-google-cloud.md`: Non-source page is missing `sourceIds` provenance.
@@ -412,24 +407,41 @@ status: active
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/五粮液_000858.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/人形机器人产业链.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兆易创新.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兴森科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/医疗ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/双环传动.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/哈默纳科.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/商业航天供应链.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/国茂股份.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/壁仞科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/天孚通信.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/宇树科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/宝钛股份.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/寒武纪.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/恒生科技ETF-513180.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/招商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/智元机器人.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/民生银行_600016.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/沐曦股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/泡泡玛特.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/海光信息.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/深南电路.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/湖北宜化.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/澜起科技-688008.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/燧原科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/特斯拉.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生物科技ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/生益科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/红利ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/紫金矿业.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/胜宏科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/英伟达.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/蓝箭航天.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/西部超导.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/贵州茅台_600519.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).

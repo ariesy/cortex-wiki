@@ -93,3 +93,9 @@
 {"type":"lint","timestamp":"2026-06-05T16:23:34.464Z","details":{"issueCount":296,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-06-05T16:24:38.148Z","details":{"pageCounts":{"entity":74,"concept":11,"source":1063,"synthesis":5,"report":10},"updatedFiles":[".openclaw-wiki/cache/agent-digest.json"]}}
 {"type":"lint","timestamp":"2026-06-05T16:24:38.156Z","details":{"issueCount":295,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-06-05T16:33:22.299Z","details":{"pageCounts":{"entity":92,"concept":11,"source":1063,"synthesis":5,"report":10},"updatedFiles":["entities/SpaceX.md","entities/人形机器人产业链.md","entities/双环传动.md","entities/哈默纳科.md","entities/商业航天供应链.md","entities/国茂股份.md","entities/壁仞科技.md","entities/宇树科技.md","entities/宝钛股份.md","entities/寒武纪.md","entities/智元机器人.md","entities/沐曦股份.md","entities/海光信息.md","entities/燧原科技.md","entities/特斯拉.md","entities/英伟达.md","entities/蓝箭航天.md","entities/西部超导.md",".openclaw-wiki/cache/agent-digest.json","index.md","entities/index.md"]}}
+{"type":"lint","timestamp":"2026-06-05T16:33:27.755Z","details":{"issueCount":291,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-06-05T16:34:31.484Z","details":{"issueCount":291,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-06-05T16:35:24.732Z","details":{"pageCounts":{"entity":92,"concept":11,"source":1063,"synthesis":5,"report":10},"updatedFiles":[".openclaw-wiki/cache/agent-digest.json"]}}
+{"type":"lint","timestamp":"2026-06-05T16:35:38.491Z","details":{"issueCount":291,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-06-05T16:36:26.441Z","details":{"issueCount":289,"reportPath":"reports/lint.md"}}
