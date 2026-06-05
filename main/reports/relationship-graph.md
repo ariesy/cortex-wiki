@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-04T09:48:45.749Z
+updatedAt: 2026-06-05T16:13:53.935Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 118
+- Structured relationships: 123
 
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 中概互联网ETF (etf-component, weight 0.70, 中证500与中概互联网指数成分有交叉，AI主题外溢)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
@@ -41,10 +41,13 @@ updatedAt: 2026-06-04T09:48:45.749Z
 - [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md) -> InvestSignal (belongs-to, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md) -> AI内存短缺危机 (discusses, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md) -> StubZero Google Cloud RCE漏洞 (discusses, weight 0.90)
+- [MiMo V2.5](entities/mimo-v2.5.md) -> DeepSeek V4 (competitor, weight 0.80, 价格和能力上的直接竞品)
+- [MiMo V2.5](entities/mimo-v2.5.md) -> OpenClaw (used-by, weight 0.90, 作为OpenClaw的默认运行模型)
 - [MiniMaxQuota窗口时间不一致](concepts/minimax-quota-window.md) -> mmx-cli (documented-by, weight 0.80)
 - [MiniMax国内OAuth配置问题](entities/minimax-oauth.md) -> minimax-oauth (affects, weight 0.80)
 - [mmx-cli](entities/mmx-cli.md) -> MiniMaxQuota窗口时间不一致 (documents, weight 0.80)
 - [MOBI格式字体大小48px硬限制](entities/ebook-mobi-font-limit.md) -> ebook-mobi-font-limit (affects, weight 0.80)
+- [MoneyPrinterTurbo](entities/moneyprinter-turbo.md) -> 守护眼公众号 (potential-tool, weight 0.50, 可用于守护眼批量生产短视频内容)
 - [payslip任务crontab路径错误](entities/payslip-crontab-path.md) -> payslip-crontab-path (affects, weight 0.80)
 - [Sam Altman](entities/sam-altman.md) -> Altman威胁模型论 (holds-view, weight 0.90)
 - [stock-research-engine](entities/stock-research-engine.md) -> InvestSignal (related-system, weight 0.70, InvestSignal关注信号，此框架关注分析)
@@ -60,6 +63,8 @@ updatedAt: 2026-06-04T09:48:45.749Z
 - [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md) -> 小米集团 (etf-component, weight 0.90, 小米是港股中概互联网ETF成分股)
 - [中证消费ETF（512600）投资跟踪](entities/中证消费ETF_512600.md) -> 五粮液（000858.SZ） (holding, weight 0.90, ETF第二大持仓（9.81%）)
 - [中证消费ETF（512600）投资跟踪](entities/中证消费ETF_512600.md) -> 贵州茅台（600519） (holding, weight 0.90, ETF第一大持仓（10.86%），白酒权重合计31.54%)
+- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> HBM存储芯片短缺 (related-sector, weight 0.60, 同属AI算力基建产业链)
+- [中际旭创 (300308.SZ)](entities/中际旭创.md) -> MiMo V2.5 (relates-to, weight 0.30, AI算力需求驱动光模块增长)
 - [五粮液（000858.SZ）投资跟踪](entities/五粮液_000858.md) -> 招商银行 (same-sector, weight 0.50, 消费金融龙头，均有高股息属性)
 - [五粮液（000858.SZ）投资跟踪](entities/五粮液_000858.md) -> 贵州茅台 (competitor-in-same-sector, confidence 0.90)
 - [京东集团 (9618.HK)](entities/京东集团.md) -> 中概互联网ETF (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分)

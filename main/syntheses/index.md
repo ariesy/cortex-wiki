@@ -20,4 +20,5 @@ updatedAt: "2026-05-29"
 - [Enterprise Agent: Clean World vs Dirty World](syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
 - [Entities Wiki - 实体汇总](syntheses/entities-from-memory.md)
 - [实体提取汇总 2026-05-29](syntheses/entity-extract-2026-05-29.md)
+- [实体提取汇总 2026-06-05](syntheses/实体提取汇总-2026-06-05.md)
 <!-- openclaw:wiki:syntheses:index:end -->

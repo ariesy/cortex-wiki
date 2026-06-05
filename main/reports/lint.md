@@ -9,14 +9,20 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 35
-- Warnings: 244
+- Errors: 41
+- Warnings: 275
 
 ### Errors
+- `entities/002149.SZ_西部材料.md`: Missing `id` frontmatter.
+- `entities/002149.SZ_西部材料.md`: Missing `pageType` frontmatter.
+- `entities/002896.SZ_中大力德.md`: Missing `id` frontmatter.
+- `entities/002896.SZ_中大力德.md`: Missing `pageType` frontmatter.
 - `entities/161017.SZ_富国中证500增强.md`: Missing `id` frontmatter.
 - `entities/1810.HK_小米集团.md`: Missing `id` frontmatter.
 - `entities/300144.SZ_宋城演艺.md`: Missing `id` frontmatter.
 - `entities/600030.SS_中信证券.md`: Missing `id` frontmatter.
+- `entities/688795.SH_摩尔线程.md`: Missing `id` frontmatter.
+- `entities/688795.SH_摩尔线程.md`: Missing `pageType` frontmatter.
 - `entities/914.HK_海螺水泥.md`: Missing `id` frontmatter.
 - `entities/中国神华.md`: Missing `id` frontmatter.
 - `entities/中概互联网ETF.md`: Missing `id` frontmatter.
@@ -50,10 +56,33 @@ status: active
 - `sources/agent-bottleneck-zhihu.md`: Missing `pageType` frontmatter.
 
 ### Warnings
+- `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
+- `entities/002149.SZ_西部材料.md`: Broken wikilink target `SpaceX`.
+- `entities/002149.SZ_西部材料.md`: Broken wikilink target `蓝箭航天`.
+- `entities/002149.SZ_西部材料.md`: Broken wikilink target `宝钛股份`.
+- `entities/002149.SZ_西部材料.md`: Broken wikilink target `西部超导`.
+- `entities/002149.SZ_西部材料.md`: Broken wikilink target `商业航天供应链`.
+- `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `宇树科技`.
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `智元机器人`.
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `绿的谐波`.
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `双环传动`.
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `国茂股份`.
+- `entities/002896.SZ_中大力德.md`: Broken wikilink target `人形机器人产业链`.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `英伟达`.
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `寒武纪`.
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `海光信息`.
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `沐曦股份`.
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `壁仞科技`.
+- `entities/688795.SH_摩尔线程.md`: Broken wikilink target `燧原科技`.
 - `entities/914.HK_海螺水泥.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/ai-news-phase2.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/autonomous-research-agents-survey-2026.md`: Non-source page is missing `sourceIds` provenance.
@@ -134,6 +163,14 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1201-847bf61f.md`: Page freshness needs review (last touched 2026-03-05T12:01:44.838Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1218-35b6bac2.md`: Page freshness needs review (last touched 2026-03-05T12:18:50.461Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1405-ef66fbcc.md`: Page freshness needs review (last touched 2026-03-05T14:05:57.620Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1151-14820a7a.md`: Page freshness needs review (last touched 2026-03-06T11:51:35.531Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1152-430ae1aa.md`: Page freshness needs review (last touched 2026-03-06T11:52:10.567Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1158-ce4cc7ca.md`: Page freshness needs review (last touched 2026-03-06T11:58:14.331Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1207-36faf5e8.md`: Page freshness needs review (last touched 2026-03-06T12:07:03.149Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1210-1540c15b.md`: Page freshness needs review (last touched 2026-03-06T12:10:44.589Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1234-eef5d964.md`: Page freshness needs review (last touched 2026-03-06T12:34:55.732Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1245-a6019761.md`: Page freshness needs review (last touched 2026-03-06T12:45:06.285Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1317-9794d8c9.md`: Page freshness needs review (last touched 2026-03-06T13:45:43.562Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Broken wikilink target `~/.nvm/versions/node/v24.13.1/lib/node_modules/openclaw/docs/tools/subagents.md`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
@@ -346,10 +383,13 @@ status: active
 - `syntheses/entities-from-memory.md`: Broken wikilink target `../entities/people-fiction/`.
 
 ### Quality Follow-Up
+- `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/914.HK_海螺水泥.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/ai-news-phase2.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/autonomous-research-agents-survey-2026.md`: Non-source page is missing `sourceIds` provenance.
@@ -408,6 +448,9 @@ status: active
 - `entities/芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/贵州茅台_600519.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
+- `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
+- `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
 - `entities/claude-code.md`: Page freshness needs review (missing updatedAt).
 - `entities/hermes-agent.md`: Page freshness needs review (missing updatedAt).
 - `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
@@ -429,4 +472,12 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1201-847bf61f.md`: Page freshness needs review (last touched 2026-03-05T12:01:44.838Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1218-35b6bac2.md`: Page freshness needs review (last touched 2026-03-05T12:18:50.461Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-05-1405-ef66fbcc.md`: Page freshness needs review (last touched 2026-03-05T14:05:57.620Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1151-14820a7a.md`: Page freshness needs review (last touched 2026-03-06T11:51:35.531Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1152-430ae1aa.md`: Page freshness needs review (last touched 2026-03-06T11:52:10.567Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1158-ce4cc7ca.md`: Page freshness needs review (last touched 2026-03-06T11:58:14.331Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1207-36faf5e8.md`: Page freshness needs review (last touched 2026-03-06T12:07:03.149Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1210-1540c15b.md`: Page freshness needs review (last touched 2026-03-06T12:10:44.589Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1234-eef5d964.md`: Page freshness needs review (last touched 2026-03-06T12:34:55.732Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1245-a6019761.md`: Page freshness needs review (last touched 2026-03-06T12:45:06.285Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-06-1317-9794d8c9.md`: Page freshness needs review (last touched 2026-03-06T13:45:43.562Z).
 <!-- openclaw:wiki:lint:end -->
