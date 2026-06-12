@@ -1,8 +1,8 @@
 ---
 pageType: synthesis
 id: synthesis.entities-from-memory
-title: "Entities Wiki - 实体汇总"
-updatedAt: "2026-05-29"
+title: Entities Wiki - 实体汇总
+updatedAt: 2026-06-09T00:52:55.630Z
 sourceIds:
   - source.bridge.workspace-142ea9a2.memory-2026-04-19-investment-research-resources
   - source.bridge.workspace-142ea9a2.memory-2026-05-17-mmx-quota-query
@@ -29,6 +29,7 @@ sourceIds:
 | `etf_513180_hstech` | 华夏恒生科技ETF | 513180 | A股(QDII) | 低估值+高增长组合 | stock-research-engine |
 | `etf_513050_china_internet` | 中概互联网ETF | 513050.SS | A股 | 目标1.27/1.31/1.46，止损1.19 | 4周研究汇总 |
 | `stock_159995_chip_etf` | 华夏芯片ETF | 159995.SZ | A股 | 减持，RSI 71.88超买 | stock-research-engine |
+| `etf_515790_photovoltaic` | 光伏ETF | 515790.SS | A股 | 低配(Underweight)，目标1.07，止损1.003 | stock-research-engine + TradingAgents |
 
 ---
 

@@ -21,6 +21,7 @@
 - [AI内存短缺危机](concepts/hbm-memory-shortage.md)
 - [AI对冲基金多Agent风格分类](concepts/ai-hedge-fund-agent-styles.md)
 - [Altman威胁模型论](concepts/altman-threat-model.md)
+- [Deep Research 工具全景](concepts/deep-research-tools.md)
 - [MiniMaxQuota窗口时间不一致](concepts/minimax-quota-window.md)
 - [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md)
 - [企业Agent五层解法](concepts/five-layer-solution.md)

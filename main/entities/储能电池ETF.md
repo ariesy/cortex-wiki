@@ -1,200 +1,109 @@
 ---
 pageType: entity
-id: entity:储能电池ETF
-
-entityType: investment_stock
-entity_type: investment_etf
-
-privacyTier: public
-ticker: 159566.SZ
-
-name: 储能电池ETF
-sector: 新能源电池
-
-last_updated: '2026-05-06'
-status: actively_tracking
-
-current_view: '跟踪中证新能源电池指数，MACD柱状图衰减超90%、RSI顶背离显示短期动量枯竭，在阻力位2.40元附近徘徊。风险回报比不利：上行空间仅2.6%，下行风险3.7%。建议减持40-50%。
-
-  '
-catalysts:
-- date: 2026-05
-
-  event: 关注是否突破2.40元历史阻力位
-  type: 验证节点
-
-  direction: 待观察
-  status: pending
-- date: 2026-05
-
-  event: AI热潮外溢效应
-  type: 政策
-
-  direction: 利多
-  status: pending
-- date: 2026-05
-
-  event: Sell in May效应
-  type: 政策
-
-  direction: 利空
-  status: pending
-tracking:
-- indicator: MACD柱状图
-
-  latest_value: '+0.002'
-  latest_date: '2026-05-06'
-
-  status: worsening
-  note: 从+0.023暴跌至+0.002，衰减超90%
-- indicator: RSI顶背离
-
-  latest_value: '55.23'
-  latest_date: '2026-05-06'
-
-  status: worsening
-  note: 价格更高但RSI更低
-- indicator: ATR
-
-  latest_value: '0.064'
-  latest_date: '2026-05-06'
-
-  status: stable
-  note: 极低波动，酝酿变盘
-- indicator: 50日均线vs200日均线
-
-  latest_value: 黄金交叉完好
-  latest_date: '2026-05-06'
-
-  status: stable
-  note: 50日(2.246) > 200日(1.991)
-
-conclusion: '储能电池ETF在2.40元历史阻力位前显示多重短期下行信号：MACD柱状图崩溃、RSI顶背离、风险回报比差于1:1。建议立即减持40-50%，限价买单设于2.27元和2.25元，硬性止损1.98元。若放量突破2.42元则回调评级至"超配"。
-
-  '
-reports:
-- path: research/储能电池ETF_159566.SZ/2026-05-06_summary.md
-
-  date: '2026-05-06'
-  type: ETF
-claims:
-- id: claim.159566.SZ.battery-demand
-
-  text: 新能源电池产业链长期受益于储能需求爆发，赛道长期向好
-  status: supported
-
-  confidence: 0.8
-  evidence:
-  - kind: industry-data
-
-    sourceId: source.research.储能电池ETF
-    path: research/储能电池ETF/
-
-    lines: current_view
-    weight: 0.8
-- id: claim.159566.SZ.risk-reward
-
-  text: MACD柱状图衰减超90%，RSI顶背离，上行空间仅2.6%但下行风险3.7%，风险回报比不利
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: technical-analysis
-
-    sourceId: source.research.储能电池ETF
-    path: research/储能电池ETF/
-
-    lines: current_view
-    weight: 0.8
-- id: claim.159566_SZ.bull-case
-
-  text: 跟踪中证新能源电池指数，MACD柱状图衰减超90%、RSI顶背离显示短期动量枯竭，在阻力位2.40元附近徘徊。风险回报比不利：上行空间仅2.6%，下行风险3.7%。建议减持40-50%。
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: current_view
-    weight: 0.9
-- id: claim.159566_SZ.bear-case
-
-  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
-  status: supported
-
-  confidence: 0.8
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: conclusion/tracking
-    weight: 0.8
-- id: claim.159566_SZ.key-metric
-
-  text: 关键监控指标详见tracking字段，定期跟踪验证
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: tracking indicators
-    weight: 0.85
-relationships:
-- targetId: 兆易创新
-
-  targetTitle: 兆易创新
-  kind: etf-component
-
-  weight: 0.5
-  note: 储能BMS芯片相关
-- targetId: 生物科技ETF
-
-  targetTitle: 生物科技ETF
-  kind: competitor
-
-  weight: 0.4
-  note: 同为新能源/生物科技主题ETF
-updatedAt: "2026-05-29"
+id: entity.储能电池ETF-159566.SZ
+updatedAt: 2026-06-09T00:52:16.796Z
 ---
+
 # 储能电池ETF (159566.SZ)
 
-## 基础数据
+## 基础数据（更新于 2026-06-08）
 
 | 指标 | 数据 |
 |------|------|
-| 基金名称 | 华夏国证新能源电池ETF |
-| 跟踪指数 | 中证新能源电池指数 |
-| 52周最高 | 2.408元 |
-| 52周最低 | 1.230元 |
-| 当前价格 | ~2.33元 |
-| 50日均线 | 2.246元 |
-| 200日均线 | 1.991元 |
-| 布林带上轨 | 2.484元 |
+| 基金名称 | 易方达国证新能源电池ETF |
+| 跟踪指数 | 国证新能源电池指数（980027） |
+| 成立日 | 2024-01-30 |
+| 管理人 | 易方达基金 |
+| 管理费/托管费 | 0.50%/0.10%（同类最低档） |
+| 最新市价 | 2.194元（6月5日收盘） |
+| 单位净值 | 2.195元（6月4日） |
+| 基金规模 | 65.02亿元 |
+| 份额 | 28.98亿份 |
+| 52周最高 | 2.51元 |
+| 52周最低 | 1.23元 |
+| 近2年净值涨幅 | 99.31%（排名前18.36%） |
+| 近1年夏普比率 | 2.08（可比基金第1） |
+| 联接基金 | A类 021033 / C类 021034 |
+
+### 前十大权重股（合计占比57.85%）
+宁德时代、阳光电源、亿纬锂能、德业股份、英维克、麦格米特、国轩高科、科达利、欣旺达、鹏辉能源
+
+### 最新技术指标（6月5日收盘）
+| 指标 | 当前值 | 方向 |
+|------|--------|------|
+| 10日EMA | 2.3226 | ↓ |
+| 50日SMA | 2.3109 | ↑趋缓 |
+| 200日SMA | 2.1064 | ↑ |
+| MACD | -0.0151 | ↓ 已转负 |
+| RSI(14) | 35.62 | ↓ 接近超卖 |
+| 布林带中轨 | 2.3818 | ↓ |
 
 ## 投资逻辑
 
-**核心逻辑：** 全球AI军备竞赛+新能源车渗透率提升+储能需求爆发，长期结构性利好。
+**核心逻辑：** 全球储能超级周期 + AI数据中心配储需求 + 新能源电池技术迭代，长期结构性利好。
 
-**核心看点：**
-1. 50日均线>200日均线，黄金交叉长期支撑
-2. 全球AI热潮利好新能源电池供应链
-3. ATR极低波动，酝酿方向性突破
+**三重增长引擎：**
+1. **国内独立储能爆发**：政策取消强制配储，储能成为独立市场主体，2026年1-2月新增装机同比暴增472%
+2. **AIDC配储**：AI训练集群电力消耗达传统数据中心数十倍，储能从"备电配角"跃升为"基础设施"。2030年中国数据中心储能市场空间预计达98.8GWh（CAGR 49%）
+3. **海外储能需求**：中国储能电池出口占比超50%，欧洲/澳洲/新兴市场持续高增
+
+**行业数据（2026年）：**
+- Q1全球储能出货100GWh，同比+96.5%
+- Q1中国储能电池出货215GWh，同比+139%
+- 6月排产约268GWh（全球），环比+7.6%，储能占比41.4%
+- 头部企业订单排产至2026年底至2027年Q2
+- 碳酸锂价格企稳在17.97万元/吨
+
+## stock-research-engine 分析（2026-06-08）
+
+**定位：** 全球储能超级周期的Beta工具
+
+**核心判断：**
+- 储能电池行业基本面强劲，Q1数据全面超预期
+- AIDC+海外市场双轮驱动的中长期逻辑清晰
+- 行业龙头PE 20-25倍处于全周期合理中枢水平
+- 短期涨幅已不小，当前价格处于一年区间偏高位
+
+**估值参考：**
+- 宁德时代PE(TTM)约20-25倍
+- 阳光电源PE(TTM)约25-30倍
+- 亿纬锂能PE(TTM)约18-22倍
+
+**建议：** 中长期配置价值明确，短期追高需谨慎，建议关注回调后的机会。可作为"AI能源基础设施"方向的配置。
+
+## TradingAgents 多智能体分析（2026-06-08）
+
+**评级：减持（Underweight）| 目标价：2.35元 | 时间维度：3-6个月**
+
+### 分析师团队结论
+- **技术面**：短期明确看空，MACD自2025年9月以来首次跌破零轴，价格跌破50日均线
+- **情绪面**：中性（信息真空状态，无明确催化剂）
+- **宏观面**：中东冲突短期推升避险情绪，资金从高估值风险资产流出
+- **基本面**：行业景气度创新高，但A股ETF数据覆盖有限
+
+### 多空辩论核心
+- **熊方胜出**：MACD零轴下方加速（空头动能无衰竭）、放量下跌=机构被迫减仓、2.08前低失守后下方缺支撑、中东冲突短期利空
+- **保留部分仓位依据**：200日均线尚未失守（牛市结构完好）、RSI 35.6接近超卖（技术性反弹概率40%）、行业长期趋势未变
+
+### 三大情景推演
+| 情景 | 概率 | 触发条件 | 目标位 |
+|------|------|----------|--------|
+| 继续下探 | 45% | RSI<30，价格跌破2.10 | 2.00-2.05 |
+| 技术性反弹 | 40% | RSI在30-35获支撑，MACD柱收窄 | 2.31-2.38 |
+| V型反转 | 15% | 突发利好或市场情绪逆转 | 快速收复2.40以上 |
+
+### 操作建议
+- **已持仓者**：减持至正常配置的50%-60%，2.08元设硬止损
+- **空仓者**：持币观望，等待RSI超卖+底背离 或 价格站上50日均线+MACD金叉
+- **风险监控**：周线收盘跌破2.10元则评级下调至卖出（Sell）
 
 ## 风险提示
 
-- MACD柱状图衰减超90%，动量枯竭
-- RSI顶背离，价格更高但动能更弱
-- 2.40元历史阻力位多次被拒
-- 风险回报比差于1:1（上行2.6% vs 下行3.7%）
+- **技术风险**：MACD已转负，空头动能加速释放，短期趋势明确向下
+- **流动性风险**：放量下跌指向机构被迫减仓，2.08前低位置易成为流动性陷阱
+- **宏观风险**：中东冲突推升避险情绪，资金从高估值板块流出
+- **估值风险**：短期涨幅已大，当前价格处于一年区间偏高位
+- **行业风险**：若全球储能投资放缓或AI泡沫破裂，将直接冲击行业估值
 
 ## Related
 <!-- openclaw:wiki:related:start -->

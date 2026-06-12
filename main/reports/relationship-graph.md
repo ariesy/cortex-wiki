@@ -3,15 +3,18 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-05T16:13:53.935Z
+updatedAt: 2026-06-12T13:04:48.687Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 123
+- Structured relationships: 132
 
+- [1398.HK_工商银行](entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
+- [1398.HK_工商银行](entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
+- [1398.HK_工商银行](entities/1398.HK_工商银行.md) -> 建设银行 (peer_comparison, weight 0.90, 四大行同业，建行NIM更高（1.36% vs 1.29%）、ROE更优)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 中概互联网ETF (etf-component, weight 0.70, 中证500与中概互联网指数成分有交叉，AI主题外溢)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
 - [161017.SZ_富国中证500增强](entities/161017.SZ_富国中证500增强.md) -> 红利ETF (etf-component, weight 0.50, 高股息策略交叉覆盖)
@@ -49,6 +52,8 @@ updatedAt: 2026-06-05T16:13:53.935Z
 - [MOBI格式字体大小48px硬限制](entities/ebook-mobi-font-limit.md) -> ebook-mobi-font-limit (affects, weight 0.80)
 - [MoneyPrinterTurbo](entities/moneyprinter-turbo.md) -> 守护眼公众号 (potential-tool, weight 0.50, 可用于守护眼批量生产短视频内容)
 - [payslip任务crontab路径错误](entities/payslip-crontab-path.md) -> payslip-crontab-path (affects, weight 0.80)
+- [PDD Holdings (拼多多)](entities/PDD-Holdings-拼多多.md) -> 中概互联网ETF (513050) (constituent, weight 0.70, PDD是中概互联网ETF的成分股之一)
+- [PDD Holdings (拼多多)](entities/PDD-Holdings-拼多多.md) -> 黄金ETF (alternatives, weight 0.30, 同为避险/配置类资产讨论中的标的)
 - [Sam Altman](entities/sam-altman.md) -> Altman威胁模型论 (holds-view, weight 0.90)
 - [stock-research-engine](entities/stock-research-engine.md) -> InvestSignal (related-system, weight 0.70, InvestSignal关注信号，此框架关注分析)
 - [stock-research-engine](entities/stock-research-engine.md) -> tradingagents (similar-approach, weight 0.80, 同为AI Agent投资分析系统)
@@ -74,8 +79,6 @@ updatedAt: 2026-06-05T16:13:53.935Z
 - [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md) -> 企业Agent五层解法 (problem-solution, weight 1.00)
 - [企业Agent五层解法](concepts/five-layer-solution.md) -> Agent 干净世界 vs 脏世界 (solution-framework, weight 1.00)
 - [企业Agent五层解法](concepts/five-layer-solution.md) -> 企业Agent五堵墙 (solution-to, weight 1.00)
-- [储能电池ETF (159566.SZ)](entities/储能电池ETF.md) -> 兆易创新 (etf-component, weight 0.50, 储能BMS芯片相关)
-- [储能电池ETF (159566.SZ)](entities/储能电池ETF.md) -> 生物科技ETF (competitor, weight 0.40, 同为新能源/生物科技主题ETF)
 - [兆易创新 (603986.SH)](entities/兆易创新.md) -> 兴森科技 (supply-chain-downstream, weight 0.50, 封装基板用于存储芯片封装)
 - [兆易创新 (603986.SH)](entities/兆易创新.md) -> 深南电路 (supply-chain-downstream, weight 0.50, 存储芯片封装基板配套)
 - [兆易创新 (603986.SH)](entities/兆易创新.md) -> 芯片ETF (etf-component, weight 0.90, 兆易是芯片ETF核心成分股之一)
@@ -95,6 +98,12 @@ updatedAt: 2026-06-05T16:13:53.935Z
 - [实体提取汇总 2026-05-29](syntheses/entity-extract-2026-05-29.md) -> MiniMax OAuth Bug (relates-to, weight 0.50, SDK兼容性问题的同类bug)
 - [实体提取汇总 2026-05-29](syntheses/entity-extract-2026-05-29.md) -> 五粮液 (references-in-synthesis, weight 0.60, 五粮液与茅台同业竞争关系在P0工作流中建立)
 - [实体提取汇总 2026-05-29](syntheses/entity-extract-2026-05-29.md) -> 贵州茅台 (references-in-synthesis, weight 0.70, 茅台作为关键投资标的在P0工作流中被优先处理)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> Deep Research 工具全景 (references-in-synthesis, weight 0.60, 本轮新增concept，AI深度研究工具全景梳理)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> PDD Holdings (拼多多) (references-in-synthesis, weight 0.80, 本轮新增entity，基于stock-research-engine深度分析)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> 上证50AH优选指数A (references-in-synthesis, weight 0.60, 6月9日更新entity，AH溢价收窄分析)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> 科创50ETF (588080) (references-in-synthesis, weight 0.70, 今日更新entity，补充stock-research-engine分析)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> 美团-W (03690.HK) (references-in-synthesis, weight 0.50, 6月8日更新entity，外卖竞争格局分析)
+- [实体提取汇总 2026-06-12](syntheses/entity-extract-2026-06-12.md) -> 黄金ETF (references-in-synthesis, weight 0.50, 6月8日更新entity，Polymarket黄金预测+ETF分析)
 - [招商银行 (3968.HK)](entities/招商银行.md) -> 民生银行 (same-sector, weight 0.80, 同为港股银行，资产质量对比)
 - [招商银行 (3968.HK)](entities/招商银行.md) -> 红利ETF (etf-component, weight 0.80, 招行是红利ETF高股息成分股)
 - [招商银行 (3968.HK)](entities/招商银行.md) -> 红利ETF (constituent-of, confidence 0.85)
