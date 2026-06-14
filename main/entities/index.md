@@ -61,6 +61,7 @@
 - [光伏ETF (515790.SS)](entities/光伏ETF-515790.SS.md)
 - [兴森科技 (002436.SZ)](entities/兴森科技.md)
 - [医疗ETF (512170.SS)](entities/医疗ETF.md)
+- [华泰证券 601688.SS](entities/601688.SS_华泰证券.md)
 - [双环传动 002472.SZ](entities/双环传动.md)
 - [哈默纳科 Harmonic Drive](entities/哈默纳科.md)
 - [商业航天供应链](entities/商业航天供应链.md)

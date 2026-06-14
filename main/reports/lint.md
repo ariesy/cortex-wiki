@@ -10,14 +10,13 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 1
-- Warnings: 310
+- Warnings: 309
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
 
 ### Warnings
 - `concepts/deep-research-tools.md`: Non-source page is missing `sourceIds` provenance.
-- `concepts/deep-research-tools.md`: Page freshness needs review (missing updatedAt).
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
@@ -485,7 +484,6 @@ status: active
 - `entities/贵州茅台_600519.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/阳煤化工.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/黄金ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `concepts/deep-research-tools.md`: Page freshness needs review (missing updatedAt).
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
