@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-12T13:04:48.687Z
+updatedAt: 2026-06-19T13:03:52.918Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 132
+- Structured relationships: 136
 
 - [1398.HK_工商银行](entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -40,6 +40,8 @@ updatedAt: 2026-06-12T13:04:48.687Z
 - [Claude Code](entities/claude-code.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 1.00)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md) -> daily-questions-deliver-mode (affects, weight 0.80)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md) -> daily-questions-cron-skip (affects, weight 0.80)
+- [Headroom Context Engine Plugin](entities/headroom-context-engine.md) -> guardians-eye (discovered-by, weight 0.80, guardians-eye agent performed the headroom root cause analysis)
+- [Headroom Context Engine Plugin](entities/headroom-context-engine.md) -> Stock Research Engine (affected-by, weight 0.30, Headroom's 2.4s blocking latency impacted all OpenClaw plugin hooks including SRE)
 - [Hermes Agent](entities/hermes-agent.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 0.90)
 - [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md) -> InvestSignal (belongs-to, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md) -> AI内存短缺危机 (discusses, weight 0.90)
@@ -62,6 +64,8 @@ updatedAt: 2026-06-12T13:04:48.687Z
 - [tradingagents](entities/tradingagents.md) -> AI对冲基金多Agent风格分类 (describes, weight 0.90, 14种Agent风格的详细说明)
 - [tradingagents](entities/tradingagents.md) -> From Copilots to Colleagues (related-research, weight 0.60)
 - [TradingAgents tushare数据支持](entities/tradingagents-tushare.md) -> tradingagents (belongs-to, weight 0.90)
+- [中国平安（601318.SH）个股深度研究简报](entities/601318.SH_中国平安.md) -> 工商银行 (1398.HK) (invests-in, weight 0.60, 平安2024-2025年密集举牌工行H股，作为高股息策略配置)
+- [中国平安（601318.SH）个股深度研究简报](entities/601318.SH_中国平安.md) -> 招商银行 (3968.HK) (invests-in, weight 0.50, 平安保险资金持续增配招行H股)
 - [中国神华 (601088.SS)](entities/中国神华.md) -> 红利ETF (etf-component, weight 0.80, 中国神华是红利ETF核心成分股)
 - [中国神华 (601088.SS)](entities/中国神华.md) -> 紫金矿业 (same-sector, weight 0.70, 能源矿业板块，高股息同类)
 - [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md) -> 京东集团 (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分股)

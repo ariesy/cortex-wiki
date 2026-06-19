@@ -3,14 +3,14 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-06-15T03:45:07.750Z
+updatedAt: 2026-06-19T13:03:52.918Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 203
+- Evidence entries: 219
 - Claims missing evidence: 12
 
 ### Evidence Classes
@@ -18,16 +18,18 @@ updatedAt: 2026-06-15T03:45:07.750Z
 - financial-data: 20
 - memory-bridge: 20
 - analysis: 10
+- source: 9
 - financial_data: 8
 - news: 8
 - policy: 7
 - technical-analysis: 7
 - industry-data: 6
+- research-report: 6
 - market_data: 5
 - data: 3
+- debugging-report: 3
 - fund-holding: 2
 - report: 2
-- research-report: 2
 - analyst_estimate: 1
 - analyst-debate: 1
 - management: 1
@@ -43,7 +45,10 @@ updatedAt: 2026-06-15T03:45:07.750Z
 - source.research.兴业银行: 15
 - inline: 6
 - policy:国能发科技〔2026〕34号: 5
+- research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md: 5
 - source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a: 5
+- research/中宠股份_002891/2026-06-18_tradingagents_报告.md: 4
+- source.bridge.workspace-142ea9a2.memory-2026-06-15-0027-3a7a99e1: 4
 - source.research.工商银行: 4
 - source.中证消费etf-512600-投资分析简报-2026-05-28: 4
 - report:21世纪经济报道: 3
@@ -55,9 +60,6 @@ updatedAt: 2026-06-15T03:45:07.750Z
 - report:亿欧算电协同行业展望: 2
 - report:钛媒体: 2
 - source.bridge.workspace-142ea9a2.memory-2026-06-02-1347-435ec224: 2
-- source.bridge.workspace-142ea9a2.memory-2026-06-05-1131-e6b85005: 2
-- source.bridge.workspace-142ea9a2.memory-2026-06-09-1458-54d3b977: 2
-- source.research.161017: 2
 
 ### Missing Evidence
 - [1810.HK_小米集团](entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号

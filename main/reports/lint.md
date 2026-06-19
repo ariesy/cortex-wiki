@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 348
+- Warnings: 378
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -23,6 +23,8 @@ status: active
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
+- `entities/002891.SZ_中宠股份.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002891.SZ_中宠股份.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
 - `entities/0916.HK_龙源电力.md`: Broken wikilink target `电力行业-2026中期`.
@@ -45,6 +47,8 @@ status: active
 - `entities/300750.SZ_宁德时代.md`: Broken wikilink target `储能行业-2026`.
 - `entities/300750.SZ_宁德时代.md`: Broken wikilink target `AI算力-2026`.
 - `entities/300750.SZ_宁德时代.md`: Broken wikilink target `能源大模型-2026`.
+- `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/301498.SZ_乖宝宠物.md`: Page freshness needs review (missing updatedAt).
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
@@ -214,6 +218,12 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Page freshness needs review (last touched 2026-03-15T13:47:03.888Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Broken wikilink target `~/.nvm/versions/node/v24.13.1/lib/node_modules/openclaw/docs/tools/subagents.md`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-16-2329-3b2308e7.md`: Page freshness needs review (last touched 2026-03-16T23:29:36.490Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-17-bb7cf45c.md`: Page freshness needs review (last touched 2026-03-17T12:30:39.234Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-18-290cfeb7.md`: Page freshness needs review (last touched 2026-03-18T23:30:20.070Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-19-230b27d6.md`: Page freshness needs review (last touched 2026-03-19T15:44:31.336Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-2e8a5338.md`: Page freshness needs review (last touched 2026-03-21T09:50:16.216Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-ai-news-phase2-code-review-451e5729.md`: Page freshness needs review (last touched 2026-03-21T04:20:01.718Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-market-index-code-review-b24f9615.md`: Page freshness needs review (last touched 2026-03-21T09:24:27.419Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md`: Broken wikilink target `reply_to_current`.
@@ -302,6 +312,11 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-28-0021-ff6cee40.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-06-05-1354-0213dbcb.md`: Broken wikilink target `wikilinks`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-06-18-0422-c703bd79.md`: Broken wikilink target `乖宝宠物`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-06-18-0422-c703bd79.md`: Broken wikilink target `中宠股份`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-06-18-0422-c703bd79.md`: Broken wikilink target `板块分析`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-06-18-0422-c703bd79.md`: Broken wikilink target `TradingAgents流程`.
+- `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
@@ -404,6 +419,7 @@ status: active
   - recalls: 0
   - status: staged
 - Candidate: Assistant: Problems"——真正的复杂问题——往往在深入了解后才发现是更深层问题的症状 > 来源：[Hacking for Defense @ Stanford 2026 – Lessons Learned Presentations](https://steveblank.com/2026/06/08/g-for-defense-stanford-2026-lessons-learned-presentations/`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-06-18-093124d4.md`: Broken wikilink target `reply_to:om_x100b6c10be6d0094c10541d9d614769`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-19-29145f94.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-05-28-46e87614.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-16-238ace8d.md`: Broken wikilink target `reply_to_current`.
@@ -412,6 +428,13 @@ status: active
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-18-0a030fb8.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-19-c9e99dda.md`: Broken wikilink target `reply_to_current`.
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
+- `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
+- `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
+- `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-2` has competing variants across 2 pages.
+- `syntheses/tradingagents-评估流程.md`: Broken wikilink target `中宠股份 (002891.SZ)`.
+- `syntheses/tradingagents-评估流程.md`: Broken wikilink target `乖宝宠物 (301498.SZ)`.
+- `syntheses/tradingagents-评估流程.md`: Broken wikilink target `宠物食品板块 2026年中分析`.
+- `syntheses/tradingagents-评估流程.md`: Broken wikilink target `红线过滤器（投资风控）`.
 - `syntheses/京能电力-600578-sh.md`: Claim `市值` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `PE` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `净利润增速` is missing structured evidence.
@@ -420,17 +443,31 @@ status: active
 - `syntheses/京能电力-600578-sh.md`: Claim `公司澄清` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `Sector` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `实际控制人` is missing structured evidence.
+- `syntheses/宠物食品板块-2026年中分析.md`: Page lists 3 open questions.
+- `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-1` has competing variants across 2 pages.
+- `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-2` has competing variants across 2 pages.
+- `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `中宠股份 (002891.SZ)`.
+- `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `乖宝宠物 (301498.SZ)`.
+- `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `TradingAgents 评估流程`.
+- `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `红线过滤器（投资风控）`.
 
 ### Contradictions
 - `entities/中国算电协同战略-算电一体.md`: Page lists 3 contradictions to resolve.
+- `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
+- `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-2` has competing variants across 2 pages.
+- `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-1` has competing variants across 2 pages.
+- `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-2` has competing variants across 2 pages.
 
 ### Open Questions
 - `entities/中国算电协同战略-算电一体.md`: Page lists 5 open questions.
+- `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
+- `syntheses/宠物食品板块-2026年中分析.md`: Page lists 3 open questions.
 
 ### Quality Follow-Up
 - `concepts/deep-research-tools.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002149.SZ_西部材料.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002735.SZ_王子新材.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/002891.SZ_中宠股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1398.HK_工商银行.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
@@ -442,6 +479,7 @@ status: active
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300319.SZ_麦捷科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300353.SZ_东土科技.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
@@ -542,9 +580,11 @@ status: active
 - `syntheses/京能电力-600578-sh.md`: Claim `实际控制人` is missing structured evidence.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
+- `entities/002891.SZ_中宠股份.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
 - `entities/300319.SZ_麦捷科技.md`: Page freshness needs review (missing updatedAt).
 - `entities/300353.SZ_东土科技.md`: Page freshness needs review (missing updatedAt).
+- `entities/301498.SZ_乖宝宠物.md`: Page freshness needs review (missing updatedAt).
 - `entities/600255.SH_鑫科材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/688017.SH_绿的谐波.md`: Page freshness needs review (missing updatedAt).
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
@@ -604,5 +644,12 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-05bd91a4.md`: Page freshness needs review (last touched 2026-03-16T10:23:36.532Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-15-1347-7d3182a9.md`: Page freshness needs review (last touched 2026-03-15T13:47:03.888Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-16-2329-3b2308e7.md`: Page freshness needs review (last touched 2026-03-16T23:29:36.490Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-17-bb7cf45c.md`: Page freshness needs review (last touched 2026-03-17T12:30:39.234Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-18-290cfeb7.md`: Page freshness needs review (last touched 2026-03-18T23:30:20.070Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-19-230b27d6.md`: Page freshness needs review (last touched 2026-03-19T15:44:31.336Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-2e8a5338.md`: Page freshness needs review (last touched 2026-03-21T09:50:16.216Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-ai-news-phase2-code-review-451e5729.md`: Page freshness needs review (last touched 2026-03-21T04:20:01.718Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-03-21-market-index-code-review-b24f9615.md`: Page freshness needs review (last touched 2026-03-21T09:24:27.419Z).
+- `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 <!-- openclaw:wiki:lint:end -->
