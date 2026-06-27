@@ -39,10 +39,10 @@ relationships:
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md)
-- [Claude Code](entities/claude-code.md)
-- [Enterprise Agent: Clean World vs Dirty World](syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
-- [Hermes Agent](entities/hermes-agent.md)
-- [企业Agent五层解法](concepts/five-layer-solution.md)
-- [相对改进评估](concepts/relative-improvement-evaluation.md)
+- [Agent 干净世界 vs 脏世界](clean-world-dirty-world.md)
+- [Claude Code](../entities/claude-code.md)
+- [Enterprise Agent: Clean World vs Dirty World](../syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
+- [Hermes Agent](../entities/hermes-agent.md)
+- [企业Agent五层解法](five-layer-solution.md)
+- [相对改进评估](relative-improvement-evaluation.md)
 <!-- openclaw:wiki:related:end -->

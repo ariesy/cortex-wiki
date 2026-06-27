@@ -61,5 +61,5 @@ relationships:
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [养老防骗意识](concepts/warm-aging.md)
+- [养老防骗意识](warm-aging.md)
 <!-- openclaw:wiki:related:end -->

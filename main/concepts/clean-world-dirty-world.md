@@ -57,10 +57,10 @@ Agent 博客、框架、论文描述的世界：
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Claude Code](entities/claude-code.md)
-- [Enterprise Agent: Clean World vs Dirty World](syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
-- [Hermes Agent](entities/hermes-agent.md)
-- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md)
-- [企业Agent五层解法](concepts/five-layer-solution.md)
-- [相对改进评估](concepts/relative-improvement-evaluation.md)
+- [Claude Code](../entities/claude-code.md)
+- [Enterprise Agent: Clean World vs Dirty World](../syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
+- [Hermes Agent](../entities/hermes-agent.md)
+- [企业Agent五堵墙](five-walls-enterprise-agent.md)
+- [企业Agent五层解法](five-layer-solution.md)
+- [相对改进评估](relative-improvement-evaluation.md)
 <!-- openclaw:wiki:related:end -->

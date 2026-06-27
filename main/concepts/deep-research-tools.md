@@ -1,33 +1,36 @@
 ---
 pageType: entity
-id: "concept:deep-research-tools"
+id: concept:deep-research-tools
 entityType: concept
 privacyTier: public
-name: "Deep Research 工具全景"
-last_updated: "2026-06-09"
-updatedAt: "2026-06-09T00:00:00.000Z"
+name: Deep Research 工具全景
+last_updated: 2026-06-09
+updatedAt: 2026-06-26T23:08:46.828Z
 status: actively_tracking
-current_view: >-
-  多家公司推出的AI深度研究工具，核心理念：给AI一个研究任务，自主浏览数十至上百个网页，综合分析后生成带引用的完整报告。主要玩家：OpenAI Deep Research（基于o3，GAIA SOTA）、Google Gemini Deep Research（支持协作规划+MCP）、Perplexity Deep Research（SimpleQA 93.9%准确率最高）。其他参与者包括Anthropic Claude（Extended thinking）、Microsoft Copilot（Think Deeper）、Grok 3。2026年趋势：MCP协议连接、多模态处理、企业级工作流集成。
+current_view: 多家公司推出的AI深度研究工具，核心理念：给AI一个研究任务，自主浏览数十至上百个网页，综合分析后生成带引用的完整报告。主要玩家：OpenAI
+  Deep Research（基于o3，GAIA SOTA）、Google Gemini Deep
+  Research（支持协作规划+MCP）、Perplexity Deep Research（SimpleQA
+  93.9%准确率最高）。其他参与者包括Anthropic Claude（Extended thinking）、Microsoft Copilot（Think
+  Deeper）、Grok 3。2026年趋势：MCP协议连接、多模态处理、企业级工作流集成。
 claims:
-  - id: "claim.deep-research.openai-gaia-sota"
-    text: "OpenAI Deep Research在GAIA基准达到SOTA， Humanity's Last Exam达26.6%"
+  - id: claim.deep-research.openai-gaia-sota
+    text: OpenAI Deep Research在GAIA基准达到SOTA， Humanity's Last Exam达26.6%
     status: confirmed
     confidence: 0.9
     evidence:
       - kind: memory-bridge
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-06-09-1458-54d3b977
         weight: 0.85
-    updatedAt: "2026-06-09"
-  - id: "claim.deep-research.perplexity-accuracy"
-    text: "Perplexity Deep Research在SimpleQA基准准确率达93.9%，事实性最强"
+    updatedAt: 2026-06-09
+  - id: claim.deep-research.perplexity-accuracy
+    text: Perplexity Deep Research在SimpleQA基准准确率达93.9%，事实性最强
     status: confirmed
     confidence: 0.9
     evidence:
       - kind: memory-bridge
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-06-09-1458-54d3b977
         weight: 0.85
-    updatedAt: "2026-06-09"
+    updatedAt: 2026-06-09
 relationships: []
 ---
 

@@ -16,16 +16,16 @@
 
 ## Generated
 <!-- openclaw:wiki:concepts:index:start -->
-- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md)
-- [AI News Phase 2 Critical Bugs Pattern](concepts/ai-news-critical-bugs.md)
-- [AI内存短缺危机](concepts/hbm-memory-shortage.md)
-- [AI对冲基金多Agent风格分类](concepts/ai-hedge-fund-agent-styles.md)
-- [Altman威胁模型论](concepts/altman-threat-model.md)
-- [Deep Research 工具全景](concepts/deep-research-tools.md)
-- [MiniMaxQuota窗口时间不一致](concepts/minimax-quota-window.md)
-- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md)
-- [企业Agent五层解法](concepts/five-layer-solution.md)
-- [养老防骗意识](concepts/warm-aging.md)
-- [相对改进评估](concepts/relative-improvement-evaluation.md)
-- [老人诈骗模式分类](concepts/elderly-fraud-patterns.md)
+- [Agent 干净世界 vs 脏世界](clean-world-dirty-world.md)
+- [AI News Phase 2 Critical Bugs Pattern](ai-news-critical-bugs.md)
+- [AI内存短缺危机](hbm-memory-shortage.md)
+- [AI对冲基金多Agent风格分类](ai-hedge-fund-agent-styles.md)
+- [Altman威胁模型论](altman-threat-model.md)
+- [Deep Research 工具全景](deep-research-tools.md)
+- [MiniMaxQuota窗口时间不一致](minimax-quota-window.md)
+- [企业Agent五堵墙](five-walls-enterprise-agent.md)
+- [企业Agent五层解法](five-layer-solution.md)
+- [养老防骗意识](warm-aging.md)
+- [相对改进评估](relative-improvement-evaluation.md)
+- [老人诈骗模式分类](elderly-fraud-patterns.md)
 <!-- openclaw:wiki:concepts:index:end -->

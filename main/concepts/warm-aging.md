@@ -54,5 +54,5 @@ relationships:
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [老人诈骗模式分类](concepts/elderly-fraud-patterns.md)
+- [老人诈骗模式分类](elderly-fraud-patterns.md)
 <!-- openclaw:wiki:related:end -->
