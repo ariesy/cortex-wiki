@@ -2,14 +2,14 @@
 
 ## Generated
 <!-- openclaw:wiki:reports:index:start -->
-- [Claim Health](reports/claim-health.md)
-- [Contradictions](reports/contradictions.md)
-- [Lint Report](reports/lint.md)
-- [Low Confidence](reports/low-confidence.md)
-- [Open Questions](reports/open-questions.md)
-- [Person Agent Directory](reports/person-agent-directory.md)
-- [Privacy Review](reports/privacy-review.md)
-- [Provenance Coverage](reports/provenance-coverage.md)
-- [Relationship Graph](reports/relationship-graph.md)
-- [Stale Pages](reports/stale-pages.md)
+- [Claim Health](claim-health.md)
+- [Contradictions](contradictions.md)
+- [Lint Report](lint.md)
+- [Low Confidence](low-confidence.md)
+- [Open Questions](open-questions.md)
+- [Person Agent Directory](person-agent-directory.md)
+- [Privacy Review](privacy-review.md)
+- [Provenance Coverage](provenance-coverage.md)
+- [Relationship Graph](relationship-graph.md)
+- [Stale Pages](stale-pages.md)
 <!-- openclaw:wiki:reports:index:end -->
