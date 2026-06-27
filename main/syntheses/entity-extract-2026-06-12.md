@@ -112,15 +112,20 @@ relationships:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Memory Bridge (main): 2026-06-12-1207](sources/bridge-workspace-142ea9a2-memory-2026-06-12-1207-83230dfb.md)
-- [Memory Bridge (main): 2026-06-12-1019](sources/bridge-workspace-142ea9a2-memory-2026-06-12-1019-83d756a6.md)
-- [Memory Bridge (main): 2026-06-12-0716](sources/bridge-workspace-142ea9a2-memory-2026-06-12-0716-0724de59.md)
-- [Memory Bridge (main): 2026-06-11-0059](sources/bridge-workspace-142ea9a2-memory-2026-06-11-0059-22f6054a.md)
-- [Memory Bridge (main): 2026-06-10-1237](sources/bridge-workspace-142ea9a2-memory-2026-06-10-1237-65cf7423.md)
-- [Memory Bridge (main): 2026-06-09-1322](sources/bridge-workspace-142ea9a2-memory-2026-06-09-1322-b2b3f0c9.md)
-- [Memory Bridge (main): 2026-06-09-1458](sources/bridge-workspace-142ea9a2-memory-2026-06-09-1458-54d3b977.md)
-- [Memory Bridge (main): 2026-06-08-1449](sources/bridge-workspace-142ea9a2-memory-2026-06-08-1449-2e6ca5f2.md)
-- [Memory Bridge (main): 2026-06-08-1434](sources/bridge-workspace-142ea9a2-memory-2026-06-08-1434-bd87db2f.md)
-- [Memory Bridge (main): 2026-06-08-1421](sources/bridge-workspace-142ea9a2-memory-2026-06-08-1421-48716d71.md)
-- [Memory Bridge (main): 2026-06-08-0642](sources/bridge-workspace-142ea9a2-memory-2026-06-08-0642-16775f22.md)
+- [Memory Bridge (main): 2026-06-12-1207](../sources/bridge-workspace-142ea9a2-memory-2026-06-12-1207-83230dfb.md)
+- [Memory Bridge (main): 2026-06-12-1019](../sources/bridge-workspace-142ea9a2-memory-2026-06-12-1019-83d756a6.md)
+- [Memory Bridge (main): 2026-06-12-0716](../sources/bridge-workspace-142ea9a2-memory-2026-06-12-0716-0724de59.md)
+- [Memory Bridge (main): 2026-06-11-0059](../sources/bridge-workspace-142ea9a2-memory-2026-06-11-0059-22f6054a.md)
+- [Memory Bridge (main): 2026-06-10-1237](../sources/bridge-workspace-142ea9a2-memory-2026-06-10-1237-65cf7423.md)
+- [Memory Bridge (main): 2026-06-09-1322](../sources/bridge-workspace-142ea9a2-memory-2026-06-09-1322-b2b3f0c9.md)
+- [Memory Bridge (main): 2026-06-09-1458](../sources/bridge-workspace-142ea9a2-memory-2026-06-09-1458-54d3b977.md)
+- [Memory Bridge (main): 2026-06-08-1449](../sources/bridge-workspace-142ea9a2-memory-2026-06-08-1449-2e6ca5f2.md)
+- [Memory Bridge (main): 2026-06-08-1434](../sources/bridge-workspace-142ea9a2-memory-2026-06-08-1434-bd87db2f.md)
+- [Memory Bridge (main): 2026-06-08-1421](../sources/bridge-workspace-142ea9a2-memory-2026-06-08-1421-48716d71.md)
+- [Memory Bridge (main): 2026-06-08-0642](../sources/bridge-workspace-142ea9a2-memory-2026-06-08-0642-16775f22.md)
+
+### Related Pages
+
+- [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md)
+- [华龙](../entities/华龙-华夏基金.md)
 <!-- openclaw:wiki:related:end -->

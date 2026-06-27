@@ -211,7 +211,7 @@ TradingAgents 最终决策包含以下要素：
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [中宠股份 (002891.SZ) — 烟台中宠食品](entities/002891.SZ_中宠股份.md)
-- [乖宝宠物 (301498.SZ) — 冠派宠物集团](entities/301498.SZ_乖宝宠物.md)
-- [宠物食品板块 2026年中分析](syntheses/宠物食品板块-2026年中分析.md)
+- [中宠股份 (002891.SZ) — 烟台中宠食品](../entities/002891.SZ_中宠股份.md)
+- [乖宝宠物 (301498.SZ) — 冠派宠物集团](../entities/301498.SZ_乖宝宠物.md)
+- [宠物食品板块 2026年中分析](宠物食品板块-2026年中分析.md)
 <!-- openclaw:wiki:related:end -->
