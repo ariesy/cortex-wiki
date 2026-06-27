@@ -20,10 +20,10 @@ relationships:
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md)
-- [Claude Code](entities/claude-code.md)
-- [Enterprise Agent: Clean World vs Dirty World](syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
-- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md)
-- [企业Agent五层解法](concepts/five-layer-solution.md)
-- [相对改进评估](concepts/relative-improvement-evaluation.md)
+- [Agent 干净世界 vs 脏世界](../concepts/clean-world-dirty-world.md)
+- [Claude Code](claude-code.md)
+- [Enterprise Agent: Clean World vs Dirty World](../syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
+- [企业Agent五堵墙](../concepts/five-walls-enterprise-agent.md)
+- [企业Agent五层解法](../concepts/five-layer-solution.md)
+- [相对改进评估](../concepts/relative-improvement-evaluation.md)
 <!-- openclaw:wiki:related:end -->

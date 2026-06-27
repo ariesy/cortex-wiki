@@ -20,10 +20,10 @@ Anthropic 开发的 Coding Agent，是"干净世界" Agent 的典型代表。被
 <!-- openclaw:wiki:related:start -->
 ### Related Pages
 
-- [Agent 干净世界 vs 脏世界](concepts/clean-world-dirty-world.md)
-- [Enterprise Agent: Clean World vs Dirty World](syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
-- [Hermes Agent](entities/hermes-agent.md)
-- [企业Agent五堵墙](concepts/five-walls-enterprise-agent.md)
-- [企业Agent五层解法](concepts/five-layer-solution.md)
-- [相对改进评估](concepts/relative-improvement-evaluation.md)
+- [Agent 干净世界 vs 脏世界](../concepts/clean-world-dirty-world.md)
+- [Enterprise Agent: Clean World vs Dirty World](../syntheses/enterprise-agent-clean-world-vs-dirty-world.md)
+- [Hermes Agent](hermes-agent.md)
+- [企业Agent五堵墙](../concepts/five-walls-enterprise-agent.md)
+- [企业Agent五层解法](../concepts/five-layer-solution.md)
+- [相对改进评估](../concepts/relative-improvement-evaluation.md)
 <!-- openclaw:wiki:related:end -->

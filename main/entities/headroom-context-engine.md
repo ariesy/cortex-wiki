@@ -93,10 +93,10 @@ Headroom是一个OpenClaw context engine插件，旨在压缩context窗口以管
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Memory Bridge (main): 2026-06-14-headroom-true-rootcause](sources/bridge-workspace-142ea9a2-memory-2026-06-14-headroom-true-rootcause-3ec6d942.md)
-- [Memory Bridge (main): 2026-06-14-headroom-debug-report](sources/bridge-workspace-142ea9a2-memory-2026-06-14-headroom-debug-report-7e5e08eb.md)
+- [Memory Bridge (main): 2026-06-14-headroom-true-rootcause](../sources/bridge-workspace-142ea9a2-memory-2026-06-14-headroom-true-rootcause-3ec6d942.md)
+- [Memory Bridge (main): 2026-06-14-headroom-debug-report](../sources/bridge-workspace-142ea9a2-memory-2026-06-14-headroom-debug-report-7e5e08eb.md)
 
 ### Related Pages
 
-- [实体提取汇总 2026-06-19](syntheses/实体提取汇总-2026-06-19.md)
+- [实体提取汇总 2026-06-19](../syntheses/实体提取汇总-2026-06-19.md)
 <!-- openclaw:wiki:related:end -->

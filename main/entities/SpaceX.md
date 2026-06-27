@@ -15,5 +15,5 @@ updatedAt: 2026-06-05
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
-- [西部材料 002149](entities/002149.SZ_西部材料.md)
+- [西部材料 002149](002149.SZ_西部材料.md)
 <!-- openclaw:wiki:related:end -->
