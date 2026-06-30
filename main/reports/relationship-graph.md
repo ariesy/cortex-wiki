@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-25T09:05:54.281Z
+updatedAt: 2026-06-29T08:01:58.328Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 174
+- Structured relationships: 180
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -90,6 +90,9 @@ updatedAt: 2026-06-25T09:05:54.281Z
 - [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md) -> 证券龙头 ETF (512850) (etf-component, weight 0.90, 中信是 512850 核心权重)
 - [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md) -> 贵州茅台 (portfolio-component, weight 0.50, 都是核心蓝筹，A 股权益配置参考)
 - [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md) -> 长江存储（YMTC） (ipo-customer, weight 0.90, 中信担任 IPO 辅导机构)
+- [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 中证生物科技ETF (159837.SZ) (beneficiary, weight 0.60, 百济神州、恒瑞等出海龙头是核心权重)
+- [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 商保创新药目录（丙类目录）2026 (complementary, weight 0.85, 国内丙类目录+海外BD授权，估值重塑双引擎)
+- [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 百济神州 (example, weight 0.90, 泽布替尼出海标杆，2026Q1单品销售76亿元)
 - [中国平安（601318.SH）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 工商银行 (1398.HK) (invests-in, weight 0.60, 平安2024-2025年密集举牌工行H股，作为高股息策略配置)
 - [中国平安（601318.SH）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 招商银行 (3968.HK) (invests-in, weight 0.50, 平安保险资金持续增配招行H股)
 - [中国神华 (601088.SS)](../entities/中国神华.md) -> 红利ETF (etf-component, weight 0.80, 中国神华是红利ETF核心成分股)
@@ -118,6 +121,9 @@ updatedAt: 2026-06-25T09:05:54.281Z
 - [养老防骗意识](../concepts/warm-aging.md) -> 守护眼公众号 (addressed-by, weight 0.90)
 - [养老防骗意识](../concepts/warm-aging.md) -> 老人诈骗模式分类 (related-to, weight 0.90)
 - [医疗ETF (512170.SS)](../entities/医疗ETF.md) -> 生物科技ETF (same-sector, weight 0.70, 医疗与生物科技主题高度重叠)
+- [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中国创新药出海BD 2025-2026 (complementary, weight 0.85, 国内支付端突破 + 海外授权收入双轮驱动创新药估值)
+- [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中证生物科技ETF (159837.SZ) (beneficiary, weight 0.70, 创新药权重30%，最大政策受益板块)
+- [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 医疗ETF (512170.SS) (beneficiary, weight 0.50, 间接利好，医疗器械+服务同时受益)
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md) -> 中际旭创 (supply-chain-downstream, weight 0.85, 天孚是旭创的光器件上游供应商)
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md) -> 芯片ETF (etf-component, weight 0.60, 光器件与芯片产业链相关)
 - [姚文海](../entities/yao-wenhai.md) -> 朱凌霄 (child, weight 1.00)
