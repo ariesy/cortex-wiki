@@ -12,6 +12,8 @@
 - [five-walls-enterprise-agent](five-walls-enterprise-agent.md)
 - [five-layer-solution](five-layer-solution.md)
 - [relative-improvement-evaluation](relative-improvement-evaluation.md)
+- [商保创新药目录（丙类目录）2026](商保创新药目录-丙类目录.md)
+- [中国创新药出海BD 2025-2026](中国创新药出海BD-2026.md)
 <!-- openclaw:wiki:concepts:index:end -->
 
 ## Generated
@@ -23,9 +25,11 @@
 - [Altman威胁模型论](altman-threat-model.md)
 - [Deep Research 工具全景](deep-research-tools.md)
 - [MiniMaxQuota窗口时间不一致](minimax-quota-window.md)
+- [中国创新药出海BD 2025-2026](中国创新药出海BD-2026.md)
 - [企业Agent五堵墙](five-walls-enterprise-agent.md)
 - [企业Agent五层解法](five-layer-solution.md)
 - [养老防骗意识](warm-aging.md)
+- [商保创新药目录（丙类目录）2026](商保创新药目录-丙类目录.md)
 - [相对改进评估](relative-improvement-evaluation.md)
 - [老人诈骗模式分类](elderly-fraud-patterns.md)
 <!-- openclaw:wiki:concepts:index:end -->
