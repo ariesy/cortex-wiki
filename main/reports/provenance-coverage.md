@@ -3,25 +3,26 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-06-27T10:55:52.823Z
+updatedAt: 2026-07-04T10:27:26.099Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 243
+- Evidence entries: 275
 - Claims missing evidence: 14
 
 ### Evidence Classes
 - entity-summary: 86
 - financial-data: 25
+- wiki-source: 24
 - memory-bridge: 20
+- web: 17
 - synthesis-summary: 13
 - research-report: 11
 - analysis: 10
 - source: 9
-- wiki-source: 9
 - financial_data: 8
 - news: 8
 - policy: 7
@@ -47,11 +48,14 @@ updatedAt: 2026-06-27T10:55:52.823Z
 - source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources: 15
 - source.research.兴业银行: 15
 - source.syntheses.factor-etf-comparison-2026-06-25: 11
+- source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17: 8
 - source.research.中信证券: 8
 - inline: 6
+- https://github.com/xbtlin/ai-berkshire: 5
 - policy:国能发科技〔2026〕34号: 5
 - research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md: 5
 - source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a: 5
+- https://github.com/xbtlin/ai-berkshire/blob/main/skills/financial-data.md: 4
 - research/中宠股份_002891/2026-06-18_tradingagents_报告.md: 4
 - source.bridge.workspace-142ea9a2.memory-2026-06-15-0027-3a7a99e1: 4
 - source.bridge.workspace-142ea9a2.memory-2026-06-23-0055-9bd4910b: 4
@@ -60,9 +64,6 @@ updatedAt: 2026-06-27T10:55:52.823Z
 - report:21世纪经济报道: 3
 - source.bridge.workspace-142ea9a2.memory-2026-05-28-1418-3438f599: 3
 - source.bridge.workspace-142ea9a2.memory-2026-06-04-1056-2f001be8: 3
-- source.bridge.workspace-142ea9a2.memory-2026-06-10-1237-65cf7423: 3
-- source.etf-run.csi.930955: 3
-- data:中国信通院算力中心用电量: 2
 
 ### Missing Evidence
 - [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号

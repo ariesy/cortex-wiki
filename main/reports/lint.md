@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 437
+- Warnings: 460
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -76,6 +76,7 @@ status: active
 - `entities/688795.SH_摩尔线程.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
 - `entities/914.HK_海螺水泥.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/ai-berkshire-价值投资研究框架.md`: Claim `2024-return` has low confidence (0.30).
 - `entities/ai-news-phase2.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/autonomous-research-agents-survey-2026.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/bilibili-all-in-one.md`: Non-source page is missing `sourceIds` provenance.
@@ -84,6 +85,9 @@ status: active
 - `entities/biotech-rally-2026-06-29.md`: Page freshness needs review (missing updatedAt).
 - `entities/canaan.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/claude-code.md`: Page freshness needs review (missing updatedAt).
+- `entities/claude-science.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/claude-sonnet-5.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/clickhouse-obs.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/daily-questions-cron-skip.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/daily-questions-deliver-mode.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/deerflow-integration.md`: Non-source page is missing `sourceIds` provenance.
@@ -99,17 +103,21 @@ status: active
 - `entities/minimax-oauth.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/mmx-cli.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/moneyprinter-turbo.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/mootdx.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/oh-my-openagent.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/open-design.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/PDD-Holdings-拼多多.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/PDD-Holdings-拼多多.md`: Page freshness needs review (missing updatedAt).
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/sam-altman.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/scrapling.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/SpaceX.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stubzero-google-cloud.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/superresearch.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/technocarcinization.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/tradingagents-tushare.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/tradingagents.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/yao-wenhai.md`: Non-source page is missing `sourceIds` provenance.
@@ -279,9 +287,24 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-fubao-school-p1-research-77c77f3e.md`: Page freshness needs review (last touched 2026-03-30T05:02:32.474Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-plan-a-mortgage-1079f846.md`: Page freshness needs review (last touched 2026-03-30T04:55:41.396Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-skill-sync-4f642b06.md`: Page freshness needs review (last touched 2026-03-30T08:42:49.140Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-01-feishu-polling-removal-6037e41e.md`: Page freshness needs review (last touched 2026-04-01T16:30:30.549Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Page freshness needs review (last touched 2026-04-02T10:45:57.087Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-03-cloudflared-restart-timeout-3b4936ee.md`: Page freshness needs review (last touched 2026-04-03T12:58:54.032Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-03-minimax-cn-oauth-9e79e29a.md`: Page freshness needs review (last touched 2026-04-03T12:40:10.198Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-anythingllm-nas-research-a43b4996.md`: Page freshness needs review (last touched 2026-04-04T07:30:21.518Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-claude-code-forks-41209728.md`: Page freshness needs review (last touched 2026-04-04T00:09:43.015Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-heading-level-fix-pptx-6f8265b2.md`: Page freshness needs review (last touched 2026-04-04T16:11:51.003Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-heading-reformat-2a6c9dcf.md`: Page freshness needs review (last touched 2026-04-04T16:57:51.901Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-model-query-a340a31a.md`: Page freshness needs review (last touched 2026-04-04T17:27:19.568Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-openclaw-token-usage-tools-06065c5a.md`: Page freshness needs review (last touched 2026-04-04T12:48:46.958Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-04-openclaw-token-usage-tools-06065c5a.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-pptx-skill-analysis-537299db.md`: Page freshness needs review (last touched 2026-04-04T13:37:15.864Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-pptx-skill-distinction-7d745277.md`: Page freshness needs review (last touched 2026-04-04T14:21:32.164Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-skill-vetter-install-5bc80fa1.md`: Page freshness needs review (last touched 2026-04-04T17:30:50.294Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-timezone-config-update-af72da83.md`: Page freshness needs review (last touched 2026-04-04T11:42:32.879Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Page freshness needs review (last touched 2026-04-05T00:31:52.493Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-06-network-traffic-debug-b6c6b602.md`: Broken wikilink target `reply_to_current`.
@@ -580,6 +603,9 @@ status: active
 - `entities/bilibili-audio-uploader.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/biotech-rally-2026-06-29.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/canaan.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/claude-science.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/claude-sonnet-5.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/clickhouse-obs.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/daily-questions-cron-skip.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/daily-questions-deliver-mode.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/deerflow-integration.md`: Non-source page is missing `sourceIds` provenance.
@@ -594,16 +620,20 @@ status: active
 - `entities/minimax-oauth.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/mmx-cli.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/moneyprinter-turbo.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/mootdx.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/oh-my-openagent.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/open-design.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/payslip-crontab-path.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/PDD-Holdings-拼多多.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/research-tracker-4week.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/sam-altman.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/scrapling.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/SpaceX.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine-analysis.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stock-research-engine.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/stubzero-google-cloud.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/superresearch.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/technocarcinization.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/tradingagents-tushare.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/tradingagents.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/yao-wenhai.md`: Non-source page is missing `sourceIds` provenance.
@@ -679,6 +709,7 @@ status: active
 - `entities/600255.SH_鑫科材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/688017.SH_绿的谐波.md`: Page freshness needs review (missing updatedAt).
 - `entities/688795.SH_摩尔线程.md`: Page freshness needs review (missing updatedAt).
+- `entities/ai-berkshire-价值投资研究框架.md`: Claim `2024-return` has low confidence (0.30).
 - `entities/biotech-rally-2026-06-29.md`: Page freshness needs review (missing updatedAt).
 - `entities/claude-code.md`: Page freshness needs review (missing updatedAt).
 - `entities/hermes-agent.md`: Page freshness needs review (missing updatedAt).
@@ -787,6 +818,21 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-fubao-school-p1-research-77c77f3e.md`: Page freshness needs review (last touched 2026-03-30T05:02:32.474Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-plan-a-mortgage-1079f846.md`: Page freshness needs review (last touched 2026-03-30T04:55:41.396Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-03-30-skill-sync-4f642b06.md`: Page freshness needs review (last touched 2026-03-30T08:42:49.140Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-01-feishu-polling-removal-6037e41e.md`: Page freshness needs review (last touched 2026-04-01T16:30:30.549Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-02-webhook-reminder-ba5d3ea0.md`: Page freshness needs review (last touched 2026-04-02T10:45:57.087Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-03-cloudflared-restart-timeout-3b4936ee.md`: Page freshness needs review (last touched 2026-04-03T12:58:54.032Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-03-minimax-cn-oauth-9e79e29a.md`: Page freshness needs review (last touched 2026-04-03T12:40:10.198Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-anythingllm-nas-research-a43b4996.md`: Page freshness needs review (last touched 2026-04-04T07:30:21.518Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-claude-code-forks-41209728.md`: Page freshness needs review (last touched 2026-04-04T00:09:43.015Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-heading-level-fix-pptx-6f8265b2.md`: Page freshness needs review (last touched 2026-04-04T16:11:51.003Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-heading-reformat-2a6c9dcf.md`: Page freshness needs review (last touched 2026-04-04T16:57:51.901Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-model-query-a340a31a.md`: Page freshness needs review (last touched 2026-04-04T17:27:19.568Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-openclaw-token-usage-tools-06065c5a.md`: Page freshness needs review (last touched 2026-04-04T12:48:46.958Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-pptx-skill-analysis-537299db.md`: Page freshness needs review (last touched 2026-04-04T13:37:15.864Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-pptx-skill-distinction-7d745277.md`: Page freshness needs review (last touched 2026-04-04T14:21:32.164Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-skill-vetter-install-5bc80fa1.md`: Page freshness needs review (last touched 2026-04-04T17:30:50.294Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-04-timezone-config-update-af72da83.md`: Page freshness needs review (last touched 2026-04-04T11:42:32.879Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-05-succulent-id-623266a5.md`: Page freshness needs review (last touched 2026-04-05T00:31:52.493Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 <!-- openclaw:wiki:lint:end -->
