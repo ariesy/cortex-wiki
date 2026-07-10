@@ -1,7 +1,24 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-06-09T00:52:16.796Z
+updatedAt: 2026-07-10T13:49:05.490Z
+claims:
+  - id: claim.entity.159566.latest-snapshot-ref
+    text: 2026-07-10 最新快照见 syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md
+    status: fact
+    confidence: 1
+    evidence: []
+  - id: claim.entity.159566.price-update
+    text: 当前价格 1.980 元（2026-07-10），较 2026-06-08 快照 2.194 元下跌 9.75%
+    status: fact
+    confidence: 0.98
+    evidence: []
+  - id: claim.entity.159566.current-view
+    text: 当前位置不便宜，建议等回调至 1.7-1.8 元；2026-06-08 原评级"减持 + 目标价 2.35"已被价格走势验证（当前 1.98
+      已低于目标价）
+    status: opinion
+    confidence: 0.78
+    evidence: []
 ---
 
 # 储能电池ETF (159566.SZ)
