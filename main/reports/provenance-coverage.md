@@ -3,20 +3,20 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-07-04T10:27:26.099Z
+updatedAt: 2026-07-10T13:49:08.979Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 275
-- Claims missing evidence: 14
+- Evidence entries: 283
+- Claims missing evidence: 22
 
 ### Evidence Classes
 - entity-summary: 86
+- wiki-source: 32
 - financial-data: 25
-- wiki-source: 24
 - memory-bridge: 20
 - web: 17
 - synthesis-summary: 13
@@ -80,4 +80,12 @@ updatedAt: 2026-07-04T10:27:26.099Z
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `公司澄清`: 公告无新投运大型新能源项目、无资产重组计划
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `Sector`: 火力发电为主（煤电），少数新能源
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `实际控制人`: 京能集团（北京市属国企）
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.latest-snapshot-ref`: 2026-07-10 最新快照见 syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.price-update`: 当前价格 1.980 元（2026-07-10），较 2026-06-08 快照 2.194 元下跌 9.75%
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.current-view`: 当前位置不便宜，建议等回调至 1.7-1.8 元；2026-06-08 原评级"减持 + 目标价 2.35"已被价格走势验证（当前 1.98 已低于目标价）
+- [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.159566-price`: 2026-07-10 ETF 价格 1.980 元，从 5/20 高点 24.87 元（除权前）回调 -20.4%
+- [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.159566-fundflow`: 2026-06 中旬 5 个交易日资金净流入 +17 亿元；近 6 个月 +53.38 亿元
+- [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.industry-outlook`: 2026 全球储能新增装机共识 438 GWh，YoY +62%（国金/东吴两大卖方共识）
+- [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.opinion-positioning`: 当前位置不便宜，建议等回调至 1.7-1.8 元（52 周 50% 分位下方）性价比更好
+- [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.drag-stocks`: 持仓内"伪储能"标的（阳光电源/锦浪科技）单月跌幅 23-26%，是指数最大拖累
 <!-- openclaw:wiki:provenance-coverage:end -->
