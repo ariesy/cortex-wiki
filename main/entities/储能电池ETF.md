@@ -1,27 +1,69 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-07-10T13:49:05.490Z
+updatedAt: 2026-07-11T14:03:25.160Z
 claims:
-  - id: claim.entity.159566.latest-snapshot-ref
-    text: 2026-07-10 最新快照见 syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md
+  - id: claim.entity.159566.latest-snapshot-20260711
+    text: 2026-07-11 最新 TradingAgents 多智能体分析快照见
+      syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md
     status: fact
     confidence: 1
     evidence: []
-  - id: claim.entity.159566.price-update
-    text: 当前价格 1.980 元（2026-07-10），较 2026-06-08 快照 2.194 元下跌 9.75%
+  - id: claim.entity.159566.price-20260711
+    text: 2026-07-11 收盘价 1.980 元（与 7-10 持平）；一周内已下测 1.94 后回升至 1.98，距 200SMA 2.17 仅
+      -8.8%
+    status: fact
+    confidence: 0.95
+    evidence: []
+  - id: claim.entity.159566.rating-hold
+    text: 2026-07-11 TradingAgents 终裁：Hold（持有）| 目标价 ¥2.18 | 硬止损 ¥1.85 | 加仓信号=站稳 2.18
+      + MACD 金叉 | 时间维度 3-6 个月
+    status: fact
+    confidence: 0.95
+    evidence: []
+  - id: claim.entity.159566.lesson-20260608-recap
+    text: 6-8 Underweight 评级 5 天内 +3.7% abs / -1.1% alpha
+      被定性为失败：中间仓位捕获两端最差结果。当前情境与该教训"惊人相似" → Hold 不是默认，是吸取教训后的有意选择
+    status: fact
+    confidence: 0.92
+    evidence: []
+  - id: claim.entity.159566.dual-strategy-grid
+    text: tradingagents（Hold/2.18）与本人 7-10 建议（等回调 1.7-1.8）不冲突，互补形成三档梯形建仓：1.85 硬止损 /
+      1.7-1.8 左侧抄底 / 2.18 右侧突破
+    status: opinion
+    confidence: 0.8
+    evidence: []
+  - id: claim.entity.159566.tech-snapshot-20260711
+    text: 技术面快照（7-10 收盘）：价格 1.98 < 10EMA 2.09 < 50SMA 2.28，空头排列；MACD -0.07，RSI
+      34.48，布林下轨 1.96（距 1%）
+    status: fact
+    confidence: 0.95
+    evidence: []
+  - id: claim.entity.159566.bug-fix-skill-config
+    text: 2026-07-11 TradingAgents 运行发现 skill 环境配置 bug：脚本读
+      TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致
+      fallback 到不存在的 deepseek-v4-flash（400）—— 已通过 env override 修复
     status: fact
     confidence: 0.98
-    evidence: []
-  - id: claim.entity.159566.current-view
-    text: 当前位置不便宜，建议等回调至 1.7-1.8 元；2026-06-08 原评级"减持 + 目标价 2.35"已被价格走势验证（当前 1.98
-      已低于目标价）
-    status: opinion
-    confidence: 0.78
     evidence: []
 ---
 
 # 储能电池ETF (159566.SZ)
+
+> ## ⚡ 当前状态（更新于 2026-07-11 TradingAgents 多智能体终裁）
+>
+> **评级：Hold（持有）｜目标价 ¥2.18 ｜时间维度 3-6 个月**
+>
+> **操作三件套：**
+> 1. 维持现有仓位，不加仓不减仓
+> 2. **硬止损 ¥1.85** — 触发即清仓不犹豫
+> 3. **加仓信号** — 价格站稳 ¥2.18（布林中轨+200SMA 聚合区）至少 3 个交易日 + MACD 水上金叉 或 放量确认
+>
+> **核心驱动（非默认评级）：** 2026-06-08 Underweight 在 5 天内 +3.7% abs 但 -1.1% alpha（中间仓位两头挨打）→ 当前情境与该教训"惊人相似" → Hold 不是默认，是吸取教训后的有意选择
+>
+> 📁 详细：[2026-07-11 TradingAgents 快照](syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md) ｜ [2026-07-10 stock-research-engine 快照](syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md)
+>
+> ⚠️ **本人反向观点（不模棱两可）：** 上面的 Hold 偏乐观，与我 7-10 建议"等回调至 1.7-1.8 元"形成**互补的梯形建仓**：1.85 止损 / 1.7-1.8 左侧抄底 / 2.18 右侧突破。
 
 ## 基础数据（更新于 2026-06-08）
 
