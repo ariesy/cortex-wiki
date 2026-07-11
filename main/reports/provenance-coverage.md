@@ -3,7 +3,7 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-07-10T13:49:08.979Z
+updatedAt: 2026-07-11T14:03:29.138Z
 ---
 
 # Provenance Coverage
@@ -11,7 +11,7 @@ updatedAt: 2026-07-10T13:49:08.979Z
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
 - Evidence entries: 283
-- Claims missing evidence: 22
+- Claims missing evidence: 31
 
 ### Evidence Classes
 - entity-summary: 86
@@ -80,12 +80,21 @@ updatedAt: 2026-07-10T13:49:08.979Z
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `公司澄清`: 公告无新投运大型新能源项目、无资产重组计划
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `Sector`: 火力发电为主（煤电），少数新能源
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `实际控制人`: 京能集团（北京市属国企）
-- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.latest-snapshot-ref`: 2026-07-10 最新快照见 syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md
-- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.price-update`: 当前价格 1.980 元（2026-07-10），较 2026-06-08 快照 2.194 元下跌 9.75%
-- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.current-view`: 当前位置不便宜，建议等回调至 1.7-1.8 元；2026-06-08 原评级"减持 + 目标价 2.35"已被价格走势验证（当前 1.98 已低于目标价）
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.latest-snapshot-20260711`: 2026-07-11 最新 TradingAgents 多智能体分析快照见 syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.price-20260711`: 2026-07-11 收盘价 1.980 元（与 7-10 持平）；一周内已下测 1.94 后回升至 1.98，距 200SMA 2.17 仅 -8.8%
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.rating-hold`: 2026-07-11 TradingAgents 终裁：Hold（持有）| 目标价 ¥2.18 | 硬止损 ¥1.85 | 加仓信号=站稳 2.18 + MACD 金叉 | 时间维度 3-6 个月
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.lesson-20260608-recap`: 6-8 Underweight 评级 5 天内 +3.7% abs / -1.1% alpha 被定性为失败：中间仓位捕获两端最差结果。当前情境与该教训"惊人相似" → Hold 不是默认，是吸取教训后的有意选择
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.dual-strategy-grid`: tradingagents（Hold/2.18）与本人 7-10 建议（等回调 1.7-1.8）不冲突，互补形成三档梯形建仓：1.85 硬止损 / 1.7-1.8 左侧抄底 / 2.18 右侧突破
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.tech-snapshot-20260711`: 技术面快照（7-10 收盘）：价格 1.98 < 10EMA 2.09 < 50SMA 2.28，空头排列；MACD -0.07，RSI 34.48，布林下轨 1.96（距 1%）
+- [储能电池ETF (159566.SZ)](../entities/储能电池ETF.md): `claim.entity.159566.bug-fix-skill-config`: 2026-07-11 TradingAgents 运行发现 skill 环境配置 bug：脚本读 TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致 fallback 到不存在的 deepseek-v4-flash（400）—— 已通过 env override 修复
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.159566-price`: 2026-07-10 ETF 价格 1.980 元，从 5/20 高点 24.87 元（除权前）回调 -20.4%
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.159566-fundflow`: 2026-06 中旬 5 个交易日资金净流入 +17 亿元；近 6 个月 +53.38 亿元
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.industry-outlook`: 2026 全球储能新增装机共识 438 GWh，YoY +62%（国金/东吴两大卖方共识）
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.opinion-positioning`: 当前位置不便宜，建议等回调至 1.7-1.8 元（52 周 50% 分位下方）性价比更好
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md): `claim.snap-20260710.drag-stocks`: 持仓内"伪储能"标的（阳光电源/锦浪科技）单月跌幅 23-26%，是指数最大拖累
+- [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.rating-hold`: TradingAgents 最终评级 Hold，目标价 ¥2.18，硬止损 ¥1.85，时间维度 3-6 个月
+- [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.lesson-driven`: Hold 评级核心源于 2026-06-08 Underweight 教训（+3.7% abs, -1.1% alpha），拒绝中间仓位两头挨打
+- [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.technical-setup`: 技术面空头排列完整（价格<10EMA<50SMA），但距 200SMA 仅 -8.8%（长期结构完好）
+- [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.bug-fix-env-var`: 运行发现 skill 配置 bug：脚本读 TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致 deepseek-v4-flash 不可用——已通过 env override 修复
+- [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.complementary-view`: TradingAgents 与我昨天判断互补：1.85 / 1.7-1.8 / 2.18 形成三档梯形建仓策略
 <!-- openclaw:wiki:provenance-coverage:end -->

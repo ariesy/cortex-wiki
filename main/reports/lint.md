@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 524
+- Warnings: 542
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -143,9 +143,15 @@ status: active
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/人形机器人产业链.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.latest-snapshot-ref` is missing structured evidence.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.price-update` is missing structured evidence.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.current-view` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.latest-snapshot-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.price-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.rating-hold` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.lesson-20260608-recap` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.dual-strategy-grid` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.tech-snapshot-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.bug-fix-skill-config` is missing structured evidence.
+- `entities/储能电池ETF.md`: Broken wikilink target `entities/syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`.
+- `entities/储能电池ETF.md`: Broken wikilink target `entities/syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`.
 - `entities/兆易创新.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/光伏ETF-515790.SS.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兴森科技.md`: Non-source page is missing `sourceIds` provenance.
@@ -379,6 +385,9 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-10-1415-1a2f263e.md`: Page freshness needs review (last touched 2026-04-10T14:15:41.772Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-10-api-logs-d996bb91.md`: Page freshness needs review (last touched 2026-04-10T10:52:27.061Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-11-altman-threat-6b266434.md`: Page freshness needs review (last touched 2026-04-11T11:44:17.944Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-digital-art-analysis-6a07b0cc.md`: Page freshness needs review (last touched 2026-04-12T12:18:25.486Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-traffic-report-b35263bb.md`: Page freshness needs review (last touched 2026-04-12T06:32:49.226Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-16-kronos-script-denial-192514f6.md`: Broken wikilink target `$# -gt 0`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
@@ -614,6 +623,15 @@ status: active
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Claim `claim.snap-20260710.opinion-positioning` is missing structured evidence.
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Claim `claim.snap-20260710.drag-stocks` is missing structured evidence.
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Broken wikilink target `syntheses/entities/储能电池ETF.md`.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Page lists 1 contradiction to resolve.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Page lists 2 open questions.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.rating-hold` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.lesson-driven` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.technical-setup` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.bug-fix-env-var` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.complementary-view` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Broken wikilink target `syntheses/entities/储能电池ETF.md`.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Broken wikilink target `syntheses/entities/储能电池ETF.md`.
 - `syntheses/宠物食品板块-2026年中分析.md`: Page lists 3 open questions.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-1` has competing variants across 2 pages.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-2` has competing variants across 2 pages.
@@ -626,6 +644,7 @@ status: active
 - `entities/中国算电协同战略-算电一体.md`: Page lists 3 contradictions to resolve.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-2` has competing variants across 2 pages.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Page lists 1 contradiction to resolve.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-1` has competing variants across 2 pages.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-2` has competing variants across 2 pages.
 
@@ -633,6 +652,7 @@ status: active
 - `entities/中国算电协同战略-算电一体.md`: Page lists 5 open questions.
 - `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Page lists 2 open questions.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Page lists 2 open questions.
 - `syntheses/宠物食品板块-2026年中分析.md`: Page lists 3 open questions.
 
 ### Quality Follow-Up
@@ -720,9 +740,13 @@ status: active
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/人形机器人产业链.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/储能电池ETF.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.latest-snapshot-ref` is missing structured evidence.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.price-update` is missing structured evidence.
-- `entities/储能电池ETF.md`: Claim `claim.entity.159566.current-view` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.latest-snapshot-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.price-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.rating-hold` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.lesson-20260608-recap` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.dual-strategy-grid` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.tech-snapshot-20260711` is missing structured evidence.
+- `entities/储能电池ETF.md`: Claim `claim.entity.159566.bug-fix-skill-config` is missing structured evidence.
 - `entities/兆易创新.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/光伏ETF-515790.SS.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/兴森科技.md`: Non-source page is missing `sourceIds` provenance.
@@ -777,6 +801,11 @@ status: active
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Claim `claim.snap-20260710.industry-outlook` is missing structured evidence.
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Claim `claim.snap-20260710.opinion-positioning` is missing structured evidence.
 - `syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md`: Claim `claim.snap-20260710.drag-stocks` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.rating-hold` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.lesson-driven` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.technical-setup` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.bug-fix-env-var` is missing structured evidence.
+- `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Claim `claim.ta-20260711.complementary-view` is missing structured evidence.
 - `entities/002149.SZ_西部材料.md`: Page freshness needs review (missing updatedAt).
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002891.SZ_中宠股份.md`: Page freshness needs review (missing updatedAt).
@@ -955,6 +984,9 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-10-1415-1a2f263e.md`: Page freshness needs review (last touched 2026-04-10T14:15:41.772Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-10-api-logs-d996bb91.md`: Page freshness needs review (last touched 2026-04-10T10:52:27.061Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-11-altman-threat-6b266434.md`: Page freshness needs review (last touched 2026-04-11T11:44:17.944Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-digital-art-analysis-6a07b0cc.md`: Page freshness needs review (last touched 2026-04-12T12:18:25.486Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-traffic-report-b35263bb.md`: Page freshness needs review (last touched 2026-04-12T06:32:49.226Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
