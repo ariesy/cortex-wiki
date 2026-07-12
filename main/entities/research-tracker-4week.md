@@ -2,27 +2,31 @@
 pageType: entity
 entityType: document
 id: entity.document.research-tracker-4week
-updatedAt: "2026-05-29"
+updatedAt: 2026-07-12T08:27:58.896Z
 claims:
-  - id: claim.research-tracker.price-targets
-    text: "中概互联网ETF和泡泡玛特的4周目标价研究汇总"
-    status: supported
-    confidence: 0.8
+  - id: claim.research-tracker.2026-07-10.159828-dual-framework
+    text: 中证医疗ETF（159828.SZ）双框架对比分析：stock-research-engine 战略看好（PE 28.9 / 10年分位11.4%
+      / BD 出海997亿美元）vs TradingAgents Hold 等待技术面信号（目标价 0.43 / 硬止损 0.358）。交集：估值底部
+      + 产业拐点 + 短期催化已部分兑现 + 8月中报是真考验。详见 [[中证医疗etf-159828-sz-2026-07-12-双框架对比分析]]
+    status: active
+    confidence: 0.85
     evidence:
-      - kind: entity-summary
-        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+      - kind: research-report
+        path: research/国泰中证医疗ETF_159828.SZ/2026-07-10/
         weight: 0.9
+        confidence: 0.9
+        note: 2026-07-12 双框架对比分析
+    updatedAt: 2026-07-12T08:22:00+08:00
 relationships:
   - targetId: entity.investment.中概互联网ETF-513050
-    targetTitle: "中概互联网ETF 513050.SS"
+    targetTitle: 中概互联网ETF 513050.SS
     kind: analyzes
     weight: 0.9
   - targetId: entity.investment.泡泡玛特
-    targetTitle: "泡泡玛特 09992.HK"
+    targetTitle: 泡泡玛特 09992.HK
     kind: analyzes
     weight: 0.9
 ---
-
 
 # 4周研究跟踪汇总
 

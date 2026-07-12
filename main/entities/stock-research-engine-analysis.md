@@ -2,23 +2,28 @@
 pageType: entity
 entityType: document
 id: entity.document.stock-research-engine-analysis
-updatedAt: "2026-05-29"
+updatedAt: 2026-07-12T08:27:07.524Z
 claims:
-  - id: claim.stock-research-engine-analysis
-    text: "stock-research-engine分析记录：京东/神华/澜起/芯片ETF/恒生科技"
-    status: supported
-    confidence: 0.8
+  - id: claim.stock-research-engine-analysis.2026-07-10
+    text: 2026-07-10 stock-research-engine 分析：中证医疗ETF（399989 中证医疗指数）——
+      战略看好（定投/网格/分批加仓）。PE-TTM 28.9 倍，10 年历史分位 11.4%（历史大底）。2026H1 创新药出海 BD 997
+      亿美元。三重反转：政策定调升级 + BD 出海爆发 + 估值历史大底。详见
+      [[中证医疗etf-159828-sz-2026-07-12-双框架对比分析]] 和 [[159828.SZ_国泰中证医疗ETF]]
+    status: active
+    confidence: 0.85
     evidence:
-      - kind: entity-summary
-        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+      - kind: research-report
+        path: research/国泰中证医疗ETF_159828.SZ/2026-07-10/
         weight: 0.9
+        confidence: 0.9
+        note: stock-research-engine 实时分析 + tdx-chronos 本地数据 + 多源公开数据交叉验证
+    updatedAt: 2026-07-12T08:22:00+08:00
 relationships:
   - targetId: entity.project.stock-research-engine
-    targetTitle: "stock-research-engine"
+    targetTitle: stock-research-engine
     kind: produced-by
     weight: 0.9
 ---
-
 
 # stock-research-engine分析报告
 

@@ -2,28 +2,33 @@
 pageType: entity
 entityType: project
 id: entity.project.tradingagents
-updatedAt: "2026-05-29"
+updatedAt: 2026-07-12T08:27:42.451Z
 claims:
-  - id: claim.tradingagents.models
-    text: "14种投资大师Agent风格，每个Agent独立决策后辩论"
-    status: supported
-    confidence: 0.8
+  - id: claim.tradingagents.2026-07-10.159828
+    text: 2026-07-12 TradingAgents 多智能体分析：159828.SZ（国泰中证医疗ETF）—— Hold 评级，目标价 0.43
+      元，时间窗口 3-6 个月，硬止损 0.358。详见 [[中证医疗etf-159828-sz-2026-07-12-双框架对比分析]] 和
+      [[159828.SZ_国泰中证医疗ETF]]
+    status: active
+    confidence: 0.85
     evidence:
-      - kind: entity-summary
-        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
+      - kind: research-report
+        path: research/国泰中证医疗ETF_159828.SZ/2026-07-10/tradingagents_raw.log
         weight: 0.9
+        confidence: 0.9
+        note: TradingAgents 多智能体分析，minimax-cn (Minimax-M3 deep + MiniMax-M2.7-highspeed
+          quick)，depth=3
+    updatedAt: 2026-07-12T08:22:00+08:00
 relationships:
   - targetId: concept.ai-hedge-fund-agent-styles
-    targetTitle: "AI对冲基金多Agent风格分类"
+    targetTitle: AI对冲基金多Agent风格分类
     kind: describes
     weight: 0.9
-    note: "14种Agent风格的详细说明"
+    note: 14种Agent风格的详细说明
   - targetId: entity.document.autonomous-research-agents-survey-2026
-    targetTitle: "From Copilots to Colleagues"
+    targetTitle: From Copilots to Colleagues
     kind: related-research
     weight: 0.6
 ---
-
 
 # tradingagents
 

@@ -156,7 +156,14 @@ relationships:
 
   weight: 0.7
   note: 医疗与生物科技主题高度重叠
-updatedAt: "2026-05-29"
+- targetId: 国泰中证医疗ETF
+
+  targetTitle: 国泰中证医疗ETF (159828.SZ)
+  kind: same-index
+
+  weight: 0.95
+  note: 同跟踪中证医疗指数（399989）；159828 流动性最好最具代表性，512170 费率较低；2026-07-12 双框架对比分析见 entities/159828.SZ_国泰中证医疗ETF.md
+updatedAt: "2026-07-12"
 ---
 # 医疗ETF (512170.SS)
 
