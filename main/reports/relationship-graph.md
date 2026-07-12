@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-06-29T08:01:58.328Z
+updatedAt: 2026-07-12T08:32:29.042Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 180
+- Structured relationships: 181
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -120,6 +120,7 @@ updatedAt: 2026-06-29T08:01:58.328Z
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md) -> 芯片ETF (etf-component, weight 0.80, 兴森是芯片ETF成分股)
 - [养老防骗意识](../concepts/warm-aging.md) -> 守护眼公众号 (addressed-by, weight 0.90)
 - [养老防骗意识](../concepts/warm-aging.md) -> 老人诈骗模式分类 (related-to, weight 0.90)
+- [医疗ETF (512170.SS)](../entities/医疗ETF.md) -> 国泰中证医疗ETF (159828.SZ) (same-index, weight 0.95, 同跟踪中证医疗指数（399989）；159828 流动性最好最具代表性，512170 费率较低；2026-07-12 双框架对比分析见 entities/159828.SZ_国泰中证医疗ETF.md)
 - [医疗ETF (512170.SS)](../entities/医疗ETF.md) -> 生物科技ETF (same-sector, weight 0.70, 医疗与生物科技主题高度重叠)
 - [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中国创新药出海BD 2025-2026 (complementary, weight 0.85, 国内支付端突破 + 海外授权收入双轮驱动创新药估值)
 - [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中证生物科技ETF (159837.SZ) (beneficiary, weight 0.70, 创新药权重30%，最大政策受益板块)

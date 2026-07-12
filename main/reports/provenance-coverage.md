@@ -3,24 +3,24 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-07-11T14:03:29.138Z
+updatedAt: 2026-07-12T08:32:29.042Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 283
+- Evidence entries: 288
 - Claims missing evidence: 31
 
 ### Evidence Classes
-- entity-summary: 86
-- wiki-source: 32
+- entity-summary: 83
+- wiki-source: 33
 - financial-data: 25
 - memory-bridge: 20
 - web: 17
+- research-report: 16
 - synthesis-summary: 13
-- research-report: 11
 - analysis: 10
 - source: 9
 - financial_data: 8
@@ -40,13 +40,15 @@ updatedAt: 2026-07-11T14:03:29.138Z
 - news-data: 1
 - performance-data: 1
 - runtime-config: 1
+- synthesis: 1
+- tdx-chronos: 1
 - valuation-data: 1
 - wiki-creation: 1
 
 ### Top Evidence Sources
 - source.entities.investments: 71
-- source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources: 15
 - source.research.兴业银行: 15
+- source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources: 12
 - source.syntheses.factor-etf-comparison-2026-06-25: 11
 - source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17: 8
 - source.research.中信证券: 8
@@ -62,8 +64,8 @@ updatedAt: 2026-07-11T14:03:29.138Z
 - source.research.工商银行: 4
 - source.中证消费etf-512600-投资分析简报-2026-05-28: 4
 - report:21世纪经济报道: 3
+- research/国泰中证医疗ETF_159828.SZ/2026-07-10/: 3
 - source.bridge.workspace-142ea9a2.memory-2026-05-28-1418-3438f599: 3
-- source.bridge.workspace-142ea9a2.memory-2026-06-04-1056-2f001be8: 3
 
 ### Missing Evidence
 - [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号

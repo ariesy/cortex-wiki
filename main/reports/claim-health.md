@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-07-11T14:03:29.138Z
+updatedAt: 2026-07-12T08:32:29.042Z
 ---
 
 # Claim Health
@@ -12,7 +12,7 @@ updatedAt: 2026-07-11T14:03:29.138Z
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 31
 - Contested claims: 0
-- Stale or unknown claims: 0
+- Stale or unknown claims: 5
 
 ### Missing Evidence
 - [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号 (status supported, confidence 0.90, missing evidence, aging (2026-06-08))
@@ -46,4 +46,11 @@ updatedAt: 2026-07-11T14:03:29.138Z
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.technical-setup`: 技术面空头排列完整（价格<10EMA<50SMA），但距 200SMA 仅 -8.8%（长期结构完好） (status fact, confidence 0.95, missing evidence, fresh (2026-07-11T13:47:37.704Z))
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.bug-fix-env-var`: 运行发现 skill 配置 bug：脚本读 TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致 deepseek-v4-flash 不可用——已通过 env override 修复 (status fact, confidence 0.98, missing evidence, fresh (2026-07-11T13:47:37.704Z))
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.complementary-view`: TradingAgents 与我昨天判断互补：1.85 / 1.7-1.8 / 2.18 形成三档梯形建仓策略 (status opinion, confidence 0.80, missing evidence, fresh (2026-07-11T13:47:37.704Z))
+
+### Stale Claims
+- [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.basic-info`: 159828.SZ 国泰中证医疗ETF（深交所），跟踪中证医疗指数（399989 / CSI 930720），管理人国泰基金，成立日期 2021-01-12 (status fact, confidence 0.95, 1 evidence, missing updatedAt)
+- [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.price-20260710`: 2026-07-10 收盘价 0.39 元，距 200 日均线 0.425 元 -10.3%；52 周区间 0.358-0.499 (status fact, confidence 0.95, 1 evidence, missing updatedAt)
+- [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.sre-strategic-bullish`: stock-research-engine 评级：🟢 战略看好。估值底部（PE 28.9 / 10年分位11.4%）+ 产业拐点（BD 出海997亿美元）+ 政策定调升级三重共振。建议定投/网格/分批加仓 (status fact, confidence 0.85, 1 evidence, missing updatedAt)
+- [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.ta-hold-rating`: TradingAgents 多智能体评级：🟡 Hold（持有），目标价 0.43 元，时间窗口 3-6 个月，硬止损 0.358 (status fact, confidence 0.85, 1 evidence, missing updatedAt)
+- [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.dual-framework-consensus`: 双框架共识：估值底部 + 产业拐点（长期看好）+ 短期催化已部分兑现 + 8月中报是真考验。3 种操作风格分别给出推荐策略（长期定投/波段 Hold/短线观望） (status fact, confidence 0.85, 1 evidence, missing updatedAt)
 <!-- openclaw:wiki:claim-health:end -->

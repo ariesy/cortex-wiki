@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 542
+- Warnings: 554
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -30,6 +30,15 @@ status: active
 - `entities/0916.HK_龙源电力.md`: Broken wikilink target `电力行业-2026中期`.
 - `entities/0916.HK_龙源电力.md`: Broken wikilink target `AI电力需求-2026`.
 - `entities/1398.HK_工商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Page freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.basic-info` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.price-20260710` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.sre-strategic-bullish` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.ta-hold-rating` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.dual-framework-consensus` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Broken wikilink target `entities/syntheses/中证医疗etf-159828-sz-2026-07-12-双框架对比分析.md`.
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Broken wikilink target `entities/syntheses/中证医疗etf-159828-sz-2026-07-12-双框架对比分析.md`.
 - `entities/159837.SZ_中证生物科技ETF.md`: Broken wikilink target `BIOSECURE-Act-2026`.
 - `entities/159837.SZ_中证生物科技ETF.md`: Broken wikilink target `中国创新药出海-2026`.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
@@ -388,6 +397,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-digital-art-analysis-6a07b0cc.md`: Page freshness needs review (last touched 2026-04-12T12:18:25.486Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-traffic-report-b35263bb.md`: Page freshness needs review (last touched 2026-04-12T06:32:49.226Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xurl-oauth-error-0684b1b2.md`: Page freshness needs review (last touched 2026-04-12T14:14:12.072Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-claude-code-founder-711d5347.md`: Page freshness needs review (last touched 2026-04-13T06:06:58.625Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-16-kronos-script-denial-192514f6.md`: Broken wikilink target `$# -gt 0`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
@@ -608,6 +619,7 @@ status: active
 - `syntheses/tradingagents-评估流程.md`: Broken wikilink target `乖宝宠物 (301498.SZ)`.
 - `syntheses/tradingagents-评估流程.md`: Broken wikilink target `宠物食品板块 2026年中分析`.
 - `syntheses/tradingagents-评估流程.md`: Broken wikilink target `红线过滤器（投资风控）`.
+- `syntheses/中证医疗etf-159828-sz-2026-07-12-双框架对比分析.md`: Broken wikilink target `syntheses/entities/159828.SZ_国泰中证医疗ETF.md`.
 - `syntheses/京能电力-600578-sh.md`: Claim `市值` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `PE` is missing structured evidence.
 - `syntheses/京能电力-600578-sh.md`: Claim `净利润增速` is missing structured evidence.
@@ -662,6 +674,7 @@ status: active
 - `entities/002891.SZ_中宠股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/002896.SZ_中大力德.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1398.HK_工商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/161017.SZ_富国中证500增强.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/1810.HK_小米集团.md`: Claim `claim.1810.HK.death-cross` is missing structured evidence.
@@ -810,6 +823,12 @@ status: active
 - `entities/002735.SZ_王子新材.md`: Page freshness needs review (missing updatedAt).
 - `entities/002891.SZ_中宠股份.md`: Page freshness needs review (missing updatedAt).
 - `entities/002896.SZ_中大力德.md`: Page freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Page freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.basic-info` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.price-20260710` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.sre-strategic-bullish` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.ta-hold-rating` freshness needs review (missing updatedAt).
+- `entities/159828.SZ_国泰中证医疗ETF.md`: Claim `claim.entity.159828.dual-framework-consensus` freshness needs review (missing updatedAt).
 - `entities/300319.SZ_麦捷科技.md`: Page freshness needs review (missing updatedAt).
 - `entities/300353.SZ_东土科技.md`: Page freshness needs review (missing updatedAt).
 - `entities/301498.SZ_乖宝宠物.md`: Page freshness needs review (missing updatedAt).
@@ -987,6 +1006,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-digital-art-analysis-6a07b0cc.md`: Page freshness needs review (last touched 2026-04-12T12:18:25.486Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-traffic-report-b35263bb.md`: Page freshness needs review (last touched 2026-04-12T06:32:49.226Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xurl-oauth-error-0684b1b2.md`: Page freshness needs review (last touched 2026-04-12T14:14:12.072Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-claude-code-founder-711d5347.md`: Page freshness needs review (last touched 2026-04-13T06:06:58.625Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
