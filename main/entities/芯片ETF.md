@@ -134,7 +134,7 @@ relationships:
       - kind: sector-analysis
         sourceId: source.entities.investments
         note: 芯片ETF持有中际旭创等光模块/算力芯片标的
-updatedAt: 2026-06-09T00:52:32.230Z
+updatedAt: 2026-07-14T01:05:00.000Z
 ---
 
 # 芯片ETF (159995.SZ)
