@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 554
+- Warnings: 564
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -59,6 +59,7 @@ status: active
 - `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/301498.SZ_乖宝宠物.md`: Page freshness needs review (missing updatedAt).
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/512760.SS_国泰CES半导体芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -399,7 +400,14 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xurl-oauth-error-0684b1b2.md`: Page freshness needs review (last touched 2026-04-12T14:14:12.072Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-13-claude-code-founder-711d5347.md`: Page freshness needs review (last touched 2026-04-13T06:06:58.625Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-deep-research-models-f048830c.md`: Page freshness needs review (last touched 2026-04-13T10:59:10.429Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-health-records-debug-e347c821.md`: Page freshness needs review (last touched 2026-04-13T14:32:43.401Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-openkedge-agentic-ai-74f219d7.md`: Page freshness needs review (last touched 2026-04-13T13:59:03.648Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-0323-2704b32b.md`: Page freshness needs review (last touched 2026-04-14T03:23:25.664Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Page freshness needs review (last touched 2026-04-14T10:41:56.383Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-openclaw-release-notes-f726459d.md`: Page freshness needs review (last touched 2026-04-14T11:07:54.175Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-resmon-history-c68c57fd.md`: Page freshness needs review (last touched 2026-04-14T12:47:37.780Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-16-kronos-script-denial-192514f6.md`: Broken wikilink target `$# -gt 0`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
@@ -469,6 +477,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-06-25-1134-23116210.md`: Broken wikilink target `reply_to:om_x100b6cfbcf3334b8c389beffc704244`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-07-10-1234-1d64a985.md`: Broken wikilink target `tts:text`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-07-10-1234-1d64a985.md`: Broken wikilink target `/tts:text`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-07-14-0025-12d7c487.md`: Broken wikilink target `储能电池ETF_(159566.SZ)`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-07-14-0025-12d7c487.md`: Broken wikilink target `stock-research-engine分析报告`.
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
@@ -687,6 +697,7 @@ status: active
 - `entities/300价值ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/512760.SS_国泰CES半导体芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -1008,6 +1019,13 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xiaohongshu-install-682f63ef.md`: Page freshness needs review (last touched 2026-04-12T12:37:59.813Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-12-xurl-oauth-error-0684b1b2.md`: Page freshness needs review (last touched 2026-04-12T14:14:12.072Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-13-claude-code-founder-711d5347.md`: Page freshness needs review (last touched 2026-04-13T06:06:58.625Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-deep-research-models-f048830c.md`: Page freshness needs review (last touched 2026-04-13T10:59:10.429Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-health-records-debug-e347c821.md`: Page freshness needs review (last touched 2026-04-13T14:32:43.401Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-13-openkedge-agentic-ai-74f219d7.md`: Page freshness needs review (last touched 2026-04-13T13:59:03.648Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-0323-2704b32b.md`: Page freshness needs review (last touched 2026-04-14T03:23:25.664Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-metro-10-1a2dde21.md`: Page freshness needs review (last touched 2026-04-14T10:41:56.383Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-openclaw-release-notes-f726459d.md`: Page freshness needs review (last touched 2026-04-14T11:07:54.175Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-14-resmon-history-c68c57fd.md`: Page freshness needs review (last touched 2026-04-14T12:47:37.780Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).

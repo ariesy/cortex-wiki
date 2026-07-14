@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-07-12T08:32:29.042Z
+updatedAt: 2026-07-14T01:10:47.334Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 181
+- Structured relationships: 188
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -125,6 +125,13 @@ updatedAt: 2026-07-12T08:32:29.042Z
 - [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中国创新药出海BD 2025-2026 (complementary, weight 0.85, 国内支付端突破 + 海外授权收入双轮驱动创新药估值)
 - [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 中证生物科技ETF (159837.SZ) (beneficiary, weight 0.70, 创新药权重30%，最大政策受益板块)
 - [商保创新药目录（丙类目录）2026](../concepts/商保创新药目录-丙类目录.md) -> 医疗ETF (512170.SS) (beneficiary, weight 0.50, 间接利好，医疗器械+服务同时受益)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 中芯国际 (688981) (etf-top-component, weight 0.07, 国产晶圆代工唯一载体，Top3权重)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 兆易创新 (603986) (etf-top-component, weight 0.06, 存储+MCU，Top5权重)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 寒武纪 (688256) (etf-top-component, weight 0.07, AI芯片设计龙头，Top4权重)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 恒生科技ETF (513180) (similar-etf, 港股科技/AI算力替代标的，估值更低但流动性差)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 海光信息 (688041) (etf-top-component, weight 0.08, CPU+DCU 国产AI算力龙头，Top1权重)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 澜起科技 (688008) (etf-top-component, weight 0.06, 内存接口芯片全球龙头，Top6权重)
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md) -> 芯片ETF (159995.SZ) (similar-etf, 华夏芯片ETF，跟踪国证芯片产业指数，半导体纯度略低，定位对比标的)
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md) -> 中际旭创 (supply-chain-downstream, weight 0.85, 天孚是旭创的光器件上游供应商)
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md) -> 芯片ETF (etf-component, weight 0.60, 光器件与芯片产业链相关)
 - [姚文海](../entities/yao-wenhai.md) -> 朱凌霄 (child, weight 1.00)
