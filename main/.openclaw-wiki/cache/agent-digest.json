@@ -2,15 +2,15 @@
   "pageCounts": {
     "entity": 139,
     "concept": 14,
-    "source": 1922,
-    "synthesis": 18,
+    "source": 1967,
+    "synthesis": 19,
     "report": 10
   },
   "claimCount": 321,
   "claimHealth": {
     "freshness": {
-      "fresh": 176,
-      "aging": 140,
+      "fresh": 130,
+      "aging": 186,
       "stale": 0,
       "unknown": 5
     },
@@ -726,7 +726,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T05:00:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -985,7 +985,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "entity",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T06:35:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -1392,7 +1392,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T05:00:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -2016,7 +2016,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "entity",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T06:30:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -2071,7 +2071,7 @@
       "pageType": "entity",
       "entityType": "investment_stock",
       "privacyTier": "public",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T08:30:00Z",
       "claimCount": 15,
       "topClaims": [
@@ -2090,7 +2090,7 @@
               "note": "Yahoo Finance 2026-06-12"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T08:30:00Z"
         },
         {
@@ -2108,7 +2108,7 @@
               "note": "2025年业绩快报"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T08:30:00Z"
         },
         {
@@ -2126,7 +2126,7 @@
               "note": "9家股份行综合对比"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T08:30:00Z"
         },
         {
@@ -2144,7 +2144,7 @@
               "note": "2026-06-12雪球数据"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T08:30:00Z"
         },
         {
@@ -2162,7 +2162,7 @@
               "note": "9家股份行对比"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T08:30:00Z"
         }
       ]
@@ -2322,7 +2322,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T05:00:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -2368,7 +2368,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T05:32:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -2393,7 +2393,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T05:00:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -5000,7 +5000,7 @@
       "pageType": "entity",
       "entityType": "strategy",
       "confidence": 0.85,
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T03:47:00.000Z",
       "claimCount": 23,
       "topClaims": [
@@ -5019,7 +5019,7 @@
               "note": "2026年全国两会政府工作报告原文"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-15T03:47:00.000Z"
         },
         {
@@ -5037,7 +5037,7 @@
               "note": "中国信通院2026年5月发布数据"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-15T03:47:00.000Z"
         },
         {
@@ -5055,7 +5055,7 @@
               "note": "国能发科技〔2026〕34号文件"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-15T03:47:00.000Z"
         },
         {
@@ -5073,7 +5073,7 @@
               "note": "中国能源报2026年6月9日报道"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-15T03:47:00.000Z"
         },
         {
@@ -5091,7 +5091,7 @@
               "note": "国家发改委官网2026年5月15日报道"
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-15T03:47:00.000Z"
         }
       ]
@@ -8654,7 +8654,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-12T08:32:29.042Z",
+      "lastTouchedAt": "2026-07-16T15:45:38.764Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -8824,7 +8824,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-14T01:10:47.334Z",
+      "lastTouchedAt": "2026-07-16T15:45:38.764Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -12128,7 +12128,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T00:09:02.917Z",
       "claimCount": 0,
       "topClaims": []
@@ -12147,7 +12147,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T23:59:44.716Z",
       "claimCount": 0,
       "topClaims": []
@@ -12166,7 +12166,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T13:49:12.620Z",
       "claimCount": 0,
       "topClaims": []
@@ -12185,7 +12185,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T11:52:16.823Z",
       "claimCount": 0,
       "topClaims": []
@@ -12204,7 +12204,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T04:06:35.127Z",
       "claimCount": 0,
       "topClaims": []
@@ -12223,7 +12223,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-16T13:34:35.508Z",
       "claimCount": 0,
       "topClaims": []
@@ -12242,7 +12242,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-17T15:26:51.256Z",
       "claimCount": 0,
       "topClaims": []
@@ -12261,7 +12261,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-04-17T15:07:13.851Z",
       "claimCount": 0,
       "topClaims": []
@@ -17752,7 +17752,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T02:46:34.117Z",
       "claimCount": 0,
       "topClaims": []
@@ -17771,7 +17771,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T02:49:46.896Z",
       "claimCount": 0,
       "topClaims": []
@@ -17790,7 +17790,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T02:49:33.167Z",
       "claimCount": 0,
       "topClaims": []
@@ -17809,7 +17809,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T02:53:04.955Z",
       "claimCount": 0,
       "topClaims": []
@@ -17828,7 +17828,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T03:05:47.643Z",
       "claimCount": 0,
       "topClaims": []
@@ -17847,7 +17847,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T04:28:21.253Z",
       "claimCount": 0,
       "topClaims": []
@@ -17866,7 +17866,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T04:39:50.925Z",
       "claimCount": 0,
       "topClaims": []
@@ -17885,7 +17885,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T05:20:18.706Z",
       "claimCount": 0,
       "topClaims": []
@@ -17904,7 +17904,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T05:32:15.909Z",
       "claimCount": 0,
       "topClaims": []
@@ -17923,7 +17923,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T06:08:18.099Z",
       "claimCount": 0,
       "topClaims": []
@@ -17942,7 +17942,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T07:01:30.531Z",
       "claimCount": 0,
       "topClaims": []
@@ -17961,7 +17961,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T07:03:50.730Z",
       "claimCount": 0,
       "topClaims": []
@@ -17980,7 +17980,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T07:05:16.645Z",
       "claimCount": 0,
       "topClaims": []
@@ -17999,7 +17999,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T08:49:58.726Z",
       "claimCount": 0,
       "topClaims": []
@@ -18018,7 +18018,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T03:05:12.518Z",
       "claimCount": 0,
       "topClaims": []
@@ -18037,7 +18037,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T12:07:38.594Z",
       "claimCount": 0,
       "topClaims": []
@@ -18056,7 +18056,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T12:10:27.583Z",
       "claimCount": 0,
       "topClaims": []
@@ -18075,7 +18075,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T12:30:07.560Z",
       "claimCount": 0,
       "topClaims": []
@@ -18094,7 +18094,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T13:41:30.672Z",
       "claimCount": 0,
       "topClaims": []
@@ -18113,7 +18113,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T14:27:03.213Z",
       "claimCount": 0,
       "topClaims": []
@@ -18132,7 +18132,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T09:04:45.292Z",
       "claimCount": 0,
       "topClaims": []
@@ -18151,7 +18151,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T09:18:44.096Z",
       "claimCount": 0,
       "topClaims": []
@@ -18170,7 +18170,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T00:27:48.101Z",
       "claimCount": 0,
       "topClaims": []
@@ -18189,7 +18189,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T00:54:08.480Z",
       "claimCount": 0,
       "topClaims": []
@@ -18208,7 +18208,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T03:45:35.467Z",
       "claimCount": 0,
       "topClaims": []
@@ -18227,7 +18227,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T08:13:11.346Z",
       "claimCount": 0,
       "topClaims": []
@@ -18246,7 +18246,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T13:05:57.598Z",
       "claimCount": 0,
       "topClaims": []
@@ -18265,7 +18265,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T14:32:43.772Z",
       "claimCount": 0,
       "topClaims": []
@@ -18284,7 +18284,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T14:40:12.238Z",
       "claimCount": 0,
       "topClaims": []
@@ -18303,7 +18303,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T23:26:03.231Z",
       "claimCount": 0,
       "topClaims": []
@@ -18322,7 +18322,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-16T13:49:46.953Z",
       "claimCount": 0,
       "topClaims": []
@@ -19696,6 +19696,158 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-14-0601-06caa557",
+      "title": "Memory Bridge (main): 2026-07-14-0601",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-14-0601-06caa557.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T06:01:54.694Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-14-1029-60fc333d",
+      "title": "Memory Bridge (main): 2026-07-14-1029",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-14-1029-60fc333d.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T10:29:27.971Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-15-0413-d49cb070",
+      "title": "Memory Bridge (main): 2026-07-15-0413",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-15-0413-d49cb070.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T04:13:02.445Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-15-0913-2e7929b5",
+      "title": "Memory Bridge (main): 2026-07-15-0913",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-15-0913-2e7929b5.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T09:13:43.467Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-15-1204-ce1199b2",
+      "title": "Memory Bridge (main): 2026-07-15-1204",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-15-1204-ce1199b2.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T12:04:49.249Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-15-2327-45c66a6d",
+      "title": "Memory Bridge (main): 2026-07-15-2327",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-15-2327-45c66a6d.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T23:27:32.781Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-16-1336-edd6a628",
+      "title": "Memory Bridge (main): 2026-07-16-1336",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-16-1336-edd6a628.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-16T13:36:17.214Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-07-16-1354-b15329ce",
+      "title": "Memory Bridge (main): 2026-07-16-1354",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-07-16-1354-b15329ce.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-16T13:54:34.616Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-2d62c497",
       "title": "Memory Bridge (main): MEMORY",
       "kind": "source",
@@ -20849,7 +21001,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:05.096Z",
       "claimCount": 0,
       "topClaims": []
@@ -20868,7 +21020,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:04.899Z",
       "claimCount": 0,
       "topClaims": []
@@ -21402,6 +21554,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:09.747Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (main): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:13.732Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (main): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:53.303Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -22521,7 +22711,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:02.681Z",
       "claimCount": 0,
       "topClaims": []
@@ -22540,7 +22730,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:02.720Z",
       "claimCount": 0,
       "topClaims": []
@@ -23074,6 +23264,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:01:02.930Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (main): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:01:15.789Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (main): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:03.660Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -24193,7 +24421,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:04.732Z",
       "claimCount": 0,
       "topClaims": []
@@ -24212,7 +24440,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:04.524Z",
       "claimCount": 0,
       "topClaims": []
@@ -24750,6 +24978,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (main): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:09.067Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (main): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:49.195Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-142ea9a2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (main): event journal",
       "kind": "source",
@@ -24764,7 +25030,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:05:23.863Z",
+      "lastTouchedAt": "2026-07-15T19:01:53.334Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -24782,7 +25048,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T05:06:03.341Z",
       "claimCount": 0,
       "topClaims": []
@@ -25637,7 +25903,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:07.369Z",
       "claimCount": 0,
       "topClaims": []
@@ -25656,7 +25922,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:07.038Z",
       "claimCount": 0,
       "topClaims": []
@@ -26190,6 +26456,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:03:02.541Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (guardians-eye): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:03:07.622Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (guardians-eye): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:29.974Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -26834,7 +27138,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.977Z",
       "claimCount": 0,
       "topClaims": []
@@ -26853,7 +27157,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.603Z",
       "claimCount": 0,
       "topClaims": []
@@ -27387,6 +27691,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:48.577Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (guardians-eye): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:53.736Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (guardians-eye): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:19.125Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -28031,7 +28373,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:07.067Z",
       "claimCount": 0,
       "topClaims": []
@@ -28050,7 +28392,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.704Z",
       "claimCount": 0,
       "topClaims": []
@@ -28588,6 +28930,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (guardians-eye): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:03:00.869Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (guardians-eye): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:21.958Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-guardians-eye-61cfe7ad.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (guardians-eye): event journal",
       "kind": "source",
@@ -28602,7 +28982,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:03:02.589Z",
+      "lastTouchedAt": "2026-07-15T19:02:30.051Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -29836,7 +30216,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.355Z",
       "claimCount": 0,
       "topClaims": []
@@ -29855,7 +30235,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:05.708Z",
       "claimCount": 0,
       "topClaims": []
@@ -30389,6 +30769,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:14.845Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (inbox-zero): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:19.142Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (inbox-zero): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:53.994Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -31508,7 +31926,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:05.255Z",
       "claimCount": 0,
       "topClaims": []
@@ -31527,7 +31945,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:05.016Z",
       "claimCount": 0,
       "topClaims": []
@@ -32061,6 +32479,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:09.841Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (inbox-zero): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:13.969Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (inbox-zero): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:53.473Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -33180,7 +33636,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:05.759Z",
       "claimCount": 0,
       "topClaims": []
@@ -33199,7 +33655,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:05.556Z",
       "claimCount": 0,
       "topClaims": []
@@ -33737,6 +34193,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (inbox-zero): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:16.554Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (inbox-zero): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:53.740Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-inbox-zero-0f8dd911.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (inbox-zero): event journal",
       "kind": "source",
@@ -33751,7 +34245,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:02:14.879Z",
+      "lastTouchedAt": "2026-07-15T19:01:53.996Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -34358,7 +34852,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:07.459Z",
       "claimCount": 0,
       "topClaims": []
@@ -34377,7 +34871,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:07.110Z",
       "claimCount": 0,
       "topClaims": []
@@ -34911,6 +35405,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:03:04.474Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (sillytavern): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:03:12.454Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (sillytavern): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:34.438Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -35479,7 +36011,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:07.402Z",
       "claimCount": 0,
       "topClaims": []
@@ -35498,7 +36030,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:07.056Z",
       "claimCount": 0,
       "topClaims": []
@@ -36032,6 +36564,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:03:02.690Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (sillytavern): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:03:09.814Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (sillytavern): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:31.347Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -36600,7 +37170,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:07.423Z",
       "claimCount": 0,
       "topClaims": []
@@ -36619,7 +37189,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:07.074Z",
       "claimCount": 0,
       "topClaims": []
@@ -37157,6 +37727,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (sillytavern): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:03:10.492Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (sillytavern): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:32.028Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-sillytavern-9f760fe2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (sillytavern): event journal",
       "kind": "source",
@@ -37171,7 +37779,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:03:04.477Z",
+      "lastTouchedAt": "2026-07-15T19:02:34.442Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -37512,7 +38120,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T09:22:02.061Z",
       "claimCount": 0,
       "topClaims": []
@@ -37571,6 +38179,25 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-01T00:21:06.311Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-2026-07-15-2330-0099f6e7",
+      "title": "Memory Bridge (symptom-triage): 2026-07-15-2330",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-07-15-2330-0099f6e7.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T23:30:15.008Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -38291,7 +38918,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.872Z",
       "claimCount": 0,
       "topClaims": []
@@ -38310,7 +38937,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.477Z",
       "claimCount": 0,
       "topClaims": []
@@ -38844,6 +39471,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:40.312Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (symptom-triage): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:45.230Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (symptom-triage): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:14.066Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -39545,7 +40210,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.603Z",
       "claimCount": 0,
       "topClaims": []
@@ -39564,7 +40229,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.189Z",
       "claimCount": 0,
       "topClaims": []
@@ -40098,6 +40763,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:28.672Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (symptom-triage): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:33.036Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (symptom-triage): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:01.921Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -40799,7 +41502,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.756Z",
       "claimCount": 0,
       "topClaims": []
@@ -40818,7 +41521,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.346Z",
       "claimCount": 0,
       "topClaims": []
@@ -41356,6 +42059,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (symptom-triage): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:36.001Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (symptom-triage): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:02:05.017Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-symptom-triage-1949a7e2.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (symptom-triage): event journal",
       "kind": "source",
@@ -41370,7 +42111,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:02:40.315Z",
+      "lastTouchedAt": "2026-07-15T19:02:14.135Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -42110,7 +42851,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.448Z",
       "claimCount": 0,
       "topClaims": []
@@ -42129,7 +42870,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:06.006Z",
       "claimCount": 0,
       "topClaims": []
@@ -42663,6 +43404,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:19.824Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-deep-2026-07-15-7c6ac698",
+      "title": "Memory Bridge (workflows): dreaming / deep / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-deep-2026-07-15-7c6ac698.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:24.691Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-deep-2026-07-16-60508b29",
+      "title": "Memory Bridge (workflows): dreaming / deep / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-deep-2026-07-16-60508b29.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:57.482Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -43402,7 +44181,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.393Z",
       "claimCount": 0,
       "topClaims": []
@@ -43421,7 +44200,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:05.902Z",
       "claimCount": 0,
       "topClaims": []
@@ -43955,6 +44734,44 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-07-13T19:02:17.054Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-light-2026-07-15-f3bc2b36",
+      "title": "Memory Bridge (workflows): dreaming / light / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-light-2026-07-15-f3bc2b36.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:21.562Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-light-2026-07-16-a2757e5c",
+      "title": "Memory Bridge (workflows): dreaming / light / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-light-2026-07-16-a2757e5c.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:55.173Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -44694,7 +45511,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T19:00:06.411Z",
       "claimCount": 0,
       "topClaims": []
@@ -44713,7 +45530,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-15T19:00:05.973Z",
       "claimCount": 0,
       "topClaims": []
@@ -45251,6 +46068,44 @@
       "topClaims": []
     },
     {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-rem-2026-07-15-ece89c81",
+      "title": "Memory Bridge (workflows): dreaming / rem / 2026-07-15",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-07-15-ece89c81.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-14T19:02:22.237Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-worflows-c740ec03.memory-dreaming-rem-2026-07-16-f8d42d06",
+      "title": "Memory Bridge (workflows): dreaming / rem / 2026-07-16",
+      "kind": "source",
+      "path": "sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-07-16-f8d42d06.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-15T19:01:55.663Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "source.bridge.workspace-worflows-c740ec03.memory-dreams-events-jsonl-38a7dd37",
       "title": "Memory Bridge (workflows): event journal",
       "kind": "source",
@@ -45265,7 +46120,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-13T19:02:20.181Z",
+      "lastTouchedAt": "2026-07-15T19:01:57.483Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -45998,7 +46853,7 @@
       "topRelationships": [],
       "pageType": "synthesis",
       "confidence": 0.85,
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-06-14T05:05:09.955Z",
       "claimCount": 8,
       "topClaims": [
@@ -46010,7 +46865,7 @@
           "evidenceCount": 0,
           "missingEvidence": true,
           "evidence": [],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T05:05:09.955Z"
         },
         {
@@ -46021,7 +46876,7 @@
           "evidenceCount": 0,
           "missingEvidence": true,
           "evidence": [],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T05:05:09.955Z"
         },
         {
@@ -46032,7 +46887,7 @@
           "evidenceCount": 0,
           "missingEvidence": true,
           "evidence": [],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T05:05:09.955Z"
         },
         {
@@ -46043,7 +46898,7 @@
           "evidenceCount": 0,
           "missingEvidence": true,
           "evidence": [],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T05:05:09.955Z"
         },
         {
@@ -46054,7 +46909,7 @@
           "evidenceCount": 0,
           "missingEvidence": true,
           "evidence": [],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-06-14T05:05:09.955Z"
         }
       ]
@@ -46224,6 +47079,28 @@
           "lastTouchedAt": "2026-07-11T13:47:37.704Z"
         }
       ]
+    },
+    {
+      "id": "synthesis.南网科技-688248-sh",
+      "title": "南网科技 (688248.SH)",
+      "kind": "synthesis",
+      "path": "syntheses/南网科技-688248-sh.md",
+      "aliases": [],
+      "sourceIds": [
+        "workspace/research/南网科技/ai-berkshire-investment-research-20260716.md",
+        "workspace/research/南网科技/TradingAgents_2026-07-16.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "synthesis",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-07-16T15:47:20.947Z",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "synthesis.实体提取汇总-2026-06-05",
