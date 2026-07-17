@@ -3,22 +3,18 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-07-16T15:45:38.764Z
+updatedAt: 2026-07-17T13:34:24.863Z
 ---
 
 # Claim Health
 
 ## Generated
 <!-- openclaw:wiki:claim-health:start -->
-- Claims missing evidence: 31
+- Claims missing evidence: 41
 - Contested claims: 0
 - Stale or unknown claims: 5
 
 ### Missing Evidence
-- [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号 (status supported, confidence 0.90, missing evidence, aging (2026-06-08))
-- [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.storage-crisis`: 存储芯片危机至少持续至2027年，手机利润修复周期以年为单位 (status supported, confidence 0.85, missing evidence, aging (2026-06-08))
-- [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.q1-deterioration`: Q1净利润腰斩43-57%、手机出货-20%、EV交付环比-44%，基本面恶化信号明确 (status supported, confidence 0.90, missing evidence, aging (2026-06-08))
-- [1810.HK_小米集团](../entities/1810.HK_小米集团.md): `claim.1810.HK.cash-buffer`: 净现金650亿人民币+管理层回购61.7亿港元提供下行保护，排除Sell评级 (status supported, confidence 0.85, missing evidence, aging (2026-06-08))
 - [600900.SS 长江电力](../entities/600900.SS_长江电力.md): 2026年6月11日深度分析：股价27.69元(6/9)，市值6780亿元，PE~18.5倍，PB~2.93倍，股息率~3.4%；六库联调掌控长江干流7179.5万千瓦水电装机，2025年发电量首破3000亿千瓦时；Q1归母净利润同比+30.5% (status supported, confidence 0.80, missing evidence, fresh (2026-06-27T10:55:13.253Z))
 - [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md): 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月) (status supported, confidence 0.80, missing evidence, fresh (2026-06-27T10:55:13.226Z))
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `市值`: ~550亿元（2026-06） (status supported, confidence 0.90, missing evidence, aging (2026-06-14T05:05:09.955Z))
@@ -46,6 +42,20 @@ updatedAt: 2026-07-16T15:45:38.764Z
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.technical-setup`: 技术面空头排列完整（价格<10EMA<50SMA），但距 200SMA 仅 -8.8%（长期结构完好） (status fact, confidence 0.95, missing evidence, fresh (2026-07-11T13:47:37.704Z))
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.bug-fix-env-var`: 运行发现 skill 配置 bug：脚本读 TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致 deepseek-v4-flash 不可用——已通过 env override 修复 (status fact, confidence 0.98, missing evidence, fresh (2026-07-11T13:47:37.704Z))
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md): `claim.ta-20260711.complementary-view`: TradingAgents 与我昨天判断互补：1.85 / 1.7-1.8 / 2.18 形成三档梯形建仓策略 (status opinion, confidence 0.80, missing evidence, fresh (2026-07-11T13:47:37.704Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号 (status supported, confidence 0.90, missing evidence, fresh (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.storage-crisis`: 存储芯片危机至少持续至2027年，手机利润修复周期以年为单位 (status supported, confidence 0.85, missing evidence, fresh (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.q1-deterioration`: Q1净利润腰斩43-57%、手机出货-20%、EV交付环比-44%，基本面恶化信号明确 (status supported, confidence 0.90, missing evidence, fresh (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.cash-buffer`: 净现金650亿人民币+管理层回购61.7亿港元提供下行保护，排除Sell评级 (status supported, confidence 0.85, missing evidence, fresh (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ta-20260717.underweight`: 2026-07-17 TradingAgents 评级 Underweight，目标减仓至 1.5% 以下，VWAP 24.74 硬止损 (status active, confidence 0.95, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-20260717.hold`: 2026-07-17 ai-berkshire 四大师框架综合评级：持有/观望，概率加权目标价 HK$27.8，中性情景 28.9，安全边际有限 (status active, confidence 0.90, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.dual-framework-divergence`: 双框架核心分歧：TradingAgents 看重边际恶化（FCF断崖/库存/竞争），建议减仓；ai-berkshire 看重绝对盈利水平和长期趋势（利润 416 亿/毛利率持续改善），建议持有 (status active, confidence 0.85, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.cashflow-deterioration`: 经营现金流连续两年收缩：413→392→341 亿港元（-17%），自由现金流从 350 亿断崖至 TTM 77 亿 (status fact, confidence 0.95, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.inventory-risk`: 809 亿存货中消费电子制成品占主力，保守派压力测试：10% 减值冲击 EPS 约 0.32 港元 (status active, confidence 0.85, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.apple-ai-threat`: 苹果 AI 入华接入阿里 Qwen 和百度，对小米 4000 元以上高端化形成降维打击 (status active, confidence 0.85, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.death-cross`: 50/200 SMA 死亡交叉延续，200 日线 36.16 港元仍下行 (status supported, confidence 0.90, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.net-cash-buffer`: 净现金 1,077 亿港元（占市值 17%+）+ 管理层 61.7 亿回购 (status fact, confidence 0.95, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-net-profit-recovery`: 2025 年净利润 416 亿，从 2022 年 25 亿暴增 16 倍；毛利率从 17.8% 持续改善至 22.3% (status fact, confidence 0.95, missing evidence, fresh (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-moat-scale`: 护城河：规模效应 ⭐⭐⭐⭐⭐（全球第三、年出货 1.5 亿）、IoT 网络效应 ⭐⭐⭐⭐、但品牌定价权弱 ⭐⭐ (status active, confidence 0.85, missing evidence, fresh (2026-07-17T13:34:20.865Z))
 
 ### Stale Claims
 - [国泰中证医疗ETF (159828.SZ)](../entities/159828.SZ_国泰中证医疗ETF.md): `claim.entity.159828.basic-info`: 159828.SZ 国泰中证医疗ETF（深交所），跟踪中证医疗指数（399989 / CSI 930720），管理人国泰基金，成立日期 2021-01-12 (status fact, confidence 0.95, 1 evidence, missing updatedAt)

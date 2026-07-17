@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 3
-- Warnings: 574
+- Warnings: 592
 
 ### Errors
 - `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
@@ -47,6 +47,8 @@ status: active
 - `entities/1810.HK_小米集团.md`: Claim `claim.1810.HK.storage-crisis` is missing structured evidence.
 - `entities/1810.HK_小米集团.md`: Claim `claim.1810.HK.q1-deterioration` is missing structured evidence.
 - `entities/1810.HK_小米集团.md`: Claim `claim.1810.HK.cash-buffer` is missing structured evidence.
+- `entities/1810.HK_小米集团.md`: Claim cluster `claim.1810.HK.death-cross` has competing variants across 2 pages.
+- `entities/1810.HK_小米集团.md`: Broken wikilink target `小米集团 (1810.HK) 投资跟踪`.
 - `entities/300144.SZ_宋城演艺.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300319.SZ_麦捷科技.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/300319.SZ_麦捷科技.md`: Page freshness needs review (missing updatedAt).
@@ -424,8 +426,15 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-kronos-finetune-601088-7087c483.md`: Page freshness needs review (last touched 2026-04-17T15:07:13.851Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-kronos-finetune-601088-7087c483.md`: Broken wikilink target `'open','high','low','close','volume','amount'`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-aliyun-docker-registry-usage-57301327.md`: Page freshness needs review (last touched 2026-04-18T00:48:52.209Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-bilibili-upload-config-03cf2416.md`: Page freshness needs review (last touched 2026-04-18T09:46:38.944Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md`: Page freshness needs review (last touched 2026-04-18T00:07:31.180Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-market-brief-01d13cbf.md`: Page freshness needs review (last touched 2026-04-18T11:51:00.178Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Page freshness needs review (last touched 2026-04-18T12:22:11.279Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Broken wikilink target `'date','close','rsi','ma5','ma20','macd'`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Broken wikilink target `'code','name','hold_vol','pct_float'`.
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-resume-hkex-update-b8f3b853.md`: Page freshness needs review (last touched 2026-04-18T00:58:34.302Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-unauthorized-skill-install-a734247b.md`: Page freshness needs review (last touched 2026-04-18T13:20:12.625Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-18-unauthorized-skill-install-a734247b.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-20-tech-safety-redundancy-25ff3259.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-23-daily-memory-83a98d65.md`: Broken wikilink target `reply_to_current`.
@@ -488,6 +497,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-07-14-0025-12d7c487.md`: Broken wikilink target `储能电池ETF_(159566.SZ)`.
 - `sources/bridge-workspace-142ea9a2-memory-2026-07-14-0025-12d7c487.md`: Broken wikilink target `stock-research-engine分析报告`.
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-18-445b54bd.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.167Z).
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:07.817Z).
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-19-183ce577.md`: Broken wikilink target `reply_to_current`.
@@ -620,6 +631,7 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-06-26-c448d0f1.md`: Broken wikilink target `reply_to:om_x100b6cfb3b6510b4c1e712ff279fbf0`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-06-28-9ecb93d1.md`: Broken wikilink target `reply_to:om_x100b6ccf431908a4b48389ae2e609a3`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-07-d1c02569.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:04:36.712Z).
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-19-29145f94.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-05-28-46e87614.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
@@ -629,6 +641,9 @@ status: active
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-17-4c983c0b.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-18-0a030fb8.md`: Broken wikilink target `reply_to_current`.
 - `sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-rem-2026-05-19-c9e99dda.md`: Broken wikilink target `reply_to_current`.
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-18-445b54bd.md`: Page freshness needs review (last touched 2026-04-18T12:05:56.355Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 - `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
@@ -671,14 +686,19 @@ status: active
 - `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `乖宝宠物 (301498.SZ)`.
 - `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `TradingAgents 评估流程`.
 - `syntheses/宠物食品板块-2026年中分析.md`: Broken wikilink target `红线过滤器（投资风控）`.
+- `syntheses/小米集团-1810-hk-投资跟踪.md`: Claim cluster `claim.1810.HK.death-cross` has competing variants across 2 pages.
+- `syntheses/小米集团-1810-hk-投资跟踪.md`: Broken wikilink target `TradingAgents 评估流程`.
+- `syntheses/小米集团-1810-hk-投资跟踪.md`: Broken wikilink target `京东集团 (9618.HK)`.
 
 ### Contradictions
+- `entities/1810.HK_小米集团.md`: Claim cluster `claim.1810.HK.death-cross` has competing variants across 2 pages.
 - `entities/中国算电协同战略-算电一体.md`: Page lists 3 contradictions to resolve.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-2` has competing variants across 2 pages.
 - `syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md`: Page lists 1 contradiction to resolve.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-1` has competing variants across 2 pages.
 - `syntheses/宠物食品板块-2026年中分析.md`: Claim cluster `claim-2` has competing variants across 2 pages.
+- `syntheses/小米集团-1810-hk-投资跟踪.md`: Claim cluster `claim.1810.HK.death-cross` has competing variants across 2 pages.
 
 ### Open Questions
 - `entities/中国算电协同战略-算电一体.md`: Page lists 5 open questions.
@@ -1044,8 +1064,21 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-16-model-finetuning-cn-a505ac9a.md`: Page freshness needs review (last touched 2026-04-16T13:34:35.508Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-clash-traffic-query-b6e76b7d.md`: Page freshness needs review (last touched 2026-04-17T15:26:51.256Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-17-kronos-finetune-601088-7087c483.md`: Page freshness needs review (last touched 2026-04-17T15:07:13.851Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-aliyun-docker-registry-usage-57301327.md`: Page freshness needs review (last touched 2026-04-18T00:48:52.209Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-bilibili-upload-config-03cf2416.md`: Page freshness needs review (last touched 2026-04-18T09:46:38.944Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md`: Page freshness needs review (last touched 2026-04-18T00:07:31.180Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-market-brief-01d13cbf.md`: Page freshness needs review (last touched 2026-04-18T11:51:00.178Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-popmart-investment-research-bf0f4de7.md`: Page freshness needs review (last touched 2026-04-18T12:22:11.279Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-resume-hkex-update-b8f3b853.md`: Page freshness needs review (last touched 2026-04-18T00:58:34.302Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-04-18-unauthorized-skill-install-a734247b.md`: Page freshness needs review (last touched 2026-04-18T13:20:12.625Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-04-18-445b54bd.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.167Z).
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:07.817Z).
+- `sources/bridge-workspace-142ea9a2-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:04:36.712Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-18-445b54bd.md`: Page freshness needs review (last touched 2026-04-18T12:05:56.355Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 <!-- openclaw:wiki:lint:end -->

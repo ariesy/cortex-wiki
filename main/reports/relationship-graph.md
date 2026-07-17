@@ -3,7 +3,7 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-07-14T01:10:47.334Z
+updatedAt: 2026-07-17T13:27:25.750Z
 ---
 
 # Relationship Graph
@@ -19,7 +19,6 @@ updatedAt: 2026-07-14T01:10:47.334Z
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 红利ETF (etf-component, weight 0.50, 高股息策略交叉覆盖)
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 芯片ETF (etf-component, weight 0.60, 中小盘科技风格重叠)
-- [1810.HK_小米集团](../entities/1810.HK_小米集团.md) -> 中概互联网ETF (etf-component, weight 0.90, 小米是港股中概互联网重要成分股)
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md) -> 五粮液 (same-sector, weight 0.60, 同为消费类，均受消费环境驱动)
 - [300价值ETF (512370.SS)](../entities/300价值ETF.md) -> 上证50AH优选指数A (501050) (peer-comparison, weight 0.75, 同样偏价值，但50AH含H股)
 - [300价值ETF (512370.SS)](../entities/300价值ETF.md) -> 兴业银行 (etf-component, weight 0.85, 银行板块核心成分股)
@@ -148,6 +147,7 @@ updatedAt: 2026-07-14T01:10:47.334Z
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md) -> 科创50ETF (588080) (references-in-synthesis, weight 0.70, 今日更新entity，补充stock-research-engine分析)
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md) -> 美团-W (03690.HK) (references-in-synthesis, weight 0.50, 6月8日更新entity，外卖竞争格局分析)
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md) -> 黄金ETF (references-in-synthesis, weight 0.50, 6月8日更新entity，Polymarket黄金预测+ETF分析)
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md) -> 中概互联网ETF (etf-component, weight 0.90, 小米是港股中概互联网重要成分股)
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 民生银行 (same-sector, weight 0.80, 同为港股银行，资产质量对比)
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 红利ETF (etf-component, weight 0.80, 招行是红利ETF高股息成分股)
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 红利ETF (constituent-of, confidence 0.85)
