@@ -2,22 +2,18 @@
 pageType: entity
 entityType: project
 id: entity.project.tradingagents
-updatedAt: 2026-07-12T08:27:42.451Z
+updatedAt: 2026-07-17T13:12:12.861Z
 claims:
-  - id: claim.tradingagents.2026-07-10.159828
-    text: 2026-07-12 TradingAgents 多智能体分析：159828.SZ（国泰中证医疗ETF）—— Hold 评级，目标价 0.43
-      元，时间窗口 3-6 个月，硬止损 0.358。详见 [[中证医疗etf-159828-sz-2026-07-12-双框架对比分析]] 和
-      [[159828.SZ_国泰中证医疗ETF]]
+  - id: claim.tradingagents.2026-07-17.688248-sell
+    text: 2026-07-17 TradingAgents 多智能体分析：688248.SS（南网科技）—— SELL 评级。33次LLM调用全部200
+      OK。投资组合经理终裁清仓，等估值回归。详见 entities/688248.SH_南网科技.md
     status: active
     confidence: 0.85
     evidence:
-      - kind: research-report
-        path: research/国泰中证医疗ETF_159828.SZ/2026-07-10/tradingagents_raw.log
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-17-1256-78a022e4
         weight: 0.9
-        confidence: 0.9
-        note: TradingAgents 多智能体分析，minimax-cn (Minimax-M3 deep + MiniMax-M2.7-highspeed
-          quick)，depth=3
-    updatedAt: 2026-07-12T08:22:00+08:00
+    updatedAt: 2026-07-17T12:56:09.722Z
 relationships:
   - targetId: concept.ai-hedge-fund-agent-styles
     targetTitle: AI对冲基金多Agent风格分类

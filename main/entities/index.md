@@ -9,7 +9,6 @@
 <!-- openclaw:wiki:entities:index:start -->
 - [1398.HK_工商银行](1398.HK_工商银行.md)
 - [161017.SZ_富国中证500增强](161017.SZ_富国中证500增强.md)
-- [1810.HK_小米集团](1810.HK_小米集团.md)
 - [2026-06-29 A股生物医药板块大涨五重共振](biotech-rally-2026-06-29.md)
 - [300144.SZ_宋城演艺](300144.SZ_宋城演艺.md)
 - [300价值ETF (512370.SS)](300价值ETF.md)
@@ -104,6 +103,7 @@
 - [守护眼公众号](guardians-eye.md)
 - [宝钛股份 600456.SH](宝钛股份.md)
 - [寒武纪 688256.SH](寒武纪.md)
+- [小米集团 (1810.HK)](1810.HK_小米集团.md)
 - [恒生科技ETF (513180)](恒生科技ETF-513180.md)
 - [技术螃蟹化 (Technocarcinization)](technocarcinization.md)
 - [投资研究资源完整版](investment-research-resources.md)
