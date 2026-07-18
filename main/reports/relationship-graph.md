@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-07-17T13:27:25.750Z
+updatedAt: 2026-07-18T13:19:35.556Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 188
+- Structured relationships: 194
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -40,9 +40,13 @@ updatedAt: 2026-07-17T13:27:25.750Z
 - [Altman威胁模型论](../concepts/altman-threat-model.md) -> Sam Altman (view-held-by, weight 0.90)
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md) -> bilibili-api-python AudioUploader bug (has-bug, weight 0.90, 音频上传库bug)
 - [bilibili-api-python AudioUploader bug](../entities/bilibili-audio-uploader.md) -> bilibili-audio-uploader (affects, weight 0.80)
+- [cangjie-skill](../entities/cangjie-skill.md) -> darwin-skill (related-to, weight 1.00)
+- [cangjie-skill](../entities/cangjie-skill.md) -> nuwa-skill (related-to, weight 1.00)
 - [Claude Code](../entities/claude-code.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 1.00)
 - [daily-questions多轮对话失效Bug](../entities/daily-questions-deliver-mode.md) -> daily-questions-deliver-mode (affects, weight 0.80)
 - [daily-questions定时任务跳过Bug](../entities/daily-questions-cron-skip.md) -> daily-questions-cron-skip (affects, weight 0.80)
+- [darwin-skill](../entities/darwin-skill.md) -> cangjie-skill (related-to, weight 1.00)
+- [darwin-skill](../entities/darwin-skill.md) -> nuwa-skill (related-to, weight 1.00)
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md) -> guardians-eye (discovered-by, weight 0.80, guardians-eye agent performed the headroom root cause analysis)
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md) -> Stock Research Engine (affected-by, weight 0.30, Headroom's 2.4s blocking latency impacted all OpenClaw plugin hooks including SRE)
 - [Hermes Agent](../entities/hermes-agent.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 0.90)
@@ -56,6 +60,8 @@ updatedAt: 2026-07-17T13:27:25.750Z
 - [mmx-cli](../entities/mmx-cli.md) -> MiniMaxQuota窗口时间不一致 (documents, weight 0.80)
 - [MOBI格式字体大小48px硬限制](../entities/ebook-mobi-font-limit.md) -> ebook-mobi-font-limit (affects, weight 0.80)
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md) -> 守护眼公众号 (potential-tool, weight 0.50, 可用于守护眼批量生产短视频内容)
+- [nuwa-skill](../entities/nuwa-skill.md) -> cangjie-skill (related-to, weight 1.00)
+- [nuwa-skill](../entities/nuwa-skill.md) -> darwin-skill (related-to, weight 1.00)
 - [payslip任务crontab路径错误](../entities/payslip-crontab-path.md) -> payslip-crontab-path (affects, weight 0.80)
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 中概互联网ETF (513050) (constituent, weight 0.70, PDD是中概互联网ETF的成分股之一)
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 黄金ETF (alternatives, weight 0.30, 同为避险/配置类资产讨论中的标的)
