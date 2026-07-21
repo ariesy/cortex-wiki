@@ -75,6 +75,5 @@ pip install skillopt
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- [darwin-skill](darwin-skill.md)
-- [autoresearch](autoresearch.md)
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->

@@ -67,6 +67,5 @@ darwin-skill 的核心理念——**"把自主实验循环从模型训练搬到 
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- [darwin-skill](darwin-skill.md)
-- [SkillOpt](skillopt.md)
+- No related pages yet.
 <!-- openclaw:wiki:related:end -->
