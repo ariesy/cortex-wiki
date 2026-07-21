@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-07-18T13:19:35.556Z
+updatedAt: 2026-07-20T11:04:39.124Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 194
+- Structured relationships: 196
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -38,6 +38,7 @@ updatedAt: 2026-07-18T13:19:35.556Z
 - [AI内存短缺危机](../concepts/hbm-memory-shortage.md) -> MiniMaxQuota窗口时间不一致 (related-to, weight 0.50, 同为硬件资源问题)
 - [AI对冲基金多Agent风格分类](../concepts/ai-hedge-fund-agent-styles.md) -> tradingagents (describes-system, weight 0.90, 14种Agent风格的详细方案)
 - [Altman威胁模型论](../concepts/altman-threat-model.md) -> Sam Altman (view-held-by, weight 0.90)
+- [autoresearch](../entities/autoresearch.md) -> darwin-skill (inspired-by, weight 1.00)
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md) -> bilibili-api-python AudioUploader bug (has-bug, weight 0.90, 音频上传库bug)
 - [bilibili-api-python AudioUploader bug](../entities/bilibili-audio-uploader.md) -> bilibili-audio-uploader (affects, weight 0.80)
 - [cangjie-skill](../entities/cangjie-skill.md) -> darwin-skill (related-to, weight 1.00)
@@ -66,6 +67,7 @@ updatedAt: 2026-07-18T13:19:35.556Z
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 中概互联网ETF (513050) (constituent, weight 0.70, PDD是中概互联网ETF的成分股之一)
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 黄金ETF (alternatives, weight 0.30, 同为避险/配置类资产讨论中的标的)
 - [Sam Altman](../entities/sam-altman.md) -> Altman威胁模型论 (holds-view, weight 0.90)
+- [SkillOpt](../entities/skillopt.md) -> darwin-skill (listed-integration, weight 1.00)
 - [stock-research-engine](../entities/stock-research-engine.md) -> InvestSignal (related-system, weight 0.70, InvestSignal关注信号，此框架关注分析)
 - [stock-research-engine](../entities/stock-research-engine.md) -> tradingagents (similar-approach, weight 0.80, 同为AI Agent投资分析系统)
 - [stock-research-engine分析报告](../entities/stock-research-engine-analysis.md) -> stock-research-engine (produced-by, weight 0.90)
