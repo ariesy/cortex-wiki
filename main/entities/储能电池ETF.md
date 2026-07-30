@@ -1,8 +1,37 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-07-11T14:03:25.160Z
+updatedAt: 2026-07-30T02:48:00.000Z
+sourceIds:
+  - /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
 claims:
+  - id: claim.entity.159566.ai-berkshire-20260730
+    text: 2026-07-30 AI Berkshire四大师框架深度分析：159566(储能电池ETF易方达)规模72.92亿，跟踪国证新能源电池指数(980027)，储能含量~60%，费率0.60%；159840(锂电池ETF工银)规模15亿，跟踪国证新能源车电池指数(980032)，储能含量~40%，费率0.52%。当前PE约26x(历史55%分位)，PB 3.76x(~55%分位)，股息率1.27%。行业处于文明级趋势(能源转型+AI算力双轮驱动)，2026年全球储能需求预计1,111GWh(+73%)。综合建议：储能赛道确定性强但当前估值中位，PE回落至20-22x为理想建仓区。纯看好储能选159566，看好新能源车+储能双驱动选159840。
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: report
+        sourceId: /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
+        weight: 1.0
+    updatedAt: 2026-07-30T02:48:00.000Z
+  - id: claim.entity.159566.tradingagents-20260730
+    text: >
+      2026-07-30 TradingAgents 多智能体分析（18次LLM调用，136.4k tokens）：
+      159566.SZ（储能电池ETF易方达）— SELL。
+      市场分析师：技术面已破位（死亡交叉、量能萎缩空头排列），基本面分析师：储能赛道确定性强但估值偏中位，
+      舆情分析师：中性（5/10，低置信度），新闻分析师：油价冲击+贸易壁垒为宏观逆风。
+      多空研究员：Bear赢得辩论（结构性问题不可忽视），交易员：Sell + 减仓25-50% + 硬止损¥1.70，
+      风控团队：尚未完整输出（进程被SIGTERM中断）。
+      投资组合经理终裁：未完整输出但Aggressive分析师支持Sell（保护资本>追底）。
+      详见 ~/.openclaw/workspace/research/储能电池ETF_159566.SZ/2026-07-30_summary.md
+      时间维度：3-6个月
+    status: supported
+    confidence: 0.75
+    evidence:
+      - kind: report
+        sourceId: nimble-valley TradingAgents session (partial output)
+        weight: 0.8
+    updatedAt: 2026-07-30T03:51:00.000Z
   - id: claim.entity.159566.latest-snapshot-20260711
     text: 2026-07-11 最新 TradingAgents 多智能体分析快照见
       syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md
