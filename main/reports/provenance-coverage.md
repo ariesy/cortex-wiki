@@ -3,19 +3,19 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-07-17T13:34:24.863Z
+updatedAt: 2026-07-30T03:52:11.828Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 296
-- Claims missing evidence: 41
+- Evidence entries: 299
+- Claims missing evidence: 40
 
 ### Evidence Classes
 - entity-summary: 83
-- wiki-source: 35
+- wiki-source: 34
 - financial-data: 25
 - memory-bridge: 20
 - web: 17
@@ -28,12 +28,12 @@ updatedAt: 2026-07-17T13:34:24.863Z
 - policy: 7
 - technical-analysis: 7
 - industry-data: 6
+- report: 6
 - market_data: 5
 - data: 3
 - debugging-report: 3
 - fund-holding: 2
 - industry-news: 2
-- report: 2
 - valuation-data: 2
 - analyst_estimate: 1
 - analyst-debate: 1
@@ -73,7 +73,6 @@ updatedAt: 2026-07-17T13:34:24.863Z
 - source.bridge.workspace-142ea9a2.memory-2026-05-28-1418-3438f599: 3
 
 ### Missing Evidence
-- [600900.SS 长江电力](../entities/600900.SS_长江电力.md): 2026年6月11日深度分析：股价27.69元(6/9)，市值6780亿元，PE~18.5倍，PB~2.93倍，股息率~3.4%；六库联调掌控长江干流7179.5万千瓦水电装机，2025年发电量首破3000亿千瓦时；Q1归母净利润同比+30.5%
 - [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md): 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月)
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `市值`: ~550亿元（2026-06）
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `PE`: ~14-16x PE(TTM)
