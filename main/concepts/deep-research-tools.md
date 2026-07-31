@@ -1,5 +1,5 @@
 ---
-pageType: entity
+pageType: concept
 id: concept:deep-research-tools
 entityType: concept
 privacyTier: public
