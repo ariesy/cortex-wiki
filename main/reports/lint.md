@@ -9,23 +9,8 @@ status: active
 
 ## Generated
 <!-- openclaw:wiki:lint:start -->
-- Errors: 8
-- Warnings: 552
-
-### Errors
-- `concepts/deep-research-tools.md`: Expected pageType `concept`, found `entity`.
-- `entities/512690.SH_鹏华中证酒ETF.md`: Frontmatter failed to parse: Implicit keys need to be on a single line at line 16, column 5:
-
-  - text: 2026-07-30 AI Berkshire四大师框架深度研究：跟踪中证酒指数(399987)，白酒~90%+啤酒/葡萄酒；
-    当前NAV 0.4169元(7/24)，份额344.50亿份，规模~143.6亿；
-    ^
-
-- `entities/中证白酒指数ETF_012414.md`: Missing `id` frontmatter.
-- `entities/中证白酒指数ETF_012414.md`: Missing `pageType` frontmatter.
-- `entities/泸州老窖_000568.md`: Missing `id` frontmatter.
-- `entities/泸州老窖_000568.md`: Missing `pageType` frontmatter.
-- `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Missing `id` frontmatter.
-- `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Missing `pageType` frontmatter.
+- Errors: 0
+- Warnings: 558
 
 ### Warnings
 - `concepts/deep-research-tools.md`: Non-source page is missing `sourceIds` provenance.
@@ -70,7 +55,10 @@ status: active
 - `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/301498.SZ_乖宝宠物.md`: Page freshness needs review (missing updatedAt).
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/512690.SH_鹏华中证酒ETF.md`: Broken wikilink target `中证白酒指数（399997）`.
+- `entities/512690.SH_鹏华中证酒ETF.md`: Broken wikilink target `白酒行业-2026`.
 - `entities/512760.SS_国泰CES半导体芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/588000.SS_华夏科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -158,7 +146,6 @@ status: active
 - `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
 - `entities/中证消费ETF_512600.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/中证白酒指数ETF_012414.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/中证白酒指数ETF_012414.md`: Page freshness needs review (missing updatedAt).
 - `entities/中际旭创.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/五粮液_000858.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/京东集团.md`: Non-source page is missing `sourceIds` provenance.
@@ -193,7 +180,6 @@ status: active
 - `entities/沐曦股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/沪深300ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/泡泡玛特.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/泸州老窖_000568.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/泸州老窖_000568.md`: Page freshness needs review (missing updatedAt).
 - `entities/海光信息.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/深南电路.md`: Non-source page is missing `sourceIds` provenance.
@@ -484,6 +470,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-school-search-a9e52462.md`: Page freshness needs review (last touched 2026-04-30T07:43:41.397Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-shaoyang-weather-clothing-anal-d29e1f65.md`: Page freshness needs review (last touched 2026-04-30T08:25:05.409Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-stock-position-sizing-95928899.md`: Page freshness needs review (last touched 2026-04-30T09:28:04.671Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-02-ollama-search-pricing-ef7e2a99.md`: Page freshness needs review (last touched 2026-05-02T03:18:53.907Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-02-xfce-session-conflict-15de5130.md`: Page freshness needs review (last touched 2026-05-02T08:16:53.232Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
@@ -501,6 +489,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-29-2dee97da.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.200Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-30-e2383ad8.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.426Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-01-e24ebf4f.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.763Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-02-51d3cf8e.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.562Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md`: Page freshness needs review (last touched 2026-04-18T19:00:53.043Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md`: Page freshness needs review (last touched 2026-04-19T19:00:51.265Z).
@@ -515,6 +504,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-29-63cd16a5.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.173Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-30-d074e1da.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.416Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-01-cb687886.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.753Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-02-580ecc6d.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.527Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-19-29145f94.md`: Page freshness needs review (last touched 2026-04-18T19:01:15.280Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-20-df970816.md`: Page freshness needs review (last touched 2026-04-19T19:01:16.863Z).
@@ -529,6 +519,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-29-e45bdd90.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.195Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-30-ac1bc335.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.421Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-01-084be960.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.758Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-02-48c16812.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.558Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 - `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
@@ -619,6 +610,7 @@ status: active
 - `entities/301498.SZ_乖宝宠物.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/3968.HK_招商银行.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/512760.SS_国泰CES半导体芯片ETF.md`: Non-source page is missing `sourceIds` provenance.
+- `entities/588000.SS_华夏科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/588080.SS_科创50ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600030.SS_中信证券.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/600255.SH_鑫科材料.md`: Non-source page is missing `sourceIds` provenance.
@@ -712,7 +704,6 @@ status: active
 - `entities/沐曦股份.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/沪深300ETF.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/泡泡玛特.md`: Non-source page is missing `sourceIds` provenance.
-- `entities/泸州老窖_000568.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/海光信息.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/深南电路.md`: Non-source page is missing `sourceIds` provenance.
 - `entities/湖北宜化.md`: Non-source page is missing `sourceIds` provenance.
@@ -783,7 +774,6 @@ status: active
 - `entities/hermes-agent.md`: Page freshness needs review (missing updatedAt).
 - `entities/PDD-Holdings-拼多多.md`: Page freshness needs review (missing updatedAt).
 - `entities/中航沈飞.md`: Page freshness needs review (missing updatedAt).
-- `entities/中证白酒指数ETF_012414.md`: Page freshness needs review (missing updatedAt).
 - `entities/泸州老窖_000568.md`: Page freshness needs review (missing updatedAt).
 - `entities/生益科技.md`: Page freshness needs review (missing updatedAt).
 - `sources/agent-bottleneck-zhihu.md`: Page freshness needs review (missing updatedAt).
@@ -1053,6 +1043,8 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-school-search-a9e52462.md`: Page freshness needs review (last touched 2026-04-30T07:43:41.397Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-shaoyang-weather-clothing-anal-d29e1f65.md`: Page freshness needs review (last touched 2026-04-30T08:25:05.409Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-stock-position-sizing-95928899.md`: Page freshness needs review (last touched 2026-04-30T09:28:04.671Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-02-ollama-search-pricing-ef7e2a99.md`: Page freshness needs review (last touched 2026-05-02T03:18:53.907Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-02-xfce-session-conflict-15de5130.md`: Page freshness needs review (last touched 2026-05-02T08:16:53.232Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
@@ -1070,6 +1062,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-29-2dee97da.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.200Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-04-30-e2383ad8.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.426Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-01-e24ebf4f.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.763Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-02-51d3cf8e.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.562Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md`: Page freshness needs review (last touched 2026-04-18T19:00:53.043Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md`: Page freshness needs review (last touched 2026-04-19T19:00:51.265Z).
@@ -1084,6 +1077,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-29-63cd16a5.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.173Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-30-d074e1da.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.416Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-01-cb687886.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.753Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-02-580ecc6d.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.527Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-19-29145f94.md`: Page freshness needs review (last touched 2026-04-18T19:01:15.280Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-20-df970816.md`: Page freshness needs review (last touched 2026-04-19T19:01:16.863Z).
@@ -1098,5 +1092,6 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-29-e45bdd90.md`: Page freshness needs review (last touched 2026-04-28T19:00:39.195Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-30-ac1bc335.md`: Page freshness needs review (last touched 2026-04-29T19:00:11.421Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-01-084be960.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.758Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-02-48c16812.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.558Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 <!-- openclaw:wiki:lint:end -->
