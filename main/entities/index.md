@@ -63,6 +63,7 @@
 - [The Five Dysfunctions of a Team](five-dysfunctions-of-a-team.md)
 - [tradingagents](tradingagents.md)
 - [TradingAgents tushare数据支持](tradingagents-tushare.md)
+- [VibeVoice](vibevoice.md)
 - [上证50AH优选指数A (501050.SS)](上证50AH优选指数A.md)
 - [东土科技 300353](300353.SZ_东土科技.md)
 - [中信证券 (600030.SS)](600030.SS_中信证券.md)
