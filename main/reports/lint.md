@@ -10,7 +10,7 @@ status: active
 ## Generated
 <!-- openclaw:wiki:lint:start -->
 - Errors: 0
-- Warnings: 561
+- Warnings: 567
 
 ### Warnings
 - `concepts/deep-research-tools.md`: Non-source page is missing `sourceIds` provenance.
@@ -472,6 +472,9 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-stock-position-sizing-95928899.md`: Page freshness needs review (last touched 2026-04-30T09:28:04.671Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-02-ollama-search-pricing-ef7e2a99.md`: Page freshness needs review (last touched 2026-05-02T03:18:53.907Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-02-xfce-session-conflict-15de5130.md`: Page freshness needs review (last touched 2026-05-02T08:16:53.232Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-china-blocking-rules-1fab76c3.md`: Page freshness needs review (last touched 2026-05-03T12:22:09.930Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-ffmpeg-tts-config-38961c8a.md`: Page freshness needs review (last touched 2026-05-03T10:25:58.373Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-weather-scan-report-d0eac9af.md`: Page freshness needs review (last touched 2026-05-03T09:29:57.746Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
@@ -491,6 +494,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-01-e24ebf4f.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.763Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-02-51d3cf8e.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.562Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-03-9f817f91.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.582Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-04-d162aa53.md`: Page freshness needs review (last touched 2026-05-03T19:00:10.008Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md`: Page freshness needs review (last touched 2026-04-18T19:00:53.043Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md`: Page freshness needs review (last touched 2026-04-19T19:00:51.265Z).
@@ -507,6 +511,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-01-cb687886.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.753Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-02-580ecc6d.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.527Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-03-d01ae825.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.561Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-04-ba725831.md`: Page freshness needs review (last touched 2026-05-03T19:00:04.283Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-19-29145f94.md`: Page freshness needs review (last touched 2026-04-18T19:01:15.280Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-20-df970816.md`: Page freshness needs review (last touched 2026-04-19T19:01:16.863Z).
@@ -523,6 +528,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-01-084be960.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.758Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-02-48c16812.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.558Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-03-8ccdadcb.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.564Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-04-0e787ceb.md`: Page freshness needs review (last touched 2026-05-03T19:00:09.725Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 - `syntheses/tradingagents-评估流程.md`: Page lists 2 open questions.
 - `syntheses/tradingagents-评估流程.md`: Claim cluster `claim-1` has competing variants across 2 pages.
@@ -1048,6 +1054,9 @@ status: active
 - `sources/bridge-workspace-142ea9a2-memory-2026-04-30-stock-position-sizing-95928899.md`: Page freshness needs review (last touched 2026-04-30T09:28:04.671Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-02-ollama-search-pricing-ef7e2a99.md`: Page freshness needs review (last touched 2026-05-02T03:18:53.907Z).
 - `sources/bridge-workspace-142ea9a2-memory-2026-05-02-xfce-session-conflict-15de5130.md`: Page freshness needs review (last touched 2026-05-02T08:16:53.232Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-china-blocking-rules-1fab76c3.md`: Page freshness needs review (last touched 2026-05-03T12:22:09.930Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-ffmpeg-tts-config-38961c8a.md`: Page freshness needs review (last touched 2026-05-03T10:25:58.373Z).
+- `sources/bridge-workspace-142ea9a2-memory-2026-05-03-weather-scan-report-d0eac9af.md`: Page freshness needs review (last touched 2026-05-03T09:29:57.746Z).
 - `sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md`: Page freshness needs review (last touched 2026-03-17T07:30:46.724Z).
 - `sources/bridge-workspace-142ea9a2-memory-hot-hot-memory-b7960c0e.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
 - `sources/bridge-workspace-142ea9a2-memory-warm-warm-memory-ddcc63b5.md`: Page freshness needs review (last touched 2026-04-07T02:58:01.997Z).
@@ -1067,6 +1076,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-01-e24ebf4f.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.763Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-02-51d3cf8e.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.562Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-03-9f817f91.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.582Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-05-04-d162aa53.md`: Page freshness needs review (last touched 2026-05-03T19:00:10.008Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md`: Page freshness needs review (last touched 2026-04-18T12:04:59.180Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md`: Page freshness needs review (last touched 2026-04-18T19:00:53.043Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md`: Page freshness needs review (last touched 2026-04-19T19:00:51.265Z).
@@ -1083,6 +1093,7 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-01-cb687886.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.753Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-02-580ecc6d.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.527Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-03-d01ae825.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.561Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-05-04-ba725831.md`: Page freshness needs review (last touched 2026-05-03T19:00:04.283Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-18-22d21950.md`: Page freshness needs review (last touched 2026-04-18T12:05:25.060Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-19-29145f94.md`: Page freshness needs review (last touched 2026-04-18T19:01:15.280Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-04-20-df970816.md`: Page freshness needs review (last touched 2026-04-19T19:01:16.863Z).
@@ -1099,5 +1110,6 @@ status: active
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-01-084be960.md`: Page freshness needs review (last touched 2026-04-30T19:00:10.758Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-02-48c16812.md`: Page freshness needs review (last touched 2026-05-01T19:00:10.558Z).
 - `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-03-8ccdadcb.md`: Page freshness needs review (last touched 2026-05-02T19:00:10.564Z).
+- `sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-rem-2026-05-04-0e787ceb.md`: Page freshness needs review (last touched 2026-05-03T19:00:09.725Z).
 - `sources/贵州茅台-600519-tradingagents-分析报告-2026-05-29.md`: Page freshness needs review (missing updatedAt).
 <!-- openclaw:wiki:lint:end -->
