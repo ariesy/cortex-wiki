@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-07-30T03:52:11.828Z
+updatedAt: 2026-08-03T03:50:06.451Z
 ---
 
 # Claim Health
@@ -15,7 +15,7 @@ updatedAt: 2026-07-30T03:52:11.828Z
 - Stale or unknown claims: 5
 
 ### Missing Evidence
-- [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md): 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月) (status supported, confidence 0.80, missing evidence, aging (2026-06-27T10:55:13.226Z))
+- [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md): 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月) (status supported, confidence 0.80, missing evidence, fresh (2026-08-03T04:00:00.000Z))
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `市值`: ~550亿元（2026-06） (status supported, confidence 0.90, missing evidence, aging (2026-06-14T05:05:09.955Z))
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `PE`: ~14-16x PE(TTM) (status supported, confidence 0.85, missing evidence, aging (2026-06-14T05:05:09.955Z))
 - [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `净利润增速`: 2025年净利润+101.77%，营收+24.68% (status supported, confidence 0.90, missing evidence, aging (2026-06-14T05:05:09.955Z))

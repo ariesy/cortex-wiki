@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-07-31T15:26:10.988Z
+updatedAt: 2026-08-04T00:40:20.329Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 196
+- Structured relationships: 200
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -100,14 +100,19 @@ updatedAt: 2026-07-31T15:26:10.988Z
 - [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 中证生物科技ETF (159837.SZ) (beneficiary, weight 0.60, 百济神州、恒瑞等出海龙头是核心权重)
 - [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 商保创新药目录（丙类目录）2026 (complementary, weight 0.85, 国内丙类目录+海外BD授权，估值重塑双引擎)
 - [中国创新药出海BD 2025-2026](../concepts/中国创新药出海BD-2026.md) -> 百济神州 (example, weight 0.90, 泽布替尼出海标杆，2026Q1单品销售76亿元)
-- [中国平安（601318.SH）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 工商银行 (1398.HK) (invests-in, weight 0.60, 平安2024-2025年密集举牌工行H股，作为高股息策略配置)
-- [中国平安（601318.SH）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 招商银行 (3968.HK) (invests-in, weight 0.50, 平安保险资金持续增配招行H股)
+- [中国平安（601318.SH / 2318.HK）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 工商银行 (1398.HK) (invests-in, weight 0.60, 平安2024-2025年密集举牌工行H股，作为高股息策略配置)
+- [中国平安（601318.SH / 2318.HK）个股深度研究简报](../entities/601318.SH_中国平安.md) -> 招商银行 (3968.HK) (invests-in, weight 0.50, 平安保险资金持续增配招行H股)
 - [中国神华 (601088.SS)](../entities/中国神华.md) -> 红利ETF (etf-component, weight 0.80, 中国神华是红利ETF核心成分股)
 - [中国神华 (601088.SS)](../entities/中国神华.md) -> 紫金矿业 (same-sector, weight 0.70, 能源矿业板块，高股息同类)
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md) -> 京东集团 (etf-component, weight 0.90, 京东是港股中概互联网ETF核心成分股)
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md) -> 小米集团 (etf-component, weight 0.90, 小米是港股中概互联网ETF成分股)
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md) -> 五粮液（000858.SZ） (holding, weight 0.90, ETF第二大持仓（9.81%）)
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md) -> 贵州茅台（600519） (holding, weight 0.90, ETF第一大持仓（10.86%），白酒权重合计31.54%)
+- [中证消费龙头ETF (516130.SH)](../entities/516130.SH_中证消费龙头ETF.md) -> 中证消费ETF (512600) (peer-comparison, weight 0.85, 同为消费主题宽基，512600跟踪主要消费000932(白酒权重~45%更集中)；消费龙头931068含家电/汽车更均衡且估值更低(17.1 vs 21.2))
+- [中证消费龙头ETF (516130.SH)](../entities/516130.SH_中证消费龙头ETF.md) -> 中证白酒指数ETF (peer-comparison, weight 0.80, 白酒单行业；消费龙头=白酒+家电+汽车三引擎)
+- [中证消费龙头ETF (516130.SH)](../entities/516130.SH_中证消费龙头ETF.md) -> 美的集团 (etf-component, weight 0.90, 第二大权重14.69%，家电出海+以旧换新逻辑)
+- [中证消费龙头ETF (516130.SH)](../entities/516130.SH_中证消费龙头ETF.md) -> 贵州茅台 (etf-component, weight 0.90, 第一大权重15.12%，白酒板块走向决定指数盈利拐点)
+- [中证消费龙头ETF (516130.SH)](../entities/516130.SH_中证消费龙头ETF.md) -> 鹏华中证酒ETF (512690) (peer-comparison, weight 0.80, 白酒最纯标的，回撤也最大；消费龙头白酒权重仅~30%，防御性更强)
 - [中际旭创 (300308.SZ)](../entities/中际旭创.md) -> HBM存储芯片短缺 (related-sector, weight 0.60, 同属AI算力基建产业链)
 - [中际旭创 (300308.SZ)](../entities/中际旭创.md) -> MiMo V2.5 (relates-to, weight 0.30, AI算力需求驱动光模块增长)
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md) -> 招商银行 (same-sector, weight 0.50, 消费金融龙头，均有高股息属性)
@@ -182,13 +187,12 @@ updatedAt: 2026-07-31T15:26:10.988Z
 - [湖北宜化 (000422.SZ)](../entities/湖北宜化.md) -> 阳煤化工 (same-sector, weight 0.80, 同为煤化工/磷化工，周期联动强)
 - [生物科技ETF (516500.SS)](../entities/生物科技ETF.md) -> 医疗ETF (same-sector, weight 0.70, 生物科技与医疗健康主题高度重叠)
 - [相对改进评估](../concepts/relative-improvement-evaluation.md) -> 企业Agent五层解法 (evaluation-framework, weight 0.80)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 300价值ETF (512370) (peer-comparison, weight 0.90, 同样是价值风格，但选样范围不同(全A vs 沪深300)，银行权重差异大)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 中国神华 (etf-component, weight 0.90, 中国神华是红利ETF核心成分股)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 招商银行 (etf-component, weight 0.90, 招行是红利ETF核心成分股)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 民生银行 (etf-component, weight 0.70, 民生银行是高股息港股代表)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 沪深300ETF (510300) (peer-comparison, weight 0.85, 大盘底仓基准，估值水平对比参考)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 红利低波100 (930955) (peer-comparison, weight 0.90, 中证红利基础上叠加"低波动"过滤，波动率显著更低)
-- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 紫金矿业 (etf-component, weight 0.80, 紫金矿业是红利ETF成分股)
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 300价值ETF (512370) (peer-comparison, weight 0.90, 同样是价值风格，但选样范围不同(全A vs 沪深300)，银行权重差异大(0席前十大 vs 45-55%))
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 上证50AH优选 (501050) (peer-comparison, weight 0.70, 同为防御型配置选项，50AH含AH价差轮动)
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 中远海控 (etf-component, weight 0.80, 前十大权重第一(2.85%，2026-06-30)，集运景气是核心变量)
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 招商银行 (etf-component, weight 0.70, 银行板块为指数第一大行业(22%)，但股息率加权后无银行股进入前十大)
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 沪深300ETF (510300) (peer-comparison, weight 0.85, 大盘底仓基准，2026 YTD中证红利+1.37% vs 沪深300 -0.90%)
+- [红利ETF (515080.SS)](../entities/红利ETF.md) -> 红利低波100 (930955) (peer-comparison, weight 0.90, 中证红利基础上叠加"低波动"过滤，波动率显著更低；512890规模312.9亿更大但费率0.60%)
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md) -> 300价值ETF (512370) (peer-comparison, weight 0.85, 300价值银行权重45-55% vs 红利低波100仅20%)
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md) -> 沪深300ETF (510300) (peer-comparison, weight 0.85, 沪深300是宽基，红利低波100是因子)
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md) -> 红利ETF (515080) (peer-comparison, weight 0.95, 红利低波100=中证红利+低波过滤，波动率显著更低)

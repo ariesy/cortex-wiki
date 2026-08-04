@@ -3,46 +3,51 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-08-02T12:24:19.875Z
+updatedAt: 2026-08-04T12:45:18.424Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 304
+- Evidence entries: 321
 - Claims missing evidence: 40
 
 ### Evidence Classes
-- entity-summary: 83
+- entity-summary: 81
 - wiki-source: 34
-- financial-data: 25
-- memory-bridge: 20
+- financial-data: 31
+- research-report: 21
+- memory-bridge: 19
 - web: 17
-- research-report: 15
-- synthesis-summary: 13
+- analysis: 12
 - source: 12
-- analysis: 10
+- synthesis-summary: 12
+- report: 11
 - financial_data: 8
 - news: 8
-- report: 8
 - policy: 7
-- technical-analysis: 7
 - industry-data: 6
 - market_data: 5
+- technical-analysis: 5
 - data: 3
 - debugging-report: 3
 - fund-holding: 2
 - industry-news: 2
+- valuation: 2
 - valuation-data: 2
+- ai-berkshire-report: 1
 - analyst_estimate: 1
 - analyst-debate: 1
+- analyst-estimate: 1
+- analyst-report: 1
 - fund-flow-data: 1
 - index-methodology: 1
 - kline-data: 1
 - management: 1
 - market-flow: 1
 - news-data: 1
+- ownership: 1
 - performance-data: 1
 - runtime-config: 1
 - stock-research-engine: 1
@@ -51,26 +56,26 @@ updatedAt: 2026-08-02T12:24:19.875Z
 - wiki-creation: 1
 
 ### Top Evidence Sources
-- source.entities.investments: 71
+- source.entities.investments: 68
 - source.research.兴业银行: 15
 - source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources: 12
-- source.syntheses.factor-etf-comparison-2026-06-25: 11
+- source.syntheses.factor-etf-comparison-2026-06-25: 10
 - source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17: 8
 - source.research.中信证券: 8
+- /app/ai-berkshire/reports/泡泡玛特/泡泡玛特-综合投资研究报告-20260803.md: 7
 - inline: 6
+- /app/ai-berkshire/reports/平安集团/investment-research-2026-08.md: 5
 - https://github.com/xbtlin/ai-berkshire: 5
 - policy:国能发科技〔2026〕34号: 5
 - research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md: 5
-- source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a: 5
+- source.research.中证消费龙头ETF: 5
 - https://github.com/xbtlin/ai-berkshire/blob/main/skills/financial-data.md: 4
 - research/中宠股份_002891/2026-06-18_tradingagents_报告.md: 4
-- source.bridge.workspace-142ea9a2.memory-2026-06-15-0027-3a7a99e1: 4
+- source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a: 4
 - source.bridge.workspace-142ea9a2.memory-2026-06-23-0055-9bd4910b: 4
 - source.research.工商银行: 4
+- source.research.红利ETF: 4
 - source.中证消费etf-512600-投资分析简报-2026-05-28: 4
-- report:21世纪经济报道: 3
-- research/国泰中证医疗ETF_159828.SZ/2026-07-10/: 3
-- source.bridge.workspace-142ea9a2.memory-2026-05-28-1418-3438f599: 3
 
 ### Missing Evidence
 - [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md): 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月)
