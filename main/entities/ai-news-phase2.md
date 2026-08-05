@@ -17,6 +17,10 @@ relationships:
     targetTitle: "AI News Phase 2 Critical Bugs Pattern"
     kind: has-bugs
     weight: 0.9
+sourceIds:
+  - memory/2026-03-21-ai-news-phase2-code-review.md
+
+
 ---
 
 

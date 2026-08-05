@@ -24,6 +24,10 @@ relationships:
     targetTitle: "InvestSignal"
     kind: uses
     weight: 0.9
+sourceIds:
+  -  USER.md
+
+
 ---
 
 
@@ -79,5 +83,9 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [姚文海](yao-wenhai.md)
+- [朱凌霄](zhu-lingxiao.md)
+- [陆天一笑（canaaan）](canaan.md)
 <!-- openclaw:wiki:related:end -->

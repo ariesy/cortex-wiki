@@ -23,6 +23,10 @@ relationships:
     targetTitle: stock-research-engine
     kind: produced-by
     weight: 0.9
+sourceIds:
+  - research/国泰中证医疗ETF_159828.SZ/2026-07-10/
+
+
 ---
 
 # stock-research-engine分析报告
@@ -62,5 +66,8 @@ stock-research-engine 是多维度股票分析框架，通过多Agent辩论生�
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [4周研究跟踪汇总](research-tracker-4week.md)
+- [国泰中证医疗ETF (159828.SZ)](159828.SZ_国泰中证医疗ETF.md)
 <!-- openclaw:wiki:related:end -->

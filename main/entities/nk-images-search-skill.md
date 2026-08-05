@@ -16,6 +16,10 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-07-0010-7f9b1a04
         weight: 0.95
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-07-0010-7f9b1a04.md
+
+
 ---
 # NK Images Search Skill
 

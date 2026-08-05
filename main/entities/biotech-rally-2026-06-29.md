@@ -10,6 +10,10 @@ status: recorded
 event_date: "2026-06-29"
 event_type: sector_rotation
 sector: 生物医药/创新药/CXO
+sourceIds:
+  - research/biotech_2026/spdbi_2026_pharma.pdf
+updatedAt: 2026-08-05T15:11:38.000Z
+
 ---
 
 # 2026-06-29 A股生物医药板块大涨五重共振

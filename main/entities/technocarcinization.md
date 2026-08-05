@@ -22,6 +22,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17
         weight: 0.8
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+
+
 ---
 # 技术螃蟹化 (Technocarcinization)
 
@@ -29,5 +34,9 @@ Cory Doctorow 提出的比喻：所有科技公司最终都会变成 Facebook（
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [Claude Science](claude-science.md)
+- [Claude Sonnet 5](claude-sonnet-5.md)
+- [ClickHouse 可观测性应用](clickhouse-obs.md)
 <!-- openclaw:wiki:related:end -->

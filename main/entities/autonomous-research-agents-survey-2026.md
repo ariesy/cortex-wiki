@@ -12,6 +12,10 @@ claims:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
         weight: 0.9
+sourceIds:
+  - 用户上传PDF，memory/2026-05-28-0021.md
+
+
 ---
 
 

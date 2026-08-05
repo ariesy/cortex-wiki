@@ -157,6 +157,10 @@ relationships:
   weight: 0.7
   note: 生物科技与医疗健康主题高度重叠
 updatedAt: "2026-05-29"
+sourceIds:
+  - research/华夏中证生物科技ETF_516500.SS/
+
+
 ---
 # 生物科技ETF (516500.SS)
 

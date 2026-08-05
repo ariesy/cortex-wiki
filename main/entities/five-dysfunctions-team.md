@@ -8,6 +8,10 @@ relationships:
     targetTitle: "The Five Dysfunctions of a Team"
     kind: from-book
     weight: 0.9
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-29-1030-afa662bf.md
+
+
 ---
 
 
@@ -45,5 +49,7 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [The Five Dysfunctions of a Team](five-dysfunctions-of-a-team.md)
 <!-- openclaw:wiki:related:end -->

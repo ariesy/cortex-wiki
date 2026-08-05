@@ -23,6 +23,10 @@ relationships:
     kind: related-system
     weight: 0.7
     note: "InvestSignal关注信号，此框架关注分析"
+sourceIds:
+  - memory/2026-05-06-chip-etf-analysis.md 等
+
+
 ---
 
 
@@ -82,5 +86,7 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [京能电力 (600578.SH)](600578.SH_京能电力.md)
 <!-- openclaw:wiki:related:end -->

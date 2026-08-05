@@ -8,6 +8,10 @@ relationships:
     targetTitle: "stubzero-google-cloud"
     kind: affects
     weight: 0.8
+sourceIds:
+  - memory/2026-05-23-1101.md (Karpathy RSS日报)
+
+
 ---
 
 

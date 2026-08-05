@@ -8,6 +8,10 @@ relationships:
     targetTitle: "bilibili-audio-uploader"
     kind: affects
     weight: 0.8
+sourceIds:
+  - memory/2026-04-18-bilibili-upload-config.md
+
+
 ---
 
 
@@ -58,5 +62,7 @@ AttributeError: 'AudioUploaderEvents' object has no attribute 'upper'
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [bilibili-all-in-one](bilibili-all-in-one.md)
 <!-- openclaw:wiki:related:end -->

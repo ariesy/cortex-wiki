@@ -24,6 +24,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-06-3bcca33e
         weight: 0.95
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-06-3bcca33e.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-06-3bcca33e.md
+
+
 ---
 # Bash heredoc f-string 沉默 bug
 
@@ -42,5 +47,7 @@ tdx-chronos Sprint 9 期间发现的系统性 cron bug 模式。
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [tdx-chronos](tdx-chronos.md)
 <!-- openclaw:wiki:related:end -->

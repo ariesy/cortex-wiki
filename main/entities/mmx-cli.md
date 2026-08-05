@@ -17,6 +17,10 @@ relationships:
     targetTitle: "MiniMaxQuota窗口时间不一致"
     kind: documents
     weight: 0.8
+sourceIds:
+  - memory/2026-04-29-mmx-quota-windows.md
+
+
 ---
 
 

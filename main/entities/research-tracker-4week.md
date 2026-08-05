@@ -26,6 +26,10 @@ relationships:
     targetTitle: 泡泡玛特 09992.HK
     kind: analyzes
     weight: 0.9
+sourceIds:
+  - research/国泰中证医疗ETF_159828.SZ/2026-07-10/
+
+
 ---
 
 # 4周研究跟踪汇总
@@ -80,5 +84,8 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [stock-research-engine分析报告](stock-research-engine-analysis.md)
+- [国泰中证医疗ETF (159828.SZ)](159828.SZ_国泰中证医疗ETF.md)
 <!-- openclaw:wiki:related:end -->

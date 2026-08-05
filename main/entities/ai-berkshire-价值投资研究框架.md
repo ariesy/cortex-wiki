@@ -124,14 +124,6 @@ claims:
       - kind: web
         sourceId: https://github.com/xbtlin/ai-berkshire/blob/main/tools/financial_rigor.py
         confidence: 0.95
-  - id: 2024-return
-    text: 自述2024全年收益+69.29%，但未经过独立验证
-    status: unverified
-    confidence: 0.3
-    evidence:
-      - kind: web
-        sourceId: https://github.com/xbtlin/ai-berkshire
-        confidence: 0.3
         note: 仅为项目自述，无第三方审计或验证
   - id: dcf-used
     text: 部分报告（如贵州茅台DCF估值研究）使用DCF估值，但核心假设（永续增长率、折现率）由AI主观判断，非量化模型

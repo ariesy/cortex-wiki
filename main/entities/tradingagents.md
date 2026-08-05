@@ -24,6 +24,10 @@ relationships:
     targetTitle: From Copilots to Colleagues
     kind: related-research
     weight: 0.6
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-17-1256-78a022e4.md
+
+
 ---
 
 # tradingagents

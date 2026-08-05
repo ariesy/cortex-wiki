@@ -12,6 +12,10 @@ claims:
       - kind: entity-summary
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources
         weight: 0.9
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-29-1030-afa662bf.md
+
+
 ---
 
 
@@ -60,5 +64,7 @@ claims:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [人物关系图](five-dysfunctions-team.md)
 <!-- openclaw:wiki:related:end -->

@@ -5,6 +5,10 @@ title: SpaceX
 category: 公司
 description: 美国太空探索技术公司，由Elon Musk于2002年创立，主营火箭发射、星链卫星互联网
 updatedAt: 2026-06-05
+sourceIds:
+  - /app/ai-berkshire/reports/SpaceX/
+
+
 ---
 
 # SpaceX

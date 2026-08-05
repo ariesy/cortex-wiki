@@ -164,6 +164,10 @@ relationships:
   weight: 0.9
   note: 京东是港股中概互联网ETF核心成分股
 updatedAt: "2026-05-29"
+sourceIds:
+  - research/中概互联网ETF易方达_513050.SS/
+
+
 ---
 # 中概互联网ETF (513050.SS)
 

@@ -53,6 +53,11 @@ relationships:
     kind: competitor
     weight: 0.8
     note: "价格和能力上的直接竞品"
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-02-1347-435ec224.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-02-1347-435ec224.md
+
+
 ---
 
 # MiMo V2.5

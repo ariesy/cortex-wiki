@@ -14,6 +14,10 @@ relationships:
     kind: parent
     weight: 1.0
     note: "母亲"
+sourceIds:
+  -  USER.md
+
+
 ---
 
 
@@ -56,5 +60,9 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [姚文海](yao-wenhai.md)
+- [朱琨](zhu-kun.md)
+- [陆天一笑（canaaan）](canaan.md)
 <!-- openclaw:wiki:related:end -->

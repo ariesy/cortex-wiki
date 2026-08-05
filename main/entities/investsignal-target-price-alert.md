@@ -8,6 +8,10 @@ relationships:
     targetTitle: "InvestSignal"
     kind: belongs-to
     weight: 0.9
+sourceIds:
+  - memory/2026-05-08-tushare-integration.md
+
+
 ---
 
 
@@ -55,5 +59,7 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [TradingAgents tushare数据支持](tradingagents-tushare.md)
 <!-- openclaw:wiki:related:end -->

@@ -21,6 +21,10 @@ relationships:
     targetTitle: "养老防骗意识"
     kind: addresses
     weight: 0.8
+sourceIds:
+  - memory/dreaming/light/2026-05-13.md
+
+
 ---
 
 

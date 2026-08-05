@@ -16,6 +16,10 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-08-62bf2505
         weight: 0.98
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-08-62bf2505.md
+
+
 ---
 # 子 Agent 测试结果验证规则 (Lesson A)
 
@@ -27,5 +31,7 @@ Sprint 10 v1.4.0 收官期间沉淀的永久工程规则。
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [tdx-chronos](tdx-chronos.md)
 <!-- openclaw:wiki:related:end -->

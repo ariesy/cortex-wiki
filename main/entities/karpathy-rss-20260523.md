@@ -21,6 +21,10 @@ relationships:
     targetTitle: "StubZero Google Cloud RCE漏洞"
     kind: discusses
     weight: 0.9
+sourceIds:
+  - memory/2026-05-23-1101.md
+
+
 ---
 
 

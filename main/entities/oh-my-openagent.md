@@ -22,6 +22,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-06-30-2324-65de7878
         weight: 0.9
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-30-2324-65de7878.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-30-2324-65de7878.md
+
+
 ---
 # oh-my-openagent
 

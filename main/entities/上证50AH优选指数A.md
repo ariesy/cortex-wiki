@@ -116,7 +116,10 @@ claims:
   - text: 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月)
     status: supported
     confidence: 0.8
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: /app/ai-berkshire/reports/上证50AH/上证50AH-投资研究.md
+        weight: 0.8
 relationships:
   - targetId: entity:沪深300ETF
     targetTitle: 沪深300ETF (510300)

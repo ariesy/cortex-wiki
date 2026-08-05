@@ -22,6 +22,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17
         weight: 0.85
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+
+
 ---
 # ClickHouse 可观测性应用
 
@@ -29,5 +34,9 @@ ClickHouse 正在成为可观测性领域事实标准的底层数据库，逐步
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [Claude Science](claude-science.md)
+- [Claude Sonnet 5](claude-sonnet-5.md)
+- [技术螃蟹化 (Technocarcinization)](technocarcinization.md)
 <!-- openclaw:wiki:related:end -->

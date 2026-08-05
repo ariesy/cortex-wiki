@@ -8,6 +8,10 @@ relationships:
     targetTitle: "Altman威胁模型论"
     kind: holds-view
     weight: 0.9
+sourceIds:
+  - memory/2026-04-11-altman-threat.md
+
+
 ---
 
 

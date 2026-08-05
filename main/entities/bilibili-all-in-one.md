@@ -18,6 +18,10 @@ relationships:
     kind: has-bug
     weight: 0.9
     note: "音频上传库bug"
+sourceIds:
+  - memory/2026-04-18-bilibili-upload-config.md
+
+
 ---
 
 
@@ -88,5 +92,7 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [bilibili-api-python AudioUploader bug](bilibili-audio-uploader.md)
 <!-- openclaw:wiki:related:end -->

@@ -22,6 +22,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-02-0124-9a141a91
         weight: 0.85
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-0124-9a141a91.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-0124-9a141a91.md
+
+
 ---
 # mootdx
 

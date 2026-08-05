@@ -98,6 +98,10 @@ relationships:
     kind: "alternatives"
     weight: 0.3
     note: "同为避险/配置类资产讨论中的标的"
+sourceIds:
+  - /app/ai-berkshire/reports/PDD/
+updatedAt: 2026-08-05T15:11:38.000Z
+
 ---
 
 # PDD Holdings (拼多多)

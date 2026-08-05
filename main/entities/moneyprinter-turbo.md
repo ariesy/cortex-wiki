@@ -39,6 +39,11 @@ relationships:
     kind: potential-tool
     weight: 0.5
     note: "可用于守护眼批量生产短视频内容"
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-05-1131-e6b85005.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-05-1131-e6b85005.md
+
+
 ---
 
 # MoneyPrinterTurbo

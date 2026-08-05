@@ -30,6 +30,12 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-01-1339-bbeccd9a
         weight: 0.8
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-01-1339-bbeccd9a.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-01-1339-bbeccd9a.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-01-1339-bbeccd9a.md
+
+
 ---
 # Scrapling
 

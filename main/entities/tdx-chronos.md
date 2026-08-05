@@ -32,6 +32,12 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-05-46b1d5ff
         weight: 0.9
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-08-62bf2505.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-06-3bcca33e.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-05-46b1d5ff.md
+
+
 ---
 # tdx-chronos
 
@@ -66,5 +72,9 @@ kline_symbols / financial_quarters / gp_records / index_records / download_log_7
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [Bash heredoc f-string 沉默 bug](bash-heredoc-fstring-cron-bug.md)
+- [中科星图 (688779)](中科星图-688779-对账边界.md)
+- [子 Agent 测试结果验证规则](sub-agent-test-result-verification.md)
 <!-- openclaw:wiki:related:end -->

@@ -22,6 +22,11 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17
         weight: 0.85
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-07-02-1322-d13a3e17.md
+
+
 ---
 # Claude Science
 
@@ -29,5 +34,9 @@ Anthropic 面向科学家的 AI workbench。整合 PubMed 文献检索、Jupyter
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [Claude Sonnet 5](claude-sonnet-5.md)
+- [ClickHouse 可观测性应用](clickhouse-obs.md)
+- [技术螃蟹化 (Technocarcinization)](technocarcinization.md)
 <!-- openclaw:wiki:related:end -->
