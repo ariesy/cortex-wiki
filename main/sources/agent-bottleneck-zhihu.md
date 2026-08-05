@@ -8,6 +8,8 @@ date: 2026-06-01
 added: 2026-06-02
 type: article
 tags: [agent, enterprise, engineering, architecture]
+updatedAt: 2026-08-05T15:11:28.000Z
+
 ---
 
 # Agent目前最大的瓶颈是什么？
