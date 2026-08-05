@@ -32,6 +32,11 @@ claims:
         weight: 0.85
     updatedAt: 2026-06-09
 relationships: []
+sourceIds:
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-09-1458-54d3b977.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-09-1458-54d3b977.md
+
+
 ---
 
 # Deep Research 工具全景
