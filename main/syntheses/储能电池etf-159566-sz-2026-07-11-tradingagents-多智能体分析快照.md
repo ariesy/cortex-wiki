@@ -10,29 +10,44 @@ claims:
     text: TradingAgents 最终评级 Hold，目标价 ¥2.18，硬止损 ¥1.85，时间维度 3-6 个月
     status: fact
     confidence: 0.95
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md
+        weight: 0.8
   - id: claim.ta-20260711.lesson-driven
     text: Hold 评级核心源于 2026-06-08 Underweight 教训（+3.7% abs, -1.1% alpha），拒绝中间仓位两头挨打
     status: fact
     confidence: 0.92
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md
+        weight: 0.8
   - id: claim.ta-20260711.technical-setup
     text: 技术面空头排列完整（价格<10EMA<50SMA），但距 200SMA 仅 -8.8%（长期结构完好）
     status: fact
     confidence: 0.95
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md
+        weight: 0.8
   - id: claim.ta-20260711.bug-fix-env-var
     text: 运行发现 skill 配置 bug：脚本读 TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是
       TRADINGAGENTS_DEEP_THINK_LLM（新名），导致 deepseek-v4-flash 不可用——已通过 env
       override 修复
     status: fact
     confidence: 0.98
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md
+        weight: 0.8
   - id: claim.ta-20260711.complementary-view
     text: TradingAgents 与我昨天判断互补：1.85 / 1.7-1.8 / 2.18 形成三档梯形建仓策略
     status: opinion
     confidence: 0.8
-    evidence: []
+    evidence: 
+      - kind: report
+        sourceId: research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md
+        weight: 0.8
 contradictions:
   - TradingAgents Hold（偏乐观）vs 我昨天"等回调 1.7-1.8"（偏保守）—— 不构成硬冲突，可梯形分批</item>
 questions:
@@ -55,7 +70,7 @@ updatedAt: 2026-07-11T13:47:37.704Z
 
 > 📅 分析日期：2026-07-11
 > 🤖 分析方法：TradingAgents 多智能体辩论（4 分析师 + 2 轮研究 + 3 风险方 + 1 投资计划 + 1 终裁）
-> 🔗 关联：[2026-07-10 stock-research-engine 快照](entities/储能电池ETF.md) · [wiki entity](entities/储能电池ETF.md)
+> 🔗 关联：[2026-07-10 stock-research-engine 快照](../entities/储能电池ETF.md) · [wiki entity](../entities/储能电池ETF.md)
 > 📁 完整报告：`/app/TradingAgents/reports/159566.SZ_2026-07-11/` (5 个分析模块)
 > 📁 中文综述：`research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md`
 

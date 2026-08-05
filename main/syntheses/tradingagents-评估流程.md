@@ -6,7 +6,7 @@ sourceIds:
   - research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md
   - research/中宠股份_002891/2026-06-18_tradingagents_报告.md
 claims:
-  - id: claim-1
+  - id: claim.ta-eval.workflow
     text: TradingAgents通过激进的分析师、保守的分析师和中性的观察者三方辩论，结合Research
       Manager汇总决策，最终输出评级、目标价、时间窗口
     status: verified
@@ -16,7 +16,7 @@ claims:
         sourceId: research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md
         weight: 0.95
     updatedAt: 2026-06-18T00:00:00Z
-  - id: claim-2
+  - id: claim.ta-eval.neg-data
     text: TradingAgents在乖宝和中宠两个案例中均发现了单一分析师忽略的负面数据：FCF为负、营业利润率恶化、借款激增
     status: verified
     confidence: 0.9
@@ -197,10 +197,10 @@ TradingAgents 最终决策包含以下要素：
 
 ## 八、关联实体
 
-- [[中宠股份 (002891.SZ)]]
-- [[乖宝宠物 (301498.SZ)]]
+- [[entities/002891.SZ_中宠股份]]
+- [[entities/301498.SZ_乖宝宠物]]
 - [[宠物食品板块 2026年中分析]]
-- [[红线过滤器（投资风控）]] — 待创建
+- 红线过滤器（投资风控）— 待创建
 
 ---
 
