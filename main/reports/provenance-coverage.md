@@ -3,19 +3,19 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-08-05T15:19:53.787Z
+updatedAt: 2026-08-06T01:45:59.671Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 362
+- Evidence entries: 365
 - Claims missing evidence: 0
 
 ### Evidence Classes
 - entity-summary: 81
-- report: 53
+- report: 56
 - wiki-source: 34
 - financial-data: 31
 - research-report: 21
