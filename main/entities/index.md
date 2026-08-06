@@ -127,6 +127,7 @@
 - [投资研究资源完整版](investment-research-resources.md)
 - [招商银行 (3968.HK)](招商银行.md)
 - [摩尔线程 688795](688795.SH_摩尔线程.md)
+- [新能源ETF (516160.SH)](516160.SH_新能源ETF.md)
 - [智元机器人 AGIBOT](智元机器人.md)
 - [朱凌霄](zhu-lingxiao.md)
 - [朱琨](zhu-kun.md)

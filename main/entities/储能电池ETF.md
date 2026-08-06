@@ -1,11 +1,21 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-08-05T15:05:00.000Z
+updatedAt: 2026-08-06T00:14:00.000Z
 sourceIds:
   - /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
   - /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
+  - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/
 claims:
+  - id: claim.entity.159566.tradingagents-20260805
+    text: 2026-08-05 TradingAgents多智能体完整分析（修复max_tokens+streaming后跑通，4分析师+研究+交易员+风控辩论）：交易员Action=SELL（趋势未反转、反弹量能衰减、催化剂未兑现；价格1.86低于50日线2.07约10%、低于200日线2.15约13.5%，MACD零轴下）。风险辩论收敛方案：1.86-1.88阻力区先减1/3，保留1/3核心仓（激进派主张）vs 保守派主张等2.07确认，中立派修正为条件化规则——放量站稳1.88则第二笔减仓挂1.95-2.00，收盘跌破1.81(10日EMA+VWMA)则立即减第二笔；核心仓1/3，止损纪律：收盘跌破1.73减半仓、跌破1.68清仓；回补条件：1.73-1.76放量止跌+RSI底背离+MACD柱不扩张（至少2条件）回补一半，或放量突破2.00+MACD上零轴+RSI站50守住3天回补一半。结论与ai-berkshire四大师（有条件通过、1.55-1.85分批承接）方向一致：左侧价值+右侧风控互补。数据源：~/.tradingagents/logs/159566.SZ/2026-08-05/reports/（market/sentiment/news/fundamentals/investment_plan/final_trade_decision）。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: report
+        sourceId: ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md
+        weight: 1.0
+    updatedAt: 2026-08-06T00:14:00.000Z
   - id: claim.entity.159566.ai-berkshire-20260805
     text: 2026-08-05 AI Berkshire四大师框架深度分析：储能电池ETF易方达(159566.SZ)跟踪国证新能源电池指数(980027)，成立2024-01-31，规模约65亿(2026Q2反推)。净值1.853(8/4)，自5/19峰值2.4831回撤-25.4%，2026年至今-11.3%，成立以来+85.3%(年化~27.8%)。指数PE-TTM 25.75x(近1年~10%分位)，PB 4.15x(~69%分位)，2026E盈利增速~+40%→PEG 0.6-0.7。2026Q2前十大：阳光电源10.00%/亿纬锂能9.51%/宁德时代9.28%/麦格米特7.02%/英维克6.04%/德业5.69%/科达利3.71%/海博思创3.17%/国轩3.05%/鹏辉3.03%(合计60.50%)。宁德2026H1净利432.84亿(+42%)，A股史上最大注销式回购200-400亿。四大师结论：有条件通过(3.3/5)——龙头锚(宁德+阳光+亿纬28.8%)生意质量/护城河/管理层全A且PE 19-27x合理；但篮子含13% AIDC主题高PE股(麦格米特PE动444.91/英维克138.19)+10%周期二线。建议：主题仓≤10-15%组合权重，分2-3批在1.55-1.85区间承接，跌破1.55(指数PE~22x)加大，涨回2.0上方减仓。
     status: supported
