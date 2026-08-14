@@ -13,7 +13,7 @@ sector: 医疗健康
 
 last_updated: '2026-07-30'
 status: actively_tracking
-updatedAt: "2026-07-30T08:15:00.000Z"
+updatedAt: "2026-08-14T13:30:00.000Z"
 
 current_view: |-
   跟踪中证医疗指数（399989.SZ），从最高点19992跌至6429（-67.8%）。PE 29.4x(5年30%分位)不算极端便宜，但PB(等权) 2.86(6%分位)极度低估。AI Berkshire建议小仓位定投3年+。规模264亿(全市场最大医疗ETF)，净值0.3254元。
@@ -152,6 +152,17 @@ claims:
 
     lines: tracking indicators
     weight: 0.85
+- id: claim.512170.SS.tradingagents-2026-05-06
+
+  text: 2026年5月TradingAgents分析报告：技术面偏空（MACD动能衰竭、长期空头排列），基本面缺乏催化剂，给出减持评级
+  status: supported
+
+  confidence: 0.90
+  evidence:
+  - kind: report
+
+    sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-06-stock-research-analysis-512170-dda79cc4
+    weight: 0.9
 relationships:
 - targetId: 生物科技ETF
 
