@@ -3,10 +3,10 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 2791
+- Total pages: 2800
 - Claims: 364
 - Sources: 2580
-- Entities: 164
+- Entities: 173
 - Concepts: 14
 - Syntheses: 23
 - Reports: 10
@@ -2616,14 +2616,18 @@
 - [Claude Science](entities/claude-science.md)
 - [Claude Sonnet 5](entities/claude-sonnet-5.md)
 - [ClickHouse 可观测性应用](entities/clickhouse-obs.md)
+- [Cloudflare Workers](entities/Cloudflare-Workers.md)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md)
 - [darwin-skill](entities/darwin-skill.md)
 - [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
 - [Federal Reserve（美联储）](entities/美联储.md)
+- [Fly.io](entities/Fly.io.md)
 - [From Copilots to Colleagues](entities/autonomous-research-agents-survey-2026.md)
+- [Google App Engine（GAE）](entities/Google-App-Engine.md)
 - [Headroom Context Engine Plugin](entities/headroom-context-engine.md)
 - [Hermes Agent](entities/hermes-agent.md)
+- [Heroku](entities/Heroku.md)
 - [InvestSignal目标价预警优化](entities/investsignal-target-price-alert.md)
 - [Karpathy RSS 日报 2026-05-23](entities/karpathy-rss-20260523.md)
 - [MiMo V2.5](entities/mimo-v2.5.md)
@@ -2638,9 +2642,12 @@
 - [open-design](entities/open-design.md)
 - [payslip任务crontab路径错误](entities/payslip-crontab-path.md)
 - [PDD Holdings (拼多多)](entities/PDD-Holdings-拼多多.md)
+- [PikaPods](entities/PikaPods.md)
+- [Railway](entities/Railway.md)
 - [research.zhu-kun.com](entities/research-zhu-kun-com.md)
 - [Sam Altman](entities/sam-altman.md)
 - [Scrapling](entities/scrapling.md)
+- [Sealos](entities/Sealos.md)
 - [SkillOpt](entities/skillopt.md)
 - [SpaceX](entities/SpaceX.md)
 - [stock-research-engine](entities/stock-research-engine.md)
@@ -2652,7 +2659,9 @@
 - [The Five Dysfunctions of a Team](entities/five-dysfunctions-of-a-team.md)
 - [tradingagents](entities/tradingagents.md)
 - [TradingAgents tushare数据支持](entities/tradingagents-tushare.md)
+- [Vercel](entities/Vercel.md)
 - [VibeVoice](entities/vibevoice.md)
+- [Zeabur](entities/Zeabur.md)
 - [ZeroTier](entities/zerotier.md)
 - [万华化学（600309.SS）](entities/600309.SS_万华化学.md)
 - [上证50AH优选指数A (501050.SS)](entities/上证50AH优选指数A.md)
