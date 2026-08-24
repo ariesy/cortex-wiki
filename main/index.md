@@ -3,10 +3,10 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 2800
+- Total pages: 2801
 - Claims: 364
 - Sources: 2580
-- Entities: 173
+- Entities: 174
 - Concepts: 14
 - Syntheses: 23
 - Reports: 10
@@ -2622,6 +2622,7 @@
 - [darwin-skill](entities/darwin-skill.md)
 - [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
 - [Federal Reserve（美联储）](entities/美联储.md)
+- [FeedFuse](entities/FeedFuse.md)
 - [Fly.io](entities/Fly.io.md)
 - [From Copilots to Colleagues](entities/autonomous-research-agents-survey-2026.md)
 - [Google App Engine（GAE）](entities/Google-App-Engine.md)

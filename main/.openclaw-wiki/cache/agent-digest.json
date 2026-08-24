@@ -1,6 +1,6 @@
 {
   "pageCounts": {
-    "entity": 173,
+    "entity": 174,
     "concept": 14,
     "source": 2580,
     "synthesis": 23,
@@ -4003,6 +4003,29 @@
       "entityType": "bug",
       "freshnessLevel": "aging",
       "lastTouchedAt": "2026-05-29",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.tool.feedfuse",
+      "title": "FeedFuse",
+      "kind": "entity",
+      "path": "entities/FeedFuse.md",
+      "aliases": [],
+      "sourceIds": [
+        "https://github.com/BryanHoo/FeedFuse",
+        "https://github.com/FreshRSS/FreshRSS"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "entity",
+      "entityType": "tool",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-24",
       "claimCount": 0,
       "topClaims": []
     },
@@ -10417,7 +10440,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-23T09:00:20.151Z",
+      "lastTouchedAt": "2026-08-24T00:58:54.172Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -18054,7 +18077,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T09:04:17.119Z",
       "claimCount": 0,
       "topClaims": []
@@ -18073,7 +18096,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T09:12:27.992Z",
       "claimCount": 0,
       "topClaims": []
@@ -18092,7 +18115,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T14:19:12.836Z",
       "claimCount": 0,
       "topClaims": []
@@ -18111,7 +18134,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-26T00:55:47.481Z",
       "claimCount": 0,
       "topClaims": []
@@ -22006,7 +22029,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T09:01:14.254Z",
       "claimCount": 0,
       "topClaims": []
@@ -22025,7 +22048,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T11:31:12.681Z",
       "claimCount": 0,
       "topClaims": []
@@ -22044,7 +22067,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T13:05:52.312Z",
       "claimCount": 0,
       "topClaims": []
@@ -22063,7 +22086,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T14:12:35.322Z",
       "claimCount": 0,
       "topClaims": []
@@ -22082,7 +22105,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T14:58:59.410Z",
       "claimCount": 0,
       "topClaims": []
@@ -25787,7 +25810,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:00:58.763Z",
       "claimCount": 0,
       "topClaims": []
@@ -26433,7 +26456,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:00:29.363Z",
       "claimCount": 0,
       "topClaims": []
@@ -27079,7 +27102,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:00:55.115Z",
       "claimCount": 0,
       "topClaims": []
@@ -28390,7 +28413,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.736Z",
       "claimCount": 0,
       "topClaims": []
@@ -29530,7 +29553,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:08.197Z",
       "claimCount": 0,
       "topClaims": []
@@ -30309,7 +30332,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.466Z",
       "claimCount": 0,
       "topClaims": []
@@ -31449,7 +31472,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:07.138Z",
       "claimCount": 0,
       "topClaims": []
@@ -32228,7 +32251,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.645Z",
       "claimCount": 0,
       "topClaims": []
@@ -33368,7 +33391,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:08.052Z",
       "claimCount": 0,
       "topClaims": []
@@ -34793,7 +34816,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:19.523Z",
       "claimCount": 0,
       "topClaims": []
@@ -35933,7 +35956,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:00.387Z",
       "claimCount": 0,
       "topClaims": []
@@ -37187,7 +37210,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:17.603Z",
       "claimCount": 0,
       "topClaims": []
@@ -38327,7 +38350,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:00:58.932Z",
       "claimCount": 0,
       "topClaims": []
@@ -39581,7 +39604,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:18.671Z",
       "claimCount": 0,
       "topClaims": []
@@ -40721,7 +40744,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:00:59.102Z",
       "claimCount": 0,
       "topClaims": []
@@ -41481,7 +41504,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.785Z",
       "claimCount": 0,
       "topClaims": []
@@ -42621,7 +42644,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:08.484Z",
       "claimCount": 0,
       "topClaims": []
@@ -43324,7 +43347,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.745Z",
       "claimCount": 0,
       "topClaims": []
@@ -44464,7 +44487,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:08.297Z",
       "claimCount": 0,
       "topClaims": []
@@ -45167,7 +45190,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.761Z",
       "claimCount": 0,
       "topClaims": []
@@ -46307,7 +46330,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:08.325Z",
       "claimCount": 0,
       "topClaims": []
@@ -47675,7 +47698,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.293Z",
       "claimCount": 0,
       "topClaims": []
@@ -48815,7 +48838,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:06.254Z",
       "claimCount": 0,
       "topClaims": []
@@ -49651,7 +49674,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.023Z",
       "claimCount": 0,
       "topClaims": []
@@ -50791,7 +50814,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:03.852Z",
       "claimCount": 0,
       "topClaims": []
@@ -51627,7 +51650,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:20.143Z",
       "claimCount": 0,
       "topClaims": []
@@ -52767,7 +52790,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:05.392Z",
       "claimCount": 0,
       "topClaims": []
@@ -53660,7 +53683,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:19.736Z",
       "claimCount": 0,
       "topClaims": []
@@ -54800,7 +54823,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:01.058Z",
       "claimCount": 0,
       "topClaims": []
@@ -55674,7 +55697,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:19.575Z",
       "claimCount": 0,
       "topClaims": []
@@ -56814,7 +56837,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:00.731Z",
       "claimCount": 0,
       "topClaims": []
@@ -57688,7 +57711,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-25T19:00:19.626Z",
       "claimCount": 0,
       "topClaims": []
@@ -58828,7 +58851,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T19:01:00.838Z",
       "claimCount": 0,
       "topClaims": []
@@ -60116,7 +60139,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "synthesis",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-24T13:12:49.402Z",
       "claimCount": 0,
       "topClaims": []

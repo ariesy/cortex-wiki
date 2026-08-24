@@ -517,3 +517,7 @@
 {"type":"compile","timestamp":"2026-08-21T13:12:07.562Z","details":{"pageCounts":{"entity":164,"concept":14,"source":2580,"synthesis":23,"report":10},"updatedFiles":["sources/bridge-workspace-142ea9a2-memory-2026-08-21-1308-12a6aad0.md",".openclaw-wiki/cache/agent-digest.json","index.md","sources/index.md"]}}
 {"type":"compile","timestamp":"2026-08-23T09:00:25.642Z","details":{"pageCounts":{"entity":173,"concept":14,"source":2580,"synthesis":23,"report":10},"updatedFiles":["entities/Cloudflare-Workers.md","entities/Fly.io.md","entities/Google-App-Engine.md","entities/Heroku.md","entities/PikaPods.md","entities/Railway.md","entities/Sealos.md","entities/Vercel.md","entities/Zeabur.md","reports/stale-pages.md",".openclaw-wiki/cache/agent-digest.json","index.md","entities/index.md"]}}
 {"type":"lint","timestamp":"2026-08-23T09:00:25.825Z","details":{"issueCount":329,"reportPath":"reports/lint.md"}}
+{"type":"compile","timestamp":"2026-08-24T00:59:00.149Z","details":{"pageCounts":{"entity":174,"concept":14,"source":2580,"synthesis":23,"report":10},"updatedFiles":["entities/FeedFuse.md","reports/stale-pages.md",".openclaw-wiki/cache/agent-digest.json","index.md","entities/index.md"]}}
+{"type":"lint","timestamp":"2026-08-24T00:59:00.328Z","details":{"issueCount":348,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-08-24T00:59:05.020Z","details":{"issueCount":348,"reportPath":"reports/lint.md"}}
+{"type":"lint","timestamp":"2026-08-24T00:59:39.434Z","details":{"issueCount":348,"reportPath":"reports/lint.md"}}

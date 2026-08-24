@@ -35,6 +35,7 @@
 - [darwin-skill](darwin-skill.md)
 - [DeerFlow与OpenClaw集成分析](deerflow-integration.md)
 - [Federal Reserve（美联储）](美联储.md)
+- [FeedFuse](FeedFuse.md)
 - [Fly.io](Fly.io.md)
 - [From Copilots to Colleagues](autonomous-research-agents-survey-2026.md)
 - [Google App Engine（GAE）](Google-App-Engine.md)
