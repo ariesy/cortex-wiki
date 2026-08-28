@@ -2,10 +2,10 @@
 pageType: entity
 entityType: project
 id: entity.project.deerflow-integration
-updatedAt: "2026-05-29"
+updatedAt: 2026-08-28T14:14:19.797Z
 claims:
   - id: claim.deerflow.completed
-    text: "集成方案已完成：DeerFlow搜索模块作为OpenClaw工具调用"
+    text: 集成方案已完成：DeerFlow搜索模块作为OpenClaw工具调用
     status: supported
     confidence: 0.8
     evidence:
@@ -14,10 +14,9 @@ claims:
         weight: 0.9
 sourceIds:
   - memory/2026-03-30-deerflow-integration.md
-
-
+  - sources/bridge-workspace-142ea9a2-memory-2026-03-30-deerflow-integration-114892c9.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-03-30-skill-sync-4f642b06.md
 ---
-
 
 # DeerFlow与OpenClaw集成分析
 
@@ -66,5 +65,7 @@ DeerFlow与OpenClaw可以集成，DeerFlow的web_search模块可作为OpenClaw�
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [workspace skills 与 external skills 双目录发现机制](skills-dual-directory-discovery.md)
 <!-- openclaw:wiki:related:end -->

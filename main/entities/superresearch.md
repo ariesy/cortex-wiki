@@ -63,5 +63,9 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [semantic-router 技能（框架版，缺运行时实现）](semantic-router.md)
+- [搜索工具使用规范](搜索工具使用规范.md)
+- [深圳购房方案A（直接买二套）资金与月供测算](深圳购房方案A-资金测算.md)
 <!-- openclaw:wiki:related:end -->

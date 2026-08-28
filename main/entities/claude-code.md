@@ -2,16 +2,16 @@
 pageType: entity
 id: entity.tool.claude-code
 entityType: tool
-name: "Claude Code"
+name: Claude Code
 sourceIds:
   - agent-bottleneck-zhihu
+  - sources/bridge-workspace-142ea9a2-memory-2026-04-30-kimi-k2-vs-claude-code-compari-619dd649.md
 relationships:
   - targetId: concept.clean-world-dirty-world
-    targetTitle: "Agent 干净世界 vs 脏世界"
+    targetTitle: Agent 干净世界 vs 脏世界
     kind: representative-of
-    weight: 1.0
-updatedAt: 2026-08-05T15:11:38.000Z
-
+    weight: 1
+updatedAt: 2026-08-28T16:16:07.344Z
 ---
 
 # Claude Code
@@ -20,6 +20,10 @@ Anthropic 开发的 Coding Agent，是"干净世界" Agent 的典型代表。被
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Referenced By
+
+- [Kimi K2（Moonshot AI）](kimi-k2.md)
+
 ### Related Pages
 
 - [Agent 干净世界 vs 脏世界](../concepts/clean-world-dirty-world.md)

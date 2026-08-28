@@ -75,5 +75,7 @@ pip install skillopt
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [semantic-router 技能（框架版，缺运行时实现）](semantic-router.md)
 <!-- openclaw:wiki:related:end -->

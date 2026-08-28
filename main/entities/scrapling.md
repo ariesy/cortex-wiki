@@ -45,5 +45,7 @@ Python 自适应 Web 爬虫框架 (67.3k stars)。核心特性：自适应选择
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [搜索工具使用规范](搜索工具使用规范.md)
 <!-- openclaw:wiki:related:end -->

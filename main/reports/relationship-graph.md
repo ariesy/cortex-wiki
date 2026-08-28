@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-08-11T16:31:53.211Z
+updatedAt: 2026-08-28T16:18:06.821Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 200
+- Structured relationships: 216
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -44,18 +44,32 @@ updatedAt: 2026-08-11T16:31:53.211Z
 - [cangjie-skill](../entities/cangjie-skill.md) -> darwin-skill (related-to, weight 1.00)
 - [cangjie-skill](../entities/cangjie-skill.md) -> nuwa-skill (related-to, weight 1.00)
 - [Claude Code](../entities/claude-code.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 1.00)
+- [council-of-the-wise（智者委员会）技能](../entities/council-of-the-wise技能.md) -> InvestSignal 架构设计 v1.1 (related, weight 0.50)
 - [daily-questions多轮对话失效Bug](../entities/daily-questions-deliver-mode.md) -> daily-questions-deliver-mode (affects, weight 0.80)
 - [daily-questions定时任务跳过Bug](../entities/daily-questions-cron-skip.md) -> daily-questions-cron-skip (affects, weight 0.80)
 - [darwin-skill](../entities/darwin-skill.md) -> cangjie-skill (related-to, weight 1.00)
 - [darwin-skill](../entities/darwin-skill.md) -> nuwa-skill (related-to, weight 1.00)
+- [Google Custom Search API](../entities/google-custom-search-api.md) -> SearXNG 本地搜索实例 (alternative-to, weight 0.70)
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md) -> guardians-eye (discovered-by, weight 0.80, guardians-eye agent performed the headroom root cause analysis)
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md) -> Stock Research Engine (affected-by, weight 0.30, Headroom's 2.4s blocking latency impacted all OpenClaw plugin hooks including SRE)
 - [Hermes Agent](../entities/hermes-agent.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 0.90)
+- [InvestSignal Sprint 3：融资融券与资金面信号模块](../entities/InvestSignal-Sprint3-资金面信号模块.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.90)
+- [InvestSignal Sprint 4：港股与 ETF 数据支持](../entities/InvestSignal-Sprint4-港股与ETF数据支持.md) -> InvestSignal Sprint 3：融资融券与资金面信号模块 (related, weight 0.60)
+- [InvestSignal Sprint 4：港股与 ETF 数据支持](../entities/InvestSignal-Sprint4-港股与ETF数据支持.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.90)
+- [InvestSignal Sprint 7：基本面信号与三维信号组合](../entities/InvestSignal-Sprint7-基本面信号与三维组合.md) -> InvestSignal Sprint 3：融资融券与资金面信号模块 (related, weight 0.70)
+- [InvestSignal Sprint 7：基本面信号与三维信号组合](../entities/InvestSignal-Sprint7-基本面信号与三维组合.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.90)
+- [InvestSignal Sprint 8：ETF 基本面信号与规模追踪](../entities/InvestSignal-Sprint8-ETF基本面信号与规模追踪.md) -> InvestSignal Sprint 4：港股与 ETF 数据支持 (related, weight 0.80)
+- [InvestSignal Sprint 8：ETF 基本面信号与规模追踪](../entities/InvestSignal-Sprint8-ETF基本面信号与规模追踪.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.80)
+- [InvestSignal Sprint 8：情绪面信号计算（S8-T12）](../entities/InvestSignal-Sprint8-情绪面信号计算.md) -> InvestSignal Sprint 8：ETF 基本面信号与规模追踪 (related, weight 0.70)
+- [InvestSignal Sprint 8：情绪面信号计算（S8-T12）](../entities/InvestSignal-Sprint8-情绪面信号计算.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.80)
+- [InvestSignal 架构设计 v1.1](../entities/InvestSignal架构设计v1.1.md) -> InvestSignal目标价预警优化 (parent-of, weight 0.70)
 - [InvestSignal目标价预警优化](../entities/investsignal-target-price-alert.md) -> InvestSignal (belongs-to, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md) -> AI内存短缺危机 (discusses, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md) -> StubZero Google Cloud RCE漏洞 (discusses, weight 0.90)
+- [Kimi K2（Moonshot AI）](../entities/kimi-k2.md) -> Claude Code (compared-with, weight 0.90)
 - [MiMo V2.5](../entities/mimo-v2.5.md) -> DeepSeek V4 (competitor, weight 0.80, 价格和能力上的直接竞品)
 - [MiMo V2.5](../entities/mimo-v2.5.md) -> OpenClaw (used-by, weight 0.90, 作为OpenClaw的默认运行模型)
+- [MiniMax Anthropic-compatible streaming 泄漏思维链](../entities/minimax-anthropic-streaming-bug.md) -> MiniMax国内OAuth配置问题 (related-to, weight 0.50)
 - [MiniMaxQuota窗口时间不一致](../concepts/minimax-quota-window.md) -> mmx-cli (documented-by, weight 0.80)
 - [MiniMax国内OAuth配置问题](../entities/minimax-oauth.md) -> minimax-oauth (affects, weight 0.80)
 - [mmx-cli](../entities/mmx-cli.md) -> MiniMaxQuota窗口时间不一致 (documents, weight 0.80)
@@ -164,6 +178,7 @@ updatedAt: 2026-08-11T16:31:53.211Z
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 民生银行 (same-sector, weight 0.80, 同为港股银行，资产质量对比)
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 红利ETF (etf-component, weight 0.80, 招行是红利ETF高股息成分股)
 - [招商银行 (3968.HK)](../entities/招商银行.md) -> 红利ETF (constituent-of, confidence 0.85)
+- [本地搜索中文关键词污染](../entities/本地搜索中文关键词污染.md) -> SearXNG 本地搜索实例 (affects, weight 0.80)
 - [朱凌霄](../entities/zhu-lingxiao.md) -> 姚文海 (parent, weight 1.00, 母亲)
 - [朱凌霄](../entities/zhu-lingxiao.md) -> 朱琨 (parent, weight 1.00, 父亲)
 - [朱琨](../entities/zhu-kun.md) -> InvestSignal (uses, weight 0.90)
@@ -202,6 +217,7 @@ updatedAt: 2026-08-11T16:31:53.211Z
 - [紫金矿业 (02899.HK / 601899.SS)](../entities/紫金矿业.md) -> 红利ETF (etf-component, weight 0.80, 紫金是红利ETF成分股（黄金铜业高股息）)
 - [老人诈骗模式分类](../concepts/elderly-fraud-patterns.md) -> 养老防骗意识 (related-to, weight 0.80)
 - [老人诈骗模式分类](../concepts/elderly-fraud-patterns.md) -> 守护眼公众号 (addressed-by, weight 0.90)
+- [股票仓位（Position）概念与用户用法](../entities/仓位概念.md) -> tradingagents (related-concept, weight 0.30, 交易分析场景下个股仓位是风控约束的一部分)
 - [胜宏科技 (300476.SZ)](../entities/胜宏科技.md) -> 深南电路 (same-sector-peer, confidence 0.80)
 - [芯片ETF (159995.SZ)](../entities/芯片ETF.md) -> 中际旭创 (etf-component, weight 0.70, 光模块与芯片产业链高度相关)
 - [芯片ETF (159995.SZ)](../entities/芯片ETF.md) -> 中际旭创 (etf-holds-components, confidence 0.85)

@@ -59,6 +59,10 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Referenced By
+
+- [InvestSignal 架构设计 v1.1](InvestSignal架构设计v1.1.md)
+
 ### Related Pages
 
 - [TradingAgents tushare数据支持](tradingagents-tushare.md)

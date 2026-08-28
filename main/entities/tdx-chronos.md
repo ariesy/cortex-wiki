@@ -72,6 +72,10 @@ kline_symbols / financial_quarters / gp_records / index_records / download_log_7
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Referenced By
+
+- [Kronos 金融预测模型](kronos.md)
+
 ### Related Pages
 
 - [Bash heredoc f-string 沉默 bug](bash-heredoc-fstring-cron-bug.md)

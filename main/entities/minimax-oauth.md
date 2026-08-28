@@ -49,6 +49,10 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Referenced By
+
+- [MiniMax Anthropic-compatible streaming 泄漏思维链](minimax-anthropic-streaming-bug.md)
+
 ### Related Pages
 
 - [daily-questions多轮对话失效Bug](daily-questions-deliver-mode.md)
