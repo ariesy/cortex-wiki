@@ -3,6 +3,8 @@
 ## Generated
 <!-- openclaw:wiki:sources:index:start -->
 - [Agent目前最大的瓶颈是什么？ - 知乎回答](agent-bottleneck-zhihu.md)
+- [freestylefly/awesome-gpt-image-2 README 摘录与核实（2026-08-29）](github-awesome-gpt-image-2-readme-20260829.md)
+- [MadsLorentzen/ai-job-search README 摘录与核实（2026-08-29）](github-ai-job-search-readme-20260829.md)
 - [Memory Bridge (guardians-eye): 2026-05-12-1218](bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-12-1218-78290329.md)
 - [Memory Bridge (guardians-eye): 2026-05-14-wechat-article-rewrite](bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-14-wechat-article-rewrite-c4683492.md)
 - [Memory Bridge (guardians-eye): 2026-05-15-elderly-fraud](bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-15-elderly-fraud-6b0759cc.md)
@@ -2808,6 +2810,8 @@
 - [Memory Bridge (workflows): dreaming / rem / 2026-08-28](bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-08-28-26642aa4.md)
 - [Memory Bridge (workflows): dreaming / rem / 2026-08-29](bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-08-29-d01f22ab.md)
 - [Memory Bridge (workflows): event journal](bridge-workspace-worflows-c740ec03-memory-dreams-events-jsonl-38a7dd37.md)
+- [tinyhumansai/openhuman README 摘录与核实（2026-08-29）](github-openhuman-readme-20260829.md)
+- [tt-a1i/archify README 摘录与核实（2026-08-29）](github-archify-readme-20260829.md)
 - [中证消费ETF (512600) 投资分析简报 2026-05-28](中证消费etf-512600-投资分析简报-2026-05-28.md)
 - [贵州茅台 (600519) 个股深度研究简报 2026-05-28](贵州茅台-600519-个股深度研究简报-2026-05-28.md)
 - [贵州茅台 + 中证消费ETF 投资观点整合 2026-05-28](贵州茅台-中证消费etf-投资观点整合-2026-05-28.md)

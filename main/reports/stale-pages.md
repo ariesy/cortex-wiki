@@ -3,7 +3,7 @@ pageType: report
 id: report.stale-pages
 title: Stale Pages
 status: active
-updatedAt: 2026-08-29T00:17:10.185Z
+updatedAt: 2026-08-29T00:23:26.704Z
 ---
 
 # Stale Pages

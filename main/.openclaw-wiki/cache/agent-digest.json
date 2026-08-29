@@ -1,8 +1,8 @@
 {
   "pageCounts": {
-    "entity": 220,
+    "entity": 224,
     "concept": 14,
-    "source": 2810,
+    "source": 2814,
     "synthesis": 23,
     "report": 10
   },
@@ -3250,6 +3250,44 @@
       ]
     },
     {
+      "id": "entity.ai-job-search",
+      "title": "ai-job-search",
+      "kind": "entity",
+      "path": "entities/ai-job-search.md",
+      "aliases": [
+        "ai-job-search",
+        "MadsLorentzen/ai-job-search"
+      ],
+      "sourceIds": [
+        "sources/github-ai-job-search-readme-20260829.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.archify",
+          "targetTitle": "archify",
+          "kind": "same-cohort",
+          "weight": 0.5
+        },
+        {
+          "targetId": "entity.openhuman",
+          "targetTitle": "openhuman",
+          "kind": "same-cohort",
+          "weight": 0.4
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "tool",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
       "id": "entity.project.ai-news-phase2",
       "title": "AI News Phase 2",
       "kind": "entity",
@@ -3295,6 +3333,44 @@
           "lastTouchedAt": "2026-05-29"
         }
       ]
+    },
+    {
+      "id": "entity.archify",
+      "title": "archify",
+      "kind": "entity",
+      "path": "entities/archify.md",
+      "aliases": [
+        "archify",
+        "tt-a1i/archify"
+      ],
+      "sourceIds": [
+        "sources/github-archify-readme-20260829.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.awesome-gpt-image-2",
+          "targetTitle": "awesome-gpt-image-2",
+          "kind": "same-cohort",
+          "weight": 0.6
+        },
+        {
+          "targetId": "entity.superresearch",
+          "targetTitle": "superresearch",
+          "kind": "complementary",
+          "weight": 0.4
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "tool",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "entity.document.autonomous-research-agents-survey-2026",
@@ -3365,6 +3441,45 @@
       "entityType": "tool",
       "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-18T13:24:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "entity.awesome-gpt-image-2",
+      "title": "awesome-gpt-image-2",
+      "kind": "entity",
+      "path": "entities/awesome-gpt-image-2.md",
+      "aliases": [
+        "awesome-gpt-image-2",
+        "freestylefly/awesome-gpt-image-2",
+        "GPT-Image2 Style Library"
+      ],
+      "sourceIds": [
+        "sources/github-awesome-gpt-image-2-readme-20260829.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.archify",
+          "targetTitle": "archify",
+          "kind": "same-cohort",
+          "weight": 0.6
+        },
+        {
+          "targetId": "entity.nk-images-search-skill",
+          "targetTitle": "NK Images Search",
+          "kind": "complementary",
+          "weight": 0.3
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "tool",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -7004,6 +7119,45 @@
           "lastTouchedAt": "2026-08-28T14:50:00.000Z"
         }
       ]
+    },
+    {
+      "id": "entity.openhuman",
+      "title": "openhuman",
+      "kind": "entity",
+      "path": "entities/openhuman.md",
+      "aliases": [
+        "openhuman",
+        "tinyhumansai/openhuman",
+        "OpenHuman"
+      ],
+      "sourceIds": [
+        "sources/github-openhuman-readme-20260829.md"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 2,
+      "topRelationships": [
+        {
+          "targetId": "entity.ai-job-search",
+          "targetTitle": "ai-job-search",
+          "kind": "same-cohort",
+          "weight": 0.4
+        },
+        {
+          "targetId": "entity.autoresearch",
+          "targetTitle": "autoresearch",
+          "kind": "related",
+          "weight": 0.3
+        }
+      ],
+      "pageType": "entity",
+      "entityType": "tool",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
     },
     {
       "id": "entity.project.openmetadata-lineage-reporting",
@@ -14058,7 +14212,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-28T16:18:06.821Z",
+      "lastTouchedAt": "2026-08-29T00:22:10.297Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -14077,7 +14231,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-29T00:17:10.185Z",
+      "lastTouchedAt": "2026-08-29T00:23:26.704Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -67392,6 +67546,82 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-08-28T19:00:17.165Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.github.ai-job-search-readme-20260829",
+      "title": "MadsLorentzen/ai-job-search README 摘录与核实（2026-08-29）",
+      "kind": "source",
+      "path": "sources/github-ai-job-search-readme-20260829.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.github.archify-readme-20260829",
+      "title": "tt-a1i/archify README 摘录与核实（2026-08-29）",
+      "kind": "source",
+      "path": "sources/github-archify-readme-20260829.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.github.awesome-gpt-image-2-readme-20260829",
+      "title": "freestylefly/awesome-gpt-image-2 README 摘录与核实（2026-08-29）",
+      "kind": "source",
+      "path": "sources/github-awesome-gpt-image-2-readme-20260829.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.github.openhuman-readme-20260829",
+      "title": "tinyhumansai/openhuman README 摘录与核实（2026-08-29）",
+      "kind": "source",
+      "path": "sources/github-openhuman-readme-20260829.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T00:20:00.000Z",
       "claimCount": 0,
       "topClaims": []
     },

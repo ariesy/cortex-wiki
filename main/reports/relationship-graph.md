@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-08-28T16:18:06.821Z
+updatedAt: 2026-08-29T00:22:10.297Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 216
+- Structured relationships: 224
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -35,10 +35,16 @@ updatedAt: 2026-08-28T16:18:06.821Z
 - [Agent 干净世界 vs 脏世界](../concepts/clean-world-dirty-world.md) -> 相对改进评估 (related-to, weight 0.70)
 - [AI News Phase 2](../entities/ai-news-phase2.md) -> AI News Phase 2 Critical Bugs Pattern (has-bugs, weight 0.90)
 - [AI News Phase 2 Critical Bugs Pattern](../concepts/ai-news-critical-bugs.md) -> AI News Phase 2 (affects-project, weight 0.90)
+- [ai-job-search](../entities/ai-job-search.md) -> archify (same-cohort, weight 0.50)
+- [ai-job-search](../entities/ai-job-search.md) -> openhuman (same-cohort, weight 0.40)
 - [AI内存短缺危机](../concepts/hbm-memory-shortage.md) -> MiniMaxQuota窗口时间不一致 (related-to, weight 0.50, 同为硬件资源问题)
 - [AI对冲基金多Agent风格分类](../concepts/ai-hedge-fund-agent-styles.md) -> tradingagents (describes-system, weight 0.90, 14种Agent风格的详细方案)
 - [Altman威胁模型论](../concepts/altman-threat-model.md) -> Sam Altman (view-held-by, weight 0.90)
+- [archify](../entities/archify.md) -> awesome-gpt-image-2 (same-cohort, weight 0.60)
+- [archify](../entities/archify.md) -> superresearch (complementary, weight 0.40)
 - [autoresearch](../entities/autoresearch.md) -> darwin-skill (inspired-by, weight 1.00)
+- [awesome-gpt-image-2](../entities/awesome-gpt-image-2.md) -> archify (same-cohort, weight 0.60)
+- [awesome-gpt-image-2](../entities/awesome-gpt-image-2.md) -> NK Images Search (complementary, weight 0.30)
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md) -> bilibili-api-python AudioUploader bug (has-bug, weight 0.90, 音频上传库bug)
 - [bilibili-api-python AudioUploader bug](../entities/bilibili-audio-uploader.md) -> bilibili-audio-uploader (affects, weight 0.80)
 - [cangjie-skill](../entities/cangjie-skill.md) -> darwin-skill (related-to, weight 1.00)
@@ -77,6 +83,8 @@ updatedAt: 2026-08-28T16:18:06.821Z
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md) -> 守护眼公众号 (potential-tool, weight 0.50, 可用于守护眼批量生产短视频内容)
 - [nuwa-skill](../entities/nuwa-skill.md) -> cangjie-skill (related-to, weight 1.00)
 - [nuwa-skill](../entities/nuwa-skill.md) -> darwin-skill (related-to, weight 1.00)
+- [openhuman](../entities/openhuman.md) -> ai-job-search (same-cohort, weight 0.40)
+- [openhuman](../entities/openhuman.md) -> autoresearch (related, weight 0.30)
 - [payslip任务crontab路径错误](../entities/payslip-crontab-path.md) -> payslip-crontab-path (affects, weight 0.80)
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 中概互联网ETF (513050) (constituent, weight 0.70, PDD是中概互联网ETF的成分股之一)
 - [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md) -> 黄金ETF (alternatives, weight 0.30, 同为避险/配置类资产讨论中的标的)

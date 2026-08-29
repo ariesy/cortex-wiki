@@ -3,16 +3,18 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 3077
+- Total pages: 3085
 - Claims: 500
-- Sources: 2810
-- Entities: 220
+- Sources: 2814
+- Entities: 224
 - Concepts: 14
 - Syntheses: 23
 - Reports: 10
 
 ### Sources
 - [Agent目前最大的瓶颈是什么？ - 知乎回答](sources/agent-bottleneck-zhihu.md)
+- [freestylefly/awesome-gpt-image-2 README 摘录与核实（2026-08-29）](sources/github-awesome-gpt-image-2-readme-20260829.md)
+- [MadsLorentzen/ai-job-search README 摘录与核实（2026-08-29）](sources/github-ai-job-search-readme-20260829.md)
 - [Memory Bridge (guardians-eye): 2026-05-12-1218](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-12-1218-78290329.md)
 - [Memory Bridge (guardians-eye): 2026-05-14-wechat-article-rewrite](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-14-wechat-article-rewrite-c4683492.md)
 - [Memory Bridge (guardians-eye): 2026-05-15-elderly-fraud](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-2026-05-15-elderly-fraud-6b0759cc.md)
@@ -2818,6 +2820,8 @@
 - [Memory Bridge (workflows): dreaming / rem / 2026-08-28](sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-08-28-26642aa4.md)
 - [Memory Bridge (workflows): dreaming / rem / 2026-08-29](sources/bridge-workspace-worflows-c740ec03-memory-dreaming-rem-2026-08-29-d01f22ab.md)
 - [Memory Bridge (workflows): event journal](sources/bridge-workspace-worflows-c740ec03-memory-dreams-events-jsonl-38a7dd37.md)
+- [tinyhumansai/openhuman README 摘录与核实（2026-08-29）](sources/github-openhuman-readme-20260829.md)
+- [tt-a1i/archify README 摘录与核实（2026-08-29）](sources/github-archify-readme-20260829.md)
 - [中证消费ETF (512600) 投资分析简报 2026-05-28](sources/中证消费etf-512600-投资分析简报-2026-05-28.md)
 - [贵州茅台 (600519) 个股深度研究简报 2026-05-28](sources/贵州茅台-600519-个股深度研究简报-2026-05-28.md)
 - [贵州茅台 + 中证消费ETF 投资观点整合 2026-05-28](sources/贵州茅台-中证消费etf-投资观点整合-2026-05-28.md)
@@ -2837,7 +2841,10 @@
 - [914.HK_海螺水泥](entities/914.HK_海螺水泥.md)
 - [AI News Phase 2](entities/ai-news-phase2.md)
 - [ai-berkshire](entities/ai-berkshire-价值投资研究框架.md)
+- [ai-job-search](entities/ai-job-search.md)
+- [archify](entities/archify.md)
 - [autoresearch](entities/autoresearch.md)
+- [awesome-gpt-image-2](entities/awesome-gpt-image-2.md)
 - [Bash heredoc f-string 沉默 bug](entities/bash-heredoc-fstring-cron-bug.md)
 - [bilibili-all-in-one](entities/bilibili-all-in-one.md)
 - [bilibili-api-python AudioUploader bug](entities/bilibili-audio-uploader.md)
@@ -2894,6 +2901,7 @@
 - [OpenClaw blockStreamingDefault 配置（飞书流式输出）](entities/blockStreamingDefault-config.md)
 - [OpenClaw v2026.4.26 版本](entities/openclaw-v2026-4-26.md)
 - [OpenClaw 多 Agent 路由（bindings）配置](entities/openclaw-agent-routing.md)
+- [openhuman](entities/openhuman.md)
 - [openmetadata-lineage-reporting](entities/openmetadata-lineage-reporting.md)
 - [payslip任务crontab路径错误](entities/payslip-crontab-path.md)
 - [PDD Holdings (拼多多)](entities/PDD-Holdings-拼多多.md)
