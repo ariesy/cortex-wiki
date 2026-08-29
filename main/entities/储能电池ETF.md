@@ -6,6 +6,7 @@ sourceIds:
   - /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
   - /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
   - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/
+  - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md
 claims:
   - id: claim.entity.159566.tradingagents-20260805
     text: 2026-08-05 TradingAgents多智能体完整分析（修复max_tokens+streaming后跑通，4分析师+研究+交易员+风控辩论）：交易员Action=SELL（趋势未反转、反弹量能衰减、催化剂未兑现；价格1.86低于50日线2.07约10%、低于200日线2.15约13.5%，MACD零轴下）。风险辩论收敛方案：1.86-1.88阻力区先减1/3，保留1/3核心仓（激进派主张）vs 保守派主张等2.07确认，中立派修正为条件化规则——放量站稳1.88则第二笔减仓挂1.95-2.00，收盘跌破1.81(10日EMA+VWMA)则立即减第二笔；核心仓1/3，止损纪律：收盘跌破1.73减半仓、跌破1.68清仓；回补条件：1.73-1.76放量止跌+RSI底背离+MACD柱不扩张（至少2条件）回补一半，或放量突破2.00+MACD上零轴+RSI站50守住3天回补一半。结论与ai-berkshire四大师（有条件通过、1.55-1.85分批承接）方向一致：左侧价值+右侧风控互补。数据源：~/.tradingagents/logs/159566.SZ/2026-08-05/reports/（market/sentiment/news/fundamentals/investment_plan/final_trade_decision）。

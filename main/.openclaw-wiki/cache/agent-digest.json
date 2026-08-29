@@ -2082,7 +2082,8 @@
       "sourceIds": [
         "/app/ai-berkshire/reports/中证消费龙头ETF/中证消费龙头ETF-四大师综合分析-20260803.md",
         "/app/ai-berkshire/reports/中证消费龙头ETF/中证消费龙头ETF-四大师综合分析-20260811.md",
-        "~/.openclaw/workspace/research/中证消费龙头ETF_516130.SS/2026-08-03_summary.md"
+        "~/.openclaw/workspace/research/中证消费龙头ETF_516130.SS/2026-08-03_summary.md",
+        "~/.tradingagents/logs/516130.SS/TradingAgentsStrategy_logs/full_states_log_2026-08-11.json"
       ],
       "questions": [],
       "contradictions": [],
@@ -5054,7 +5055,9 @@
         "git clone 大仓库失败"
       ],
       "sourceIds": [
-        "source.bridge.workspace-142ea9a2.memory-2026-05-05-95ad15ec"
+        "sources/bridge-workspace-142ea9a2-memory-2026-04-22-43569df6.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-04-20-ppt-master-adapter-init-60d2c52f.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-05-05-95ad15ec.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -7060,7 +7063,8 @@
       "path": "entities/PDD-Holdings-拼多多.md",
       "aliases": [],
       "sourceIds": [
-        "/app/ai-berkshire/reports/PDD/"
+        "/app/ai-berkshire/reports/PDD/",
+        "sources/bridge-workspace-142ea9a2-memory-2026-06-11-0059-22f6054a.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -7800,7 +7804,8 @@
         "Scrapling"
       ],
       "sourceIds": [
-        "source.bridge.workspace-142ea9a2.memory-2026-05-05-searxng-google-ead00353"
+        "sources/bridge-workspace-142ea9a2-memory-2026-03-29-searxng-setup-f9dbee3f.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-05-05-searxng-google-ead00353.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -9280,7 +9285,9 @@
       "path": "entities/中国神华.md",
       "aliases": [],
       "sourceIds": [
-        "research/china-shenhua-601088/report.md"
+        "research/china-shenhua-601088/report.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-04-17-kronos-finetune-601088-7087c483.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-06-25-0128-e8589c3f.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -9717,7 +9724,8 @@
       "path": "entities/中证消费ETF_512600.md",
       "aliases": [],
       "sourceIds": [
-        "research/consumer-etf-512600/report.md"
+        "research/consumer-etf-512600/report.md",
+        "sources/中证消费etf-512600-投资分析简报-2026-05-28.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -9876,7 +9884,8 @@
         "中际旭创"
       ],
       "sourceIds": [
-        "research/中际旭创/"
+        "research/中际旭创/",
+        "sources/bridge-workspace-142ea9a2-memory-2026-06-04-1056-2f001be8.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -10328,7 +10337,8 @@
       "sourceIds": [
         "/app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md",
         "/app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md",
-        "~/.tradingagents/logs/159566.SZ/2026-08-05/reports/"
+        "~/.tradingagents/logs/159566.SZ/2026-08-05/reports/",
+        "~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -10759,7 +10769,8 @@
       "path": "entities/医疗ETF.md",
       "aliases": [],
       "sourceIds": [
-        "/app/ai-berkshire/reports/中证医疗ETF-四大师综合分析-20260730.md"
+        "/app/ai-berkshire/reports/中证医疗ETF-四大师综合分析-20260730.md",
+        "sources/bridge-workspace-142ea9a2-memory-2026-05-06-stock-research-analysis-512170-dda79cc4.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -12099,7 +12110,8 @@
       "aliases": [],
       "sourceIds": [
         "/app/ai-berkshire/reports/泡泡玛特/泡泡玛特-综合投资研究报告-20260803.md",
-        "research/popmart_9992.HK/2026-05-09_summary.md"
+        "research/popmart_9992.HK/2026-05-09_summary.md",
+        "~/.openclaw/workspace/research/泡泡玛特_9992.HK/2026-08-03_summary.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -13641,7 +13653,8 @@
       "path": "entities/贵州茅台_600519.md",
       "aliases": [],
       "sourceIds": [
-        "/app/ai-berkshire/reports/茅台/"
+        "/app/ai-berkshire/reports/茅台/",
+        "sources/贵州茅台-600519-个股深度研究简报-2026-05-28.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -14064,7 +14077,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-28T15:00:38.173Z",
+      "lastTouchedAt": "2026-08-28T23:32:07.821Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -26109,7 +26122,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T23:31:40.418Z",
       "claimCount": 0,
       "topClaims": []
@@ -30194,7 +30207,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:42.831Z",
       "claimCount": 0,
       "topClaims": []
@@ -30973,7 +30986,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:19.011Z",
       "claimCount": 0,
       "topClaims": []
@@ -31752,7 +31765,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:40.599Z",
       "claimCount": 0,
       "topClaims": []
@@ -33291,7 +33304,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:26.723Z",
       "claimCount": 0,
       "topClaims": []
@@ -34431,7 +34444,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:47.550Z",
       "claimCount": 0,
       "topClaims": []
@@ -35343,7 +35356,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:26.331Z",
       "claimCount": 0,
       "topClaims": []
@@ -36483,7 +36496,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:46.671Z",
       "claimCount": 0,
       "topClaims": []
@@ -37395,7 +37408,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:26.586Z",
       "claimCount": 0,
       "topClaims": []
@@ -38535,7 +38548,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:47.493Z",
       "claimCount": 0,
       "topClaims": []
@@ -40112,7 +40125,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:20.663Z",
       "claimCount": 0,
       "topClaims": []
@@ -41252,7 +41265,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:43.088Z",
       "claimCount": 0,
       "topClaims": []
@@ -42639,7 +42652,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:17.718Z",
       "claimCount": 0,
       "topClaims": []
@@ -43779,7 +43792,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:42.984Z",
       "claimCount": 0,
       "topClaims": []
@@ -45166,7 +45179,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:19.611Z",
       "claimCount": 0,
       "topClaims": []
@@ -46306,7 +46319,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:43.020Z",
       "claimCount": 0,
       "topClaims": []
@@ -47921,7 +47934,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:27.102Z",
       "claimCount": 0,
       "topClaims": []
@@ -49061,7 +49074,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:47.925Z",
       "claimCount": 0,
       "topClaims": []
@@ -49897,7 +49910,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:27.034Z",
       "claimCount": 0,
       "topClaims": []
@@ -51037,7 +51050,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:47.856Z",
       "claimCount": 0,
       "topClaims": []
@@ -51873,7 +51886,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:27.068Z",
       "claimCount": 0,
       "topClaims": []
@@ -53013,7 +53026,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:47.884Z",
       "claimCount": 0,
       "topClaims": []
@@ -54533,7 +54546,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:26.046Z",
       "claimCount": 0,
       "topClaims": []
@@ -55673,7 +55686,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:45.871Z",
       "claimCount": 0,
       "topClaims": []
@@ -56642,7 +56655,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:24.059Z",
       "claimCount": 0,
       "topClaims": []
@@ -57782,7 +57795,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:44.530Z",
       "claimCount": 0,
       "topClaims": []
@@ -58751,7 +58764,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:25.485Z",
       "claimCount": 0,
       "topClaims": []
@@ -59891,7 +59904,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:45.407Z",
       "claimCount": 0,
       "topClaims": []
@@ -60936,7 +60949,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:21.586Z",
       "claimCount": 0,
       "topClaims": []
@@ -62076,7 +62089,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:43.544Z",
       "claimCount": 0,
       "topClaims": []
@@ -63083,7 +63096,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:20.765Z",
       "claimCount": 0,
       "topClaims": []
@@ -64223,7 +64236,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:43.284Z",
       "claimCount": 0,
       "topClaims": []
@@ -65230,7 +65243,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-30T19:00:20.849Z",
       "claimCount": 0,
       "topClaims": []
@@ -66370,7 +66383,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-29T19:00:43.319Z",
       "claimCount": 0,
       "topClaims": []

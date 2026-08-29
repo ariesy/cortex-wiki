@@ -79,4 +79,5 @@ sourceIds:
 ### Related Pages
 
 - [ebook-manager（Calibre 管理工具）](ebook-manager.md)
+- [VM git clone GitHub 间歇性 TLS 失败](git-clone-tls-issue.md)
 <!-- openclaw:wiki:related:end -->

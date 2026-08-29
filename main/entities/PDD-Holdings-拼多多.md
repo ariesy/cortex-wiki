@@ -100,6 +100,7 @@ relationships:
     note: "同为避险/配置类资产讨论中的标的"
 sourceIds:
   - /app/ai-berkshire/reports/PDD/
+  - sources/bridge-workspace-142ea9a2-memory-2026-06-11-0059-22f6054a.md
 updatedAt: 2026-08-05T15:11:38.000Z
 
 ---

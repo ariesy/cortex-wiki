@@ -113,7 +113,9 @@ curl -L <archive-url> -o /path/to/target
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Sources
+### Related Pages
 
-- [Memory Bridge (main): 2026-05-05](../sources/bridge-workspace-142ea9a2-memory-2026-05-05-95ad15ec.md)
+- [ebook-downloader（Z-Library 下载器，已暂停）](ebook-downloader.md)
+- [ebook-manager（Calibre 管理工具）](ebook-manager.md)
+- [ppt-master-adapter](ppt-master-adapter.md)
 <!-- openclaw:wiki:related:end -->

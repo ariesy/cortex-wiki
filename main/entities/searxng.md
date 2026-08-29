@@ -60,10 +60,6 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-### Sources
-
-- [Memory Bridge (main): 2026-05-05-searxng-google](../sources/bridge-workspace-142ea9a2-memory-2026-05-05-searxng-google-ead00353.md)
-
 ### Referenced By
 
 - [Google Custom Search API](google-custom-search-api.md)

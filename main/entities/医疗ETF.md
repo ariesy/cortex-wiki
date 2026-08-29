@@ -180,6 +180,7 @@ relationships:
   note: 同跟踪中证医疗指数（399989）；159828 流动性最好最具代表性，512170 费率较低；2026-07-12 双框架对比分析见 entities/159828.SZ_国泰中证医疗ETF.md
 sourceIds:
   - /app/ai-berkshire/reports/中证医疗ETF-四大师综合分析-20260730.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-06-stock-research-analysis-512170-dda79cc4.md
 
 
 ---
