@@ -558,3 +558,6 @@
 {"type":"lint","timestamp":"2026-08-29T00:22:17.462Z","details":{"issueCount":601,"reportPath":"reports/lint.md"}}
 {"type":"compile","timestamp":"2026-08-29T00:23:33.273Z","details":{"pageCounts":{"entity":224,"concept":14,"source":2814,"synthesis":23,"report":10},"updatedFiles":["reports/stale-pages.md",".openclaw-wiki/cache/agent-digest.json"]}}
 {"type":"lint","timestamp":"2026-08-29T00:23:33.534Z","details":{"issueCount":593,"reportPath":"reports/lint.md"}}
+{"type":"ingest","timestamp":"2026-08-29T11:23:30.209Z","details":{"sourceType":"memory-bridge","workspaces":7,"artifactCount":2808,"importedCount":3,"updatedCount":0,"skippedCount":2805,"removedCount":0}}
+{"type":"compile","timestamp":"2026-08-29T11:23:56.854Z","details":{"pageCounts":{"entity":224,"concept":14,"source":2817,"synthesis":23,"report":10},"updatedFiles":["sources/bridge-workspace-142ea9a2-memory-2026-08-29-0328-4d7b6935.md","sources/bridge-workspace-142ea9a2-memory-2026-08-29-0922-2bb6e6ce.md","sources/bridge-workspace-142ea9a2-memory-2026-08-29-1010-4b8b6879.md","reports/stale-pages.md","reports/provenance-coverage.md",".openclaw-wiki/cache/agent-digest.json",".openclaw-wiki/cache/claims.jsonl","index.md","sources/index.md"]}}
+{"type":"lint","timestamp":"2026-08-29T11:24:10.507Z","details":{"issueCount":594,"reportPath":"reports/lint.md"}}

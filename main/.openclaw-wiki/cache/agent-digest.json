@@ -2,15 +2,15 @@
   "pageCounts": {
     "entity": 224,
     "concept": 14,
-    "source": 2814,
+    "source": 2817,
     "synthesis": 23,
     "report": 10
   },
-  "claimCount": 500,
+  "claimCount": 501,
   "claimHealth": {
     "freshness": {
-      "fresh": 208,
-      "aging": 200,
+      "fresh": 205,
+      "aging": 204,
       "stale": 92,
       "unknown": 0
     },
@@ -1893,7 +1893,7 @@
       "pageType": "entity",
       "entityType": "investment_etf",
       "privacyTier": "public",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T02:21:00.000Z",
       "claimCount": 1,
       "topClaims": [
@@ -1910,7 +1910,7 @@
               "weight": 1
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-07-30T02:21:00.000Z"
         }
       ]
@@ -2284,7 +2284,7 @@
       "pageType": "entity",
       "entityType": "investment_etf",
       "privacyTier": "public",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T05:50:00.000Z",
       "claimCount": 0,
       "topClaims": []
@@ -2544,7 +2544,8 @@
       "aliases": [],
       "sourceIds": [
         "source.bridge.workspace-142ea9a2.memory-2026-06-12-0606-15294c3f",
-        "/app/ai-berkshire/reports/长江电力/长江电力600900投资研究报告.md"
+        "/app/ai-berkshire/reports/长江电力/长江电力600900投资研究报告.md",
+        "/app/ai-berkshire/reports/长江电力/长江电力600900投资研究报告-20260829.md"
       ],
       "questions": [],
       "contradictions": [],
@@ -2556,8 +2557,8 @@
       "entityType": "investment_stock",
       "privacyTier": "public",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-07-30T01:45:00.000Z",
-      "claimCount": 1,
+      "lastTouchedAt": "2026-08-29T11:20:00.000Z",
+      "claimCount": 2,
       "topClaims": [
         {
           "text": "2026年7月30日AI Berkshire四大师框架深度研究：股价28.35元(7/27)，市值6,937亿，PE(TTM)20.10x(历史7%分位偏低)，PB 3.13x，股息率3.53%，FCF Yield 8.75%；六座巨型水电站7,170万千瓦；2025年发电量3,072亿千瓦时首破3,000亿；六库联调度电成本行业最低；2026-2030年承诺≥70%分红",
@@ -2573,7 +2574,23 @@
             }
           ],
           "freshnessLevel": "fresh",
-          "lastTouchedAt": "2026-07-30T01:45:00.000Z"
+          "lastTouchedAt": "2026-08-29T11:20:00.000Z"
+        },
+        {
+          "text": "2026年8月29日AI Berkshire四大师框架复核研究：股价28.05元(8/28收盘)，市值6,863亿，PE(TTM)19.89x，PB 3.10x，ROE 15.59%，股息率3.57%，FCF Yield 7.45%；结论为「中性偏正面—持有不追高」：生意质量优、护城河极宽但已到顶、无定价权无成长增量，当前价格已包含利率下行与财务费用红利，下行空间大于上行空间。空仓者26元以下可作防御配置，22-24元为优质安全边际",
+          "status": "supported",
+          "confidence": 0.85,
+          "evidenceCount": 1,
+          "missingEvidence": false,
+          "evidence": [
+            {
+              "kind": "report",
+              "sourceId": "/app/ai-berkshire/reports/长江电力/长江电力600900投资研究报告-20260829.md",
+              "weight": 1
+            }
+          ],
+          "freshnessLevel": "fresh",
+          "lastTouchedAt": "2026-08-29T11:20:00.000Z"
         }
       ]
     },
@@ -2940,7 +2957,7 @@
       "topRelationships": [],
       "pageType": "entity",
       "entityType": "investment_stock",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T01:58:00.000Z",
       "claimCount": 1,
       "topClaims": [
@@ -2958,7 +2975,7 @@
               "weight": 1
             }
           ],
-          "freshnessLevel": "fresh",
+          "freshnessLevel": "aging",
           "lastTouchedAt": "2026-07-30T01:58:00.000Z"
         }
       ]
@@ -14193,7 +14210,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-28T16:20:47.658Z",
+      "lastTouchedAt": "2026-08-29T11:23:50.155Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -14231,7 +14248,7 @@
       "topRelationships": [],
       "pageType": "report",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-08-29T00:23:26.704Z",
+      "lastTouchedAt": "2026-08-29T11:23:50.155Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -22305,7 +22322,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "aging",
+      "freshnessLevel": "stale",
       "lastTouchedAt": "2026-05-31T02:52:02.970Z",
       "claimCount": 0,
       "topClaims": []
@@ -26295,7 +26312,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T03:05:50.131Z",
       "claimCount": 0,
       "topClaims": []
@@ -26314,7 +26331,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T03:40:13.130Z",
       "claimCount": 0,
       "topClaims": []
@@ -26333,7 +26350,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T03:58:31.298Z",
       "claimCount": 0,
       "topClaims": []
@@ -26352,7 +26369,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T07:21:44.300Z",
       "claimCount": 0,
       "topClaims": []
@@ -26371,7 +26388,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T09:01:26.049Z",
       "claimCount": 0,
       "topClaims": []
@@ -26390,7 +26407,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T10:44:12.317Z",
       "claimCount": 0,
       "topClaims": []
@@ -26409,7 +26426,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T11:10:32.974Z",
       "claimCount": 0,
       "topClaims": []
@@ -26447,7 +26464,7 @@
       "relationshipCount": 0,
       "topRelationships": [],
       "pageType": "source",
-      "freshnessLevel": "fresh",
+      "freshnessLevel": "aging",
       "lastTouchedAt": "2026-07-30T04:19:34.139Z",
       "claimCount": 0,
       "topClaims": []
@@ -30078,6 +30095,63 @@
       "pageType": "source",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-08-29T00:06:17.586Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-08-29-0328-4d7b6935",
+      "title": "Memory Bridge (main): 2026-08-29-0328",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-08-29-0328-4d7b6935.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T03:28:08.381Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-08-29-0922-2bb6e6ce",
+      "title": "Memory Bridge (main): 2026-08-29-0922",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-08-29-0922-2bb6e6ce.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T09:22:27.427Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "source.bridge.workspace-142ea9a2.memory-2026-08-29-1010-4b8b6879",
+      "title": "Memory Bridge (main): 2026-08-29-1010",
+      "kind": "source",
+      "path": "sources/bridge-workspace-142ea9a2-memory-2026-08-29-1010-4b8b6879.md",
+      "aliases": [],
+      "sourceIds": [],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "source",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-08-29T10:10:44.205Z",
       "claimCount": 0,
       "topClaims": []
     },
