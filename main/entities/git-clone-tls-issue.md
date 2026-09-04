@@ -8,7 +8,7 @@ aliases:
   - fetch-pack unexpected disconnect
   - SSL_ERROR_SYSCALL
   - git clone 大仓库失败
-updatedAt: 2026-08-28T16:17:25.458Z
+updatedAt: 2026-09-04T13:13:26.117Z
 status: investigating
 claims:
   - id: claim.git-tls.symptoms
@@ -55,6 +55,16 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-04-20-ppt-master-adapter-init-60d2c52f
         weight: 0.9
+  - id: claim.git-tls.gitee-mirror
+    text: 2026-05-05 追加的 workaround：改用国内镜像（如
+      gitee）作为临时替代来克隆目标仓库。截至该日直连大仓库传输中断的根本原因仍未定位，怀疑方向为网络路径 / MTU / 防火墙行为。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-05-95ad15ec
+        weight: 0.85
+        note: gitee 镜像 workaround 与「根本原因未知」均出自此条
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-04-22-43569df6.md
   - sources/bridge-workspace-142ea9a2-memory-2026-04-20-ppt-master-adapter-init-60d2c52f.md

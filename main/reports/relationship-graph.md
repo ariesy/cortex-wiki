@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-08-29T00:22:10.297Z
+updatedAt: 2026-09-04T13:06:58.132Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 224
+- Structured relationships: 227
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -19,7 +19,10 @@ updatedAt: 2026-08-29T00:22:10.297Z
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 医疗ETF (etf-component, weight 0.50, 中证500含医疗成分股)
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 红利ETF (etf-component, weight 0.50, 高股息策略交叉覆盖)
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md) -> 芯片ETF (etf-component, weight 0.60, 中小盘科技风格重叠)
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md) -> 中国旅游演艺行业 (industry, weight 0.90, 行业票房 +6.4%，市占率约 1/3，是文旅演艺里唯一持续赚钱的玩家)
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md) -> 五粮液 (same-sector, weight 0.60, 同为消费类，均受消费环境驱动)
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md) -> 千古情 IP (moat, weight 0.85, 核心护城河，异地复制能力强，是 berkshire 框架里"对的生意"的依据)
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md) -> 花房集团 (governance-risk, weight 0.85, 残余账面 8.03 亿，累计减值 27.2 亿，少数股东诉讼未决，是双框架共识的治理灰区)
 - [300价值ETF (512370.SS)](../entities/300价值ETF.md) -> 上证50AH优选指数A (501050) (peer-comparison, weight 0.75, 同样偏价值，但50AH含H股)
 - [300价值ETF (512370.SS)](../entities/300价值ETF.md) -> 兴业银行 (etf-component, weight 0.85, 银行板块核心成分股)
 - [300价值ETF (512370.SS)](../entities/300价值ETF.md) -> 招商银行 (etf-component, weight 0.90, 银行板块核心成分股)

@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-08-28T15:00:38.173Z
+updatedAt: 2026-09-04T13:06:58.132Z
 ---
 
 # Claim Health
@@ -11,8 +11,14 @@ updatedAt: 2026-08-28T15:00:38.173Z
 ## Generated
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 0
-- Contested claims: 0
-- Stale or unknown claims: 92
+- Contested claims: 4
+- Stale or unknown claims: 95
+
+### Contested Claims
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.summer-tourism`: 暑期旅游旺季预热，关注预订数据是核心催化剂 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144_SZ.bear-case`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头不宜盲目抄底 (status superseded, confidence 0.60, 1 evidence, fresh (2026-09-02T03:22:00Z))
+- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144_SZ.key-metric`: RSI 21.7 深度超卖但无底背离，布林下轨 6.715 为最后防线，暑期旅游预订数据是关键 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
 
 ### Stale Claims
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017.SZ.mid-cap-tech`: 中证500指数增强策略，长期超额收益稳定，指数估值合理，适合定投或分批配置 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
@@ -20,11 +26,6 @@ updatedAt: 2026-08-28T15:00:38.173Z
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bull-case`: 中证500指数估值合理，全球AI热潮外溢利好中盘科技股，量化增强策略历史年化超额收益3%-8% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bear-case`: 中小盘波动率偏高，市场风格切换风险，指数增强策略失效风险 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.key-metric`: 中证500指数PE历史分位是核心监控指标，LOF场内折溢价率需每周跟踪 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
-- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI深度超卖21.7但无底背离，下降通道清晰，趋势空头 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
-- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.summer-tourism`: 暑期旅游旺季预热，关注预订数据是核心催化剂 (status supported, confidence 0.70, 1 evidence, stale (2026-05-29))
-- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144_SZ.bull-case`: Q1净利润率39.6%行业顶尖，账上现金39亿，负债率仅12.8%，现金牛属性明显 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
-- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144_SZ.bear-case`: 持续阶梯下跌，RSI深度超卖21.7但无底背离，下降通道清晰，趋势空头不宜盲目抄底 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
-- [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144_SZ.key-metric`: RSI 21.7深度超卖但无底背离，布林下轨6.715为最后防线，暑期旅游预订数据是关键 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914.HK.net-cash`: 净现金600亿+，基本面优异但趋势未止跌，耐心等待技术面信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914.HK.real-estate-demand`: 水泥需求受房地产政策放松力度影响，是先行指标 (status supported, confidence 0.75, 1 evidence, stale (2026-05-29))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914_HK.bull-case`: P/B约0.7-0.9倍历史低位，净现金600亿+，骨料业务（毛利率50-60%）高速增长 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -39,7 +40,12 @@ updatedAt: 2026-08-28T15:00:38.173Z
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md): `claim.bilibili.uploaded`: 已配置siruisprime账号，成功上传2个视频 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [From Copilots to Colleagues](../entities/autonomous-research-agents-survey-2026.md): `claim.autonomous-research-survey`: L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md): `claim.karpathy-20260523.hbm`: HBM短缺导致廉价设备消亡，Google Cloud RCE漏洞 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.pricing`: MiMo V2.5海外定价：缓存命中$0.08/未命中$0.40/输出$2.00，上下文1M tokens (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
+- [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.comparison-deepseek`: MiMo V2.5在输出价格上高于DeepSeek V4 Flash（$2.00 vs $0.28），但低于DeepSeek V4 Pro（$2.00 vs $3.33） (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-05))
+- [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.openclaw-model`: MiMo V2.5是OpenClaw当前运行的默认模型 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [mmx-cli](../entities/mmx-cli.md): `claim.mmx-cli.tool`: MiniMax Token Plan额度查询命令行工具，5h/24h窗口差异 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.pipeline`: MoneyPrinterTurbo使用LLM写文案+Pexels/Pixabay素材拼接+ffmpeg合成的流水线，非AI文生视频 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
+- [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.no-video-api`: 项目不需要视频生成模型API（Sora/Kling/Vidu），核心依赖LLM+TTS+Pexels API+ffmpeg (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [open-design](../entities/open-design.md): `claim.open-design.capable`: 31个Skills + 72个品牌设计系统 + 16种AI CLI集成 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [stock-research-engine](../entities/stock-research-engine.md): `claim.stock-research-engine.core`: 多Agent辩论系统，通过多维度分析生成投资决策 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [superresearch](../entities/superresearch.md): `claim.superresearch.process`: 强制5阶段Phase流程，HARD GATE确保设计先行 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
@@ -56,6 +62,9 @@ updatedAt: 2026-08-28T15:00:38.173Z
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600_SS.bull-case`: 消费板块被动指数，白酒+猪周期困境品种，长期定投逻辑成立，估值合理 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600_SS.bear-case`: 近1年收益-15.94%显著跑输同类，白酒+猪周期困境短期催化剂不清晰 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600_SS.key-metric`: 白酒占比31.54%，生猪养殖14.96%，端午小旺季消费数据是关键验证节点 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [中际旭创 (300308.SZ)](../entities/中际旭创.md): `claim.zhongjixuchuang.global-no1`: 中际旭创是全球高速光模块龙头，800G市占率超40%，1.6T市占率50-70% (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
+- [中际旭创 (300308.SZ)](../entities/中际旭创.md): `claim.zhongjixuchuang.q1-2026`: 2026Q1营收194.96亿元（+192%），净利57.35亿元（+262%），业绩爆发 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
+- [中际旭创 (300308.SZ)](../entities/中际旭创.md): `claim.zhongjixuchuang.hk-ipo`: 港股IPO最快2026年6月落地，募资规模上调至50亿美元 (status confirmed, confidence 0.85, 1 evidence, stale (2026-06-05))
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.bull-case`: 千亿现金+年度分红200亿+80-100亿回购托底，股息率5%+，超跌反弹+高股息价值 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.bear-case`: 曾从钦被留置董事长空缺，普五批价倒挂出厂价约170元，渠道信心未恢复 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.key-metric`: 普五批价830-850元（倒挂出厂价1019元），合同负债变化是核心跟踪指标 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
