@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-09-04T13:06:58.132Z
+updatedAt: 2026-09-11T13:01:16.818Z
 ---
 
 # Claim Health
@@ -12,7 +12,7 @@ updatedAt: 2026-09-04T13:06:58.132Z
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 0
 - Contested claims: 4
-- Stale or unknown claims: 95
+- Stale or unknown claims: 109
 
 ### Contested Claims
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
@@ -26,6 +26,12 @@ updatedAt: 2026-09-04T13:06:58.132Z
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bull-case`: 中证500指数估值合理，全球AI热潮外溢利好中盘科技股，量化增强策略历史年化超额收益3%-8% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bear-case`: 中小盘波动率偏高，市场风格切换风险，指数增强策略失效风险 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.key-metric`: 中证500指数PE历史分位是核心监控指标，LOF场内折溢价率需每周跟踪 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.nim.2026q1`: 2026年Q1净息差1.83%，较2025年1.87%继续下降4bps，NIM持续收窄是核心压制因素 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.wealth_mgmt_2026q1`: 财富管理手续费收入Q1同比+25.42%，代理基金收入+55.11%，转型见效 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.valuation_20260612`: 港股PB约0.86x，处于历史低位，明显低于自身历史均值1.2-1.5x (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-12))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.npl_2026q1`: 不良率0.94%持平，拨备覆盖率391.79%，资产质量保持行业最优水平 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.risk_nim_pressure`: 净息差持续收窄为最大风险，2026年预计再降约6bps (status confirmed, confidence 0.85, 1 evidence, stale (2026-06-12))
+- [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.aum_growth`: 零售AUM达17.86万亿（+4.52%），零售客户2.27亿，护城河稳固 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914.HK.net-cash`: 净现金600亿+，基本面优异但趋势未止跌，耐心等待技术面信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914.HK.real-estate-demand`: 水泥需求受房地产政策放松力度影响，是先行指标 (status supported, confidence 0.75, 1 evidence, stale (2026-05-29))
 - [914.HK_海螺水泥](../entities/914.HK_海螺水泥.md): `claim.914_HK.bull-case`: P/B约0.7-0.9倍历史低位，净现金600亿+，骨料业务（毛利率50-60%）高速增长 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -38,6 +44,8 @@ updatedAt: 2026-09-04T13:06:58.132Z
 - [A股/港股投资标的变化无常跟踪总览 2026-05-28](../syntheses/a股-港股投资标的变化无常跟踪总览-2026-05-28.md): 当前最值得关注机会：中信证券（PEG 0.17）、泡泡玛特（PE 10倍）、中概ETF（估值低位） (status supported, confidence 0.85, 1 evidence, stale (2026-05-28T08:54:39.937Z))
 - [A股/港股投资标的变化无常跟踪总览 2026-05-28](../syntheses/a股-港股投资标的变化无常跟踪总览-2026-05-28.md): 当前建议回避：芯片ETF（减持60%）、储能电池ETF、宋城演艺 (status supported, confidence 0.82, 1 evidence, stale (2026-05-28T08:54:39.937Z))
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md): `claim.bilibili.uploaded`: 已配置siruisprime账号，成功上传2个视频 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.openai-gaia-sota`: OpenAI Deep Research在GAIA基准达到SOTA， Humanity's Last Exam达26.6% (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
+- [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.perplexity-accuracy`: Perplexity Deep Research在SimpleQA基准准确率达93.9%，事实性最强 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
 - [From Copilots to Colleagues](../entities/autonomous-research-agents-survey-2026.md): `claim.autonomous-research-survey`: L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md): `claim.karpathy-20260523.hbm`: HBM短缺导致廉价设备消亡，Google Cloud RCE漏洞 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.pricing`: MiMo V2.5海外定价：缓存命中$0.08/未命中$0.40/输出$2.00，上下文1M tokens (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
@@ -47,6 +55,8 @@ updatedAt: 2026-09-04T13:06:58.132Z
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.pipeline`: MoneyPrinterTurbo使用LLM写文案+Pexels/Pixabay素材拼接+ffmpeg合成的流水线，非AI文生视频 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.no-video-api`: 项目不需要视频生成模型API（Sora/Kling/Vidu），核心依赖LLM+TTS+Pexels API+ffmpeg (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [open-design](../entities/open-design.md): `claim.open-design.capable`: 31个Skills + 72个品牌设计系统 + 16种AI CLI集成 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md): `claim.pdd.q1-2026-profit-decline`: PDD Q1 2026净利润125亿（-15% YoY），利润下滑主因关税冲击+Temu供应链重投入 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-10))
+- [PDD Holdings (拼多多)](../entities/PDD-Holdings-拼多多.md): `claim.pdd.cash-reserve`: PDD持有现金+短期投资4361亿人民币（约$60B+），净现金占市值48.9%，为极端估值提供安全垫 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-10))
 - [stock-research-engine](../entities/stock-research-engine.md): `claim.stock-research-engine.core`: 多Agent辩论系统，通过多维度分析生成投资决策 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [superresearch](../entities/superresearch.md): `claim.superresearch.process`: 强制5阶段Phase流程，HARD GATE确保设计先行 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [The Five Dysfunctions of a Team](../entities/five-dysfunctions-of-a-team.md): `claim.five-dysfunctions.framework`: 五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
@@ -89,6 +99,10 @@ updatedAt: 2026-09-04T13:06:58.132Z
 - [实体提取汇总 2026-05-29](../syntheses/entity-extract-2026-05-29.md): `claim.entity-extract.20260529.micron-surge`: 美光科技(MU) 2026-05-27涨超19%，市值首破1万亿美元，存储芯片板块爆发 (status confirmed, confidence 0.90, 1 evidence, stale (2026-05-29T16:02:00.000Z))
 - [实体提取汇总 2026-05-29](../syntheses/entity-extract-2026-05-29.md): `claim.entity-extract.20260529.huawei-logic-folding`: 华为发布半导体韬定律，秋季将发新麒麟芯片（逻辑折叠技术） (status confirmed, confidence 0.85, 1 evidence, stale (2026-05-29T16:02:00.000Z))
 - [实体提取汇总 2026-05-29](../syntheses/entity-extract-2026-05-29.md): `claim.entity-extract.20260529.us-iran-conflict`: 美伊冲突升级，美国对伊朗实施军事打击，霍尔木兹海峡局势紧张，原油接近100美元 (status confirmed, confidence 0.90, 1 evidence, stale (2026-05-29T16:02:00.000Z))
+- [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.new-entities`: 本轮新增2个entity（PDD Holdings、Deep Research工具）和1个concept (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
+- [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.pdd-extreme-valuation`: PDD Holdings PE 8.5-10.7x，Forward PE 7.06x，$600亿现金，估值极度压缩但分析师一致目标价$145.65 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-10))
+- [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.ke50-etf-outflow`: 科创50ETF 588080年内份额减少61.5%（515亿→198亿份），机构获利了结明显 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
+- [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.ah-premium-squeeze`: AH溢价指数降至118.91（2014年以来9%分位），上证50AH轮动策略超额收益空间递减 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-10))
 - [投资研究资源完整版](../entities/investment-research-resources.md): `claim.invest-resources.comprehensive`: 12本书+4博客+5数据源的完整投资研究清单 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bull-case`: 中航工业旗下PCB+封装基板全栈能力，AI PCB量价齐升+FC-BGA国产替代，净利润+74% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bear-case`: 61x PE已定价较多乐观预期，广州封装基地产能爬坡节奏不及预期则估值承压 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))

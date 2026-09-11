@@ -35,3 +35,8 @@ Gateway 缺少 `sharp` 原生图片处理依赖时，用户发来的图片无法
 ## 相关
 
 - [[openclaw-ffmpeg-trusted-path]] — 同类「外部二进制/原生依赖不在位导致 Gateway 功能不可用」问题
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

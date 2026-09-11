@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-09-04T13:06:58.132Z
+updatedAt: 2026-09-11T13:06:00.351Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 227
+- Structured relationships: 228
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -71,6 +71,7 @@ updatedAt: 2026-09-04T13:06:58.132Z
 - [InvestSignal Sprint 8：ETF 基本面信号与规模追踪](../entities/InvestSignal-Sprint8-ETF基本面信号与规模追踪.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.80)
 - [InvestSignal Sprint 8：情绪面信号计算（S8-T12）](../entities/InvestSignal-Sprint8-情绪面信号计算.md) -> InvestSignal Sprint 8：ETF 基本面信号与规模追踪 (related, weight 0.70)
 - [InvestSignal Sprint 8：情绪面信号计算（S8-T12）](../entities/InvestSignal-Sprint8-情绪面信号计算.md) -> InvestSignal 架构设计 v1.1 (belongs-to, weight 0.80)
+- [InvestSignal 周报数据异常（2026-04-27 周期）](../entities/InvestSignal周报数据异常2026-04-27.md) -> 投资信息推送渠道现状 (related-to, weight 0.50)
 - [InvestSignal 架构设计 v1.1](../entities/InvestSignal架构设计v1.1.md) -> InvestSignal目标价预警优化 (parent-of, weight 0.70)
 - [InvestSignal目标价预警优化](../entities/investsignal-target-price-alert.md) -> InvestSignal (belongs-to, weight 0.90)
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md) -> AI内存短缺危机 (discusses, weight 0.90)

@@ -3,21 +3,21 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-09-04T13:15:24.501Z
+updatedAt: 2026-09-11T13:06:00.351Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 521
+- Evidence entries: 530
 - Claims missing evidence: 0
 
 ### Evidence Classes
-- wiki-source: 174
+- wiki-source: 175
 - entity-summary: 81
-- report: 61
-- financial-data: 35
+- report: 62
+- financial-data: 38
 - research-report: 21
 - memory-bridge: 19
 - web: 16
@@ -28,17 +28,19 @@ updatedAt: 2026-09-04T13:15:24.501Z
 - news: 8
 - industry-data: 7
 - policy: 7
-- technical-analysis: 6
+- technical-analysis: 7
 - market_data: 5
 - data: 3
 - debugging-report: 3
+- valuation-data: 3
 - decision-framework: 2
 - fund-holding: 2
 - industry-news: 2
 - valuation: 2
-- valuation-data: 2
+- valuation-model: 2
 - ai-berkshire-report: 1
 - analyst_estimate: 1
+- analyst-analysis: 1
 - analyst-debate: 1
 - analyst-estimate: 1
 - analyst-report: 1
@@ -56,7 +58,6 @@ updatedAt: 2026-09-04T13:15:24.501Z
 - stock-research-engine: 1
 - synthesis: 1
 - tdx-chronos: 1
-- valuation-model: 1
 - wiki-creation: 1
 
 ### Top Evidence Sources
@@ -72,6 +73,7 @@ updatedAt: 2026-09-04T13:15:24.501Z
 - /app/ai-berkshire/reports/泡泡玛特/泡泡玛特-综合投资研究报告-20260803.md: 7
 - /app/ai-berkshire/reports/宋城演艺/宋城演艺投资研究报告.md: 6
 - inline: 6
+- /app/ai-berkshire/reports/工商银行/icbc-601398-investment-research-20260908.md: 5
 - /app/ai-berkshire/reports/平安集团/investment-research-2026-08.md: 5
 - /app/TradingAgents/reports/300144.SZ_20260902_031218/complete_report.md: 5
 - policy:国能发科技〔2026〕34号: 5
@@ -79,5 +81,4 @@ updatedAt: 2026-09-04T13:15:24.501Z
 - research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md: 5
 - research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md: 5
 - source.bridge.workspace-142ea9a2.memory-2026-04-29-search-tools-guide-ab9ed717: 5
-- source.bridge.workspace-142ea9a2.memory-2026-04-29-uae-opec-exit-4c0f6399: 5
 <!-- openclaw:wiki:provenance-coverage:end -->
