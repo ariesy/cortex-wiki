@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-09-11T13:01:16.818Z
+updatedAt: 2026-09-18T13:01:33.229Z
 ---
 
 # Claim Health
@@ -12,7 +12,7 @@ updatedAt: 2026-09-11T13:01:16.818Z
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 0
 - Contested claims: 4
-- Stale or unknown claims: 109
+- Stale or unknown claims: 163
 
 ### Contested Claims
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
@@ -47,6 +47,9 @@ updatedAt: 2026-09-11T13:01:16.818Z
 - [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.openai-gaia-sota`: OpenAI Deep Research在GAIA基准达到SOTA， Humanity's Last Exam达26.6% (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
 - [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.perplexity-accuracy`: Perplexity Deep Research在SimpleQA基准准确率达93.9%，事实性最强 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
 - [From Copilots to Colleagues](../entities/autonomous-research-agents-survey-2026.md): `claim.autonomous-research-survey`: L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [Headroom Context Engine Plugin](../entities/headroom-context-engine.md): `claim.headroom.rootcause`: Headroom plugin的assemble()钩子每次OpenClaw组装context时同步HTTP调用headroom proxy，默认protect_recent:4导致99%请求零压缩，6698次POST请求累计~16000秒阻塞，飞书响应延迟2.4秒（中位数）至63秒（峰值） (status supported, confidence 0.95, 1 evidence, stale (2026-06-19T00:00:00.000Z))
+- [Headroom Context Engine Plugin](../entities/headroom-context-engine.md): `claim.headroom.disabled`: Headroom plugin已被完全卸载并清理残留（kill proxy进程+uninstall plugin+rm残留目录），用户决策不再使用 (status supported, confidence 0.95, 1 evidence, stale (2026-06-19T00:00:00.000Z))
+- [Headroom Context Engine Plugin](../entities/headroom-context-engine.md): `claim.headroom.design-flaw`: Headroom plugin缺乏缓存机制：同样context每次都重新POST到proxy，6698次重复请求无去重无缓存。plugin没有fallback机制，assemble()是同步阻塞的await调用 (status supported, confidence 0.90, 1 evidence, stale (2026-06-19T00:00:00.000Z))
 - [Karpathy RSS 日报 2026-05-23](../entities/karpathy-rss-20260523.md): `claim.karpathy-20260523.hbm`: HBM短缺导致廉价设备消亡，Google Cloud RCE漏洞 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.pricing`: MiMo V2.5海外定价：缓存命中$0.08/未命中$0.40/输出$2.00，上下文1M tokens (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.comparison-deepseek`: MiMo V2.5在输出价格上高于DeepSeek V4 Flash（$2.00 vs $0.28），但低于DeepSeek V4 Pro（$2.00 vs $3.33） (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-05))
@@ -60,6 +63,31 @@ updatedAt: 2026-09-11T13:01:16.818Z
 - [stock-research-engine](../entities/stock-research-engine.md): `claim.stock-research-engine.core`: 多Agent辩论系统，通过多维度分析生成投资决策 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [superresearch](../entities/superresearch.md): `claim.superresearch.process`: 强制5阶段Phase流程，HARD GATE确保设计先行 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [The Five Dysfunctions of a Team](../entities/five-dysfunctions-of-a-team.md): `claim.five-dysfunctions.framework`: 五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.workflow`: TradingAgents通过激进的分析师、保守的分析师和中性的观察者三方辩论，结合Research Manager汇总决策，最终输出评级、目标价、时间窗口 (status verified, confidence 0.95, 1 evidence, stale (2026-06-18T00:00:00Z))
+- [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.neg-data`: TradingAgents在乖宝和中宠两个案例中均发现了单一分析师忽略的负面数据：FCF为负、营业利润率恶化、借款激增 (status verified, confidence 0.90, 2 evidence, stale (2026-06-18T00:00:00Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `definition-core`: 算电协同是"算力跟着绿电走，绿电跟着算力走"的国家级算力-能源融合战略 (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `timeline-2023-12`: "算电协同"概念于2023年12月由国家发改委等部门在《全国一体化算力网实施意见》中首次提出 (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `timeline-2026-03`: 2026年3月，算电协同首次写入《政府工作报告》，与"超大规模智算集群"并列为国家级新基建工程 (status verified, confidence 0.98, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `timeline-2026-04-21`: 2026年4月21日，国家发改委、国家能源局、工信部、国家数据局联合印发《关于促进人工智能与能源双向赋能的行动方案》，部署29项重点任务 (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `market-size-2025`: 2025年算电协同市场规模约1200亿元 (status verified, confidence 0.75, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `market-size-2030`: 预计2030年算电协同市场规模将突破1万亿元，5年增长约8倍 (status forecast, confidence 0.65, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `investment-scale`: "十五五"期间算力网+电网相关投资规模将超过7万亿元 (status verified, confidence 0.85, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `electricity-2025`: 2025年全国算力中心总用电量达1700亿千瓦时，占全社会用电量1.6% (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `electricity-2030`: 预计2030年算力中心用电量达8000亿千瓦时，占全社会用电量6% (status forecast, confidence 0.70, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `green-electricity-80`: 2030年新建算力中心绿电使用占比强制要求≥80% (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `compute-scale-2026q1`: 2026年Q1中国智能算力规模达1882 EFLOPS (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `growth-cagr-hub`: 8大算力枢纽节点近3年算力用能CAGR达39.5%；内蒙古66.5%、京津冀33.3% (status verified, confidence 0.85, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `milestone-datang`: 2026年5月2日，中国大唐中卫云基地50万千瓦光伏电站投运，是全国首个大规模"算电协同"绿电直供项目 (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `milestone-wanguo`: 2026年6月3日，万国数据与乌兰察布签约5年300亿元GW级数据中心集群，要求绿电覆盖率>80% (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `milestone-lingang-subsea`: 2026年4月2日，上海临港海底数据中心全面商用，是全球首个海上风电直连+海水自然冷却的商用海底DC (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `investment-line-1`: 算电协同基建主线确定性最高，受益标的主要是中国能建、中国电建、特锐德、南网科技 (status analysis, confidence 0.80, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `investment-line-2`: 绿电+IDC双轮驱动是弹性最大主线，受益标的包括龙源电力、节能风电、福能股份、万国数据、世纪互联 (status analysis, confidence 0.80, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `investment-line-3`: 储能+电力电子是最大增量主线，受益标的包括海博思创、派能科技、中恒电气、宁德时代、英维克 (status analysis, confidence 0.80, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `risk-mismatch`: 算电协同存在电网建设（3-5年）与数据中心建设（8个月）的时间错配风险 (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `risk-sentiment`: 多家电力上市公司密集发布风险提示，澄清"不涉及算电协同"，存在情绪炒作后回调风险 (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `opportunity-token-cost`: 算电协同可使AI算力Token用电成本下降30% (status verified, confidence 0.85, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `concept-source`: "算电协同"概念源于2023年12月，是"东数西算"工程从1.0（算力布局）到2.0（算力+能源协同）的战略升级 (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
+- [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `six-networks-position`: 算电协同是算力网与新型电网深度耦合的核心交汇点，2026年5月中央政治局会议将"算力网"纳入国家"六张网" (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050.SS.ai-infrastructure`: 中概互联网ETF持仓腾讯阿里等AI基础设施龙头，受益于中国AI重估 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050.SS.valuation-low`: 当前较52周高点回撤30%，估值处于历史中低水位 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050_SS.bull-case`: 跟踪中证海外中国互联网50指数，持仓腾讯(~30%)、阿里(~25%)等龙头。当前处于历史估值中低水位（较52周高点回撤30%），MACD底背离+MACD柱转正，技术面底部构建初现。阿里巴巴AI重估+腾讯DeepSeek投资+京东技术面改善 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -78,11 +106,34 @@ updatedAt: 2026-09-11T13:01:16.818Z
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.bull-case`: 千亿现金+年度分红200亿+80-100亿回购托底，股息率5%+，超跌反弹+高股息价值 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.bear-case`: 曾从钦被留置董事长空缺，普五批价倒挂出厂价约170元，渠道信心未恢复 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [五粮液（000858.SZ）投资跟踪](../entities/五粮液_000858.md): `claim.000858.SZ.key-metric`: 普五批价830-850元（倒挂出厂价1019元），合同负债变化是核心跟踪指标 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `市值`: ~550亿元（2026-06） (status supported, confidence 0.90, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `PE`: ~14-16x PE(TTM) (status supported, confidence 0.85, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `净利润增速`: 2025年净利润+101.77%，营收+24.68% (status supported, confidence 0.90, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `股息率`: ~2.0% (status supported, confidence 0.85, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `短期异动`: 2026年5月13-25日股价涨幅71.86%，触发3次异动公告 (status supported, confidence 0.95, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `公司澄清`: 公告无新投运大型新能源项目、无资产重组计划 (status supported, confidence 0.95, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `Sector`: 火力发电为主（煤电），少数新能源 (status supported, confidence 0.90, 1 evidence, stale (2026-06-14T05:05:09.955Z))
+- [京能电力（600578.SH）](../syntheses/京能电力-600578-sh.md): `实际控制人`: 京能集团（北京市属国企） (status supported, confidence 0.95, 1 evidence, stale (2026-06-14T05:05:09.955Z))
 - [兆易创新 (603986.SH)](../entities/兆易创新.md): `claim.603986.SH.nor-flash-2nd`: NOR Flash全球第二（18.5%），中国Fabless存储芯片龙头 (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
 - [兆易创新 (603986.SH)](../entities/兆易创新.md): `claim.603986.SH.q1-profit-523pct`: 2026Q1净利润暴增523%，受益于海外大厂退出利基市场 (status supported, confidence 0.90, 1 evidence, stale (2026-05-29))
 - [兆易创新 (603986.SH)](../entities/兆易创新.md): `claim.603986_SH.bull-case`: 中国Fabless存储芯片龙头，NOR Flash全球第二（18.5%），2026Q1净利润暴增523%受益于海外大厂退出利基市场，但PE(TTM) 100x极度膨胀，Q2-Q4环比变化是核心验证。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [兆易创新 (603986.SH)](../entities/兆易创新.md): `claim.603986_SH.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [兆易创新 (603986.SH)](../entities/兆易创新.md): `claim.603986_SH.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.valuation.extreme-low`: PB 0.45x处于近20年5.3%分位，接近2008金融危机水平0.44x (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.dividend.record-high`: 11.42%远期股息率创历史新高，远超10年国债收益率（约2%） (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.revenue.stagnant`: 2025年营收+0.24%、净利润+0.34%，几近零增长 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.realestate.lowest-exposure`: 房地产贷款占比15.23%，股份行最低，且主动下降 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.greenfinance.leader`: 绿色贷款余额>1.1万亿，股份行第一，入选'2025年绿色金融10先锋银行' (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.aic.license`: 获批筹建全国首个股份制银行金融资产投资公司（AIC） (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.jointstock.rank`: 2025年营收超越中信（¥2,127.41亿 vs ¥2,124.75亿），跃居股份行第二 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.wanke.risk`: 万科获兴业银行14年期贷款用于债务再融资，是房地产敞口的关键观察点 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.leadership.transformation`: 吕家进（2021-04任）推动'商行+投行'战略升级，绿色金融先发优势明显 (status supported, confidence 0.85, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.key-risk`: 净息差持续收窄（2025年-0.11pct）+房地产风险未充分释放+零售业务相对短板是三大核心风险 (status supported, confidence 0.80, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.tradingagents.hold-rating`: TradingAgents多智能体辩论（2026-06-14）评级Hold，目标价¥21.0，时间窗口6-12个月 (status confirmed, confidence 0.85, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.tradingagents.profit-decline`: 净利润3年下滑21%（2022年913亿→2025年720亿），是空头最有力的武器 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.tradingagents.payout-unsustainable`: 派息率66%历史高位+净利率50%异常高于行业25-35%组合不可持续，升至70%+需高度警惕削减 (status supported, confidence 0.80, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.tradingagents.mid-term-trend`: 股价18.61<200日均线18.97，中期下行趋势未根本性扭转 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
+- [兴业银行（601166.SH）投资跟踪](../entities/601166.SH_兴业银行.md): `claim.cib.tradingagents.technical-better`: 短期技术面改善：MACD金叉+0.2247，RSI 25.40→68.61，站上10/50日均线 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-14T08:30:00Z))
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436.SZ.fcbga-only`: A股唯一具备FCBGA/ABF封装基板量产能力的厂商 (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436.SZ.pe-extreme`: PE 440x已严重透支2027-2028年乐观预期，估值泡沫明显 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436_SZ.bull-case`: A股唯一具备FCBGA/ABF封装基板量产能力的厂商，ABF载板故事讲了三年，2026年开始进入真正考验量产能力的节点，PE 440x已严重透支2027-2028年乐观预期。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -103,6 +154,9 @@ updatedAt: 2026-09-11T13:01:16.818Z
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.pdd-extreme-valuation`: PDD Holdings PE 8.5-10.7x，Forward PE 7.06x，$600亿现金，估值极度压缩但分析师一致目标价$145.65 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-10))
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.ke50-etf-outflow`: 科创50ETF 588080年内份额减少61.5%（515亿→198亿份），机构获利了结明显 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
 - [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md): `claim.entity-extract.20260612.ah-premium-squeeze`: AH溢价指数降至118.91（2014年以来9%分位），上证50AH轮动策略超额收益空间递减 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-10))
+- [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim.petfood.ta-ratings`: 宠物食品板块2026年中双标的TradingAgents评级均偏负面：乖宝SELL、中宠Underweight (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
+- [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim.petfood.fcf-alert`: 板块共同警报：乖宝FCF-3.75亿、中宠FCF-4.08亿，自由现金流双负 (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
+- [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim-3`: 乖宝营业利润率16.8%恶化至11.4%(-32%)，中宠净利率8.26%腰斩至4.77%(-42%) (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [投资研究资源完整版](../entities/investment-research-resources.md): `claim.invest-resources.comprehensive`: 12本书+4博客+5数据源的完整投资研究清单 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bull-case`: 中航工业旗下PCB+封装基板全栈能力，AI PCB量价齐升+FC-BGA国产替代，净利润+74% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bear-case`: 61x PE已定价较多乐观预期，广州封装基地产能爬坡节奏不及预期则估值承压 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
