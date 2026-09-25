@@ -7,7 +7,7 @@ aliases:
   - ffmpeg not found in trusted system directories
   - TTS 转码失败
   - 飞书语音消息发送失败
-updatedAt: 2026-09-04T13:14:57.370Z
+updatedAt: 2026-09-25T13:12:44.149Z
 status: active
 claims:
   - id: claim.ffmpeg-path.symptom

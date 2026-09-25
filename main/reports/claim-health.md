@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-09-18T13:01:33.229Z
+updatedAt: 2026-09-25T13:02:33.953Z
 ---
 
 # Claim Health
@@ -12,7 +12,7 @@ updatedAt: 2026-09-18T13:01:33.229Z
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 0
 - Contested claims: 4
-- Stale or unknown claims: 163
+- Stale or unknown claims: 200
 
 ### Contested Claims
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头 (status superseded, confidence 0.50, 1 evidence, fresh (2026-09-02T03:22:00Z))
@@ -26,6 +26,10 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bull-case`: 中证500指数估值合理，全球AI热潮外溢利好中盘科技股，量化增强策略历史年化超额收益3%-8% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.bear-case`: 中小盘波动率偏高，市场风格切换风险，指数增强策略失效风险 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [161017.SZ_富国中证500增强](../entities/161017.SZ_富国中证500增强.md): `claim.161017_SZ.key-metric`: 中证500指数PE历史分位是核心监控指标，LOF场内折溢价率需每周跟踪 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [300价值ETF (512370.SS)](../entities/300价值ETF.md): `claim.512370.SS.factor-method`: 从沪深300中按低PE+低PB+高股息率+高E/P四因子筛选100只最便宜的股票 (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
+- [300价值ETF (512370.SS)](../entities/300价值ETF.md): `claim.512370.SS.bank-concentration`: 银行权重45-55%绝对主力，金融属性极强，对银行坏账/地产风险敏感 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [300价值ETF (512370.SS)](../entities/300价值ETF.md): `claim.512370.SS.valuation-rerating`: 本质是"估值修复型价值"——买打折的优质店铺，希望以后价格回升 (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
+- [300价值ETF (512370.SS)](../entities/300价值ETF.md): `claim.512370.SS.risk-not-defense`: 低估值≠低风险——银行集中度高，遇上银行坏账或地产风险时波动反而比沪深300更大 (status supported, confidence 0.80, 1 evidence, stale (2026-06-25))
 - [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.nim.2026q1`: 2026年Q1净息差1.83%，较2025年1.87%继续下降4bps，NIM持续收窄是核心压制因素 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
 - [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.wealth_mgmt_2026q1`: 财富管理手续费收入Q1同比+25.42%，代理基金收入+55.11%，转型见效 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-12))
 - [3968.HK_招商银行](../entities/3968.HK_招商银行.md): `claim.cmb.valuation_20260612`: 港股PB约0.86x，处于历史低位，明显低于自身历史均值1.2-1.5x (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-12))
@@ -46,6 +50,8 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [bilibili-all-in-one](../entities/bilibili-all-in-one.md): `claim.bilibili.uploaded`: 已配置siruisprime账号，成功上传2个视频 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.openai-gaia-sota`: OpenAI Deep Research在GAIA基准达到SOTA， Humanity's Last Exam达26.6% (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
 - [Deep Research 工具全景](../concepts/deep-research-tools.md): `claim.deep-research.perplexity-accuracy`: Perplexity Deep Research在SimpleQA基准准确率达93.9%，事实性最强 (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-09))
+- [Federal Reserve（美联储）](../entities/美联储.md): `claim.federal-reserve.2026-hawkish-turn`: 2026年6月FOMC会议转向鹰派，点阵图显示9人支持加息，仅1人支持降息，中值预测年底利率3.8% (status supported, confidence 0.90, 1 evidence, stale (2026-06-27T10:44:00.000Z))
+- [Federal Reserve（美联储）](../entities/美联储.md): `claim.federal-reserve.rate-hold-impact`: 美联储维持利率对市场影响大于小幅加息，因为降息预期被摧毁导致资产价格重定价 (status supported, confidence 0.85, 1 evidence, stale (2026-06-27T10:44:00.000Z))
 - [From Copilots to Colleagues](../entities/autonomous-research-agents-survey-2026.md): `claim.autonomous-research-survey`: L1-L5自主性分类法，当前前沿在L4，L5瓶颈在知识积累 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md): `claim.headroom.rootcause`: Headroom plugin的assemble()钩子每次OpenClaw组装context时同步HTTP调用headroom proxy，默认protect_recent:4导致99%请求零压缩，6698次POST请求累计~16000秒阻塞，飞书响应延迟2.4秒（中位数）至63秒（峰值） (status supported, confidence 0.95, 1 evidence, stale (2026-06-19T00:00:00.000Z))
 - [Headroom Context Engine Plugin](../entities/headroom-context-engine.md): `claim.headroom.disabled`: Headroom plugin已被完全卸载并清理残留（kill proxy进程+uninstall plugin+rm残留目录），用户决策不再使用 (status supported, confidence 0.95, 1 evidence, stale (2026-06-19T00:00:00.000Z))
@@ -65,6 +71,19 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [The Five Dysfunctions of a Team](../entities/five-dysfunctions-of-a-team.md): `claim.five-dysfunctions.framework`: 五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.workflow`: TradingAgents通过激进的分析师、保守的分析师和中性的观察者三方辩论，结合Research Manager汇总决策，最终输出评级、目标价、时间窗口 (status verified, confidence 0.95, 1 evidence, stale (2026-06-18T00:00:00Z))
 - [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.neg-data`: TradingAgents在乖宝和中宠两个案例中均发现了单一分析师忽略的负面数据：FCF为负、营业利润率恶化、借款激增 (status verified, confidence 0.90, 2 evidence, stale (2026-06-18T00:00:00Z))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.peg-undervalued`: PEG 0.17 极度低估，Forward PE 10.92，预期 EPS 增长 20.7% (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.q1-2026-outperformance`: 2026Q1 净利 102.16 亿（同比+56.09%），经营现金流 751.61 亿创历史新高 (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.q1-2025-cashflow-warning`: 2025Q1 经营现金流-533.36 亿（同比剧烈波动），反映券商盈利强周期性 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.ymtc-ipo`: 长江存储 IPO 辅导已启动，中信证券担任辅导机构，2026H2 预计上市 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.underwriting-market-share`: 2026 截至 6/23 股权承销 1382.48 亿元，市场份额 32.88% 断层领先 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.dual-framework-overweight`: 2026-06-25 双框架一致看多：TradingAgents Overweight（30 元）+ stock-research-engine 买入（35 元） (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.bear-case-cyclicality`: 券商盈利强周期性，Q1 数据好不等于 Q2 持续；2025Q1 现金流-533 亿警示 (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.5-25-history`: 5/25 TradingAgents Sell 评级只产生 -2% 跌幅，看空被市场证伪，是当前看多的历史教训 (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.us-overseas-expansion`: 56 亿美元海外扩张承诺（增长点）+ 港股市场复苏（短期催化） (status supported, confidence 0.75, 1 evidence, stale (2026-06-25))
+- [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.federal-reserve-risk`: 美联储 Kevin Warsh 政策强硬 + 美股科技股波动是外部风险 (status supported, confidence 0.80, 1 evidence, stale (2026-06-25))
+- [中国广核](../entities/003816.SZ_中国广核.md): `claim.中国广核.001`: 国内核电运营商之一，2026Q1核电业绩同比-18.6%（受市场化交易电量提升、电价下降影响），关注广东和辽宁核电机制电价政策 (status supported, confidence 0.70, 1 evidence, stale (2026-06-27T10:55:00.000Z))
+- [中国神华 (601088.SS)](../entities/中国神华.md): `claim.601088.SS.june-2026-reanalysis`: 2026年6月25日使用stock-research-engine重新分析，目标价上修至58-65元（前值55-60元），核心变化：资产注入完成（909亿现金收购）、煤价中枢上行、Q1业绩承压（归母-10.7%） (status supported, confidence 0.85, 1 evidence, stale (2026-06-27T10:47:17.321Z))
+- [中国神华 (601088.SS)](../entities/中国神华.md): `claim.601088.SS.kronos-finetune-2026-04`: 2026年4月微调实验（基于2500条数据，lookback=150，predict=30）显示，中国神华股价预测模型MAE和MAPE均改善约20% (status supported, confidence 0.95, 1 evidence, stale (2026-06-27T10:47:17.321Z))
 - [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `definition-core`: 算电协同是"算力跟着绿电走，绿电跟着算力走"的国家级算力-能源融合战略 (status verified, confidence 0.95, 1 evidence, stale (2026-06-15T03:47:00.000Z))
 - [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `timeline-2023-12`: "算电协同"概念于2023年12月由国家发改委等部门在《全国一体化算力网实施意见》中首次提出 (status verified, confidence 0.90, 1 evidence, stale (2026-06-15T03:47:00.000Z))
 - [中国算电协同战略（算电一体）](../entities/中国算电协同战略-算电一体.md): `timeline-2026-03`: 2026年3月，算电协同首次写入《政府工作报告》，与"超大规模智算集群"并列为国家级新基建工程 (status verified, confidence 0.98, 1 evidence, stale (2026-06-15T03:47:00.000Z))
@@ -93,6 +112,7 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050_SS.bull-case`: 跟踪中证海外中国互联网50指数，持仓腾讯(~30%)、阿里(~25%)等龙头。当前处于历史估值中低水位（较52周高点回撤30%），MACD底背离+MACD柱转正，技术面底部构建初现。阿里巴巴AI重估+腾讯DeepSeek投资+京东技术面改善 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050_SS.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [中概互联网ETF (513050.SS)](../entities/中概互联网ETF.md): `claim.513050_SS.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [中泰证券](../entities/中泰证券.md): `claim.zhongtai-securities.shenhua-report`: 中泰证券于2026年4月发布中国神华深度报告《超千亿级并购》，目标价55-60元；2026年6月26日发布更新报告，上修目标价至58-65元 (status supported, confidence 0.85, 1 evidence, stale (2026-06-27T10:44:00.000Z))
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600.SS.moutai-weighted`: 前十大持仓白酒占比31.54%，单一行业集中度高 (status supported, confidence 0.90, 1 evidence, stale (2026-05-29))
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600.SS.pig-cycle-bottom`: 生猪养殖（牧原+温氏合计14.96%）仍在周期底部，持续拖累 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [中证消费ETF（512600）投资跟踪](../entities/中证消费ETF_512600.md): `claim.512600.SS.underperform-significant`: 近1年收益-15.94%，大幅跑输同类平均（+38.52%） (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
@@ -139,6 +159,8 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436_SZ.bull-case`: A股唯一具备FCBGA/ABF封装基板量产能力的厂商，ABF载板故事讲了三年，2026年开始进入真正考验量产能力的节点，PE 440x已严重透支2027-2028年乐观预期。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436_SZ.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436_SZ.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [华龙](../entities/华龙-华夏基金.md): `claim.华龙.001`: 华夏基金基金经理，2016年7月加入华夏基金数量投资部，2022年8月起管理上证50AH优选指数(501050)，任职期间收益+28.72%（截至2026年6月2日） (status supported, confidence 0.80, 1 evidence, stale (2026-06-27T10:55:00.000Z))
+- [华龙](../entities/华龙-华夏基金.md): `claim.华龙.002`: 管理多只ETF产品，包括沪深300增强、中证2000、创业板综合等，属于华夏基金量化团队中坚力量 (status supported, confidence 0.70, 1 evidence, stale (2026-06-27T10:55:00.000Z))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394.SZ.optical-device-1st`: 全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先 (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394.SZ.pe-extreme`: PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394_SZ.bull-case`: 全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先，但PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -158,6 +180,15 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim.petfood.fcf-alert`: 板块共同警报：乖宝FCF-3.75亿、中宠FCF-4.08亿，自由现金流双负 (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim-3`: 乖宝营业利润率16.8%恶化至11.4%(-32%)，中宠净利率8.26%腰斩至4.77%(-42%) (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [投资研究资源完整版](../entities/investment-research-resources.md): `claim.invest-resources.comprehensive`: 12本书+4博客+5数据源的完整投资研究清单 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.bull-case`: 股息率4.6%提供底部支撑，零售财富管理Q1同比+25%，PB 0.85x历史底部 (status supported, confidence 0.85, 1 evidence, stale (2026-06-26T22:59:21.250Z))
+- [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.bear-case`: 技术面死亡交叉确立，ROE从14.6%持续下滑至11.92%，6.92%股息率是收益率陷阱 (status supported, confidence 0.80, 1 evidence, stale (2026-06-26T22:59:21.250Z))
+- [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.key-metric`: ROE 14.6%持续下滑至11.92%，PB 0.92x，股息率6.92%，关注净息差环比企稳 (status supported, confidence 0.85, 1 evidence, stale (2026-06-26T22:59:21.250Z))
+- [沃什（Kevin Walsh）](../entities/沃什.md): `claim.kevin-walsh.fed-chair-2026`: Kevin Walsh于2026年出任美联储主席，是美联储历史上最年轻的理事（35岁） (status supported, confidence 0.90, 1 evidence, stale (2026-06-27T10:44:00.000Z))
+- [沃什（Kevin Walsh）](../entities/沃什.md): `claim.kevin-walsh-policy风格`: 沃什上任后删除了前瞻指引，设立5个工作组改革美联储，政策风格被认为倾向鹰派 (status supported, confidence 0.85, 1 evidence, stale (2026-06-27T10:44:00.000Z))
+- [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.base`: 跟踪沪深300指数，按市值+流动性选A股最大300只，行业均衡 (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
+- [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.mixed-style`: 沪深300=成长+价值混合风格，无单一因子暴露 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.industry-balanced`: 行业覆盖均衡：金融25-30%、消费+科技+医药~40%、工业+其他~30% (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
+- [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.peer-comparison`: 比300价值（PE 7-9）贵但比中证红利（PE 11-13）略便宜，差异主要来自"价值vs混合"风格 (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bull-case`: 中航工业旗下PCB+封装基板全栈能力，AI PCB量价齐升+FC-BGA国产替代，净利润+74% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.bear-case`: 61x PE已定价较多乐观预期，广州封装基地产能爬坡节奏不及预期则估值承压 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [深南电路 (002916.SZ)](../entities/深南电路.md): `claim.002916.SZ.key-metric`: PCB毛利率35.53%，封装基板毛利率22.58%（已跨过盈亏平衡点），目标突破25% (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -171,6 +202,12 @@ updatedAt: 2026-09-18T13:01:33.229Z
 - [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.bull-case`: 跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现。但MACD柱状图转负、价格受压中轨下方，短期技术面空方占优。美国生物安全法案是悬而未决的灰犀牛。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.methodology`: 中证全指中选连续3年分红+过去1年波动率最低的100只，股息率加权+行业上限20% (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.concentration`: 前8大成分股仅占17.31%（极度分散），远低于中证红利的30-40% (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.industry-distribution`: 银行20%、公用11%、交运11%、医药10%、食品饮料9%、家电6%、建筑5%、传媒5%（8大行业占78%） (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.2022-2024-outperformance`: 2022-2024三年累计约+42.61%，2024年仅跌2.3%（同期沪深300跌8%） (status supported, confidence 0.75, 1 evidence, stale (2026-06-25))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.valuation-percentile`: 当前PE分位60-70%已不便宜，PB分位71.29%，拥挤度创历史新高 (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
+- [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.dual-factor`: 同时具备"低波动"和"高股息"双因子，是A股稀缺的"防御+现金流"工具 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
 - [紫金矿业 (02899.HK / 601899.SS)](../entities/紫金矿业.md): `claim.02899.HK / 601899.SS.top3-copper-gold`: 全球前三大铜企+最大黄金上市矿企，金铜价格高位震荡 (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
 - [紫金矿业 (02899.HK / 601899.SS)](../entities/紫金矿业.md): `claim.02899.HK / 601899.SS.production-accel`: 2026-2028年铜+30%、金+50%产量加速释放周期 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [紫金矿业 (02899.HK / 601899.SS)](../entities/紫金矿业.md): `claim.02899_HK___601899_SS.bull-case`: 全球前三大铜企+最大黄金上市矿企，金铜价格高位震荡+产量加速释放周期（2026-2028年铜+30%、金+50%），但卡莫阿矿震复产节奏和金价回调幅度是当前最大边际变量。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))

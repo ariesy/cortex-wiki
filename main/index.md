@@ -3,9 +3,9 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 3194
+- Total pages: 3210
 - Claims: 520
-- Sources: 2921
+- Sources: 2937
 - Entities: 226
 - Concepts: 14
 - Syntheses: 23
@@ -1783,6 +1783,15 @@
 - [Memory Bridge (main): 2026-09-17-0023](sources/bridge-workspace-142ea9a2-memory-2026-09-17-0023-133a0d4a.md)
 - [Memory Bridge (main): 2026-09-17-1307](sources/bridge-workspace-142ea9a2-memory-2026-09-17-1307-2851d552.md)
 - [Memory Bridge (main): 2026-09-18-1138](sources/bridge-workspace-142ea9a2-memory-2026-09-18-1138-13e84482.md)
+- [Memory Bridge (main): 2026-09-18-1313](sources/bridge-workspace-142ea9a2-memory-2026-09-18-1313-e4d24db9.md)
+- [Memory Bridge (main): 2026-09-18-2030](sources/bridge-workspace-142ea9a2-memory-2026-09-18-2030-aba22adc.md)
+- [Memory Bridge (main): 2026-09-19-1206](sources/bridge-workspace-142ea9a2-memory-2026-09-19-1206-7cae3f4b.md)
+- [Memory Bridge (main): 2026-09-20-0855](sources/bridge-workspace-142ea9a2-memory-2026-09-20-0855-fc4e1672.md)
+- [Memory Bridge (main): 2026-09-22-0823](sources/bridge-workspace-142ea9a2-memory-2026-09-22-0823-7dec0272.md)
+- [Memory Bridge (main): 2026-09-22-1334](sources/bridge-workspace-142ea9a2-memory-2026-09-22-1334-37d8bc27.md)
+- [Memory Bridge (main): 2026-09-22-1336](sources/bridge-workspace-142ea9a2-memory-2026-09-22-1336-d0990aa7.md)
+- [Memory Bridge (main): 2026-09-23-1438](sources/bridge-workspace-142ea9a2-memory-2026-09-23-1438-3b4922ab.md)
+- [Memory Bridge (main): 2026-09-24-0656](sources/bridge-workspace-142ea9a2-memory-2026-09-24-0656-f5522b62.md)
 - [Memory Bridge (main): cron-rules](sources/bridge-workspace-142ea9a2-memory-cron-rules-a281b182.md)
 - [Memory Bridge (main): dev-workflow](sources/bridge-workspace-142ea9a2-memory-dev-workflow-851674c9.md)
 - [Memory Bridge (main): diary / 2026-03-17](sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md)
@@ -2036,6 +2045,13 @@
 - [Memory Bridge (ops-deck): 2026-09-15-1405](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-15-1405-a1710609.md)
 - [Memory Bridge (ops-deck): 2026-09-17-0037](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-17-0037-29ff2c0e.md)
 - [Memory Bridge (ops-deck): 2026-09-17-1504](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-17-1504-909cae5a.md)
+- [Memory Bridge (ops-deck): 2026-09-20-1504](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-20-1504-66299646.md)
+- [Memory Bridge (ops-deck): 2026-09-20-1525](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-20-1525-ac3d5f95.md)
+- [Memory Bridge (ops-deck): 2026-09-21-0427](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-21-0427-9c3ce46d.md)
+- [Memory Bridge (ops-deck): 2026-09-21-0427-2](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-21-0427-2-93f39d5f.md)
+- [Memory Bridge (ops-deck): 2026-09-22-1444](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-22-1444-455b618f.md)
+- [Memory Bridge (ops-deck): 2026-09-25-0016](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-25-0016-a3a4d07e.md)
+- [Memory Bridge (ops-deck): 2026-09-25-0805](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-25-0805-7aa04355.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-23](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-23-5ed612e5.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-24](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-24-ef583583.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-25](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-25-159e4714.md)
