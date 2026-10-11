@@ -52,5 +52,7 @@ darwin-skill 是更大 skill 生态的一部分：
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [SKILL.md frontmatter 与技能注册（product-req-assistant 案例）](skill-frontmatter-registration.md)
 <!-- openclaw:wiki:related:end -->

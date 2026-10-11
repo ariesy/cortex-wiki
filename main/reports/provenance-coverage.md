@@ -3,18 +3,18 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-09-11T13:06:00.351Z
+updatedAt: 2026-10-11T08:35:16.747Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 530
+- Evidence entries: 559
 - Claims missing evidence: 0
 
 ### Evidence Classes
-- wiki-source: 175
+- wiki-source: 204
 - entity-summary: 81
 - report: 62
 - financial-data: 38
@@ -66,6 +66,7 @@ updatedAt: 2026-09-11T13:06:00.351Z
 - source.bridge.workspace-142ea9a2.memory-2026-05-29-memory-sources: 12
 - research/小米_1810.HK/2026-07-17_tradingagents: 10
 - source.syntheses.factor-etf-comparison-2026-06-25: 10
+- source.bridge.workspace-142ea9a2.memory-2026-05-05-investment-preferences-update-a4119225: 9
 - /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md: 8
 - source.bridge.workspace-142ea9a2.memory-2026-07-02-1322-d13a3e17: 8
 - source.research.中信证券: 8
@@ -80,5 +81,4 @@ updatedAt: 2026-09-11T13:06:00.351Z
 - research/energy-storage-etf-159566-20260429/report.md: 5
 - research/乖宝宠物_301498/2026-06-17_tradingagents_报告.md: 5
 - research/储能电池ETF易方达_159566.SZ/2026-07-11_summary.md: 5
-- source.bridge.workspace-142ea9a2.memory-2026-04-29-search-tools-guide-ab9ed717: 5
 <!-- openclaw:wiki:provenance-coverage:end -->

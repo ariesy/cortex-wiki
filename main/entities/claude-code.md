@@ -6,12 +6,13 @@ name: Claude Code
 sourceIds:
   - agent-bottleneck-zhihu
   - sources/bridge-workspace-142ea9a2-memory-2026-04-30-kimi-k2-vs-claude-code-compari-619dd649.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-06-claude-code-mcp-7c0bf72d.md
 relationships:
   - targetId: concept.clean-world-dirty-world
     targetTitle: Agent 干净世界 vs 脏世界
     kind: representative-of
     weight: 1
-updatedAt: 2026-08-28T16:16:07.344Z
+updatedAt: 2026-10-11T08:37:50.774Z
 ---
 
 # Claude Code

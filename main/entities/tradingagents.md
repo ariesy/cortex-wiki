@@ -106,5 +106,7 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [TradingAgents (Tauric Research)](tradingagents-tauric.md)
 <!-- openclaw:wiki:related:end -->

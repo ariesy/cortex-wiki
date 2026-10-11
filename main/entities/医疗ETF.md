@@ -1,189 +1,156 @@
 ---
 pageType: entity
 id: entity:医疗ETF
-
 entityType: investment_stock
 entity_type: investment_etf
-
 privacyTier: public
 ticker: 512170.SS
-
 name: 医疗ETF
 sector: 医疗健康
-
-last_updated: '2026-07-30'
+last_updated: 2026-07-30
 status: actively_tracking
-updatedAt: "2026-08-14T13:30:00.000Z"
+updatedAt: 2026-10-11T08:34:22.618Z
+current_view: >-
+  跟踪中证医疗指数（399989.SZ），从最高点19992跌至6429（-67.8%）。PE 29.4x(5年30%分位)不算极端便宜，但PB(等权)
+  2.86(6%分位)极度低估。AI Berkshire建议小仓位定投3年+。规模264亿(全市场最大医疗ETF)，净值0.3254元。
 
-current_view: |-
-  跟踪中证医疗指数（399989.SZ），从最高点19992跌至6429（-67.8%）。PE 29.4x(5年30%分位)不算极端便宜，但PB(等权) 2.86(6%分位)极度低估。AI Berkshire建议小仓位定投3年+。规模264亿(全市场最大医疗ETF)，净值0.3254元。
 
-  【AI Berkshire 2026-07-30】综合评分：生意65% / 护城河55% / 文明趋势85% / 估值60% / 管理层70%。核心建议：小仓位10-20%分批、定投/网格、持有周期3年以上。最大风险：集采深化+CXO地缘+"估值低≠马上会涨"。
+  【AI Berkshire 2026-07-30】综合评分：生意65% / 护城河55% / 文明趋势85% / 估值60% /
+  管理层70%。核心建议：小仓位10-20%分批、定投/网格、持有周期3年以上。最大风险：集采深化+CXO地缘+"估值低≠马上会涨"。
+
 
   报告路径：/app/ai-berkshire/reports/中证医疗ETF-四大师综合分析-20260730.md
 catalysts:
-- date: 2026-05
-
-  event: 关注集采政策边际变化
-  type: 政策
-
-  direction: 待观察
-  status: pending
-- date: 2026-05
-
-  event: Sell in May季节性风险
-  type: 政策
-
-  direction: 利空
-  status: pending
-- date: 待定
-
-  event: 医疗反腐影响出清
-  type: 验证节点
-
-  direction: 待观察
-  status: pending
+  - date: 2026-05
+    event: 关注集采政策边际变化
+    type: 政策
+    direction: 待观察
+    status: pending
+  - date: 2026-05
+    event: Sell in May季节性风险
+    type: 政策
+    direction: 利空
+    status: pending
+  - date: 待定
+    event: 医疗反腐影响出清
+    type: 验证节点
+    direction: 待观察
+    status: pending
 tracking:
-- indicator: MACD
-
-  latest_value: '-0.000047'
-  latest_date: '2026-04-30'
-
-  status: improving
-  note: 即将翻正，多空转换临界点
-- indicator: RSI
-
-  latest_value: '50.28'
-  latest_date: '2026-04-30'
-
-  status: stable
-  note: 中性位置，上行空间充足
-- indicator: 布林带带宽
-
-  latest_value: '0.0116'
-  latest_date: '2026-04-30'
-
-  status: stable
-  note: 极度收缩，方向突破在即
-- indicator: 52周价格位置
-
-  latest_value: 0.34元
-  latest_date: '2026-05-06'
-
-  status: stable
-  note: 接近52周低点0.31，安全边际高
-
-conclusion: '医疗ETF处于恐慌崩跌后的修复中段，MACD即将翻正、RSI中性、布林带极度收窄等技术信号暗示方向突破随时可能发生。但200日均线（0.3581）压制明显，均线空头排列意味着中期趋势尚未反转。操作建议：持有观望，若MACD翻正且放量突破0.345可转为积极做多；若跌破0.335则减仓避险。
-
-  '
+  - indicator: MACD
+    latest_value: "-0.000047"
+    latest_date: 2026-04-30
+    status: improving
+    note: 即将翻正，多空转换临界点
+  - indicator: RSI
+    latest_value: "50.28"
+    latest_date: 2026-04-30
+    status: stable
+    note: 中性位置，上行空间充足
+  - indicator: 布林带带宽
+    latest_value: "0.0116"
+    latest_date: 2026-04-30
+    status: stable
+    note: 极度收缩，方向突破在即
+  - indicator: 52周价格位置
+    latest_value: 0.34元
+    latest_date: 2026-05-06
+    status: stable
+    note: 接近52周低点0.31，安全边际高
+conclusion: |
+  医疗ETF处于恐慌崩跌后的修复中段，MACD即将翻正、RSI中性、布林带极度收窄等技术信号暗示方向突破随时可能发生。但200日均线（0.3581）压制明显，均线空头排列意味着中期趋势尚未反转。操作建议：持有观望，若MACD翻正且放量突破0.345可转为积极做多；若跌破0.335则减仓避险。
 reports:
-- path: research/医疗ETF_512170.SS/2026-05-06_summary.md
-
-  date: '2026-05-06'
-  type: ETF
+  - path: research/医疗ETF_512170.SS/2026-05-06_summary.md
+    date: 2026-05-06
+    type: ETF
 claims:
-- id: claim.512170.SS.valuation-low
-
-  text: 跟踪中证医疗指数，估值处于历史低位，中长期配置价值显现
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: financial-data
-
-    sourceId: source.research.医疗ETF
-    path: research/医疗ETF/
-
-    lines: current_view
-    weight: 0.8
-- id: claim.512170.SS.bear-market
-
-  text: 200日均线压制明显，长期空头格局未改，短期技术面空方占优
-  status: supported
-
-  confidence: 0.75
-  evidence:
-  - kind: technical-analysis
-
-    sourceId: source.research.医疗ETF
-    path: research/医疗ETF/
-
-    lines: current_view
-    weight: 0.7
-- id: claim.512170_SS.bull-case
-
-  text: 跟踪中证医疗指数，经历恐慌崩跌后处于修复期，MACD即将翻正、RSI中性偏多，但200日均线压制明显，长期空头格局未改。估值处于历史低位，中长期配置价值显现。
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: current_view
-    weight: 0.9
-- id: claim.512170_SS.bear-case
-
-  text: 技术面偏弱，基本面存在不确定性，需等待验证信号
-  status: supported
-
-  confidence: 0.8
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: conclusion/tracking
-    weight: 0.8
-- id: claim.512170_SS.key-metric
-
-  text: 关键监控指标详见tracking字段，定期跟踪验证
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: entity-summary
-
-    sourceId: source.entities.investments
-    path: entities/investments/
-
-    lines: tracking indicators
-    weight: 0.85
-- id: claim.512170.SS.tradingagents-2026-05-06
-
-  text: 2026年5月TradingAgents分析报告：技术面偏空（MACD动能衰竭、长期空头排列），基本面缺乏催化剂，给出减持评级
-  status: supported
-
-  confidence: 0.90
-  evidence:
-  - kind: report
-
-    sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-06-stock-research-analysis-512170-dda79cc4
-    weight: 0.9
+  - id: claim.512170.SS.valuation-low
+    text: 跟踪中证医疗指数，估值处于历史低位，中长期配置价值显现
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: financial-data
+        sourceId: source.research.医疗ETF
+        path: research/医疗ETF/
+        lines: current_view
+        weight: 0.8
+  - id: claim.512170.SS.bear-market
+    text: 200日均线压制明显，长期空头格局未改，短期技术面空方占优
+    status: supported
+    confidence: 0.75
+    evidence:
+      - kind: technical-analysis
+        sourceId: source.research.医疗ETF
+        path: research/医疗ETF/
+        lines: current_view
+        weight: 0.7
+  - id: claim.512170_SS.bull-case
+    text: 跟踪中证医疗指数，经历恐慌崩跌后处于修复期，MACD即将翻正、RSI中性偏多，但200日均线压制明显，长期空头格局未改。估值处于历史低位，中长期配置价值显现。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: current_view
+        weight: 0.9
+  - id: claim.512170_SS.bear-case
+    text: 技术面偏弱，基本面存在不确定性，需等待验证信号
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: conclusion/tracking
+        weight: 0.8
+  - id: claim.512170_SS.key-metric
+    text: 关键监控指标详见tracking字段，定期跟踪验证
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: entity-summary
+        sourceId: source.entities.investments
+        path: entities/investments/
+        lines: tracking indicators
+        weight: 0.85
+  - id: claim.512170.SS.tradingagents-2026-05-06
+    text: 2026年5月TradingAgents分析报告：技术面偏空（MACD动能衰竭、长期空头排列），基本面缺乏催化剂，给出减持评级
+    status: supported
+    confidence: 0.9
+    evidence:
+      - kind: report
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-06-stock-research-analysis-512170-dda79cc4
+        weight: 0.9
+  - id: claim.512170.SS.sre-report-2026-05-06
+    text: 2026-05-06 使用 stock-research-engine
+      对华宝中证医疗ETF（512170.SS）出具分析简报：跟踪中证医疗（399989），基金经理张放，2019-05-20 成立；数据截止
+      2026-04-30 时最新净值约 0.3355、规模约 275-287 亿元、份额约 822-825 亿份（2025 年末规模 252.63 亿元
+      / 744.24 亿份）。
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-06-medical-etf-analysis-58ccad3e
+        weight: 0.8
 relationships:
-- targetId: 生物科技ETF
-
-  targetTitle: 生物科技ETF
-  kind: same-sector
-
-  weight: 0.7
-  note: 医疗与生物科技主题高度重叠
-- targetId: 国泰中证医疗ETF
-
-  targetTitle: 国泰中证医疗ETF (159828.SZ)
-  kind: same-index
-
-  weight: 0.95
-  note: 同跟踪中证医疗指数（399989）；159828 流动性最好最具代表性，512170 费率较低；2026-07-12 双框架对比分析见 entities/159828.SZ_国泰中证医疗ETF.md
+  - targetId: 生物科技ETF
+    targetTitle: 生物科技ETF
+    kind: same-sector
+    weight: 0.7
+    note: 医疗与生物科技主题高度重叠
+  - targetId: 国泰中证医疗ETF
+    targetTitle: 国泰中证医疗ETF (159828.SZ)
+    kind: same-index
+    weight: 0.95
+    note: 同跟踪中证医疗指数（399989）；159828 流动性最好最具代表性，512170 费率较低；2026-07-12 双框架对比分析见
+      entities/159828.SZ_国泰中证医疗ETF.md
 sourceIds:
   - /app/ai-berkshire/reports/中证医疗ETF-四大师综合分析-20260730.md
   - sources/bridge-workspace-142ea9a2-memory-2026-05-06-stock-research-analysis-512170-dda79cc4.md
-
-
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-06-medical-etf-analysis-58ccad3e.md
 ---
+
 # 医疗ETF (512170.SS)
 
 ## AI Berkshire 四大师分析快照（2026-07-30）

@@ -113,5 +113,7 @@ cangjie-skill/
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [SKILL.md frontmatter 与技能注册（product-req-assistant 案例）](skill-frontmatter-registration.md)
 <!-- openclaw:wiki:related:end -->

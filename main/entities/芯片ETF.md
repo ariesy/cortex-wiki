@@ -134,11 +134,10 @@ relationships:
       - kind: sector-analysis
         sourceId: source.entities.investments
         note: 芯片ETF持有中际旭创等光模块/算力芯片标的
-updatedAt: 2026-07-14T01:05:00.000Z
+updatedAt: 2026-10-11T08:35:46.999Z
 sourceIds:
   - research/华夏芯片ETF_159995.SZ/
-
-
+  - sources/bridge-workspace-142ea9a2-memory-2026-05-06-chip-etf-analysis-e241bcaa.md
 ---
 
 # 芯片ETF (159995.SZ)
@@ -173,5 +172,7 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Related Pages
+
+- [京东集团 (9618.HK)](京东集团.md)
 <!-- openclaw:wiki:related:end -->

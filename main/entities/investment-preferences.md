@@ -48,3 +48,10 @@ sourceIds:
 # 长期价值投资与港股偏好
 
 用户的投资取向以长期价值投资为底色，重视流动性冗余，并偏好港股科技资产的估值与弹性机会。
+
+## Related
+<!-- openclaw:wiki:related:start -->
+### Sources
+
+- [Memory Bridge (main): 2026-05-05-investment-preferences-update](../sources/bridge-workspace-142ea9a2-memory-2026-05-05-investment-preferences-update-a4119225.md)
+<!-- openclaw:wiki:related:end -->

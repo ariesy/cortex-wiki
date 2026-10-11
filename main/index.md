@@ -3,10 +3,10 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 3210
-- Claims: 520
-- Sources: 2937
-- Entities: 226
+- Total pages: 3229
+- Claims: 549
+- Sources: 2949
+- Entities: 233
 - Concepts: 14
 - Syntheses: 23
 - Reports: 10
@@ -1792,6 +1792,11 @@
 - [Memory Bridge (main): 2026-09-22-1336](sources/bridge-workspace-142ea9a2-memory-2026-09-22-1336-d0990aa7.md)
 - [Memory Bridge (main): 2026-09-23-1438](sources/bridge-workspace-142ea9a2-memory-2026-09-23-1438-3b4922ab.md)
 - [Memory Bridge (main): 2026-09-24-0656](sources/bridge-workspace-142ea9a2-memory-2026-09-24-0656-f5522b62.md)
+- [Memory Bridge (main): 2026-09-26-0324](sources/bridge-workspace-142ea9a2-memory-2026-09-26-0324-0c650723.md)
+- [Memory Bridge (main): 2026-09-27-0640](sources/bridge-workspace-142ea9a2-memory-2026-09-27-0640-36315a08.md)
+- [Memory Bridge (main): 2026-09-27-0749](sources/bridge-workspace-142ea9a2-memory-2026-09-27-0749-05331080.md)
+- [Memory Bridge (main): 2026-09-29-1415](sources/bridge-workspace-142ea9a2-memory-2026-09-29-1415-b01f7cc6.md)
+- [Memory Bridge (main): 2026-09-29-1423](sources/bridge-workspace-142ea9a2-memory-2026-09-29-1423-4fc14513.md)
 - [Memory Bridge (main): cron-rules](sources/bridge-workspace-142ea9a2-memory-cron-rules-a281b182.md)
 - [Memory Bridge (main): dev-workflow](sources/bridge-workspace-142ea9a2-memory-dev-workflow-851674c9.md)
 - [Memory Bridge (main): diary / 2026-03-17](sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md)
@@ -2052,6 +2057,9 @@
 - [Memory Bridge (ops-deck): 2026-09-22-1444](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-22-1444-455b618f.md)
 - [Memory Bridge (ops-deck): 2026-09-25-0016](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-25-0016-a3a4d07e.md)
 - [Memory Bridge (ops-deck): 2026-09-25-0805](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-25-0805-7aa04355.md)
+- [Memory Bridge (ops-deck): 2026-09-25-1345](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-25-1345-d45053b7.md)
+- [Memory Bridge (ops-deck): 2026-09-27-0643](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-27-0643-2f427b68.md)
+- [Memory Bridge (ops-deck): 2026-09-27-0713](sources/bridge-workspace-ops-deck-c969319b-memory-2026-09-27-0713-854b3226.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-23](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-23-5ed612e5.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-24](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-24-ef583583.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-08-25](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-08-25-159e4714.md)
@@ -2106,6 +2114,7 @@
 - [Memory Bridge (ops-deck): dreaming / light / 2026-09-16](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-09-16-0302e289.md)
 - [Memory Bridge (ops-deck): dreaming / light / 2026-09-17](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-09-17-7f259e28.md)
 - [Memory Bridge (ops-deck): dreaming / light / 2026-09-18](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-09-18-bd968de1.md)
+- [Memory Bridge (ops-deck): dreaming / light / 2026-09-26](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-09-26-9662126e.md)
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-08-23](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-08-23-05ad4dfa.md)
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-08-24](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-08-24-45312ed3.md)
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-08-25](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-08-25-3fa8c6a5.md)
@@ -2133,6 +2142,8 @@
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-09-16](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-09-16-48c94369.md)
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-09-17](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-09-17-f7d0a1fd.md)
 - [Memory Bridge (ops-deck): dreaming / rem / 2026-09-18](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-09-18-bafff7ed.md)
+- [Memory Bridge (ops-deck): dreaming / rem / 2026-09-26](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-09-26-a9418fb7.md)
+- [Memory Bridge (ops-deck): dreaming / rem / 2026-09-27](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-rem-2026-09-27-b294e06f.md)
 - [Memory Bridge (ops-deck): event journal](sources/bridge-workspace-ops-deck-c969319b-memory-events-988db3c43f50e13756016321f9d25e83-memory-host-events-jsonl-ba5381f1.md)
 - [Memory Bridge (ops-deck): MEMORY](sources/bridge-workspace-ops-deck-c969319b-memory-2d62c497.md)
 - [Memory Bridge (ops-deck): network](sources/bridge-workspace-ops-deck-c969319b-memory-network-44b396f6.md)
@@ -2544,6 +2555,7 @@
 - [Memory Bridge (symptom-triage): 2026-08-27-1339](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-08-27-1339-276d2c5c.md)
 - [Memory Bridge (symptom-triage): 2026-08-31-1301](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-08-31-1301-88c001b5.md)
 - [Memory Bridge (symptom-triage): 2026-08-31-1436](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-08-31-1436-11610008.md)
+- [Memory Bridge (symptom-triage): 2026-10-01-0032](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-10-01-0032-aec758d3.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-10](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-10-10517361.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-11](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-11-eea5e8a7.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-12](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-12-bfc36302.md)
@@ -2980,10 +2992,12 @@
 - [Claude Sonnet 5](entities/claude-sonnet-5.md)
 - [ClickHouse 可观测性应用](entities/clickhouse-obs.md)
 - [Cloudflare Workers](entities/Cloudflare-Workers.md)
+- [CocoIndex](entities/cocoindex.md)
 - [council-of-the-wise（智者委员会）技能](entities/council-of-the-wise技能.md)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md)
 - [darwin-skill](entities/darwin-skill.md)
+- [DeepSeek-TUI](entities/deepseek-tui.md)
 - [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
 - [ebook-downloader（Z-Library 下载器，已暂停）](entities/ebook-downloader.md)
 - [ebook-manager（Calibre 管理工具）](entities/ebook-manager.md)
@@ -2999,6 +3013,7 @@
 - [Headroom Context Engine Plugin](entities/headroom-context-engine.md)
 - [Hermes Agent](entities/hermes-agent.md)
 - [Heroku](entities/Heroku.md)
+- [IMA 文件监控扫描系统](entities/ima-scan-system.md)
 - [InvestSignal Sprint 3：融资融券与资金面信号模块](entities/InvestSignal-Sprint3-资金面信号模块.md)
 - [InvestSignal Sprint 4：港股与 ETF 数据支持](entities/InvestSignal-Sprint4-港股与ETF数据支持.md)
 - [InvestSignal Sprint 7：基本面信号与三维信号组合](entities/InvestSignal-Sprint7-基本面信号与三维组合.md)
@@ -3012,6 +3027,7 @@
 - [Kronos 金融预测模型](entities/kronos.md)
 - [memory wiki bridge import 空数组 Bug（memoryPluginState.capability 未初始化）](entities/memory-plugin-capability-undefined-bug.md)
 - [MiMo V2.5](entities/mimo-v2.5.md)
+- [Mindra (mindra.co)](entities/mindra.md)
 - [MiniMax Anthropic-compatible streaming 泄漏思维链](entities/minimax-anthropic-streaming-bug.md)
 - [MiniMax国内OAuth配置问题](entities/minimax-oauth.md)
 - [mmx-cli](entities/mmx-cli.md)
@@ -3041,6 +3057,7 @@
 - [Sealos](entities/Sealos.md)
 - [SearXNG 本地搜索实例](entities/searxng.md)
 - [semantic-router 技能（框架版，缺运行时实现）](entities/semantic-router.md)
+- [SKILL.md frontmatter 与技能注册（product-req-assistant 案例）](entities/skill-frontmatter-registration.md)
 - [SkillOpt](entities/skillopt.md)
 - [SpaceX](entities/SpaceX.md)
 - [stock-research-engine](entities/stock-research-engine.md)
@@ -3052,6 +3069,7 @@
 - [The Five Dysfunctions of a Team](entities/five-dysfunctions-of-a-team.md)
 - [thinkingDefault 配置无效导致 cron 周报发送失败](entities/openclaw-thinkingdefault-config-bug.md)
 - [tradingagents](entities/tradingagents.md)
+- [TradingAgents (Tauric Research)](entities/tradingagents-tauric.md)
 - [TradingAgents tushare数据支持](entities/tradingagents-tushare.md)
 - [Vercel](entities/Vercel.md)
 - [VibeVoice](entities/vibevoice.md)
@@ -3168,6 +3186,7 @@
 - [贵州茅台（600519）投资跟踪](entities/贵州茅台_600519.md)
 - [迪士尼 (DIS)](entities/DIS_迪士尼.md)
 - [鑫科材料 600255](entities/600255.SH_鑫科材料.md)
+- [长期价值投资与港股偏好](entities/investment-preferences.md)
 - [阳煤化工 (600691.SS)](entities/阳煤化工.md)
 - [阿联酋退出 OPEC（2026-04-28）](entities/UAE-退出OPEC-2026.md)
 - [陆天一笑（canaaan）](entities/canaan.md)
