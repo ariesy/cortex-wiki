@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-09-11T13:06:00.351Z
+updatedAt: 2026-10-16T13:23:55.800Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 228
+- Structured relationships: 230
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -100,6 +100,8 @@ updatedAt: 2026-09-11T13:06:00.351Z
 - [StubZero Google Cloud RCE漏洞](../entities/stubzero-google-cloud.md) -> stubzero-google-cloud (affects, weight 0.80)
 - [tradingagents](../entities/tradingagents.md) -> AI对冲基金多Agent风格分类 (describes, weight 0.90, 14种Agent风格的详细说明)
 - [tradingagents](../entities/tradingagents.md) -> From Copilots to Colleagues (related-research, weight 0.60)
+- [TradingAgents LLM API 缓存命中率异常低](../entities/bug-tradingagents-llm-cache-miss.md) -> LLM Prompt 前缀缓存 (related-concept, weight 0.80, OpenAI 自动缓存要求前 1024 token 完全一致才能命中)
+- [TradingAgents LLM API 缓存命中率异常低](../entities/bug-tradingagents-llm-cache-miss.md) -> tradingagents (affects, weight 0.95, 缺陷归属项目；tradingagents 为 AI 对冲基金多 Agent 模拟系统)
 - [TradingAgents tushare数据支持](../entities/tradingagents-tushare.md) -> tradingagents (belongs-to, weight 0.90)
 - [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md) -> 300价值ETF (512370) (peer-comparison, weight 0.80, 价值风格，但50AH含H股)
 - [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md) -> 中国平安 (etf-component, weight 0.90, 第二大重仓（6.80%，H股02318）)

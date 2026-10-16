@@ -2,10 +2,21 @@
 pageType: entity
 id: entity.tool.vibevoice
 entityType: tool
-name: "VibeVoice"
-updatedAt: "2026-08-01"
+name: VibeVoice
+updatedAt: 2026-10-16T13:16:36.691Z
 sourceIds:
   - github.com/microsoft/VibeVoice
+  - source.bridge.workspace-142ea9a2.memory-2026-08-01-0758-30bd5517
+claims:
+  - id: claim.vibevoice.overview
+    text: 微软官方开源的「前沿语音 AI 全家桶」（GitHub ⭐51.7k），涵盖 TTS 与 ASR 两条产品线；核心价值是「超长上下文 +
+      低帧率连续语音表征」的统一技术框架。
+    status: supported
+    confidence: 0.9
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-01-0758-30bd5517
+        weight: 0.9
 ---
 
 # VibeVoice
@@ -49,5 +60,7 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-08-01-0758](../sources/bridge-workspace-142ea9a2-memory-2026-08-01-0758-30bd5517.md)
 <!-- openclaw:wiki:related:end -->

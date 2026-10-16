@@ -2,7 +2,7 @@
 pageType: entity
 entityType: project
 id: entity.project.tradingagents
-updatedAt: 2026-07-17T13:12:12.861Z
+updatedAt: 2026-10-16T13:50:40.287Z
 claims:
   - id: claim.tradingagents.2026-07-17.688248-sell
     text: 2026-07-17 TradingAgents 多智能体分析：688248.SS（南网科技）—— SELL 评级。33次LLM调用全部200
@@ -14,6 +14,15 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-07-17-1256-78a022e4
         weight: 0.9
     updatedAt: 2026-07-17T12:56:09.722Z
+  - id: claim.tradingagents.2026-08-03.config-and-merge
+    text: 2026-08-03 TradingAgents 项目完成运行配置调整：深度与快速思考模型统一切换为 deepseek-v4-flash；随后将
+      main 合并到 dev 并提交推送 TDX 路由修复，未提交的 interface.py 修改得到保留。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-03-0001-e25e0b0e
+        weight: 0.85
 relationships:
   - targetId: concept.ai-hedge-fund-agent-styles
     targetTitle: AI对冲基金多Agent风格分类
@@ -26,8 +35,7 @@ relationships:
     weight: 0.6
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-07-17-1256-78a022e4.md
-
-
+  - source.bridge.workspace-142ea9a2.memory-2026-08-03-0001-e25e0b0e
 ---
 
 # tradingagents
@@ -106,6 +114,10 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Sources
+
+- [Memory Bridge (main): 2026-08-03-0001](../sources/bridge-workspace-142ea9a2-memory-2026-08-03-0001-e25e0b0e.md)
+
 ### Referenced By
 
 - [TradingAgents (Tauric Research)](tradingagents-tauric.md)

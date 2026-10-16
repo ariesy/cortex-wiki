@@ -3,16 +3,24 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-10-11T08:28:49.063Z
+updatedAt: 2026-10-16T13:23:55.800Z
 ---
 
 # Claim Health
 
 ## Generated
 <!-- openclaw:wiki:claim-health:start -->
-- Claims missing evidence: 0
+- Claims missing evidence: 6
 - Contested claims: 4
-- Stale or unknown claims: 251
+- Stale or unknown claims: 266
+
+### Missing Evidence
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.index-profile`: 恒生科技指数（HSTECH）为香港上市 30 家科技主题公司的流通市值加权指数，覆盖互联网、AI、芯片、新能源汽车；2020 年 7 月推出，基日 2014-12-31、基值 3000 点。 (status supported, confidence 0.85, missing evidence, fresh (2026-10-16T13:15:37.048Z))
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.concentration`: 恒生科技指数前十大权重合计约 69%，单一成分股权重上限 8%；行业分布约为资讯科技 45%、非必需消费 45%、医疗保健 5%。 (status supported, confidence 0.85, missing evidence, fresh (2026-10-16T13:15:37.048Z))
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.history`: 恒生科技指数历史区间：2021-02 高点约 10902 点，2022-10 低点约 2800 点，2024 年反弹至约 6000 点，2026-02 在 4800-5000 区间筑底。 (status supported, confidence 0.80, missing evidence, fresh (2026-10-16T13:15:37.048Z))
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.rebalance-2026-06`: 恒生科技指数 2026 年 6 月调整窗口：拟纳入 MiniMax（智谱AI，市值超 777 亿港元），剔除金蝶国际（约 455 亿警戒线以下）与金山软件。 (status supported, confidence 0.80, missing evidence, fresh (2026-10-16T13:15:37.048Z))
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.sentiment-2026-05`: 2026-05 判断：恒生科技处于预期驱动向业绩验证过渡阶段，5 月 4 日指数大涨 3.22% 突破 5000 点是政策、产业、资金三重共振的结果，而非单纯超跌反弹。 (status supported, confidence 0.80, missing evidence, fresh (2026-10-16T13:15:37.048Z))
+- [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.premium-channel`: 513180 溢价率 0.39%，超过历史 78% 时间，走港股通渠道购买更划算。 (status supported, confidence 0.75, missing evidence, fresh (2026-10-16T13:15:37.048Z))
 
 ### Contested Claims
 - [300144.SZ_宋城演艺](../entities/300144.SZ_宋城演艺.md): `claim.300144.SZ.trend-bearish`: 持续阶梯下跌，RSI 深度超卖 21.7 但无底背离，下降通道清晰，趋势空头 (status superseded, confidence 0.50, 1 evidence, aging (2026-09-02T03:22:00Z))
@@ -85,7 +93,6 @@ updatedAt: 2026-10-11T08:28:49.063Z
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.pricing`: MiMo V2.5海外定价：缓存命中$0.08/未命中$0.40/输出$2.00，上下文1M tokens (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.comparison-deepseek`: MiMo V2.5在输出价格上高于DeepSeek V4 Flash（$2.00 vs $0.28），但低于DeepSeek V4 Pro（$2.00 vs $3.33） (status confirmed, confidence 0.90, 1 evidence, stale (2026-06-05))
 - [MiMo V2.5](../entities/mimo-v2.5.md): `claim.mimo-v2.5.openclaw-model`: MiMo V2.5是OpenClaw当前运行的默认模型 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
-- [mmx-cli](../entities/mmx-cli.md): `claim.mmx-cli.tool`: MiniMax Token Plan额度查询命令行工具，5h/24h窗口差异 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.pipeline`: MoneyPrinterTurbo使用LLM写文案+Pexels/Pixabay素材拼接+ffmpeg合成的流水线，非AI文生视频 (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [MoneyPrinterTurbo](../entities/moneyprinter-turbo.md): `claim.moneyprinter.no-video-api`: 项目不需要视频生成模型API（Sora/Kling/Vidu），核心依赖LLM+TTS+Pexels API+ffmpeg (status confirmed, confidence 0.95, 1 evidence, stale (2026-06-05))
 - [mootdx](../entities/mootdx.md): `claim.mootdx.tdx-client`: mootdx is a Python library that provides direct access to TongDaXin stock market data servers and local data files (status supported, confidence 0.90, 1 evidence, stale (2026-07-03T13:00:00Z))
@@ -106,6 +113,7 @@ updatedAt: 2026-10-11T08:28:49.063Z
 - [tdx-chronos](../entities/tdx-chronos.md): `claim.tdx-chronos.cron-bug-fixes`: Sprint 9 完整闭环：daily_incr.sh 和 weekly_sync.sh 共修复 6 处沉默 bug（bash heredoc f-string NameError + API typo），3 个 cron job 全部首次真跑通 (status supported, confidence 0.95, 1 evidence, stale (2026-07-08T14:54:13.000Z))
 - [tdx-chronos](../entities/tdx-chronos.md): `claim.tdx-chronos.sprint5-9-fin-domain`: Sprint 5-9 完成财务领域补全：585 字段语义映射、三表勾稽、财务报表分类、10 项 doctor 健康检查、v1.1.0-v1.2.0 双 tag 发布 (status supported, confidence 0.90, 1 evidence, stale (2026-07-08T14:54:13.000Z))
 - [The Five Dysfunctions of a Team](../entities/five-dysfunctions-of-a-team.md): `claim.five-dysfunctions.framework`: 五大dysfunction模型：Trust→Conflict→Commitment→Accountability→Results (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
+- [tradingagents](../entities/tradingagents.md): `claim.tradingagents.2026-07-17.688248-sell`: 2026-07-17 TradingAgents 多智能体分析：688248.SS（南网科技）—— SELL 评级。33次LLM调用全部200 OK。投资组合经理终裁清仓，等估值回归。详见 entities/688248.SH_南网科技.md (status active, confidence 0.85, 1 evidence, stale (2026-07-17T12:56:09.722Z))
 - [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.workflow`: TradingAgents通过激进的分析师、保守的分析师和中性的观察者三方辩论，结合Research Manager汇总决策，最终输出评级、目标价、时间窗口 (status verified, confidence 0.95, 1 evidence, stale (2026-06-18T00:00:00Z))
 - [TradingAgents 评估流程](../syntheses/tradingagents-评估流程.md): `claim.ta-eval.neg-data`: TradingAgents在乖宝和中宠两个案例中均发现了单一分析师忽略的负面数据：FCF为负、营业利润率恶化、借款激增 (status verified, confidence 0.90, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [中信证券 (600030.SS)](../entities/600030.SS_中信证券.md): `claim.600030.SS.peg-undervalued`: PEG 0.17 极度低估，Forward PE 10.92，预期 EPS 增长 20.7% (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
@@ -209,6 +217,12 @@ updatedAt: 2026-10-11T08:28:49.063Z
 - [兴森科技 (002436.SZ)](../entities/兴森科技.md): `claim.002436_SZ.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [华龙](../entities/华龙-华夏基金.md): `claim.华龙.001`: 华夏基金基金经理，2016年7月加入华夏基金数量投资部，2022年8月起管理上证50AH优选指数(501050)，任职期间收益+28.72%（截至2026年6月2日） (status supported, confidence 0.80, 1 evidence, stale (2026-06-27T10:55:00.000Z))
 - [华龙](../entities/华龙-华夏基金.md): `claim.华龙.002`: 管理多只ETF产品，包括沪深300增强、中证2000、创业板综合等，属于华夏基金量化团队中坚力量 (status supported, confidence 0.70, 1 evidence, stale (2026-06-27T10:55:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.essence`: 买这只ETF = 买"中国AI算力+国产替代"双驱动的全产业链龙头组合 (status supported, confidence 0.90, 1 evidence, stale (2026-07-14T01:05:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.high-purity`: 中华半导体芯片(990001) 是同类指数中半导体纯度最高的，要求主营业务收入须来自半导体 (status supported, confidence 0.90, 1 evidence, stale (2026-07-14T01:05:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.ai-compute-thesis`: AI算力国产替代是当前最强主线：美光2500亿美元美国投资+Meta 9月AI芯片量产+国产模型Day0适配国产芯片 (status supported, confidence 0.85, 2 evidence, stale (2026-07-14T01:05:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.price-correction`: 2026-01-22 高点19.75 → 2026-07-13 13.81，回撤30%，3天累计跌10.9% (status supported, confidence 0.95, 1 evidence, stale (2026-07-14T01:05:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.extreme-valuation`: 指数PE-TTM 174.91 处历史绝对高位，需业绩兑现支撑 (status supported, confidence 0.85, 1 evidence, stale (2026-07-14T01:05:00.000Z))
+- [国泰CES半导体芯片ETF (512760.SS)](../entities/512760.SS_国泰CES半导体芯片ETF.md): `claim.512760.SS.institutional-inflow`: YTD份额+47% / 规模+40%，机构资金持续大举进场 (status supported, confidence 0.90, 1 evidence, stale (2026-07-14T01:05:00.000Z))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394.SZ.optical-device-1st`: 全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先 (status supported, confidence 0.95, 1 evidence, stale (2026-05-29))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394.SZ.pe-extreme`: PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [天孚通信 (300394.SZ)](../entities/天孚通信.md): `claim.300394_SZ.bull-case`: 全球光器件市占率第一（11.7%），英伟达CPO核心供应商，1.6T光引擎量产全球领先，但PE 140x+已严重透支未来2-3年增长预期，2026年中报是核心验证节点。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
@@ -228,6 +242,20 @@ updatedAt: 2026-10-11T08:28:49.063Z
 - [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim.petfood.ta-ratings`: 宠物食品板块2026年中双标的TradingAgents评级均偏负面：乖宝SELL、中宠Underweight (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim.petfood.fcf-alert`: 板块共同警报：乖宝FCF-3.75亿、中宠FCF-4.08亿，自由现金流双负 (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
 - [宠物食品板块 2026年中分析](../syntheses/宠物食品板块-2026年中分析.md): `claim-3`: 乖宝营业利润率16.8%恶化至11.4%(-32%)，中宠净利率8.26%腰斩至4.77%(-42%) (status verified, confidence 0.95, 2 evidence, stale (2026-06-18T00:00:00Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.death-cross`: 50 SMA(30.74)与200 SMA(40.15)死亡交叉持续扩大，技术面最强烈看空信号 (status supported, confidence 0.90, 1 evidence, stale (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.storage-crisis`: 存储芯片危机至少持续至2027年，手机利润修复周期以年为单位 (status supported, confidence 0.85, 1 evidence, stale (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.q1-deterioration`: Q1净利润腰斩43-57%、手机出货-20%、EV交付环比-44%，基本面恶化信号明确 (status supported, confidence 0.90, 1 evidence, stale (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK)](../entities/1810.HK_小米集团.md): `claim.1810.HK.cash-buffer`: 净现金650亿人民币+管理层回购61.7亿港元提供下行保护，排除Sell评级 (status supported, confidence 0.85, 1 evidence, stale (2026-07-17T13:26:10.976Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ta-20260717.underweight`: 2026-07-17 TradingAgents 评级 Underweight，目标减仓至 1.5% 以下，VWAP 24.74 硬止损 (status active, confidence 0.95, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-20260717.hold`: 2026-07-17 ai-berkshire 四大师框架综合评级：持有/观望，概率加权目标价 HK$27.8，中性情景 28.9，安全边际有限 (status active, confidence 0.90, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.dual-framework-divergence`: 双框架核心分歧：TradingAgents 看重边际恶化（FCF断崖/库存/竞争），建议减仓；ai-berkshire 看重绝对盈利水平和长期趋势（利润 416 亿/毛利率持续改善），建议持有 (status active, confidence 0.85, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.cashflow-deterioration`: 经营现金流连续两年收缩：413→392→341 亿港元（-17%），自由现金流从 350 亿断崖至 TTM 77 亿 (status fact, confidence 0.95, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.inventory-risk`: 809 亿存货中消费电子制成品占主力，保守派压力测试：10% 减值冲击 EPS 约 0.32 港元 (status active, confidence 0.85, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.apple-ai-threat`: 苹果 AI 入华接入阿里 Qwen 和百度，对小米 4000 元以上高端化形成降维打击 (status active, confidence 0.85, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.death-cross-20260717`: 50/200 SMA 死亡交叉延续，200 日线 36.16 港元仍下行 (status supported, confidence 0.90, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.net-cash-buffer`: 净现金 1,077 亿港元（占市值 17%+）+ 管理层 61.7 亿回购 (status fact, confidence 0.95, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-net-profit-recovery`: 2025 年净利润 416 亿，从 2022 年 25 亿暴增 16 倍；毛利率从 17.8% 持续改善至 22.3% (status fact, confidence 0.95, 1 evidence, stale (2026-07-17T13:34:20.865Z))
+- [小米集团 (1810.HK) 投资跟踪](../syntheses/小米集团-1810-hk-投资跟踪.md): `claim.1810.HK.ab-moat-scale`: 护城河：规模效应 ⭐⭐⭐⭐⭐（全球第三、年出货 1.5 亿）、IoT 网络效应 ⭐⭐⭐⭐、但品牌定价权弱 ⭐⭐ (status active, confidence 0.85, 1 evidence, stale (2026-07-17T13:34:20.865Z))
 - [技术螃蟹化 (Technocarcinization)](../entities/technocarcinization.md): `claim.technocarcinization.definition`: Cory Doctorow's theory that all tech platforms inevitably converge towards high surveillance and high control, like Facebook (status supported, confidence 0.85, 1 evidence, stale (2026-07-03T13:00:00Z))
 - [技术螃蟹化 (Technocarcinization)](../entities/technocarcinization.md): `claim.technocarcinization.apple`: Apple has added pervasive ad tracking to iPhones and blocked ICE Block app, contradicting its privacy narrative (status supported, confidence 0.80, 1 evidence, stale (2026-07-03T13:00:00Z))
 - [投资研究资源完整版](../entities/investment-research-resources.md): `claim.invest-resources.comprehensive`: 12本书+4博客+5数据源的完整投资研究清单 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
@@ -248,11 +276,6 @@ updatedAt: 2026-10-11T08:28:49.063Z
 - [湖北宜化 (000422.SZ)](../entities/湖北宜化.md): `claim.000422_SZ.bull-case`: 宜昌国资委控股，2025年净利润8.89亿元（同比-16.74%）但保持盈利。RSI 19.75严重超卖、KDJ J值-17.99，技术面反弹概率高。磷酸二铵产能126万吨全国第四，春耕旺季提供支撑。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [湖北宜化 (000422.SZ)](../entities/湖北宜化.md): `claim.000422_SZ.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [湖北宜化 (000422.SZ)](../entities/湖北宜化.md): `claim.000422_SZ.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
-- [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500.SS.valuation-low`: 跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
-- [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500.SS.us-biotech-risk`: 美国生物安全法案是悬而未决的灰犀牛，对CXO/生物科技出口有潜在冲击 (status supported, confidence 0.70, 1 evidence, stale (2026-05-29))
-- [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.bull-case`: 跟踪中证生物科技主题指数，处于历史低位区域，长线吸引力显现。但MACD柱状图转负、价格受压中轨下方，短期技术面空方占优。美国生物安全法案是悬而未决的灰犀牛。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
-- [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
-- [生物科技ETF (516500.SS)](../entities/生物科技ETF.md): `claim.516500_SS.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.methodology`: 中证全指中选连续3年分红+过去1年波动率最低的100只，股息率加权+行业上限20% (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.concentration`: 前8大成分股仅占17.31%（极度分散），远低于中证红利的30-40% (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
 - [红利低波100指数 (930955.SH)](../entities/红利低波100.md): `claim.930955.SS.industry-distribution`: 银行20%、公用11%、交运11%、医药10%、食品饮料9%、家电6%、建筑5%、传媒5%（8大行业占78%） (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))

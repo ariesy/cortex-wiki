@@ -126,6 +126,5 @@ relationships:
 
 ### Related Pages
 
-- [上证50AH优选指数A (501050.SS)](../entities/上证50AH优选指数A.md)
 - [华龙](../entities/华龙-华夏基金.md)
 <!-- openclaw:wiki:related:end -->

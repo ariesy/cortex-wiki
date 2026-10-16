@@ -39,7 +39,7 @@ tracking:
     status: worsening
     note: Q2单季净赎回约10%（A类8.33亿份，C类0.16亿份）
   - indicator: 指数PE
-    latest_value: "10.14（分位66.9%）"
+    latest_value: 10.14（分位66.9%）
     latest_date: 2026-07-31
     status: neutral
     note: 绝对便宜，相对自身历史中高位；PB 1.20分位75.5%
@@ -49,22 +49,22 @@ tracking:
     status: stable
     note: 高于10年国债约1pp，有债底；注意H股股息税20%侵蚀
   - indicator: AH溢价(HSAHP)
-    latest_value: "~122-123"
+    latest_value: ~122-123
     latest_date: 2026-08-03
     status: neutral
     note: 从2024年160+大幅收敛，溢价收敛alpha基本吃尽
   - indicator: 近7年超额(指数)
-    latest_value: "+12.6pct vs 上证50"
+    latest_value: +12.6pct vs 上证50
     latest_date: 2026-08-03
     status: stable
     note: 50AH优选+14.63% vs 上证50+2.01%；但跑输沪深300(+30.16%)
   - indicator: 场内价格(2026-08-03)
-    latest_value: "1.71（开1.73/高1.73/低1.70）"
+    latest_value: 1.71（开1.73/高1.73/低1.70）
     latest_date: 2026-08-03
     status: stable
     note: 成交量仅86,100股，流动性极低；数据商对该基金K线覆盖残缺（仅1条记录）
   - indicator: 跟踪偏离度
-    latest_value: "A类+0.62%"
+    latest_value: A类+0.62%
     latest_date: 2026-Q2
     status: stable
     note: 季报披露，符合LOF常态
@@ -88,37 +88,17 @@ reports:
     type: 因子对比
 claims:
   - id: claim.501050.tradingagents-20260803
-    text: >
-      2026-08-03 TradingAgents多智能体分析（3轮辩论）：上证50AH优选(501050)—UNDERWEIGHT。
-      技术分析师：HOLD（数据商仅1条K线，无统计意义），情绪分析师：Neutral 5.0/10（全源沉默），
-      新闻分析师：偏中性略正面（价值轮动利好），基本面分析师：数据不可用（指数基金无报表），
-      多空辩论：多头宏观顺风论证 vs 空头数据完整性硬约束（空方胜），研究经理：Underweight，
-      交易员：SELL，风控三方分歧后组合经理终裁：持仓降至2%观察仓、分2-3笔1.70-1.73减持、
-      硬止损1.62、场外资金严禁建仓、数据补齐后重审（1-3个月）。
-      Underweight源于数据商覆盖残缺（信息盲区）而非基本面恶化，不否定底层策略。
-      详见 /app/TradingAgents/reports/501050.SS_20260803_045847/complete_report.md
+    text: 2026-08-03
+      TradingAgents多智能体分析（3轮辩论）：上证50AH优选(501050)—UNDERWEIGHT。技术分析师HOLD（仅1条K线）、情绪分析Neutral
+      5.0/10（全源沉默）、基本面数据不可用；空方以数据完整性硬约束胜出，组合经理终裁持仓降至2%观察仓，分2-3笔在1.70-1.73减持，硬止损1.62，场外资金严禁建仓，待数据补齐后1-3个月重审。Underweight源于数据商覆盖残缺而非基本面恶化。
     status: supported
     confidence: 0.8
     evidence:
       - kind: report
         sourceId: /app/TradingAgents/reports/501050.SS_20260803_045847/complete_report.md
         weight: 0.9
-    updatedAt: 2026-08-03T05:20:00.000Z
-  - text: 2026-08-03四大师研究：指数PE 10.14（分位66.9%）、PB 1.20（分位75.5%）、股息率2.98%、ROE 11.83%；AH溢价收敛至~122-123；7年跑赢上证50约12.6pct但跑输沪深300；0.60%综合费率偏高；15亿规模Q2净赎回约10%
-    status: supported
-    confidence: 0.9
-    evidence:
-      - kind: ai-berkshire-report
-        sourceId: /app/ai-berkshire/reports/上证50AH/上证50AH-投资研究.md
-        path: /app/ai-berkshire/reports/上证50AH/上证50AH-投资研究.md
-        weight: 0.95
-        note: 蛋卷估值+中证指数官方编制方案+恒生HSAHP+华夏2026Q2季报交叉验证
-  - text: 2026年6月分析报告：501050规模15.43亿元，A类净值1.698(2026-06-08)，前十大含贵州茅台(9.76%)、中国平安H(6.80%)、紫金矿业H(5.80%)等，H股占比约40%，跟踪误差优秀(0.01%/月)
-    status: supported
-    confidence: 0.8
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/上证50AH/上证50AH-投资研究.md
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-03-0935-b00f1a2b
         weight: 0.8
 relationships:
   - targetId: entity:沪深300ETF
@@ -171,12 +151,11 @@ relationships:
     kind: etf-component
     weight: 0.6
     note: 第八大重仓（2.65%，纯A股）
-updatedAt: 2026-08-03T04:00:00.000Z
+updatedAt: 2026-10-16T13:48:02.032Z
 sourceIds:
   - /app/TradingAgents/reports/501050.SS_20260803_045847/complete_report.md
   - /home/ariesy/.openclaw/workspace/research/上证50AH优选_501050.SS/2026-08-03_tradingagents_summary.md
-  - /app/ai-berkshire/reports/上证50AH/上证50AH-投资研究.md
-  - source.bridge.workspace-142ea9a2.memory-2026-06-10-1237-65cf7423
+  - source.bridge.workspace-142ea9a2.memory-2026-08-03-0935-b00f1a2b
 ---
 
 # 上证50AH优选指数A (501050.SS)
@@ -305,10 +284,5 @@ sourceIds:
 <!-- openclaw:wiki:related:start -->
 ### Sources
 
-- [Memory Bridge (main): 2026-06-10-1237](../sources/bridge-workspace-142ea9a2-memory-2026-06-10-1237-65cf7423.md)
-
-### Related Pages
-
-- [华龙](华龙-华夏基金.md)
-- [实体提取汇总 2026-06-12](../syntheses/entity-extract-2026-06-12.md)
+- [Memory Bridge (main): 2026-08-03-0935](../sources/bridge-workspace-142ea9a2-memory-2026-08-03-0935-b00f1a2b.md)
 <!-- openclaw:wiki:related:end -->

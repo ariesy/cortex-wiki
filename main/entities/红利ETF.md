@@ -1,231 +1,229 @@
 ---
 pageType: entity
 id: entity:红利ETF
-
 entityType: investment_stock
 entity_type: investment_etf
-
 privacyTier: public
 sourceIds:
-- /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-- research/中证红利ETF_515080.SS/2026-05-07_summary.md
-- syntheses/a股因子etf对比研究-2026-06-25.md
+  - /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+  - research/中证红利ETF_515080.SS/2026-05-07_summary.md
+  - syntheses/a股因子etf对比研究-2026-06-25.md
+  - source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
 ticker: 515080.SS
-
 name: 红利ETF
 sector: 高股息/红利策略
-
-last_updated: '2026-08-03'
+last_updated: 2026-08-03
 status: actively_tracking
-
-current_view: '跟踪中证红利指数(000922)，股息率加权、年度调仓(12月第二个周五下一交易日,换手≤20%)、单股权重≤10%、无行业限制。2026-08-03四大师综合分析：股息率4.08-4.15%处近10年最低分位(0.14%)，PE市值加权8.85(97.93%分位,盈利周期底部所致)、官方口径10.91，PB 0.85(90.61%分位,破净)；10Y国债1.71%，股债利差2.44pct。前十大权重19.19%(能源占7席、银行0席)，银行+煤炭+交运合计约52-53%，公用事业仅0.4%——"金融+周期"主导，非市场印象的"公用事业红利"。产品要素优秀：规模124.87亿、综合费率0.30%(同业最低档)、跟踪误差0.03-0.11%(同类第一梯队)、成立以来17次分红累计0.42元/份。综合评级中性偏谨慎(6.0/10)：防御底仓工具而非追高标的，当前不宜重仓追入，宜分批/回调配置，买点锚在股息率≥4.5%区间。
-
-  '
+current_view: |
+  跟踪中证红利指数(000922)，股息率加权、年度调仓(12月第二个周五下一交易日,换手≤20%)、单股权重≤10%、无行业限制。2026-08-03四大师综合分析：股息率4.08-4.15%处近10年最低分位(0.14%)，PE市值加权8.85(97.93%分位,盈利周期底部所致)、官方口径10.91，PB 0.85(90.61%分位,破净)；10Y国债1.71%，股债利差2.44pct。前十大权重19.19%(能源占7席、银行0席)，银行+煤炭+交运合计约52-53%，公用事业仅0.4%——"金融+周期"主导，非市场印象的"公用事业红利"。产品要素优秀：规模124.87亿、综合费率0.30%(同业最低档)、跟踪误差0.03-0.11%(同类第一梯队)、成立以来17次分红累计0.42元/份。综合评级中性偏谨慎(6.0/10)：防御底仓工具而非追高标的，当前不宜重仓追入，宜分批/回调配置，买点锚在股息率≥4.5%区间。
 catalysts:
-- date: 2026-08-03
-
-  event: 2026-08-03 ai-berkshire四大师综合分析（指数ETF适配版），综合评级6.0/10中性偏谨慎
-  type: 深度研究
-
-  direction: 中性
-  status: completed
-- date: 2026-06-25
-
-  event: 2026-06-25群聊因子ETF对比：与沪深300/300价值/红利低波100/50AH 5个产品维度对比
-  type: 群聊讨论
-
-  direction: 中性
-  status: completed
-- date: 2026-05
-
-  event: 1.68元阻力位能否有效突破
-  type: 验证节点
-
-  direction: 待观察
-  status: pending
-- date: 2026-05
-
-  event: 银行/能源股财报（分红能力）
-  type: 财报
-
-  direction: 待观察
-  status: pending
-- date: 2026-05
-
-  event: 国债收益率走势（无风险利率）
-  type: 政策
-
-  direction: 待观察
-  status: pending
+  - date: 2026-08-03
+    event: 2026-08-03 ai-berkshire四大师综合分析（指数ETF适配版），综合评级6.0/10中性偏谨慎
+    type: 深度研究
+    direction: 中性
+    status: completed
+  - date: 2026-06-25
+    event: 2026-06-25群聊因子ETF对比：与沪深300/300价值/红利低波100/50AH 5个产品维度对比
+    type: 群聊讨论
+    direction: 中性
+    status: completed
+  - date: 2026-05
+    event: 1.68元阻力位能否有效突破
+    type: 验证节点
+    direction: 待观察
+    status: pending
+  - date: 2026-05
+    event: 银行/能源股财报（分红能力）
+    type: 财报
+    direction: 待观察
+    status: pending
+  - date: 2026-05
+    event: 国债收益率走势（无风险利率）
+    type: 政策
+    direction: 待观察
+    status: pending
 tracking:
-- indicator: 指数股息率
-
-  latest_value: '4.08-4.15%（近10年最低分位0.14%）'
-  latest_date: '2026-07-31'
-
-  status: worsening
-  note: 7月指数大涨11%致股息率被动下行，安全垫近10年最薄；均值5.24%，历史区间4.08-6.89%
-- indicator: 指数PE-TTM
-
-  latest_value: '8.85倍市值加权（97.93%分位）／官方口径10.91'
-  latest_date: '2026-07-31'
-
-  status: stable
-  note: 高PE分位本质是盈利周期底部(E下滑)，非股价泡沫；PB 0.85破净更干净
-- indicator: 指数PB
-
-  latest_value: '0.85（市值加权，90.61%分位，口径分歧50-90%）'
-  latest_date: '2026-07-31'
-
-  status: stable
-  note: 绝对水平破净，历史均值0.761
-- indicator: 基金规模
-
-  latest_value: '124.87亿元（份额81.982亿份×净值1.5231，验算偏差0.00%）'
-  latest_date: '2026-06-30'
-
-  status: improving
-  note: 跟踪中证红利指数规模最大ETF，2026年5月单只突破百亿
-- indicator: 股债利差
-
-  latest_value: '2.44pct（4.15% vs 10Y国债1.71%）'
-  latest_date: '2026-07-31'
-
-  status: worsening
-  note: 低于2025-12的3.28pct，低于中信"击球区"3.5pct阈值
-
-conclusion: '中性偏谨慎(6.0/10)。防御底仓工具、非追高标的：当前股息率近10年最低分位(0.14%)、7月已反弹11%之后追入性价比低。三情景(1年)：悲观30%(-11%~-16%，股息率回归均值5.24%对应指数约4,395点/-20.8%)、中性45%(+2%~+9%)、乐观25%(+14%~+19%)，概率加权约+2%~+5%。策略：空仓者不急于追高，等股息率≥4.8%(指数约4,800-5,000点)或回调至5,000点附近建底仓，或先1/3小额建仓分批加；持仓者持有为主、股息率跌破3.8%减仓；卖出信号：股息率<3.8%、成分股分红总额连续两年负增长、利率大幅上行。适合需要稳定现金流的长期价值型投资者/组合5-15%压舱石；不适合成长型与短期交易者。历史全收益年化约11.5-12.6%(股息贡献3.8-4.3pct)，任何5年周期仅1/16为负。长期逻辑(李录)：低利率+资产荒+老龄化+新国九条分红制度化，红利是十年维度结构性受益方向，但中期估值需消化。
-
-  '
+  - indicator: 指数股息率
+    latest_value: 4.08-4.15%（近10年最低分位0.14%）
+    latest_date: 2026-07-31
+    status: worsening
+    note: 7月指数大涨11%致股息率被动下行，安全垫近10年最薄；均值5.24%，历史区间4.08-6.89%
+  - indicator: 指数PE-TTM
+    latest_value: 8.85倍市值加权（97.93%分位）／官方口径10.91
+    latest_date: 2026-07-31
+    status: stable
+    note: 高PE分位本质是盈利周期底部(E下滑)，非股价泡沫；PB 0.85破净更干净
+  - indicator: 指数PB
+    latest_value: 0.85（市值加权，90.61%分位，口径分歧50-90%）
+    latest_date: 2026-07-31
+    status: stable
+    note: 绝对水平破净，历史均值0.761
+  - indicator: 基金规模
+    latest_value: 124.87亿元（份额81.982亿份×净值1.5231，验算偏差0.00%）
+    latest_date: 2026-06-30
+    status: improving
+    note: 跟踪中证红利指数规模最大ETF，2026年5月单只突破百亿
+  - indicator: 股债利差
+    latest_value: 2.44pct（4.15% vs 10Y国债1.71%）
+    latest_date: 2026-07-31
+    status: worsening
+    note: 低于2025-12的3.28pct，低于中信"击球区"3.5pct阈值
+conclusion: |
+  中性偏谨慎(6.0/10)。防御底仓工具、非追高标的：当前股息率近10年最低分位(0.14%)、7月已反弹11%之后追入性价比低。三情景(1年)：悲观30%(-11%~-16%，股息率回归均值5.24%对应指数约4,395点/-20.8%)、中性45%(+2%~+9%)、乐观25%(+14%~+19%)，概率加权约+2%~+5%。策略：空仓者不急于追高，等股息率≥4.8%(指数约4,800-5,000点)或回调至5,000点附近建底仓，或先1/3小额建仓分批加；持仓者持有为主、股息率跌破3.8%减仓；卖出信号：股息率<3.8%、成分股分红总额连续两年负增长、利率大幅上行。适合需要稳定现金流的长期价值型投资者/组合5-15%压舱石；不适合成长型与短期交易者。历史全收益年化约11.5-12.6%(股息贡献3.8-4.3pct)，任何5年周期仅1/16为负。长期逻辑(李录)：低利率+资产荒+老龄化+新国九条分红制度化，红利是十年维度结构性受益方向，但中期估值需消化。
 reports:
-- path: research/中证红利ETF_515080.SS/2026-05-07_summary.md
-
-  date: '2026-05-07'
-  type: ETF
-- path: syntheses/a股因子etf对比研究-2026-06-25.md
-
-  date: '2026-06-25'
-  type: 因子对比
-- path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-
-  date: '2026-08-03'
-  type: 四大师综合分析
+  - path: research/中证红利ETF_515080.SS/2026-05-07_summary.md
+    date: 2026-05-07
+    type: ETF
+  - path: syntheses/a股因子etf对比研究-2026-06-25.md
+    date: 2026-06-25
+    type: 因子对比
+  - path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+    date: 2026-08-03
+    type: 四大师综合分析
 claims:
-- id: claim.515080.SS.dividend-yield-2026-08
-
-  text: 2026-07-31股息率4.08-4.15%为近10年最低(分位0.14%)，安全垫最薄；相对10Y国债1.71%利差2.44pct
-  status: supported
-
-  confidence: 0.9
-  evidence:
-  - kind: financial-data
-
-    sourceId: source.research.红利ETF
-    path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-
-    lines: 估值快照
-    weight: 0.9
-- id: claim.515080.SS.composition-2026-08
-
-  text: 成分结构"金融+周期"主导：银行+煤炭+交运约52-53%，前十大权重19.19%能源占7席银行0席，公用事业仅0.4%(长江电力2024-12已调出)
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: financial-data
-
-    sourceId: source.research.红利ETF
-    path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-
-    lines: 行业分布
-    weight: 0.85
-- id: claim.515080.SS.product-quality-2026-08
-
-  text: 招商中证红利ETF产品要素优秀：规模124.87亿(最大)、综合费率0.30%(最低档)、跟踪误差0.03-0.11%(第一梯队)、17次分红累计0.42元/份、季度评估分红
-  status: supported
-
-  confidence: 0.9
-  evidence:
-  - kind: financial-data
-
-    sourceId: source.research.红利ETF
-    path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-
-    lines: 管理层评估
-    weight: 0.9
-- id: claim.515080.SS.verdict-2026-08
-
-  text: 综合评级6.0/10中性偏谨慎：防御底仓工具而非追高标的，当前不宜重仓追入，宜分批/回调配置，买点锚在股息率≥4.5%
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: analysis
-
-    sourceId: source.research.红利ETF
-    path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
-
-    lines: 综合决策备忘录
-    weight: 0.85
-- id: claim.515080.SS.factor-positioning-2026-06-25
-
-  text: 2026-06-25因子对比研究定位：选样范围全A(非限沪深300)，行业更分散(含中盘红利股)；本质是"现金流型"价值(非"估值修复型")
-  status: supported
-
-  confidence: 0.85
-  evidence:
-  - kind: synthesis-summary
-
-    sourceId: source.syntheses.factor-etf-comparison-2026-06-25
-    path: syntheses/a股因子etf对比研究-2026-06-25.md
-
-    lines: 300价值vs红利ETF对比
-    weight: 0.85
+  - id: claim.515080.SS.dividend-yield-2026-08
+    text: 2026-07-31股息率4.08-4.15%为近10年最低(分位0.14%)，安全垫最薄；相对10Y国债1.71%利差2.44pct
+    status: supported
+    confidence: 0.9
+    evidence:
+      - kind: financial-data
+        sourceId: source.research.红利ETF
+        path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+        lines: 估值快照
+        weight: 0.9
+  - id: claim.515080.SS.composition-2026-08
+    text: 成分结构"金融+周期"主导：银行+煤炭+交运约52-53%，前十大权重19.19%能源占7席银行0席，公用事业仅0.4%(长江电力2024-12已调出)
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: financial-data
+        sourceId: source.research.红利ETF
+        path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+        lines: 行业分布
+        weight: 0.85
+  - id: claim.515080.SS.product-quality-2026-08
+    text: 招商中证红利ETF产品要素优秀：规模124.87亿(最大)、综合费率0.30%(最低档)、跟踪误差0.03-0.11%(第一梯队)、17次分红累计0.42元/份、季度评估分红
+    status: supported
+    confidence: 0.9
+    evidence:
+      - kind: financial-data
+        sourceId: source.research.红利ETF
+        path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+        lines: 管理层评估
+        weight: 0.9
+  - id: claim.515080.SS.verdict-2026-08
+    text: 综合评级6.0/10中性偏谨慎：防御底仓工具而非追高标的，当前不宜重仓追入，宜分批/回调配置，买点锚在股息率≥4.5%
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: analysis
+        sourceId: source.research.红利ETF
+        path: /app/ai-berkshire/reports/中证红利ETF/中证红利ETF-四大师综合分析-20260803.md
+        lines: 综合决策备忘录
+        weight: 0.85
+  - id: claim.515080.SS.factor-positioning-2026-06-25
+    text: 2026-06-25因子对比研究定位：选样范围全A(非限沪深300)，行业更分散(含中盘红利股)；本质是"现金流型"价值(非"估值修复型")
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: synthesis-summary
+        sourceId: source.syntheses.factor-etf-comparison-2026-06-25
+        path: syntheses/a股因子etf对比研究-2026-06-25.md
+        lines: 300价值vs红利ETF对比
+        weight: 0.85
+  - id: claim.515080.SS.verdict-2026-05-07
+    text: 2026-05-07 TradingAgents 多智能体辩论分析（标准深度/3轮辩论）最终评级：持有（HOLD）。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.85
+  - id: claim.515080.SS.technical-2026-05-07
+    text: 技术面（2026-05-07）：RSI(14)=64.4 中性偏强；MACD +0.008
+      由负转正但远低于前高+0.0207；ATR(14)=0.0171 较0.025大幅压缩；VWMA=1.6106
+      提供支撑；关键阻力1.68元、关键支撑50日均线约1.615元（失守转看空）。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.85
+  - id: claim.515080.SS.fundamental-2026-05-07
+    text: 基本面（2026-05-07）：指数PE(TTM) 8.85倍处3年分位99.72%；股息率约4.9% vs
+      国债1.77%，息差3.13pct；行业分布银行约25%/能源约20%/制造业约29%；近15次季度分红、2025年合计0.065元/份；规模94.34亿元。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.85
+  - id: claim.515080.SS.fund-flow-2026-05-07
+    text: 资金面（2026-05-07）：4月累计吸金约11亿元，近20日净流入11.55亿元；成长股反弹期间资金持续流入红利ETF，规模创新高（94亿）。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.85
+  - id: claim.515080.SS.debate-verdict-2026-05-07
+    text: 多空辩论结论：研究经理裁决保守派胜出。技术面空方胜（MACD远低于前高、顶背离是确切前置风险）；波动率中立偏空（低波动在阻力位附近可能预示买盘枯竭）；基本面空方胜（低利率逻辑已被充分定价）；风控空方胜（窄止损策略在高波动ETF上是赌博）。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.85
+  - id: claim.515080.SS.bear-case-2026-05-07
+    text: 空方核心论据：技术顶背离风险（MACD+0.008远低于前高+0.0207）；1.68元强阻力压制；低波动率陷阱（ATR压缩至0.0171可能预示买盘枯竭）；估值充分定价；宏观不确定性（美联储内部分歧、AI资金虹吸）。
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.8
+  - id: claim.515080.SS.bull-case-2026-05-07
+    text: 多方核心论据：MACD周期性转正是转折起点；ATR压缩可能预示即将突破；股债利差保护显著(4.9% vs 1.77%)；规模创新高且资金持续流入。
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-07-0055-6ee63358
+        weight: 0.8
 relationships:
-- targetId: entity:300价值ETF
-
-  targetTitle: 300价值ETF (512370)
-  kind: peer-comparison
-
-  weight: 0.9
-  note: 同样是价值风格，但选样范围不同(全A vs 沪深300)，银行权重差异大(0席前十大 vs 45-55%)
-- targetId: entity:红利低波100
-
-  targetTitle: 红利低波100 (930955)
-  kind: peer-comparison
-
-  weight: 0.9
-  note: 中证红利基础上叠加"低波动"过滤，波动率显著更低；512890规模312.9亿更大但费率0.60%
-- targetId: entity:沪深300ETF
-
-  targetTitle: 沪深300ETF (510300)
-  kind: peer-comparison
-
-  weight: 0.85
-  note: 大盘底仓基准，2026 YTD中证红利+1.37% vs 沪深300 -0.90%
-- targetId: entity:上证50AH
-
-  targetTitle: 上证50AH优选 (501050)
-  kind: peer-comparison
-
-  weight: 0.7
-  note: 同为防御型配置选项，50AH含AH价差轮动
-- targetId: 招商银行
-
-  targetTitle: 招商银行
-  kind: etf-component
-
-  weight: 0.7
-  note: 银行板块为指数第一大行业(22%)，但股息率加权后无银行股进入前十大
-- targetId: 中远海控
-
-  targetTitle: 中远海控
-  kind: etf-component
-
-  weight: 0.8
-  note: 前十大权重第一(2.85%，2026-06-30)，集运景气是核心变量
-updatedAt: "2026-08-03"
+  - targetId: entity:300价值ETF
+    targetTitle: 300价值ETF (512370)
+    kind: peer-comparison
+    weight: 0.9
+    note: 同样是价值风格，但选样范围不同(全A vs 沪深300)，银行权重差异大(0席前十大 vs 45-55%)
+  - targetId: entity:红利低波100
+    targetTitle: 红利低波100 (930955)
+    kind: peer-comparison
+    weight: 0.9
+    note: 中证红利基础上叠加"低波动"过滤，波动率显著更低；512890规模312.9亿更大但费率0.60%
+  - targetId: entity:沪深300ETF
+    targetTitle: 沪深300ETF (510300)
+    kind: peer-comparison
+    weight: 0.85
+    note: 大盘底仓基准，2026 YTD中证红利+1.37% vs 沪深300 -0.90%
+  - targetId: entity:上证50AH
+    targetTitle: 上证50AH优选 (501050)
+    kind: peer-comparison
+    weight: 0.7
+    note: 同为防御型配置选项，50AH含AH价差轮动
+  - targetId: 招商银行
+    targetTitle: 招商银行
+    kind: etf-component
+    weight: 0.7
+    note: 银行板块为指数第一大行业(22%)，但股息率加权后无银行股进入前十大
+  - targetId: 中远海控
+    targetTitle: 中远海控
+    kind: etf-component
+    weight: 0.8
+    note: 前十大权重第一(2.85%，2026-06-30)，集运景气是核心变量
+updatedAt: 2026-10-16T13:25:59.962Z
 ---
+
 # 红利ETF (515080.SS)
 
 ## 基础数据
@@ -312,5 +310,7 @@ updatedAt: "2026-08-03"
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-05-07-0055](../sources/bridge-workspace-142ea9a2-memory-2026-05-07-0055-6ee63358.md)
 <!-- openclaw:wiki:related:end -->
