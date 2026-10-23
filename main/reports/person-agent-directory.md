@@ -3,7 +3,7 @@ pageType: report
 id: report.person-agent-directory
 title: Person Agent Directory
 status: active
-updatedAt: 2026-09-25T13:02:33.953Z
+updatedAt: 2026-10-23T13:05:47.865Z
 ---
 
 # Person Agent Directory
@@ -16,6 +16,6 @@ updatedAt: 2026-09-25T13:02:33.953Z
 - [姚文海](../entities/yao-wenhai.md): id entity.person.yao-wenhai; freshness stale (2026-05-29)
 - [朱凌霄](../entities/zhu-lingxiao.md): id entity.person.zhu-lingxiao; freshness stale (2026-05-29)
 - [朱琨](../entities/zhu-kun.md): id entity.person.zhu-kun; freshness stale (2026-05-29)
-- [沃什（Kevin Walsh）](../entities/沃什.md): id person.kevin-walsh; freshness stale (2026-06-27T10:44:00.000Z)
+- [沃什（Kevin Walsh）](../entities/沃什.md): id person.kevin-walsh; freshness fresh (2026-10-23T13:05:15.548Z)
 - [陆天一笑（canaaan）](../entities/canaan.md): id entity.person.canaan; freshness stale (2026-05-29)
 <!-- openclaw:wiki:person-agent-directory:end -->

@@ -245,4 +245,8 @@ claims:
 
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md)
 - [储能电池ETF (159566.SZ) · 2026-07-11 TradingAgents 多智能体分析快照](../syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md)
+
+### Related Pages
+
+- [储能电池ETF (159566.SZ)](159566.SZ_储能电池ETF.md)
 <!-- openclaw:wiki:related:end -->

@@ -3,7 +3,7 @@ pageType: report
 id: report.claim-health
 title: Claim Health
 status: active
-updatedAt: 2026-10-16T13:23:55.800Z
+updatedAt: 2026-10-23T13:05:47.865Z
 ---
 
 # Claim Health
@@ -12,7 +12,7 @@ updatedAt: 2026-10-16T13:23:55.800Z
 <!-- openclaw:wiki:claim-health:start -->
 - Claims missing evidence: 6
 - Contested claims: 4
-- Stale or unknown claims: 266
+- Stale or unknown claims: 267
 
 ### Missing Evidence
 - [恒生科技ETF (513180)](../entities/恒生科技ETF-513180.md): `claim.hstech.index-profile`: 恒生科技指数（HSTECH）为香港上市 30 家科技主题公司的流通市值加权指数，覆盖互联网、AI、芯片、新能源汽车；2020 年 7 月推出，基日 2014-12-31、基值 3000 点。 (status supported, confidence 0.85, missing evidence, fresh (2026-10-16T13:15:37.048Z))
@@ -262,8 +262,6 @@ updatedAt: 2026-10-16T13:23:55.800Z
 - [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.bull-case`: 股息率4.6%提供底部支撑，零售财富管理Q1同比+25%，PB 0.85x历史底部 (status supported, confidence 0.85, 1 evidence, stale (2026-06-26T22:59:21.250Z))
 - [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.bear-case`: 技术面死亡交叉确立，ROE从14.6%持续下滑至11.92%，6.92%股息率是收益率陷阱 (status supported, confidence 0.80, 1 evidence, stale (2026-06-26T22:59:21.250Z))
 - [招商银行 (3968.HK)](../entities/招商银行.md): `claim.3968.HK.key-metric`: ROE 14.6%持续下滑至11.92%，PB 0.92x，股息率6.92%，关注净息差环比企稳 (status supported, confidence 0.85, 1 evidence, stale (2026-06-26T22:59:21.250Z))
-- [沃什（Kevin Walsh）](../entities/沃什.md): `claim.kevin-walsh.fed-chair-2026`: Kevin Walsh于2026年出任美联储主席，是美联储历史上最年轻的理事（35岁） (status supported, confidence 0.90, 1 evidence, stale (2026-06-27T10:44:00.000Z))
-- [沃什（Kevin Walsh）](../entities/沃什.md): `claim.kevin-walsh-policy风格`: 沃什上任后删除了前瞻指引，设立5个工作组改革美联储，政策风格被认为倾向鹰派 (status supported, confidence 0.85, 1 evidence, stale (2026-06-27T10:44:00.000Z))
 - [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.base`: 跟踪沪深300指数，按市值+流动性选A股最大300只，行业均衡 (status supported, confidence 0.95, 1 evidence, stale (2026-06-25))
 - [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.mixed-style`: 沪深300=成长+价值混合风格，无单一因子暴露 (status supported, confidence 0.90, 1 evidence, stale (2026-06-25))
 - [沪深300ETF (510300.SS)](../entities/沪深300ETF.md): `claim.510300.SS.industry-balanced`: 行业覆盖均衡：金融25-30%、消费+科技+医药~40%、工业+其他~30% (status supported, confidence 0.85, 1 evidence, stale (2026-06-25))
@@ -290,6 +288,9 @@ updatedAt: 2026-10-16T13:23:55.800Z
 - [胜宏科技 (300476.SZ)](../entities/胜宏科技.md): `claim.300476_SZ.bull-case`: 全球AI算力PCB龙头，深度绑定英伟达，业绩戴维斯双击已兑现，但PE 70-85倍高度定价AI渗透率乐观预期，2026年中报是下一个验证节点。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
 - [胜宏科技 (300476.SZ)](../entities/胜宏科技.md): `claim.300476_SZ.bear-case`: 技术面偏弱，基本面存在不确定性，需等待验证信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [胜宏科技 (300476.SZ)](../entities/胜宏科技.md): `claim.300476_SZ.key-metric`: 关键监控指标详见tracking字段，定期跟踪验证 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))
+- [贵州茅台（600519）投资跟踪](../entities/贵州茅台_600519.md): `claim.600519.SS.bull-case`: 高端白酒绝对龙头，品牌定价权+地理禀赋无可复制，2026年飞天提价+直销放量驱动复苏 (status supported, confidence 0.85, 1 evidence, stale (2026-07-20))
+- [贵州茅台（600519）投资跟踪](../entities/贵州茅台_600519.md): `claim.600519.SS.bear-case`: 存货增速(+58%)远超营收增速(+35%)，供需失衡预警，盈利下滑苗头已现 (status supported, confidence 0.80, 1 evidence, stale (2026-07-20))
+- [贵州茅台（600519）投资跟踪](../entities/贵州茅台_600519.md): `claim.600519.SS.key-metric`: 飞天茅台一批价>950元为良性，<900元为风险信号；合同负债环比回升为积极信号 (status supported, confidence 0.85, 1 evidence, stale (2026-07-20))
 - [阳煤化工 (600691.SS)](../entities/阳煤化工.md): `claim.600691.SS.loss-reduction`: 2024年大幅减亏60-86亿，周期底部复苏初期积极信号 (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [阳煤化工 (600691.SS)](../entities/阳煤化工.md): `claim.600691.SS.pb-below1`: 破净严重（PB<1），战略转型进行中（氢能+绿色甲醇） (status supported, confidence 0.80, 1 evidence, stale (2026-05-29))
 - [阳煤化工 (600691.SS)](../entities/阳煤化工.md): `claim.600691_SS.bull-case`: 山西省国资委控股煤化工企业，持续亏损但2024年大幅减亏60-86亿出现积极信号。破净严重（PB<1），战略转型进行中（氢能+绿色甲醇）。周期底部复苏初期，不宜重仓。 (status supported, confidence 0.85, 1 evidence, stale (2026-05-29))

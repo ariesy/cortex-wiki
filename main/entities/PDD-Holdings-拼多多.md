@@ -1,108 +1,117 @@
 ---
 pageType: entity
-id: "entity:pdd-holdings"
+id: entity:pdd-holdings
 entityType: investment_stock
 entity_type: investment_stock
 privacyTier: public
-ticker: "PDD.US"
-name: "PDD Holdings (拼多多)"
-sector: "电商平台/Temu跨境电商"
-last_updated: "2026-08-04"
+ticker: PDD.US
+name: PDD Holdings (拼多多)
+sector: 电商平台/Temu跨境电商
+last_updated: 2026-08-04
 status: actively_tracking
-current_view: >-
-  全球最大C2M社交电商平台（拼多多主站）+ 全球最大跨境电商（Temu）。TTM收入4424亿（+10%），净利968亿（-13%），利润下滑主因关税+Temu重投入。股价$90.15（2026/8/3），52周区间$71.94-$139.41，YTD -20.8%。PE(TTM) 9.64x，Forward PE 8.10x，FCF Yield 12.18%，净现金占市值48.9%，估值极度压缩（历史底部）。分析师共识Buy（37位，目标价均值$116.10）。AI Berkshire四大师分析（2026-08-04）：中性情景3年+65.7%，悲观情景也不亏钱，属"下有底、上无天花板"的非对称机会。核心风险：Temu盈利假设、de minimis取消、地缘政治。核心机会：估值历史底部、现金流充裕、Temu全球化期权。
+current_view: 全球最大C2M社交电商平台（拼多多主站）+
+  全球最大跨境电商（Temu）。TTM收入4424亿（+10%），净利968亿（-13%），利润下滑主因关税+Temu重投入。股价$90.15（2026/8/3），52周区间$71.94-$139.41，YTD
+  -20.8%。PE(TTM) 9.64x，Forward PE 8.10x，FCF Yield
+  12.18%，净现金占市值48.9%，估值极度压缩（历史底部）。分析师共识Buy（37位，目标价均值$116.10）。AI
+  Berkshire四大师分析（2026-08-04）：中性情景3年+65.7%，悲观情景也不亏钱，属"下有底、上无天花板"的非对称机会。核心风险：Temu盈利假设、de
+  minimis取消、地缘政治。核心机会：估值历史底部、现金流充裕、Temu全球化期权。
 catalysts:
-  - date: "2026-08-31"
-    event: "Q2 2026财报发布"
+  - date: 2026-08-31
+    event: Q2 2026财报发布
     type: 财报
     direction: 待观察
     status: pending
   - date: ongoing
-    event: "美国de minimis政策变化"
+    event: 美国de minimis政策变化
     type: 政策
     direction: 利空
     status: pending
   - date: ongoing
-    event: "Temu海外监管进展"
+    event: Temu海外监管进展
     type: 监管
     direction: 利空
     status: pending
   - date: ongoing
-    event: "关税谈判进展"
+    event: 关税谈判进展
     type: 贸易政策
     direction: 利空
     status: pending
   - date: ongoing
-    event: "Temu盈亏平衡/回购计划信号"
+    event: Temu盈亏平衡/回购计划信号
     type: 基本面
     direction: 利好
     status: pending
 claims:
-  - id: "claim.pdd.q1-2026-profit-decline"
-    text: "PDD Q1 2026净利润125亿（-15% YoY），利润下滑主因关税冲击+Temu供应链重投入"
+  - id: claim.pdd.q1-2026-profit-decline
+    text: PDD Q1 2026净利润125亿（-15% YoY），利润下滑主因关税冲击+Temu供应链重投入
     status: confirmed
     confidence: 0.95
     evidence:
       - kind: memory-bridge
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a
         weight: 0.9
-        note: "PDD官方Q1 2026财报数据"
-    updatedAt: "2026-06-10"
-  - id: "claim.pdd.valuation-extreme"
-    text: "PDD当前PE(TTM) 9.64x，Forward PE 8.10x，P/S 2.00x，FCF Yield 12.18%，净现金占市值48.9%，估值处于历史极低水平（5年PE最低9.31x）"
+        note: PDD官方Q1 2026财报数据
+    updatedAt: 2026-06-10
+  - id: claim.pdd.valuation-extreme
+    text: PDD当前PE(TTM) 9.64x，Forward PE 8.10x，P/S 2.00x，FCF Yield
+      12.18%，净现金占市值48.9%，估值处于历史极低水平（5年PE最低9.31x）
     status: confirmed
     confidence: 0.9
     evidence:
       - kind: research-report
-        sourceId: "reports/PDD/pdd-investment-research.md"
+        sourceId: reports/PDD/pdd-investment-research.md
         weight: 0.9
-        note: "AI Berkshire四大师分析（2026-08-04），StockAnalysis+Yahoo交叉验证"
-    updatedAt: "2026-08-04"
-  - id: "claim.pdd.berkshire-verdict"
-    text: "AI Berkshire四大师结论：生意质量★★★★★、护城河★★★★☆、管理层★★★☆☆、估值★★★★★。中性情景3年目标$149.34（+65.7%），悲观情景+2.0%不亏钱。建议空仓者建仓5-10%（止损$65），持仓者<15%可加仓。最大不确定性是地缘政治而非商业竞争"
+        note: AI Berkshire四大师分析（2026-08-04），StockAnalysis+Yahoo交叉验证
+    updatedAt: 2026-08-04
+  - id: claim.pdd.berkshire-verdict
+    text: AI
+      Berkshire四大师结论：生意质量★★★★★、护城河★★★★☆、管理层★★★☆☆、估值★★★★★。中性情景3年目标$149.34（+65.7%），悲观情景+2.0%不亏钱。建议空仓者建仓5-10%（止损$65），持仓者<15%可加仓。最大不确定性是地缘政治而非商业竞争
     status: confirmed
     confidence: 0.85
     evidence:
       - kind: research-report
-        sourceId: "reports/PDD/pdd-investment-research.md"
+        sourceId: reports/PDD/pdd-investment-research.md
         weight: 0.9
-        note: "AI Berkshire四大师分析（2026-08-04）"
-    updatedAt: "2026-08-04"
-  - id: "claim.pdd.tradingagents-underweight"
-    text: "TradingAgents多智能体分析（2026-08-04）最终决策：Underweight减持，建议在$88-92反弹中减持约25%仓位，保留60%核心仓+40%现金，不全部退出。技术面：净利连降三季（¥30.75B→¥12.55B）、净利率从28.6%压缩至11.8%、股价超买（上布林带$89.46上方、偏离10日EMA约3.8%、量能稀薄6.4M vs 崩跌期40.4M）、低于下降的200日均线$103.64约13%。基本面底部：$60B净现金（市值45%）、TTM FCF ~$107B、剔除现金PE ~5x。分层止损：$84警告/$82-83加深削减/$73六月低点最终断路器。加仓触发：Q2利润率企稳（净利率18%+）、实际回购执行、放量收复200日均线"
+        note: AI Berkshire四大师分析（2026-08-04）
+    updatedAt: 2026-08-04
+  - id: claim.pdd.tradingagents-underweight
+    text: TradingAgents多智能体分析（2026-08-04）最终决策：Underweight减持，建议在$88-92反弹中减持约25%仓位，保留60%核心仓+40%现金，不全部退出。技术面：净利连降三季（¥30.75B→¥12.55B）、净利率从28.6%压缩至11.8%、股价超买（上布林带$89.46上方、偏离10日EMA约3.8%、量能稀薄6.4M
+      vs 崩跌期40.4M）、低于下降的200日均线$103.64约13%。基本面底部：$60B净现金（市值45%）、TTM FCF
+      ~$107B、剔除现金PE
+      ~5x。分层止损：$84警告/$82-83加深削减/$73六月低点最终断路器。加仓触发：Q2利润率企稳（净利率18%+）、实际回购执行、放量收复200日均线
     status: confirmed
     confidence: 0.85
     evidence:
       - kind: research-report
-        sourceId: "reports/PDD_20260804_124200/"
+        sourceId: reports/PDD_20260804_124200/
         weight: 0.9
-        note: "TradingAgents多智能体分析（2026-08-04），deepseek-v4-flash，12 Agents/7 Reports"
-    updatedAt: "2026-08-04"
-  - id: "claim.pdd.cash-reserve"
-    text: "PDD持有现金+短期投资4361亿人民币（约$60B+），净现金占市值48.9%，为极端估值提供安全垫"
+        note: TradingAgents多智能体分析（2026-08-04），deepseek-v4-flash，12 Agents/7 Reports
+    updatedAt: 2026-08-04
+  - id: claim.pdd.cash-reserve
+    text: PDD持有现金+短期投资4361亿人民币（约$60B+），净现金占市值48.9%，为极端估值提供安全垫
     status: confirmed
     confidence: 0.95
     evidence:
       - kind: memory-bridge
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-06-11-0059-22f6054a
         weight: 0.9
-    updatedAt: "2026-06-10"
+    updatedAt: 2026-06-10
 relationships:
-  - targetId: "entity:中概互联网ETF"
-    targetTitle: "中概互联网ETF (513050)"
-    kind: "constituent"
+  - targetId: entity:中概互联网ETF
+    targetTitle: 中概互联网ETF (513050)
+    kind: constituent
     weight: 0.7
-    note: "PDD是中概互联网ETF的成分股之一"
-  - targetId: "entity:黄金ETF"
-    targetTitle: "黄金ETF"
-    kind: "alternatives"
+    note: PDD是中概互联网ETF的成分股之一
+  - targetId: entity:黄金ETF
+    targetTitle: 黄金ETF
+    kind: alternatives
     weight: 0.3
-    note: "同为避险/配置类资产讨论中的标的"
+    note: 同为避险/配置类资产讨论中的标的
 sourceIds:
   - /app/ai-berkshire/reports/PDD/
   - sources/bridge-workspace-142ea9a2-memory-2026-06-11-0059-22f6054a.md
-updatedAt: 2026-08-05T15:11:38.000Z
-
+  - source.bridge.workspace-142ea9a2.memory-2026-08-05-0007-c4110e2a
+updatedAt: 2026-10-23T13:09:38.617Z
 ---
 
 # PDD Holdings (拼多多)
@@ -226,5 +235,7 @@ updatedAt: 2026-08-05T15:11:38.000Z
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-08-05-0007](../sources/bridge-workspace-142ea9a2-memory-2026-08-05-0007-c4110e2a.md)
 <!-- openclaw:wiki:related:end -->
