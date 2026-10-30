@@ -34,5 +34,7 @@ Python 通达信数据接口库，pytdx 的升级版。支持实时五档行情�
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [daily_incr 双调度器并发冲突（tdx 数据快照损坏）](daily-incr-dual-scheduler-conflict.md)
 <!-- openclaw:wiki:related:end -->

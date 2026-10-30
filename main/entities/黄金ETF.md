@@ -1,15 +1,24 @@
 ---
 id: gold-etf-analysis
 pageType: entity
-title: "黄金ETF (GLD/IAU/518880)"
-tags: [黄金, gold, ETF, GLD, IAU, 518880, 华安黄金, 贵金属, 投资]
-updatedAt: "2026-08-05"
-note: "黄金ETF投资分析：IAU费率最优，518880适合A股。2026-08 AI Berkshire四大师分析：金价历史高位，概率加权3年期望回报~0%，黄金是保险不是投资，配置5-10%"
+title: 黄金ETF (GLD/IAU/518880)
+tags:
+  - 黄金
+  - gold
+  - ETF
+  - GLD
+  - IAU
+  - 518880
+  - 华安黄金
+  - 贵金属
+  - 投资
+updatedAt: 2026-10-30T13:02:32.317Z
+note: 黄金ETF投资分析：IAU费率最优，518880适合A股。2026-08 AI
+  Berkshire四大师分析：金价历史高位，概率加权3年期望回报~0%，黄金是保险不是投资，配置5-10%
 sourceIds:
   - research/gold-etf-analysis/report.md
   - ai-berkshire/reports/huaan-gold-etf-518880-investment-research-20260805.md
-
-
+  - source.bridge.workspace-142ea9a2.memory-2026-08-06-0048-999a1346
 ---
 
 # 黄金ETF (GLD/IAU/518880)
@@ -140,5 +149,11 @@ sourceIds:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-08-06-0048](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-0048-999a1346.md)
+
+### Related Pages
+
+- [OpenCode 权限规则顺序 Bug（reports 写入被 auto-reject）](opencode-permission-rule-order-bug.md)
 <!-- openclaw:wiki:related:end -->

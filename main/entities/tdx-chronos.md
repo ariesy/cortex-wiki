@@ -74,6 +74,7 @@ kline_symbols / financial_quarters / gp_records / index_records / download_log_7
 <!-- openclaw:wiki:related:start -->
 ### Referenced By
 
+- [daily_incr 双调度器并发冲突（tdx 数据快照损坏）](daily-incr-dual-scheduler-conflict.md)
 - [Kronos 金融预测模型](kronos.md)
 
 ### Related Pages

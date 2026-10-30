@@ -1,122 +1,32 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-08-06T00:14:00.000Z
+updatedAt: 2026-10-30T13:06:24.106Z
 sourceIds:
   - /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
   - /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
   - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/
   - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md
+  - source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
 claims:
-  - id: claim.entity.159566.tradingagents-20260805
-    text: 2026-08-05 TradingAgents多智能体完整分析（修复max_tokens+streaming后跑通，4分析师+研究+交易员+风控辩论）：交易员Action=SELL（趋势未反转、反弹量能衰减、催化剂未兑现；价格1.86低于50日线2.07约10%、低于200日线2.15约13.5%，MACD零轴下）。风险辩论收敛方案：1.86-1.88阻力区先减1/3，保留1/3核心仓（激进派主张）vs 保守派主张等2.07确认，中立派修正为条件化规则——放量站稳1.88则第二笔减仓挂1.95-2.00，收盘跌破1.81(10日EMA+VWMA)则立即减第二笔；核心仓1/3，止损纪律：收盘跌破1.73减半仓、跌破1.68清仓；回补条件：1.73-1.76放量止跌+RSI底背离+MACD柱不扩张（至少2条件）回补一半，或放量突破2.00+MACD上零轴+RSI站50守住3天回补一半。结论与ai-berkshire四大师（有条件通过、1.55-1.85分批承接）方向一致：左侧价值+右侧风控互补。数据源：~/.tradingagents/logs/159566.SZ/2026-08-05/reports/（market/sentiment/news/fundamentals/investment_plan/final_trade_decision）。
-    status: supported
-    confidence: 0.85
-    evidence:
-      - kind: report
-        sourceId: ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md
-        weight: 1.0
-    updatedAt: 2026-08-06T00:14:00.000Z
-  - id: claim.entity.159566.ai-berkshire-20260805
-    text: 2026-08-05 AI Berkshire四大师框架深度分析：储能电池ETF易方达(159566.SZ)跟踪国证新能源电池指数(980027)，成立2024-01-31，规模约65亿(2026Q2反推)。净值1.853(8/4)，自5/19峰值2.4831回撤-25.4%，2026年至今-11.3%，成立以来+85.3%(年化~27.8%)。指数PE-TTM 25.75x(近1年~10%分位)，PB 4.15x(~69%分位)，2026E盈利增速~+40%→PEG 0.6-0.7。2026Q2前十大：阳光电源10.00%/亿纬锂能9.51%/宁德时代9.28%/麦格米特7.02%/英维克6.04%/德业5.69%/科达利3.71%/海博思创3.17%/国轩3.05%/鹏辉3.03%(合计60.50%)。宁德2026H1净利432.84亿(+42%)，A股史上最大注销式回购200-400亿。四大师结论：有条件通过(3.3/5)——龙头锚(宁德+阳光+亿纬28.8%)生意质量/护城河/管理层全A且PE 19-27x合理；但篮子含13% AIDC主题高PE股(麦格米特PE动444.91/英维克138.19)+10%周期二线。建议：主题仓≤10-15%组合权重，分2-3批在1.55-1.85区间承接，跌破1.55(指数PE~22x)加大，涨回2.0上方减仓。
-    status: supported
-    confidence: 0.8
-    evidence:
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 1.0
-    updatedAt: 2026-08-05T15:05:00.000Z
-  - id: claim.entity.159566.ai-berkshire-20260730
-    text: 2026-07-30 AI Berkshire四大师框架深度分析：159566(储能电池ETF易方达)规模72.92亿，跟踪国证新能源电池指数(980027)，储能含量~60%，费率0.60%；159840(锂电池ETF工银)规模15亿，跟踪国证新能源车电池指数(980032)，储能含量~40%，费率0.52%。当前PE约26x(历史55%分位)，PB 3.76x(~55%分位)，股息率1.27%。行业处于文明级趋势(能源转型+AI算力双轮驱动)，2026年全球储能需求预计1,111GWh(+73%)。综合建议：储能赛道确定性强但当前估值中位，PE回落至20-22x为理想建仓区。纯看好储能选159566，看好新能源车+储能双驱动选159840。
-    status: supported
-    confidence: 0.8
-    evidence:
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
-        weight: 1.0
-    updatedAt: 2026-07-30T02:48:00.000Z
-  - id: claim.entity.159566.tradingagents-20260730
-    text: >
-      2026-07-30 TradingAgents 多智能体分析（18次LLM调用，136.4k tokens）：
-      159566.SZ（储能电池ETF易方达）— SELL。
-      市场分析师：技术面已破位（死亡交叉、量能萎缩空头排列），基本面分析师：储能赛道确定性强但估值偏中位，
-      舆情分析师：中性（5/10，低置信度），新闻分析师：油价冲击+贸易壁垒为宏观逆风。
-      多空研究员：Bear赢得辩论（结构性问题不可忽视），交易员：Sell + 减仓25-50% + 硬止损¥1.70，
-      风控团队：尚未完整输出（进程被SIGTERM中断）。
-      投资组合经理终裁：未完整输出但Aggressive分析师支持Sell（保护资本>追底）。
-      详见 ~/.openclaw/workspace/research/储能电池ETF_159566.SZ/2026-07-30_summary.md
-      时间维度：3-6个月
+  - id: claim.entity.159566.dual-framework-20260805
+    text: 2026-08-05 对 159566.SZ 储能电池ETF 做双框架分析：①ai-berkshire
+      四大师框架——结论「有条件通过」3.3/5，净值 1.853（8/4）自 5/19 峰值回撤 -25.4%，指数 PE-TTM
+      25.75x（近1年~10%分位）、PB 4.15x（~69%分位）、2026E 增速~+40%→PEG
+      0.6-0.7；当版报告将跟踪指数写作国证新能源电池指数（980027），2026-10-19 版已纠错为
+      980032；建议主题仓≤10-15%，1.55-1.85 分批承接、跌破 1.55 加大、涨回 2.0 减仓；2026Q2 前十大合计
+      60.5%（阳光 10.0%/亿纬 9.5%/宁德 9.3%/麦格米特 7.0%/英维克 6.0%/德业 5.7%/科达利 3.7%/海博思创
+      3.2%/国轩 3.1%/鹏辉 3.0%）。②TradingAgents（修复后跑通）——交易员 SELL，风险辩论收敛：1.86-1.88 先减
+      1/3、保留 1/3 核心仓、跌破 1.73 减半、1.68 清仓，突破 2.00 且 MACD
+      上零轴回补；与四大师结论互补（前者右侧风控、后者左侧价值）。报告位于
+      ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/。
     status: supported
     confidence: 0.75
     evidence:
-      - kind: report
-        sourceId: nimble-valley TradingAgents session (partial output)
-        weight: 0.8
-    updatedAt: 2026-07-30T03:51:00.000Z
-  - id: claim.entity.159566.latest-snapshot-20260711
-    text: 2026-07-11 最新 TradingAgents 多智能体分析快照见
-      syntheses/储能电池etf-159566-sz-2026-07-11-tradingagents-多智能体分析快照.md
-    status: fact
-    confidence: 1
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.price-20260711
-    text: 2026-07-11 收盘价 1.980 元（与 7-10 持平）；一周内已下测 1.94 后回升至 1.98，距 200SMA 2.17 仅
-      -8.8%
-    status: fact
-    confidence: 0.95
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.rating-hold
-    text: 2026-07-11 TradingAgents 终裁：Hold（持有）| 目标价 ¥2.18 | 硬止损 ¥1.85 | 加仓信号=站稳 2.18
-      + MACD 金叉 | 时间维度 3-6 个月
-    status: fact
-    confidence: 0.95
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.lesson-20260608-recap
-    text: 6-8 Underweight 评级 5 天内 +3.7% abs / -1.1% alpha
-      被定性为失败：中间仓位捕获两端最差结果。当前情境与该教训"惊人相似" → Hold 不是默认，是吸取教训后的有意选择
-    status: fact
-    confidence: 0.92
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.dual-strategy-grid
-    text: tradingagents（Hold/2.18）与本人 7-10 建议（等回调 1.7-1.8）不冲突，互补形成三档梯形建仓：1.85 硬止损 /
-      1.7-1.8 左侧抄底 / 2.18 右侧突破
-    status: opinion
-    confidence: 0.8
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.tech-snapshot-20260711
-    text: 技术面快照（7-10 收盘）：价格 1.98 < 10EMA 2.09 < 50SMA 2.28，空头排列；MACD -0.07，RSI
-      34.48，布林下轨 1.96（距 1%）
-    status: fact
-    confidence: 0.95
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
-  - id: claim.entity.159566.bug-fix-skill-config
-    text: 2026-07-11 TradingAgents 运行发现 skill 环境配置 bug：脚本读
-      TRADINGAGENTS_DEEP_MODEL（旧名），env 写的是 TRADINGAGENTS_DEEP_THINK_LLM（新名），导致
-      fallback 到不存在的 deepseek-v4-flash（400）—— 已通过 env override 修复
-    status: fact
-    confidence: 0.98
-    evidence: 
-      - kind: report
-        sourceId: /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
-        weight: 0.8
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
+        weight: 1
+    updatedAt: 2026-08-06T13:47:03.807Z
 ---
 
 # 储能电池ETF (159566.SZ)
@@ -241,6 +151,10 @@ claims:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
+### Sources
+
+- [Memory Bridge (main): 2026-08-06](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-370c471d.md)
+
 ### Referenced By
 
 - [储能电池ETF (159566.SZ) · 2026-07-10 跟踪快照](../syntheses/储能电池etf-159566-sz-2026-07-10-跟踪快照.md)

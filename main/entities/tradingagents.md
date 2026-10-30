@@ -120,5 +120,6 @@ sourceIds:
 
 ### Referenced By
 
+- [daily_stock_analysis PR #2154 / Issue #2153 监控任务](daily-stock-analysis-pr-issue-monitor.md)
 - [TradingAgents (Tauric Research)](tradingagents-tauric.md)
 <!-- openclaw:wiki:related:end -->
