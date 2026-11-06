@@ -7,11 +7,12 @@ aliases:
   - Blogtrottr
   - Blogtrottr 日报
   - Karpathy 精选 RSS 日报
-updatedAt: 2026-08-28T14:00:00.000Z
+updatedAt: 2026-11-06T13:13:04.481Z
 status: active
 claims:
   - id: claim.blogtrottr.mechanism
-    text: "Blogtrottr 的工作机制是把 RSS 订阅更新推送到指定邮箱（形如 your-blogtrottr@blogtrottr.com 或自定义域名），因此接入前必须知道该专用邮箱地址，并具备能读取该邮箱的客户端。"
+    text: Blogtrottr 的工作机制是把 RSS 订阅更新推送到指定邮箱（形如 your-blogtrottr@blogtrottr.com
+      或自定义域名），因此接入前必须知道该专用邮箱地址，并具备能读取该邮箱的客户端。
     status: supported
     confidence: 0.9
     evidence:
@@ -19,7 +20,8 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-04-18-blogtrottr-digest-4159ec8e
         weight: 0.9
   - id: claim.blogtrottr.mail-clients
-    text: "workspace 中可用的邮件访问工具：himalaya（通用 IMAP/SMTP CLI）与 gog（Google Workspace CLI，可访问 Gmail）；选哪个取决于 Gmail 是否开启 IMAP。"
+    text: workspace 中可用的邮件访问工具：himalaya（通用 IMAP/SMTP CLI）与 gog（Google Workspace
+      CLI，可访问 Gmail）；选哪个取决于 Gmail 是否开启 IMAP。
     status: supported
     confidence: 0.85
     evidence:
@@ -27,7 +29,7 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-04-18-blogtrottr-digest-4159ec8e
         weight: 0.85
   - id: claim.blogtrottr.schedule
-    text: "日报发送时间对齐 Karpathy RSS 日报的惯例：每天中午 12 点发送到飞书群。"
+    text: 日报发送时间对齐 Karpathy RSS 日报的惯例：每天中午 12 点发送到飞书群。
     status: supported
     confidence: 0.8
     evidence:
@@ -35,18 +37,38 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-04-18-blogtrottr-digest-4159ec8e
         weight: 0.8
   - id: claim.blogtrottr.output-format
-    text: "产出格式为「核心主题」导语 + 按条展开的资讯汇总，每期标注条数（如「共 4 条更新」「共 13 条更新」），标题形如 `# YYYY-MM-DD - XXX 精选 RSS 日报`。"
+    text: 产出格式为「核心主题」导语 + 按条展开的资讯汇总，每期标注条数（如「共 4 条更新」「共 13 条更新」），标题形如 `# YYYY-MM-DD
+      - XXX 精选 RSS 日报`。
     status: supported
     confidence: 0.85
     evidence:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-04-20-blogtrottr-daily-a591f28c
         weight: 0.85
+  - id: claim.blogtrottr.run-2026-08-07
+    text: 2026-08-07 一次实际运行：抓取最近 26 小时 Blogtrottr Gmail 推送共 19 篇更新，精选 10 篇深度阅读，存到
+      `~/.openclaw/workspace/blogtrottr-digest/2026-08-07-Blogtrottr订阅日报.md`，经
+      feishu-group-sender 发送至群聊 oc_937cd828ec418c8eafb46eb034ce94d7。
+    status: supported
+    confidence: 0.75
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-09-0003-660a5519
+        weight: 0.75
+  - id: claim.blogtrottr.editorial-stance
+    text: 日报编者观察的核心观点：模型层疯狂加速与社会层同步刹车形成「冷热对撞」，AI 产业下一场战争不在模型参数，而在社会信任与地缘合规。
+    status: supported
+    confidence: 0.7
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-09-0003-660a5519
+        weight: 0.7
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md
   - sources/bridge-workspace-142ea9a2-memory-2026-04-20-blogtrottr-daily-a591f28c.md
-
+  - sources/bridge-workspace-142ea9a2-memory-2026-08-09-0003-660a5519.md
 ---
+
 # Blogtrottr RSS 邮件订阅日报
 
 把 RSS 订阅经邮件通道汇总后投递到飞书群的日报流水线。

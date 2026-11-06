@@ -69,4 +69,8 @@ claims:
 ### Sources
 
 - [Memory Bridge (main): 2026-08-06-1252](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-1252-dd114031.md)
+
+### Referenced By
+
+- [gh-tracker 技能](gh-tracker.md)
 <!-- openclaw:wiki:related:end -->

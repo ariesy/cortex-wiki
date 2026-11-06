@@ -1,13 +1,14 @@
 ---
 pageType: entity
 id: entity.储能电池ETF-159566.SZ
-updatedAt: 2026-10-30T13:06:24.106Z
+updatedAt: 2026-11-06T13:14:11.756Z
 sourceIds:
   - /app/ai-berkshire/reports/159566.SZ_储能电池ETF/159566.SZ_储能电池ETF-四大师综合分析-20260805.md
   - /app/ai-berkshire/reports/储能电池ETF/159840_工银瑞信国证新能源车电池ETF_投资研究报告.md
   - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/
   - ~/.tradingagents/logs/159566.SZ/2026-08-05/reports/final_trade_decision.md
   - source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
+  - source.bridge.workspace-142ea9a2.memory-2026-08-11-0000-643edc89
 claims:
   - id: claim.entity.159566.dual-framework-20260805
     text: 2026-08-05 对 159566.SZ 储能电池ETF 做双框架分析：①ai-berkshire
@@ -26,7 +27,20 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
         weight: 1
-    updatedAt: 2026-08-06T13:47:03.807Z
+  - id: claim.entity.159566.html-report-20260811
+    text: 2026-08-11 按 html-report 技能基于 2026-08-05 双框架同日交叉验证（ai-berkshire 四大师 3.3/5
+      有条件通过、1.55-1.85 分批承接 vs TradingAgents SELL、1.86-1.88 先减 1/3）生成储能电池ETF
+      单文件自包含 HTML 报告
+      159566_储能电池ETF_双框架综合分析.html（25.7KB，9大章节，含成分饼图/景气柱状图/情景概率图），收盘
+      1.856(+2.77%)、指数 PE-TTM 25.75x、峰值回撤 -25.4%、跟踪误差 0.021%；报告覆盖 7-30 旧版并更新
+      index.html 卡片，部署至 Cloudflare Pages（research-publish.pages.dev /
+      research.zhu-kun.com），线上验证 HTTP 200。
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: report
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-11-0000-643edc89
+        weight: 0.8
 ---
 
 # 储能电池ETF (159566.SZ)
@@ -154,6 +168,7 @@ claims:
 ### Sources
 
 - [Memory Bridge (main): 2026-08-06](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-370c471d.md)
+- [Memory Bridge (main): 2026-08-11-0000](../sources/bridge-workspace-142ea9a2-memory-2026-08-11-0000-643edc89.md)
 
 ### Referenced By
 
@@ -162,5 +177,6 @@ claims:
 
 ### Related Pages
 
+- [TradingAgents (Tauric Research)](tradingagents-tauric.md)
 - [储能电池ETF (159566.SZ)](159566.SZ_储能电池ETF.md)
 <!-- openclaw:wiki:related:end -->

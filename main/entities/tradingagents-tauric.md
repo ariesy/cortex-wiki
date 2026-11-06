@@ -6,13 +6,16 @@ title: TradingAgents (Tauric Research)
 aliases:
   - TradingAgents
   - TauricResearch/TradingAgents
-updatedAt: 2026-08-05T15:11:28.000Z
+updatedAt: 2026-11-06T13:07:39.096Z
 status: active
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-05-05-trading-agents-framework-69da0319.md
+  - source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
 claims:
   - id: claim.tradingagents-tauric.arch
-    text: "TradingAgents(来自 Tauric Research / UCLA)是基于 LangGraph 的多代理 LLM 金融交易框架，模拟真实量化交易公司运作：5 层架构、约 12 个 Agent（分析师团队 → 研究员团队 → 交易员 → 风险管理 → 投资组合经理）。"
+    text: TradingAgents(来自 Tauric Research / UCLA)是基于 LangGraph 的多代理 LLM
+      金融交易框架，模拟真实量化交易公司运作：5 层架构、约 12 个 Agent（分析师团队 → 研究员团队 → 交易员 → 风险管理 →
+      投资组合经理）。
     status: supported
     confidence: 0.85
     evidence:
@@ -20,7 +23,8 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-05-trading-agents-framework-69da0319
         weight: 0.85
   - id: claim.tradingagents-tauric.agents
-    text: "核心 Agent 职责：基本面/情感/新闻/技术分析师（各维度分析）、多空研究员（辩论分析师报告）、交易员（决定时机与仓位）、风险管理团队（评估波动性/流动性）、投资组合经理（最终批准或否决交易提案）。"
+    text: 核心 Agent
+      职责：基本面/情感/新闻/技术分析师（各维度分析）、多空研究员（辩论分析师报告）、交易员（决定时机与仓位）、风险管理团队（评估波动性/流动性）、投资组合经理（最终批准或否决交易提案）。
     status: supported
     confidence: 0.8
     evidence:
@@ -28,7 +32,10 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-05-trading-agents-framework-69da0319
         weight: 0.8
   - id: claim.tradingagents-tauric.install
-    text: "安装：git clone github.com/TauricResearch/TradingAgents，conda 环境 python=3.13 后 pip install .；支持 Docker（docker compose run --rm tradingagents）；CLI 入口 tradingagents / python -m cli.main；Python 调用 TradingAgentsGraph.propagate(ticker, date)。"
+    text: 安装：git clone github.com/TauricResearch/TradingAgents，conda 环境 python=3.13
+      后 pip install .；支持 Docker（docker compose run --rm tradingagents）；CLI 入口
+      tradingagents / python -m cli.main；Python 调用
+      TradingAgentsGraph.propagate(ticker, date)。
     status: supported
     confidence: 0.8
     evidence:
@@ -36,13 +43,32 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-05-trading-agents-framework-69da0319
         weight: 0.8
   - id: claim.tradingagents-tauric.datasources
-    text: "外接数据源默认 yfinance，可切换 Alpha Vantage；涉股票行情/技术指标/基本面/新闻，舆情为内置情感分析。切换方式：config['data_vendors']['core_stock_apis'] 及 config['tool_vendors'][<tool>] 覆盖，并设置 ALPHA_VANTAGE_API_KEY。"
+    text: 外接数据源默认 yfinance，可切换 Alpha
+      Vantage；涉股票行情/技术指标/基本面/新闻，舆情为内置情感分析。切换方式：config['data_vendors']['core_stock_apis']
+      及 config['tool_vendors'][<tool>] 覆盖，并设置 ALPHA_VANTAGE_API_KEY。
     status: supported
     confidence: 0.8
     evidence:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-05-trading-agents-framework-69da0319
         weight: 0.8
+  - id: claim.tradingagents-tauric.flash-hang-bugfix-20260806
+    text: "2026-08-06 修复 TradingAgents 配合 deepseek-v4-flash 的挂死 bug（上游项目）：7/31 正式版
+      flash 思维链变长（复杂任务 500+ tokens），而 _PASSTHROUGH_KWARGS 未传 max_tokens 且走非流式 →
+      单次生成超 opencode.ai 网关 ~3 分钟 idle 超时被掐断 → 进程 wait_woken 挂死；有上限时思维链又吃光预算导致
+      content 空。两个 commit 已 merge 进 dev：ed4c2a3（max_tokens=8192 默认 +
+      TRADINGAGENTS_MAX_TOKENS 环境变量，涉及 default_config.py / trading_graph.py /
+      openai_client.py）、78b9405（opencode.ai 后端启用 streaming 并捕获
+      reasoning_content，DeepSeekChatOpenAI._convert_chunk_to_generation_chunk）。\
+      修复后完整跑通 4 分析师→研究→交易员→风控辩论（27KB 报告）。上游无 CONTRIBUTING.md 与
+      ISSUE_TEMPLATE、正式语言英语，已提英文 Issue #1204。"
+    status: supported
+    confidence: 0.85
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-06-370c471d
+        weight: 1
+    updatedAt: 2026-08-06T13:47:03.807Z
 ---
 
 # TradingAgents (Tauric Research)
@@ -114,5 +140,12 @@ config["tool_vendors"]["get_stock_data"] = "alpha_vantage"    # 单工具覆盖
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-08-06](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-370c471d.md)
+
+### Related Pages
+
+- [储能电池ETF (159566.SZ)](159566.SZ_储能电池ETF.md)
+- [储能电池ETF (159566.SZ)](储能电池ETF.md)
 <!-- openclaw:wiki:related:end -->

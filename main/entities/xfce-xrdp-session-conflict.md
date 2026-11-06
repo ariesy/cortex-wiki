@@ -7,7 +7,7 @@ aliases:
   - xrdp 连接中断
   - mstsc 远程桌面断开
   - Window manager exited quickly
-updatedAt: 2026-09-25T13:12:15.099Z
+updatedAt: 2026-11-06T13:17:13.882Z
 status: active
 claims:
   - id: claim.xfce-xrdp.symptom
@@ -39,8 +39,22 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-05-02-xfce-session-conflict-15de5130
         weight: 0.85
+  - id: claim.xfce-xrdp.ghost-session-orphan-20260810
+    text: 2026-08-10 同类故障的更深层变体：占住 org.xfce.SessionManager 的不是 LightDM 的 :0
+      会话，而是一个孤儿 xrdp 会话（display :10，进程 2549933）——因 KillDisconnected=false +
+      Jun16 06:47 连续 6 次 xrdp-sesman 重启，该会话被遗弃并挂到 PID 1，逃逸 systemd cgroup 后
+      systemctl restart 也杀不到；修复需先查父进程非当前 sesman 的 xrdp 会话进程并手动清理，再在
+      /etc/xrdp/sesman.ini 设 KillDisconnected=true + DisconnectedTimeLimit=3600
+      并配 cron 巡检兜底。详见 entity:xrdp-ghost-session。
+    status: supported
+    confidence: 0.8
+    evidence:
+      - kind: log-analysis
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-10-0019-ea1165ad
+        weight: 0.85
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-05-02-xfce-session-conflict-15de5130.md
+  - source.bridge.workspace-142ea9a2.memory-2026-08-10-0019-ea1165ad
 ---
 
 # XFCE 会话冲突导致 xrdp 登录后立刻断开
@@ -96,5 +110,11 @@ kill <旧 xfce4-session pid>   # 如 4475
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-08-10-0019](../sources/bridge-workspace-142ea9a2-memory-2026-08-10-0019-ea1165ad.md)
+
+### Related Pages
+
+- [xrdp 幽灵会话（孤儿会话进程）](xrdp-ghost-session.md)
 <!-- openclaw:wiki:related:end -->
