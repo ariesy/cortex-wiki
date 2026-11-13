@@ -3,14 +3,14 @@ pageType: report
 id: report.relationship-graph
 title: Relationship Graph
 status: active
-updatedAt: 2026-10-16T13:23:55.800Z
+updatedAt: 2026-11-13T13:02:55.867Z
 ---
 
 # Relationship Graph
 
 ## Generated
 <!-- openclaw:wiki:relationship-graph:start -->
-- Structured relationships: 230
+- Structured relationships: 232
 
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 中国银行 (peer_comparison, weight 0.80, 四大行同业)
 - [1398.HK_工商银行](../entities/1398.HK_工商银行.md) -> 农业银行 (peer_comparison, weight 0.80, 四大行同业)
@@ -54,6 +54,8 @@ updatedAt: 2026-10-16T13:23:55.800Z
 - [cangjie-skill](../entities/cangjie-skill.md) -> nuwa-skill (related-to, weight 1.00)
 - [Claude Code](../entities/claude-code.md) -> Agent 干净世界 vs 脏世界 (representative-of, weight 1.00)
 - [council-of-the-wise（智者委员会）技能](../entities/council-of-the-wise技能.md) -> InvestSignal 架构设计 v1.1 (related, weight 0.50)
+- [cron 环境变量/密钥缺失（rc 文件不被加载）](../entities/cron-env-secret-missing.md) -> Blogtrottr RSS 邮件订阅日报 (same-class-bug, weight 0.35)
+- [cron 环境变量/密钥缺失（rc 文件不被加载）](../entities/cron-env-secret-missing.md) -> InvestSignal 周报数据异常（2026-04-27 周期） (related-to, weight 0.60)
 - [daily-questions多轮对话失效Bug](../entities/daily-questions-deliver-mode.md) -> daily-questions-deliver-mode (affects, weight 0.80)
 - [daily-questions定时任务跳过Bug](../entities/daily-questions-cron-skip.md) -> daily-questions-cron-skip (affects, weight 0.80)
 - [darwin-skill](../entities/darwin-skill.md) -> cangjie-skill (related-to, weight 1.00)

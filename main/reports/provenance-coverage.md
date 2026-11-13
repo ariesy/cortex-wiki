@@ -3,18 +3,18 @@ pageType: report
 id: report.provenance-coverage
 title: Provenance Coverage
 status: active
-updatedAt: 2026-11-06T13:17:46.628Z
+updatedAt: 2026-11-13T13:07:07.452Z
 ---
 
 # Provenance Coverage
 
 ## Generated
 <!-- openclaw:wiki:provenance-coverage:start -->
-- Evidence entries: 673
-- Claims missing evidence: 29
+- Evidence entries: 699
+- Claims missing evidence: 39
 
 ### Evidence Classes
-- wiki-source: 316
+- wiki-source: 342
 - entity-summary: 81
 - report: 59
 - financial-data: 38
@@ -93,11 +93,21 @@ updatedAt: 2026-11-06T13:17:46.628Z
 - [daily_stock_analysis PR #2154 / Issue #2153 监控任务](../entities/daily-stock-analysis-pr-issue-monitor.md): `claim.dsa-monitor.pr-comment`: 已在 ZhuLinsen/daily_stock_analysis PR #2154 发布维护者回复（issuecomment-5199163878）：OR-COR-80e5aa42 不可恢复分支补 clearPersistedScreenTask()；OR-COR-3513bd9a 改为历史条目自带筛选条件（策略中文名 + 市场 + 返回数量）而非清除持久化状态；附两条回归测试与验证结果（28 测试通过、build 通过）。
 - [daily_stock_analysis PR #2154 / Issue #2153 监控任务](../entities/daily-stock-analysis-pr-issue-monitor.md): `claim.dsa-monitor.cron`: 新建 cron 任务 github-pr-issue-monitor-dsa（ID c7095326，`30 2 * * *` Asia/Shanghai = 每天 02:30 CST），监控 ZhuLinsen/daily_stock_analysis 的 PR #2154 与 Issue #2153，delivery 到用户飞书私聊。
 - [daily_stock_analysis PR #2154 / Issue #2153 监控任务](../entities/daily-stock-analysis-pr-issue-monitor.md): `claim.dsa-monitor.script-behavior`: 监控脚本参考现有 check_updates.sh 模式编写，首次运行输出摘要，后续无更新时输出 NO_REPLY 抑制重复通知。
+- [daily_stock_analysis PR #2154 / Issue #2153 监控任务](../entities/daily-stock-analysis-pr-issue-monitor.md): `claim.dsa-monitor.baseline-check-20260815`: 2026-08-15 核对三个监控目标「只有 daily-stock-analysis 在动」的疑问：对实时 PR updated_at/评论数/行内评论与 state 基线逐一对比，证明脚本无 bug——daily-stock-analysis PR 变为 08-15T00:44（我们刚 push 的 merge 所致），TradingAgents（08-06T00:09）与 serverless-registry（08-08T14:40）完全一致。state 文件 mtime 停留在 Aug 9 属正常：脚本只在指纹变化时写文件，无变化直接 continue。
+- [daily_stock_analysis PR #2154 / Issue #2153 监控任务](../entities/daily-stock-analysis-pr-issue-monitor.md): `claim.dsa-monitor.ci-action-required`: 2026-08-15 push merge 3a261dc5 后 PR #2154 的 CI 已触发（run 31854524366）但停在 action_required、0 秒结束且无 job 列表，属 GitHub 对 fork PR 的工作流审批机制（通常因 merge 带入了 ci.yml 等工作流文件变更需人工审批），CI 实际未跑；同时预告次日 02:30 cron 会再报一次该 PR 更新（状态确实变了）。
 - [Forward PE（远期市盈率）](../entities/forward-pe.md): `claim.forward-pe.definition`: Forward PE（远期市盈率）= 当前股价 ÷ 未来12个月（或下一财年）预期每股收益，也可表述为总市值 ÷ 预期净利润；分母使用分析师预测盈利，而非已实现盈利。
 - [Forward PE（远期市盈率）](../entities/forward-pe.md): `claim.forward-pe.vs-trailing`: Trailing PE 使用过去已实现盈利（TTM 或上一年报净利润），Forward PE 使用分析师预测的明年盈利；例：股价100元、去年EPS 5元 → Trailing PE 20倍；预测明年EPS 8元 → Forward PE 12.5倍。
 - [Forward PE（远期市盈率）](../entities/forward-pe.md): `claim.forward-pe.why-use`: 使用 Forward PE 的原因：更能反映成长性（高增长公司用历史盈利显得贵）；常用于跨期比较与 PEG 分析（PEG = Forward PE ÷ 预期增速）；港美股研报中的 PE 多默认指 Forward PE。
 - [Forward PE（远期市盈率）](../entities/forward-pe.md): `claim.forward-pe.risks`: Forward PE 的风险：分母为预测值，分析师可能过于乐观，盈利不及预期时估值被动抬高；强周期股（券商、航运、半导体）在盈利顶部 Forward PE 最低，反而是危险信号（低 PE 陷阱）；不同数据源对 forward 口径定义不同（未来12个月 vs 下一财年），横向比较需确认口径。
 - [Forward PE（远期市盈率）](../entities/forward-pe.md): `claim.forward-pe.a-share-analogy`: A股的“动态市盈率”有时指用预测或年化盈利计算的市盈率，与港美股 Forward PE 概念相近但不完全一致，需留意行情软件的计算口径。
+- [mx-data 空数据 None 写入 NOT NULL 崩溃](../entities/mx-data-null-notnull-crash.md): `claim.mxdata-notnull.symptom`: 症状：定时任务「mx-data 异步数据获取」整天崩溃（exit=1），日志反复出现「资金流响应数据为空」「股票价格响应数据为空: 510500/512600」；问题自 2026-06 起就存在，只是 cron-notify 8/14 上线后才暴露。
+- [mx-data 空数据 None 写入 NOT NULL 崩溃](../entities/mx-data-null-notnull-crash.md): `claim.mxdata-notnull.rootcause`: 根因链：mx-data API 对部分查询返回空 → Provider 返回空字典（trade_date=None、close=None）→ DAO 用 data.get('trade_date', 默认值)，但 key 存在且值为 None 时 .get 默认值不生效 → None 写入 NOT NULL 字段报 sqlite3.IntegrityError（fund_flow_cache、index_data、northbound_cache 三表）→ _handle_success 未捕获保存异常，单个标的拖垮整个批次。
+- [mx-data 空数据 None 写入 NOT NULL 崩溃](../entities/mx-data-null-notnull-crash.md): `claim.mxdata-notnull.fix`: 修复（commit 28ff630，2 个文件，最小防御性修改）：mx_data_dao.py 中 fund_flow/northbound/etf_info 的 trade_date 改为 data.get('trade_date') or 今天；save_market_index 在 close 为 None 时跳过保存并记 warning；_save_stock_price 跳过缺 trade_date 的行；mx_job_scheduler.py 中单个标的保存失败不再中断批次，计入失败并进重试队列。
+- [mx-data 空数据 None 写入 NOT NULL 崩溃](../entities/mx-data-null-notnull-crash.md): `claim.mxdata-notnull.verify`: 验证：语法检查通过后手动重跑失败批次 --batch=7 → 「批次 7 完成: 成功 6, 失败 0」，exit=0，无异常。
+- [OpenCode Web UI / serve 部署与扩展](../entities/opencode-web-ui.md): `claim.opencode-web.ui`: OpenCode 官方原生支持网页版，无需借助 OpenClaw：`opencode web` 起服务并打开浏览器，默认绑定 127.0.0.1 随机端口；`--port 4096` 固定端口，`--hostname 0.0.0.0` 供局域网/远程访问。体验与 TUI 一致（同样会话、工具调用、agent 配置），读取同一套 opencode.json 与认证（含 OmniRoute/CLIProxyAPI 代理的模型）。
+- [OpenCode Web UI / serve 部署与扩展](../entities/opencode-web-ui.md): `claim.opencode-web.serve`: `opencode serve` 是 headless API 模式，暴露 OpenAPI 接口供 SDK/第三方 Web UI 对接，支持 --port/--hostname/--cors 与 `OPENCODE_SERVER_PASSWORD` 环境变量密码鉴权；社区增强 UI（如 pk-opencode-webui）即连接此外后端。
+- [OpenCode Web UI / serve 部署与扩展](../entities/opencode-web-ui.md): `claim.opencode-web.security`: 安全注意：web 模式绑定 0.0.0.0 后默认无鉴权，局域网任何人都能打开 agent 环境（可读文件、跑命令）。要么仅绑内网，要么用 serve + 密码，不要直接裸奔公网。
+- [OpenCode Web UI / serve 部署与扩展](../entities/opencode-web-ui.md): `claim.opencode-web.extend`: 扩展路径三层：(1) fork 官方 MIT 开源仓库（SolidJS Web UI）源码级改造，代价是跟随升级麻烦；(2) 官方推荐方案——用 `opencode serve` 的完整 REST API（session、消息流、config、provider OAuth、diff、fork 等）+ 官方 TypeScript SDK `@opencode-ai/sdk` 自建前端，`--cors` 放行自定义前端域名配 `OPENCODE_SERVER_PASSWORD` 鉴权；(3) 直接使用社区现成的扩展 UI。
 - [OpenCode 权限规则顺序 Bug（reports 写入被 auto-reject）](../entities/opencode-permission-rule-order-bug.md): `claim.opencode-perm.symptom`: AI Berkshire 分析进程正常结束但报告未写入：报告写入被权限拦截，非交互模式下权限询问被 auto-reject。
 - [OpenCode 权限规则顺序 Bug（reports 写入被 auto-reject）](../entities/opencode-permission-rule-order-bug.md): `claim.opencode-perm.rootcause`: 根因是 opencode.json 权限规则顺序问题：`edit: "*": "ask"` 规则先于 `reports/**/*.md: "allow"` 匹配，导致报告写入落入 ask；非交互模式下无法应答即 auto-reject。ACP 子代理超时也是同一原因（权限询问无法应答）。
 - [OpenCode 权限规则顺序 Bug（reports 写入被 auto-reject）](../entities/opencode-permission-rule-order-bug.md): `claim.opencode-perm.workaround`: 临时规避：用 `--dangerously-skip-permissions` 参数重跑（不修改项目文件），分析即可成功完成并生成报告。

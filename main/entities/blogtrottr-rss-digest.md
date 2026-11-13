@@ -7,7 +7,7 @@ aliases:
   - Blogtrottr
   - Blogtrottr 日报
   - Karpathy 精选 RSS 日报
-updatedAt: 2026-11-06T13:13:04.481Z
+updatedAt: 2026-08-13T00:31:49.916Z
 status: active
 claims:
   - id: claim.blogtrottr.mechanism
@@ -63,10 +63,19 @@ claims:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-09-0003-660a5519
         weight: 0.7
+  - id: claim.blogtrottr.date-title-bug-2026-08-13
+    text: 2026-08-13 发现日报标题日期停留在 8-12：标题日期取自上一期产出/缓存而非当天，导致连续多期标题串期；已修复 cron 任务，并同步更新技能文件本身，避免手动运行时复现。
+    status: fixed
+    confidence: 0.75
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-13-0031-be4326b8
+        weight: 0.75
 sourceIds:
   - sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md
   - sources/bridge-workspace-142ea9a2-memory-2026-04-20-blogtrottr-daily-a591f28c.md
   - sources/bridge-workspace-142ea9a2-memory-2026-08-09-0003-660a5519.md
+  - sources/bridge-workspace-142ea9a2-memory-2026-08-13-0031-be4326b8.md
 ---
 
 # Blogtrottr RSS 邮件订阅日报
@@ -97,6 +106,10 @@ RSS 源 → Blogtrottr → 专用邮箱 → (himalaya / gog) → 汇总 → 飞�
 ```
 
 命中率参考：某期 4 条更新聚焦「传统车企反攻新能源——线控制动量产上车与芯片供应链博弈」；另一期 13 条聚焦「AI 工具定价战」。
+
+## 已知坑：标题日期串期（2026-08-13 修复）
+
+某期日报标题仍写着前一天的日期（8-12）。修复不只是改 cron，还要改技能文件本身——否则手动跑一遍照样踩。**标题日期必须从运行当日时间派生，不能从上一期产出或缓存继承。**
 
 ## 相关
 

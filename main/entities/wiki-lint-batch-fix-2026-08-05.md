@@ -63,4 +63,8 @@ claims:
 ### Sources
 
 - [Memory Bridge (main): 2026-08-05-1524](../sources/bridge-workspace-142ea9a2-memory-2026-08-05-1524-00a64718.md)
+
+### Referenced By
+
+- [cron 调度环境无需人工确认（wiki weekly 整理流程修正）](cron-isolated-无需确认规则.md)
 <!-- openclaw:wiki:related:end -->

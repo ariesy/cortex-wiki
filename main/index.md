@@ -3,10 +3,10 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `native`
-- Total pages: 3343
-- Claims: 687
-- Sources: 3039
-- Entities: 257
+- Total pages: 3364
+- Claims: 722
+- Sources: 3053
+- Entities: 264
 - Concepts: 14
 - Syntheses: 23
 - Reports: 10
@@ -166,6 +166,7 @@
 - [Memory Bridge (guardians-eye): dreaming / deep / 2026-10-19](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-10-19-a3abe1eb.md)
 - [Memory Bridge (guardians-eye): dreaming / deep / 2026-10-26](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-10-26-cfdc193c.md)
 - [Memory Bridge (guardians-eye): dreaming / deep / 2026-11-02](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-11-02-0ebf7336.md)
+- [Memory Bridge (guardians-eye): dreaming / deep / 2026-11-09](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-deep-2026-11-09-80f04d88.md)
 - [Memory Bridge (guardians-eye): dreaming / light / 2026-05-13](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-13-90ba810a.md)
 - [Memory Bridge (guardians-eye): dreaming / light / 2026-05-14](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-14-4168b1de.md)
 - [Memory Bridge (guardians-eye): dreaming / light / 2026-05-15](sources/bridge-workspace-guardians-eye-61cfe7ad-memory-dreaming-light-2026-05-15-6cda48d9.md)
@@ -592,6 +593,7 @@
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-10-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-10-19-a3abe1eb.md)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-10-26](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-10-26-cfdc193c.md)
 - [Memory Bridge (inbox-zero): dreaming / deep / 2026-11-02](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-11-02-0ebf7336.md)
+- [Memory Bridge (inbox-zero): dreaming / deep / 2026-11-09](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-deep-2026-11-09-80f04d88.md)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-18](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-18-9cc4db22.md)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-19](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-19-183ce577.md)
 - [Memory Bridge (inbox-zero): dreaming / light / 2026-04-20](sources/bridge-workspace-inbox-zero-0f8dd911-memory-dreaming-light-2026-04-20-7f77be3f.md)
@@ -1827,6 +1829,7 @@
 - [Memory Bridge (main): 2026-11-01-0409](sources/bridge-workspace-142ea9a2-memory-2026-11-01-0409-f602fb53.md)
 - [Memory Bridge (main): 2026-11-02-1138](sources/bridge-workspace-142ea9a2-memory-2026-11-02-1138-1cc2cca7.md)
 - [Memory Bridge (main): 2026-11-06-1307](sources/bridge-workspace-142ea9a2-memory-2026-11-06-1307-1487622b.md)
+- [Memory Bridge (main): 2026-11-08-1220](sources/bridge-workspace-142ea9a2-memory-2026-11-08-1220-1958e5c5.md)
 - [Memory Bridge (main): cron-rules](sources/bridge-workspace-142ea9a2-memory-cron-rules-a281b182.md)
 - [Memory Bridge (main): dev-workflow](sources/bridge-workspace-142ea9a2-memory-dev-workflow-851674c9.md)
 - [Memory Bridge (main): diary / 2026-03-17](sources/bridge-workspace-142ea9a2-memory-diary-2026-03-17-d6fb5253.md)
@@ -1918,6 +1921,13 @@
 - [Memory Bridge (main): dreaming / deep / 2026-11-04](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-04-b87d7b6b.md)
 - [Memory Bridge (main): dreaming / deep / 2026-11-05](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-05-f0804e33.md)
 - [Memory Bridge (main): dreaming / deep / 2026-11-06](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-06-719d27c0.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-07](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-07-8c04530e.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-08](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-08-9a434a68.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-09](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-09-80f04d88.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-10](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-10-24ca9e88.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-11](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-11-b9096057.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-12](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-12-95dfa023.md)
+- [Memory Bridge (main): dreaming / deep / 2026-11-13](sources/bridge-workspace-142ea9a2-memory-dreaming-deep-2026-11-13-634d7a38.md)
 - [Memory Bridge (main): dreaming / light / 2026-07-19](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-19-f37e0e74.md)
 - [Memory Bridge (main): dreaming / light / 2026-07-20](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-20-fefe2ca2.md)
 - [Memory Bridge (main): dreaming / light / 2026-07-21](sources/bridge-workspace-142ea9a2-memory-dreaming-light-2026-07-21-729a792a.md)
@@ -2163,6 +2173,7 @@
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-10-25](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-10-25-1b181259.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-10-26](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-10-26-cfdc193c.md)
 - [Memory Bridge (ops-deck): dreaming / deep / 2026-11-02](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-11-02-0ebf7336.md)
+- [Memory Bridge (ops-deck): dreaming / deep / 2026-11-09](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-deep-2026-11-09-80f04d88.md)
 - [Memory Bridge (ops-deck): dreaming / light / 2026-08-23](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-08-23-5b229128.md)
 - [Memory Bridge (ops-deck): dreaming / light / 2026-08-24](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-08-24-d64a75ec.md)
 - [Memory Bridge (ops-deck): dreaming / light / 2026-08-25](sources/bridge-workspace-ops-deck-c969319b-memory-dreaming-light-2026-08-25-bf5fadb5.md)
@@ -2354,6 +2365,7 @@
 - [Memory Bridge (sillytavern): dreaming / deep / 2026-10-12](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-10-12-c7223e7e.md)
 - [Memory Bridge (sillytavern): dreaming / deep / 2026-10-26](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-10-26-cfdc193c.md)
 - [Memory Bridge (sillytavern): dreaming / deep / 2026-11-02](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-11-02-0ebf7336.md)
+- [Memory Bridge (sillytavern): dreaming / deep / 2026-11-09](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-deep-2026-11-09-80f04d88.md)
 - [Memory Bridge (sillytavern): dreaming / light / 2026-05-17](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-05-17-4f2fe13c.md)
 - [Memory Bridge (sillytavern): dreaming / light / 2026-05-18](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-05-18-7555ef60.md)
 - [Memory Bridge (sillytavern): dreaming / light / 2026-05-19](sources/bridge-workspace-sillytavern-9f760fe2-memory-dreaming-light-2026-05-19-9f9298ce.md)
@@ -2640,6 +2652,7 @@
 - [Memory Bridge (symptom-triage): 2026-10-25-1152](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-10-25-1152-71af4fe4.md)
 - [Memory Bridge (symptom-triage): 2026-10-25-1307](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-10-25-1307-5e65cd47.md)
 - [Memory Bridge (symptom-triage): 2026-10-26-0045](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-10-26-0045-3164c162.md)
+- [Memory Bridge (symptom-triage): 2026-11-13-0300](sources/bridge-workspace-symptom-triage-1949a7e2-memory-2026-11-13-0300-3535c8d9.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-10](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-10-10517361.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-11](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-11-eea5e8a7.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-05-12](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-05-12-bfc36302.md)
@@ -2778,6 +2791,7 @@
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-10-26](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-10-26-cfdc193c.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-10-27](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-10-27-1c710c96.md)
 - [Memory Bridge (symptom-triage): dreaming / deep / 2026-11-02](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-11-02-0ebf7336.md)
+- [Memory Bridge (symptom-triage): dreaming / deep / 2026-11-09](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-deep-2026-11-09-80f04d88.md)
 - [Memory Bridge (symptom-triage): dreaming / light / 2026-05-10](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-05-10-0af5f541.md)
 - [Memory Bridge (symptom-triage): dreaming / light / 2026-05-11](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-05-11-05603cec.md)
 - [Memory Bridge (symptom-triage): dreaming / light / 2026-05-12](sources/bridge-workspace-symptom-triage-1949a7e2-memory-dreaming-light-2026-05-12-0f7c332b.md)
@@ -3088,11 +3102,15 @@
 - [Cloudflare Workers](entities/Cloudflare-Workers.md)
 - [CocoIndex](entities/cocoindex.md)
 - [council-of-the-wise（智者委员会）技能](entities/council-of-the-wise技能.md)
+- [cron 环境变量/密钥缺失（rc 文件不被加载）](entities/cron-env-secret-missing.md)
+- [cron 调度环境无需人工确认（wiki weekly 整理流程修正）](entities/cron-isolated-无需确认规则.md)
+- [cron-notify.sh 定时任务通知包装机制](entities/cron-notify-通知包装机制.md)
 - [daily_incr 双调度器并发冲突（tdx 数据快照损坏）](entities/daily-incr-dual-scheduler-conflict.md)
 - [daily_stock_analysis PR #2154 / Issue #2153 监控任务](entities/daily-stock-analysis-pr-issue-monitor.md)
 - [daily-questions多轮对话失效Bug](entities/daily-questions-deliver-mode.md)
 - [daily-questions定时任务跳过Bug](entities/daily-questions-cron-skip.md)
 - [darwin-skill](entities/darwin-skill.md)
+- [DeepSeek V4 Pro 涨价与 opencode Go 套餐冲击（2026-08）](entities/deepseek-v4-pro-pricing-hike-2026-08.md)
 - [DeepSeek-TUI](entities/deepseek-tui.md)
 - [DeerFlow与OpenClaw集成分析](entities/deerflow-integration.md)
 - [ebook-downloader（Z-Library 下载器，已暂停）](entities/ebook-downloader.md)
@@ -3137,6 +3155,7 @@
 - [MOBI格式字体大小48px硬限制](entities/ebook-mobi-font-limit.md)
 - [MoneyPrinterTurbo](entities/moneyprinter-turbo.md)
 - [mootdx](entities/mootdx.md)
+- [mx-data 空数据 None 写入 NOT NULL 崩溃](entities/mx-data-null-notnull-crash.md)
 - [NK Images Search Skill](entities/nk-images-search-skill.md)
 - [nuwa-skill](entities/nuwa-skill.md)
 - [oh-my-openagent](entities/oh-my-openagent.md)
@@ -3147,6 +3166,7 @@
 - [OpenClaw sharp 依赖缺失导致图片无法查看](entities/openclaw-sharp-dependency.md)
 - [OpenClaw v2026.4.26 版本](entities/openclaw-v2026-4-26.md)
 - [OpenClaw 多 Agent 路由（bindings）配置](entities/openclaw-agent-routing.md)
+- [OpenCode Web UI / serve 部署与扩展](entities/opencode-web-ui.md)
 - [OpenCode 权限规则顺序 Bug（reports 写入被 auto-reject）](entities/opencode-permission-rule-order-bug.md)
 - [openhuman](entities/openhuman.md)
 - [openmetadata-lineage-reporting](entities/openmetadata-lineage-reporting.md)
@@ -3201,6 +3221,7 @@
 - [中国算电协同战略（算电一体）](entities/中国算电协同战略-算电一体.md)
 - [中大力德 002896](entities/002896.SZ_中大力德.md)
 - [中宠股份 (002891.SZ) — 烟台中宠食品](entities/002891.SZ_中宠股份.md)
+- [中小模型（27B/256k）做系统架构设计的范式](entities/architecting-with-small-models.md)
 - [中概互联网ETF (513050.SS)](entities/中概互联网ETF.md)
 - [中泰证券](entities/中泰证券.md)
 - [中科星图 (688779)](entities/中科星图-688779-对账边界.md)

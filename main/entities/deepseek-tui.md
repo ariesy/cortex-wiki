@@ -82,5 +82,7 @@ deepseek serve --http   # 本地启动
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [DeepSeek V4 Pro 涨价与 opencode Go 套餐冲击（2026-08）](deepseek-v4-pro-pricing-hike-2026-08.md)
 <!-- openclaw:wiki:related:end -->

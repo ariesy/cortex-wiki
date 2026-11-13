@@ -60,6 +60,11 @@ AI Berkshire 分析任务（华安黄金ETF 518880 四大师分析）进程已�
 
 - [Memory Bridge (main): 2026-08-06-0048](../sources/bridge-workspace-142ea9a2-memory-2026-08-06-0048-999a1346.md)
 
+### Referenced By
+
+- [DeepSeek V4 Pro 涨价与 opencode Go 套餐冲击（2026-08）](deepseek-v4-pro-pricing-hike-2026-08.md)
+- [OpenCode Web UI / serve 部署与扩展](opencode-web-ui.md)
+
 ### Related Pages
 
 - [黄金ETF (GLD/IAU/518880)](黄金ETF.md)
