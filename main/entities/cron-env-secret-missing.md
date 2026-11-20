@@ -89,5 +89,7 @@ relationships:
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Referenced By
+
+- [定时脚本启动即 exit 143（SIGTERM）排查](scheduled-script-exit143-sigterm.md)
 <!-- openclaw:wiki:related:end -->

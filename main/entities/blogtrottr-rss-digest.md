@@ -7,7 +7,7 @@ aliases:
   - Blogtrottr
   - Blogtrottr 日报
   - Karpathy 精选 RSS 日报
-updatedAt: 2026-08-13T00:31:49.916Z
+updatedAt: 2026-11-20T13:06:11.198Z
 status: active
 claims:
   - id: claim.blogtrottr.mechanism
@@ -64,18 +64,31 @@ claims:
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-09-0003-660a5519
         weight: 0.7
   - id: claim.blogtrottr.date-title-bug-2026-08-13
-    text: 2026-08-13 发现日报标题日期停留在 8-12：标题日期取自上一期产出/缓存而非当天，导致连续多期标题串期；已修复 cron 任务，并同步更新技能文件本身，避免手动运行时复现。
+    text: 2026-08-13 发现日报标题日期停留在 8-12：标题日期取自上一期产出/缓存而非当天，导致连续多期标题串期；已修复 cron
+      任务，并同步更新技能文件本身，避免手动运行时复现。
     status: fixed
     confidence: 0.75
     evidence:
       - kind: wiki-source
         sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-13-0031-be4326b8
         weight: 0.75
+  - id: claim.blogtrottr.run-2026-08-15
+    text: 2026-08-15 期日报（2026-08-17 投递）共 18 条更新，主线为「中国开源模型军团同日开火，美国巨头降价应战，AI
+      竞争进入规模+价格双线战场」；典型条目包括 Cursor 被 SpaceX 正式收购并获全球最大 GPU 集群、OpenAI（GPT-5.6
+      Luna 降价 80%）与 Anthropic（Claude Opus 5，价格为 Fable 5 的一半）价格战、阿里开源 Qwen3.8
+      系列（27B 原生多模态稠密模型、262K 上下文可扩 1M、Apache 2.0）。
+    status: supported
+    confidence: 0.7
+    evidence:
+      - kind: wiki-source
+        sourceId: source.bridge.workspace-142ea9a2.memory-2026-08-17-0931-a25420e8
+        weight: 0.7
 sourceIds:
-  - sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md
-  - sources/bridge-workspace-142ea9a2-memory-2026-04-20-blogtrottr-daily-a591f28c.md
-  - sources/bridge-workspace-142ea9a2-memory-2026-08-09-0003-660a5519.md
-  - sources/bridge-workspace-142ea9a2-memory-2026-08-13-0031-be4326b8.md
+  - source.bridge.workspace-142ea9a2.memory-2026-04-18-blogtrottr-digest-4159ec8e
+  - source.bridge.workspace-142ea9a2.memory-2026-04-20-blogtrottr-daily-a591f28c
+  - source.bridge.workspace-142ea9a2.memory-2026-08-09-0003-660a5519
+  - source.bridge.workspace-142ea9a2.memory-2026-08-13-0031-be4326b8
+  - source.bridge.workspace-142ea9a2.memory-2026-08-17-0931-a25420e8
 ---
 
 # Blogtrottr RSS 邮件订阅日报
@@ -118,5 +131,11 @@ RSS 源 → Blogtrottr → 专用邮箱 → (himalaya / gog) → 汇总 → 飞�
 
 ## Related
 <!-- openclaw:wiki:related:start -->
-- No related pages yet.
+### Sources
+
+- [Memory Bridge (main): 2026-04-18-blogtrottr-digest](../sources/bridge-workspace-142ea9a2-memory-2026-04-18-blogtrottr-digest-4159ec8e.md)
+- [Memory Bridge (main): 2026-04-20-blogtrottr-daily](../sources/bridge-workspace-142ea9a2-memory-2026-04-20-blogtrottr-daily-a591f28c.md)
+- [Memory Bridge (main): 2026-08-09-0003](../sources/bridge-workspace-142ea9a2-memory-2026-08-09-0003-660a5519.md)
+- [Memory Bridge (main): 2026-08-13-0031](../sources/bridge-workspace-142ea9a2-memory-2026-08-13-0031-be4326b8.md)
+- [Memory Bridge (main): 2026-08-17-0931](../sources/bridge-workspace-142ea9a2-memory-2026-08-17-0931-a25420e8.md)
 <!-- openclaw:wiki:related:end -->
